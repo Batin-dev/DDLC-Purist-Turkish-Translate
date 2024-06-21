@@ -1,4 +1,4 @@
 # DDLC-Purist-Turkish-Translate
 Turkish translation for DDLC purist mode
 
-![alt text](https://ibb.co/t3HxgKw)
+<h1 align="center">Çok Yakında başlıyoruz!</h1>
