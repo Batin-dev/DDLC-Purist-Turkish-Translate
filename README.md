@@ -1,7 +1,7 @@
 <h1 align="center">Doki Doki Literature Club!<br>Purist Mod Turkish Translate!</h1>
 
-<img src="https://pbs.twimg.com/profile_images/1017105464574656512/cRZemuQq_400x400.jpg">
-#Information
+<img align="center" src="https://pbs.twimg.com/profile_images/1017105464574656512/cRZemuQq_400x400.jpg">
+# Information
  We are doing a Turkish translation for Purist mod! This will be our first translation project.
 
 # Purist
