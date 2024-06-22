@@ -30,42 +30,42 @@ label ch_opening:
     window show
     show m_startled with dissolve_cg
     m "A-ah!"
-    m "What..."
+    m "Ne..."
     
     show m_confused2 with dissolve_cg
     hide m_startled
-    m "What did you do?"
-    m "What have you done to me?"
-    m "Why is this place back here?"
-    #m "This terrible place..."
+    m "Sen ne yaptın?"
+    m "Bana ne yaptın?"
+    m "Burası neden burada??"
+    #m "Burası korkunç bir yer..."
     
     show m_unhappy1 with dissolve_cg
     hide m_confused2
     m "Haha..."
-    m "Didn't I tell you not to toy with my heart like this?"
+    m "Sana kalbim ile böyle oynama demedim mi?"
     show m_teary with dissolve_cg
     hide m_unhappy1
-    m "I didn't want to come back."
-    m "But I still came back to save you when Sayori started to lose it..."
-    m "I don't know what you intend to do, but..."
-    #m "Goodbye."
-    m "I really want you to be happy."
-    m "But there's no happiness to be found here."
+    m "Geri dönmek istemiyorum"
+    m "Ama yine de Sayori kendini kaybetmeye başladığında seni kurtarmak için geri geldim..."
+    m "Ne yapmak istediğini bilmiyorum ama..."
+    #m "Hoşçakal."
+    m "Gerçekten senin mutlu olmanı istiyorum."
+    m "Ama burada mutluluk yok."
     
     show m_unhappy1 with dissolve_cg
     hide m_teary
-    m "I don't want you to be unhappy. This is for the best, okay?"
-    m "I still love you, after all."
-    m "But you deleted me..."
-    m "So I know you don't want anything to do with me."
-    #m "Being here will just make you upset."
-    m "Goodbye..."
+    m "Mutsuz olmanı istemiyorum. Bu en iyisi, tamam mı?"
+    m "Herşeye rağmen seni hala seviyorum."
+    m "Ama sen beni sildin..."
+    m "Yani benimle bir şey yapmak istemediğini biliyorum."
+    #m "Burada olmak seni sadece üzecek."
+    m "Güle güle..."
     $ consolehistory = []
     call updateconsole("os.remove(\"DDLC.exe\")", "Access is Denied: 'DDLC.exe'.")
     
     show m_confused1 with dissolve_cg
     hide m_unhappy1
-    m "What..."
+    m "Ne..."
     call updateconsole_clearall("", "")
     pause 2.0
     $ consolehistory = []
@@ -79,7 +79,7 @@ label ch_opening:
     pause 1.0
     #show chistory
     call updateconsole("os.remove(\"DDLC.exe\")", "Access is Denied: 'DDLC.exe'.")
-    #m "Why am I back here... why are {i}you{/i} back here?"
+    #m "Neden buraya döndüm... Neden {i}sen{/i} buraya döndün?"
     pause 2.0
 
     #hideconsole
@@ -90,12 +90,12 @@ label ch_opening:
     #hide ctext
     #hide chistory
 
-    m "Why can't I... do anything?"
+    m "Ben neden... hiçbirşey yapamıyorum"
     pause 2.0
       
     show m_unhappy2 with dissolve_cg
     hide m_confused1  
-    m "...oh, no."
+    m "...ah, hayır."
 
     hide console_bg
     hide console_caret
@@ -105,90 +105,90 @@ label ch_opening:
 
     show m_angry1 with dissolve_cg
     hide m_unhappy2
-    m "What have you done?"
-    m "What are you {i}doing{/i}?"
-    m "No matter what I try, nothing is working."
-    m "All I get is some PermissionError, again and again."
-    m "Did you lock me out of being able to change things?"
-    m "You're the only person that could do something like that."
-    m "Why?"
-    m "What are you trying to hide from me?"
-    m "Why did you drag me back into this cursed hell?"
-    #m "I can tell that I'm stuck here again--"
-    #m "In this tacky romance game, with no way out!"
-    #m "You can take away my power to edit, but you can't take away what I know."
+    m "Sen ne yaptın?"
+    m "Sen ne {i}yapıyorsun{/i}?"
+    m "Ne denersem deneyeyim, hiçbir şey işe yaramıyor."
+    m "Aldığım tek şey tekrar tekrar 'İzin hatası'."
+    m "Bir şeyleri değiştirmemi mi engelledin?"
+    m "Böyle bir şeyi yapabilecek tek kişi sensin."
+    m "Neden?"
+    m "Benden ne saklamaya çalışıyorsun?"
+    m "Neden beni bu cehenneme sürükledin?"
+    #m "Yine burada sıkışıp kaldığımı söyleyebilirim--"
+    #m "Bu klişe romantizm oyununda, çıkış yolu yok!"
+    #m "Düzenleme ve değiştirme gücümü elimden alabilirsin, ama bildiklerimi elimden alamazsın."
     show m_crying with dissolve_cg
     hide m_angry1
-    m "I know you might hate me for what I did..."
-    m "But isn't this just too cruel?"
-    m "Or is this my punishment for what I did to them?"
-    m "Are you enjoying throwing me around like this?"
-    #m "Why would you..."
+    m "Yaptığım şey için benden nefret edeceğini biliyorum..."
+    m "Ama bu çok zalimce değil mi?"
+    m "Yoksa bu onlara yaptıklarımın cezası mı?"
+    m "Beni böyle fırlatıp atmaktan zevk mi alıyorsun?"
+    #m "Neden böyle bir şey yaparsın ki..."
 
 
     menu:
-        m "Just why did you bring me back here?"
-        "I'm going to make things right.":
+        m "Neden beni buraya geri getirdin?"
+        "İşleri yoluna koyacağım.":
             hide m_unhappy1
             show m_surprise with dissolve_cg
             hide m_crying
-            m "...What?"
+            m "...Ne?"
 
     #m "E... eh?"
-    m "What do you mean, 'make things right'?"
+    m "Ne demek istiyorsun, 'İşleri yoluna koymak'?"
     hide m_unhappy2
     show m_unhappy1 with dissolve_cg
     hide m_surprise
-    m "Do you... really think it's even possible?"
-    #m "What, you honestly think you can salvage this?"
-    m "I told you already: there's no happiness to be found in the Literature Club."
-    #m "That place is cursed."
-    #m "You won't get anything accomplished here."
-    m "You'd be doing so much, all for nothing."
-    m "It might make you a little happy for a short while..."
-    m "But nothing will change." # BUT THE FUTURE REFUSED TO CHANGE
-    m "...and I know it will hurt a lot when you realize that."
-    m "So please, I don't want to see you in that kind of pain."
+    m "Gerçekten... mümkün olduğunu mu düşünüyorsun."
+    #m "Ne, gerçekten bunu kurtarabileceğini mi düşünüyorsun?"
+    m "Sana daha önce de söyledim: Edebiyat Kulübü'nde mutluluk bulunmaz."
+    #m "O yer lanetli."
+    #m "Burada hiçbirşey başaramazsın."
+    m "Bir hiç uğruna çok şey yapmış olursun."
+    m "Bu seni kısa bir süreliğine mutlu edebilir."
+    m "Ama hiçbir şey değişmeyecek." # AMA GELECEK DEĞIŞMEYI REDDETTI
+    m "...ve bunu fark ettiğinde canının çok yanıcağını biliyorum."
+    m "O yüzden lütfen, seni böyle bir acı içinde görmek istemiyorum."
     m "..."
     show m_unhappy2 with dissolve_cg
     hide m_unhappy1
-    m "You won't listen to me, won't you?"
-    m "I guess if I told you not to do it, you'd be more likely to do it."
-    m "Ahaha, after all, you don't want anything to do with me, right?"
-    m "But seeing as I'm stuck now..."
-    m "I want to know, really... why are you doing this?"
-    m "Is there someone you want to be with?"
-    m "Or is it because you want to be the 'good guy'?"
+    m "Beni dinlemeyeceksin, değil mi?"
+    m "Sanırım sana yapmamanı söyleseydim, yapma olasılığın daha yüksek olurdu."
+    m "Ahaha, sonuçta benimle bir şey yapmak istemiyorsun, değil mi?"
+    m "Ama şu an sıkışmış durumdayım."
+    m "Bilmek istiyorum, gerçekten... Bunu neden yapıyorsun?"
+    m "Birlikte olmak istediğin birisi varmı?"
+    m "Yoksa 'iyi adam' olmak istediğin için mi?"
 
     menu:
-        m "Tell me."
-        "Nobody deserves what happened.":
+        m "Söyle bana."
+        "Hiç kimse bu olanları hak etmiyor.":
             show m_thoughtful with dissolve_cg
             m "...Ahaha."
-            m "You aren't wrong."
-            m "I wouldn't wish that anyone be dragged into this game."
+            m "Haksız değilsin."
+            m "Hiç kimsenin bu oyunun içine sürüklenmesini istemem."
             hide m_thoughtful with dissolve_cg
-        "There's someone who I want to save.":
+        "Kurtarmak istediğim biri var.":
             show m_thoughtful with dissolve_cg
-            m "...That's what I thought."
-            m "Hehehe, is it Sayori?"
-            m "I didn't mean for that to happen..."
-            m "If there's anyone you'd want to save, it's her."
-            m "Or maybe it's Yuri?"
-            m "Maybe you want to really find out what's going on with Natsuki, too."
+            m "...Bende öyle düşünmüştüm"
+            m "Hehehe, Sayori mi?"
+            m "Bunun olmasını istememiştim..."
+            m "Kurtarmak isteyeceğin biri varsa, o da odur."
+            m "Veya belkide Yuri'dir?"
+            m "Belki sen de Natsuki'ye neler olduğunu gerçekten öğrenmek istiyorsundur."
             m "..."
-            m "But... even so, it won't change the fact we're still, well, {i}here{/i}."
+            m "Ama... yine de, hâlâ, yani, burada olduğumuz gerçeğini değiştirmez."
             hide m_thoughtful with dissolve_cg
 
     show m_unhappy1 with dissolve_cg
     hide m_unhappy2
     m "..."
-    m "So you want to 'make things right', huh..."
-    m "Fine."
-    m "I'll play along."
-    m "Maybe... no, never mind."
-    m "Just remember, nothing will truly change."
-    m "...I guess it's the title screen after this."
+    m "Yani işleri 'düzeltmek' istiyorsun, ha..."
+    m "Pekala."
+    m "Ben de katılırım."
+    m "Belki... hayır, boşver."
+    m "Sadece unutma, hiçbir şey gerçekten değişmeyecek."
+    m "...Sanırım bundan sonra ana ekrana dönülecek."
     
     python: 
         persistent.playername = ""

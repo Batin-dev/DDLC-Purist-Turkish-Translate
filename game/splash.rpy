@@ -142,7 +142,7 @@ transform menu_bg_move:
     parallel:
         xoffset 0 yoffset 0
         linear 3.0 xoffset -100 yoffset -100
-        repeat
+        repeat  
     parallel:
         ypos 0
         time 0.65
