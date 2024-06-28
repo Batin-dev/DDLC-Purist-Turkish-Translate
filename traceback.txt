@@ -1,0 +1,51 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 31, in script call
+    call ch0_main
+  File "game/script-ch0.rpy", line 60, in script
+    s "Heeeeeeeyyy!!"
+  File "renpy/common/00keymap.rpy", line 296, in _developer
+    renpy.show_screen("_developer")
+Exception: Screen _developer is not known.
+
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 31, in script call
+    call ch0_main
+  File "game/script-ch0.rpy", line 60, in script
+    s "Heeeeeeeyyy!!"
+  File "C:\Users\batin\OneDrive\Masaüstü\DDLC Modding\renpy-6.99.12.4-sdk\renpy\ast.py", line 613, in execute
+    renpy.exports.say(who, what, interact=self.interact)
+  File "C:\Users\batin\OneDrive\Masaüstü\DDLC Modding\renpy-6.99.12.4-sdk\renpy\exports.py", line 1147, in say
+    who(what, interact=interact)
+  File "C:\Users\batin\OneDrive\Masaüstü\DDLC Modding\renpy-6.99.12.4-sdk\renpy\character.py", line 877, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, **display_args)
+  File "C:\Users\batin\OneDrive\Masaüstü\DDLC Modding\renpy-6.99.12.4-sdk\renpy\character.py", line 716, in do_display
+    **display_args)
+  File "C:\Users\batin\OneDrive\Masaüstü\DDLC Modding\renpy-6.99.12.4-sdk\renpy\character.py", line 508, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\batin\OneDrive\Masaüstü\DDLC Modding\renpy-6.99.12.4-sdk\renpy\ui.py", line 285, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\batin\OneDrive\Masaüstü\DDLC Modding\renpy-6.99.12.4-sdk\renpy\display\core.py", line 2526, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "C:\Users\batin\OneDrive\Masaüstü\DDLC Modding\renpy-6.99.12.4-sdk\renpy\display\core.py", line 3204, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "C:\Users\batin\OneDrive\Masaüstü\DDLC Modding\renpy-6.99.12.4-sdk\renpy\display\layout.py", line 960, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "C:\Users\batin\OneDrive\Masaüstü\DDLC Modding\renpy-6.99.12.4-sdk\renpy\display\behavior.py", line 430, in event
+    rv = run(action)
+  File "C:\Users\batin\OneDrive\Masaüstü\DDLC Modding\renpy-6.99.12.4-sdk\renpy\display\behavior.py", line 306, in run
+    return action(*args, **kwargs)
+  File "renpy/common/00keymap.rpy", line 296, in _developer
+    renpy.show_screen("_developer")
+  File "C:\Users\batin\OneDrive\Masaüstü\DDLC Modding\renpy-6.99.12.4-sdk\renpy\display\screen.py", line 1012, in show_screen
+    raise Exception("Screen %s is not known.\n" % (name[0],))
+Exception: Screen _developer is not known.
+
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Doki Doki Literature Club - Purist Mod 1.1.1

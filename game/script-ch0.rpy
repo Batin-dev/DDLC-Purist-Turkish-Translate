@@ -46,193 +46,193 @@ label ch0_main:
     # IF MONIKA UNLOCK, CHOICE HERE
     if persistent.monika_unlock is True:
         menu:
-            "It's an ordinary school day--"
-            "--but something feels different.":
-                "But even so, as usual, I’m surrounded by couples and friend groups walking to school together."
+            "Sıradan bir okul günü.--"
+            "--ama birşeyler farklı geliyor.":
+                "Ama yine de, her zamanki gibi, etrafım okula birlikte yürüyen çiftler ve arkadaş gruplarıyla çevrili."
                 $ monika_route_lock = True
                 $ monika_route_position = 1
                 return
-            "--just like any other.":
-                "Just like it always will be."
+            "--tıpkı diğerleri gibi.":
+                "Tıpkı herzaman olacağı gibi."
                 $ monika_route_lock = False
 
 
     s "Heeeeeeeyyy!!"
-    "I see an annoying girl running toward me from the distance, waving her arms in the air like she's totally oblivious to any attention she might draw to herself."
-    "That girl is Sayori, my neighbor and good friend since we were children."
-    "You know, the kind of friend you'd never see yourself making today, but it just kind of works out because you've known each other for so long?"
+    "Uzaktan bana doğru koşan sinir bozucu bir kız görüyorum, dikkatleri üzerine çekebileceğinden tamamen habersizmiş gibi kollarını havada sallıyor."
+    "Bu kız Sayori, komşum ve çocukluğumuzdan beri iyi arkadaşım. "
+    "Bilirsin, bugün asla bir arkadaş edinmeyi düşünmediğiniz ama birbirinizi çok uzun zamandır tanıdığınız için bir şekilde yürüyen türden bir arkadaş?"
     #show sayori 1a at t11
 
     # IF MONIKA UNLOCK, CHOICE HERE ON WHETHER SAYORI WAKES UP ON TIME
     if persistent.monika_unlock is True:
         menu:
-            "We used to walk to school together on days like this--"
-            "--and still do, since she always wakes up on time.":
+            "Böyle günlerde okula birlikte yürürdük.--"
+            "--Hala da öyle, çünkü hep zamanında uyanıyor.":
                 $ s_name = "Sayori"
-                "Recently, we’ve picked up that habit once again."
+                "Son zamanlarda bu alışkanlığımızı bir kez daha kazandık."
                 show sayori 1a at t11
-                s "[player], are you proud of me?"
+                s "[player], Benimle gurur duyuyor musun??"
                 $ monika_route_lock = True
                 $ monika_route_position = 2
                 return
-            "--but she's been sleeping in, recently.":
-                "Since high school started, she'd oversleep more and more frequently."
-                "So I would get tired of waiting up and would just go."
+            "--ama son zamanlarda uyuyor.":
+                "Lise başladığından beri giderek daha sık uyuyakalıyordu."
+                "Bu yüzden beklemekten yoruldum ve sadece giderdim."
                 $ monika_route_lock = False
     else: 
-        "We used to walk to school together on days like this, but starting around high school she would oversleep more and more frequently, and I would get tired of waiting up."
+        "Eskiden böyle günlerde okula birlikte yürürdük ama lise yıllarından itibaren o giderek daha sık uyuyakalırdı ve ben de onu beklemekten yorulurdum."
     #$ persistent.opening_scene = False #debugging line
-    "But if she's going to chase after me like this, I almost feel better off running away."
-    "However, I just sigh and idle in front of the crosswalk and let Sayori catch up to me."
+    "Ama peşimden böyle koşacaksa, kaçsam daha iyi olacak gibi hissediyorum.."
+    "Yine de içimi çekip yaya geçidinin önünde boş boş duruyorum ve Sayori'nin bana yetişmesine izin veriyorum."
     $ s_name = "Sayori" 
     show sayori 4p at t11 zorder 2
 
     s 4p "Haaahhh...haaahhh..."
-    s "I overslept again!"
-    s "But I caught you this time!"
-    mc "Maybe, but only because I decided to stop and wait for you."
+    s "Yine uyuyakalmışım!"
+    s "Ama bu sefer sana yetiştim!"
+    mc "Belki, ama sadece durup seni beklemeye karar verdiğim için."
     show sayori at s11
-    s 5c "Eeehhhhh, you say that like you were thinking about ignoring me!"
-    s "That's mean, [player]!"
-    mc "Well, if people stare at you for acting weird then I don't want them to think we're a couple or something."
+    s 5c "Eeehhhhh, sanki beni görmezden gelmeyi düşünüyormuşsun gibi konuşuyorsun.!"
+    s "Bu çok kaba, [player]!"
+    mc "Eğer insanlar garip davrandığın için sana bakarlarsa, çift olduğumuzu falan düşünmelerini istemem."
     show sayori at t11 zorder 2
-    s 1a "Fine, fine."
-    s "But you did wait for me, after all."
-    s "I guess you don't have it in you to be mean even if you want to~"
-    mc "Whatever you say, Sayori..."
+    s 1a "Tamam, tamam."
+    s "Ama sonuçta beni bekledin."
+    s "Sanırım istesen bile kötü olmak senin içinde yok~"
+    mc "Nasıl istersen, Sayori..."
     s 1q "Ehehe~"
     show sayori at thide zorder 1
     hide sayori
-    "We cross the street together and make our way to school."
-    "As we draw near, the streets become increasingly speckled with other students making their daily commute."
+    "Birlikte karşıdan karşıya geçip okula gidiyoruz.."
+    "Yaklaştıkça, sokaklar günlük gidip gelen diğer öğrencilerle giderek daha fazla benekleniyor."
     show sayori 3a at t11 zorder 2
-    s "By the way, [player]..."
+    s "Bu arada, [player]..."
     
 
     # IF MONIKA ROUTE UNLOCK, CHOICE HERE
 
     if persistent.monika_unlock is True:
         menu:
-            s "Have you decided on a club to join yet?"
-            "Yes, I have.":
-                s "Oooooh! Tell me!"
+            s "Katılacağın kulübe henüz karar vermedin mi?"
+            "Evet, verdim.":
+                s "Oooooh! Söyle!"
                 $ monika_route_lock = True
                 $ monika_route_position = 3
                 return
-            "I'm not interested.":
-                "I decide to tell it to her directly."
+            "İlgilenmiyorum.":
+                "Bunu ona doğrudan söylemeye karar verdim."
                 $ monika_route_lock = False
     else:
-        s "Have you decided on a club to join yet?"
+        s "Katılacağın kulübe henüz karar vermedin mi?"
 
 
 
-    mc "A club?"
-    mc "I told you already, I'm really not interested in joining any clubs."
-    mc "I haven't been looking, either."
+    mc "Kulüp mü"
+    mc "Sana daha önce de söyledim, hiçbir kulübe katılmakla ilgilenmiyorum.."
+    mc "Bu yıl da kulüplere bakmadım bile."
     show sayori at s11
-    s 4h "Eh? That's not true!"
-    s "You told me you would join a club this year!"
-    mc "Did I...?"
-    "I'm sure it's possible that I did, in one of our many conversations where I dismissively go along with whatever she's going on about."
-    "Sayori likes to worry a little too much about me, when I'm perfectly content just getting by on the average while spending my free time on games and anime."
+    s 4h "Eh? Bu doğru değil!"
+    s "Bu yıl bir kulübe katılacağına söz vermiştin!"
+    mc "Gerçekten mi...??"
+    "Eminim ki, birçok konuşmamızdan birinde, onun bahsettiği şeylere kayıtsızca katılmışımdır."
+    "Sayori, benimle ilgili biraz fazla endişeleniyor. Oysa ben, oyunlar ve anime ile vakit geçirerek sıradan bir şekilde hayatımı sürdürüyor olmaktan memnunum."
     s 4j "Uh-huh!"
-    s "I was talking about how I'm worried that you won't learn how to socialize or have any skills before college."
-    s "Your happiness is really important to me, you know!"
-    s "And I know you're happy now, but I'd die at the thought of you becoming a NEET in a few years because you're not used to the real world!"
-    s 4g "You trust me, right?"
-    s "Don't make me keep worrying about you..."
-    mc "Alright, alright..."
-    mc "I'll look at a few clubs if it makes you happy."
-    mc "No promises, though."
-    s 1h "Will you at least promise me you'll try a little?"
-    mc "Yeah, I guess I'll promise you that."
+    s "Üniversiteden önce sosyalleşmeyi öğrenemeyeceği ya da herhangi bir beceriye sahip olamayacağı konusunda nasıl endişelendiğimden bahsediyordum."
+    s "Mutluluğunuz benim için gerçekten önemli, biliyorsun!"
+    s "Şu anda mutlu olduğunu biliyorum ama gerçek dünyaya alışamadığın için birkaç yıl içinde NEET(Ne eğitimde ne istihdamda) olacağını düşünmek bile beni kahrediyor.!"
+    s 4g "Bana güveniyorsun, değil mi?"
+    s "Beni senin için endişelendirip durma..."
+    mc "Pekala, tamam..."
+    mc "Seni mutlu edicekse birkaç kulübe bakıcağım"
+    mc "Yinede söz vermiyorum."
+    s 1h "En azından biraz deneyeceğine söz verir misin?"
+    mc "Evet, sanırım sana söz veriyorum."
     show sayori at t11 zorder 2
     s 4r "Yaay~!"
-    "Why do I let myself get lectured by such a carefree girl?"
-    "More than that, I'm surprised I even let myself relent to her."
-    "I guess seeing her worry so much about me makes me want to ease her mind at least a little bit - even if she does exaggerate everything inside of her head."
+    "Neden böyle kaygısız bir kızın bana ders vermesine izin veriyorum?"
+    "Daha da ötesi, kendimi ona teslim ettiğime bile şaşırdım.."
+    "Sanırım onun benim için bu kadar endişelendiğini görmek, kafasının içindeki her şeyi abartıyor olsa bile, onu en azından biraz rahatlatmak istememe neden oluyor."
 
     scene bg class_day
     with wipeleft_scene
 
-    "The school day is as ordinary as ever, and it's over before I know it."
-    "After I pack up my things, I stare blankly at the wall, looking for an ounce of motivation."
-    mc "Clubs..."
-    "Sayori wants me to check out some clubs."
-    "I guess I have no choice but to start with the anime club..."
+    "Okul günü her zamanki gibi sıradan geçiyor ve ben farkına bile varmadan bitiyor."
+    "Eşyalarımı topladıktan sonra boş boş duvara bakıyor, bir nebze olsun motivasyon arıyorum."
+    mc "Kulüpler..."
+    "Sayori bazı kulüplere bakmamı istiyor.."
+    "Sanırım anime kulübüyle başlamaktan başka çarem yok..."
 
-    s "Hellooo?"
+    s "Selamm?"
     show sayori 1b at t11 zorder 2
     mc "Sayori...?"
-    "Sayori must have come into the classroom while I was spacing out."
-    "I look around and realize that I'm the only one left in the classroom."
-    s 1a "I thought I'd catch you coming out of the classroom, but I saw you just sitting here and spacing out, so I came in."
-    s "Honestly, you're even worse than me sometimes... I'm impressed!"
-    mc "You don't need to wait up for me if it's going to make you late to your own club."
-    s 1y "Well, I thought you might need some encouragement, so I thought, you know..."
-    mc "Know what?"
-    s 1a "Well, that you could come to my club!"
+    "Ben dalmışken Sayori sınıfa girmiş olmalı."
+    "Etrafıma bakıyorum ve sınıfta kalan tek kişinin ben olduğumu fark ediyorum."
+    s 1a "Seni sınıftan çıkarken yakalarım diye düşünmüştüm ama burada öylece oturduğunu ve dalgın olduğunu gördüm, ben de içeri girdim."
+    s "Dürüst olmak gerekirse, bazen benden bile kötü oluyorsun... Etkilendim!"
+    mc "Kendi kulübüne geç kalacaksan beni beklemene gerek yok."
+    s 1y "Biraz cesaretlendirilmeye ihtiyacın olabileceğini düşündüm."
+    mc "Neyi biliyor musun?"
+    s 1a "İşte, kulübüme gelebilirsin!"
     mc "Sayori..."
-    s 4r "Yeah??"
-    mc "...There is no way I'm going to your club."
+    s 4r "Eveet??"
+    mc "...Kesinlikle kulübüne gelmeyeceğim."
     show sayori at s11
-    s 5d "Eeeehhhhh?! Meanie!"
-    "Sayori is vice president of the Literature Club."
-    "Not that I was ever aware that she had any interest in literature."
-    "In fact, I'm 99\% sure she only did it because she thought it would be fun to help start a new club."
-    "Since she was the first one to show interest after the one who proposed the club, she inherited the title \"Vice President\"."
-    "That said, my interest in literature is guaranteed to be even less."
-    mc "Yeah. I'm going to the anime club."
+    s 5d "Eeeehhhhh?! Kaba!"
+    "Sayori Edebiyat Kulübü'nün başkan yardımcısı."
+    "Ama onun edebiyata ilgisi olduğunu hiç bilmiyordum."
+    "Aslında, %99 eminim ki yeni bir kulübün başlatmak eğlenceli olacağını düşündüğü için yaptı."
+    "Kulübü öneren kişiden sonra ilgi gösteren ilk kişi olduğu için, \"Vice President\" unvanını aldı."
+    "Bununla birlikte, edebiyata olan ilgimin daha da azalacağı garanti."
+    mc "Evet. Anime kulübüne gidiyorum."
     show sayori at t11 zorder 2
-    s 1g "C'mon, please?"
-    mc "Why do you care so much, anyway?"
-    s 5b "Well..."
-    s "I kind of told the club yesterday I would bring in a new member..."
-    s "And Natsuki made cupcakes and everything..."
+    s 1g "Hadi amaa, lütfen?"
+    mc "Neden bu kadar önemsiyorsun ki??"
+    s 5b "Peki..."
+    s "Dün kulübe yeni bir üye getireceğimi söyledim...."
+    s "Ve Natsuki kek falan yaptı...."
     s "Ehehe..."
-    mc "Don't make promises you can't keep!"
-    "I can't tell if Sayori is really that much of an airhead, or if she's so cunning as to have planned all of this out."
-    "I let out a long sigh."
-    mc "Fine... I'll stop by for a cupcake, okay?"
+    mc "Tutamıyacağın sözler verme!"
+    "Sayori gerçekten o kadar boş kafalı mı yoksa tüm bunları planlayacak kadar kurnaz mı bilemiyorum."
+    "Uzun bir iç çektim.."
+    mc "Peki... Bir kapkek için uğrarım, tamam mı?"
     show sayori at h11
-    s 4r "Yes! Let's go~!"
+    s 4r "Evet! Hadi gidelim~!"
 
     stop music fadeout 2.0
 
     scene bg corridor
     with wipeleft_scene
 
-    "And thus, today marks the day I sold my soul for a cupcake."
-    "I dejectedly follow Sayori across the school and upstairs - a section of the school I rarely visit, being generally used for third-year classes and activities."
-    "Sayori, full of energy, swings open the classroom door."
+    "Ve böylece bugün, bir kek için ruhumu sattığım gün oldu."
+    "Sayori'yi kederli bir şekilde okul boyunca ve üst kata kadar takip ediyorum - okulun nadiren ziyaret ettiğim bir bölümü, genellikle üçüncü sınıf dersleri ve etkinlikleri için kullanılıyor."
+    "Sayori, enerji dolu bir şekilde sınıfın kapısını açar."
 
     scene bg club_day
     with wipeleft
     play music t3
     show sayori 4 at l41
-    s "Everyone! The new member is here~!"
-    mc "I told you, don't call me a 'new member--'"
+    s "Millet! Yeni üyemiz burada~!"
+    mc "Sana söyledim, bana 'yeni üye' deme--"
     show sayori at lhide
     hide sayori
-    "Eh? I glance around the room."
+    "Eh? Odaya bir göz attım."
     show yuri 1a at t11 zorder 2
-    y "Welcome to the Literature Club. It's a pleasure meeting you."
-    y "Sayori always says nice things about you."
+    y "Edebiyat Kulübü'ne hoş geldiniz. Seninle tanışmak bir zevk."
+    y "Sayori senin hakkında hep güzel şeyler söylüyor."
     show yuri at t22 zorder 2
     show natsuki 4c at t21 zorder 2
-    n "Seriously? You brought a boy?"
-    n "Way to kill the atmosphere."
+    n "Ciddi misin? Bir oğlan getirmişsin.?"
+    n "Atmosferi öldürmenin yolu."
     show yuri at t33 zorder 2
     show natsuki at t32 zorder 2
     show monika 1k at t31 zorder 2
-    m "Ah, [player]! What a nice surprise!"
-    m "Welcome to the club!"
+    m "Ah, [player]! Ne güzel bir sürpriz!"
+    m "Kulübe hoş geldin!"
     show monika 1a
     mc "..."
-    "All words escape me in this situation."
-    "This club..."
-    "{i}...is full of incredibly cute girls!!{/i}"
+    "Bu durumda tüm kelimeler benden kaçıyor."
+    "Bu klüp..."
+    "{i}...inanılmaz sevimli kızlarla dolu!!{/i}"
 
     show monika at thide zorder 1
     show yuri at thide zorder 1
@@ -240,9 +240,9 @@ label ch0_main:
     hide monika
     hide yuri
 
-    n 2c "What are you looking at?"
-    n "If you want to say something, say it."
-    mc "S-Sorry..."
+    n 2c "Neye bakıyorsun?"
+    n "Bir şey söylemek istiyorsan söyle."
+    mc "Ö-özür dilerim..."
     show natsuki at t32 zorder 2
     show yuri 2l at f33 zorder 3
     y "Natsuki..."
@@ -252,9 +252,9 @@ label ch0_main:
     n 5s "Hmph."
     show natsuki at t32 zorder 2
 
-    "The girl with the sour attitude, whose name is apparently Natsuki, is one I don't recognize."
-    "Her small figure makes me think she's probably a first-year."
-    "She is also the one who made cupcakes, according to Sayori."
+    "Adı Natsuki olduğu anlaşılan ekşi tavırlı kız, tanımadığım biri."
+    "Ufak tefek olması bana muhtemelen birinci sınıf öğrencisi olduğunu düşündürüyor.."
+    "Sayori'ye göre kapkekleri yapan da oymuş."
 
     show sayori 2q at f31 zorder 3
     s "You can just ignore her when she gets moody~"
