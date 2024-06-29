@@ -401,39 +401,39 @@ label ch0_main:
     m 1b "Ve eğer başkalarını edebiyatla ilgilenmeye teşvik ederse, o zaman bu hayalimi gerçekleştirmiş olurum!"
     show monika 1a
     show sayori 3q at t31 zorder 2
-    s "Monika really is a great leader!"
+    s "Monika gerçekten harika bir lider!"
     show yuri 1 at t33 zorder 2
-    "Yuri also nods in agreement."
+    "Yuri de başını sallıyarak onaylıyor."
     show sayori at thide zorder 1
     show yuri at thide zorder 1
     hide sayori
     hide yuri
-    mc "Then I'm surprised there aren't more people in the club yet."
-    mc "It must be hard to start a new club."
-    m 3b "You could put it that way."
-    m "Not many people are very interested in putting out all the effort to start something brand new..."
-    m "Especially when it's something that doesn't grab your attention, like literature."
-    m "You have to work hard to convince people that you're both fun and worthwhile."
-    m "But it makes school events, like the festival, that much more important."
-    m 2k "I'm confident that we can all really grow this club before we graduate!"
-    m "Right, everyone?"
+    mc "O zaman kulüpte daha fazla insan olmamasına şaşırdım.."
+    mc "Yeni bir kulüp kurmak zor olsa gerek."
+    m 3b "Şöyle de diyebilirsin."
+    m "Pek çok insan yepyeni bir şeye başlamak için onca çaba sarf etmekle ilgilenmez..."
+    m "Özellikle de edebiyat gibi ilginizi çekmeyen bir şey olduğunda."
+    m "İnsanları hem eğlenceli hem de değerli olduğunuza ikna etmek için çok çalışmalısın."
+    m "Ancak bu durum, festival gibi okul etkinliklerini çok daha önemli kılıyor."
+    m 2k "Mezun olmadan önce hepimizin bu kulübü gerçekten büyütebileceğimize inanıyorum!"
+    m "Değil mi, millet?"
     show monika 2a at t22 zorder 2
     show sayori 4r at t21 zorder 2
-    s "Yeah!"
+    s "Evet!"
     show monika at t33 zorder 2
     show sayori at t32 zorder 2
     show yuri 1a at t31 zorder 2
-    y "We'll do our best."
+    y "Elimizden geleni yapıcağız."
     show monika at t44 zorder 2
     show sayori at t43 zorder 2
     show yuri at t42 zorder 2
     show natsuki 4d at t41 zorder 2
-    n "You know it!"
-    "Everyone enthusiastically agrees."
-    "Such different girls, all interested in the same goal..."
-    "Monika must have worked really hard just to find these three."
-    "Maybe that's why they were all so delighted by the idea of a new member joining."
-    "Though I still don't really know if I can keep up with their level of enthusiasm about literature..."
+    n "Bunu biliyorsun!"
+    "Herkes coşkuyla kabul ediyor."
+    "Çok farklı kızlar, hepsi aynı hedefle ilgileniyor..."
+    "Monika bu üçünü bulmak için gerçekten çok çalışmış olmalı."
+    "Belki de bu yüzden hepsi yeni bir üyenin katılması fikrinden bu kadar memnun oldular."
+    "Yine de onların edebiyat konusundaki heyecanlarına ayak uydurabilir miyim bilmiyorum..."
     show sayori at thide zorder 1
     show monika at thide zorder 1
     show natsuki at thide zorder 1
@@ -441,14 +441,14 @@ label ch0_main:
     hide sayori
     hide monika
     hide natsuki
-    y "So, [player], what kinds of things do you like to read?"
-    mc "Well... Ah..."
-    "Considering how little I've read these past few years, I don't really have a good way of answering that."
+    y "Şey, [player], ne tür şeyler okumaktan hoşlanırsınız?"
+    mc "Yanii... Ah..."
+    "Son birkaç yıldır ne kadar az okuduğumu düşünürsek, buna cevap vermenin iyi bir yolu yok."
     mc "...Manga..."
-    "I mutter quietly to myself, half-joking."
+    "Kendi kendime sessizce mırıldanıyorum, yarı şaka."
     show natsuki 1c at t41 zorder 2
-    "Natsuki's head suddenly perks up."
-    "It looks like she wants to say something, but she keeps quiet."
+    "Natsuki'nin kafası aniden canlanır.."
+    "Bir şey söylemek ister gibi görünüyor ama sessizliğini koruyor."
     show natsuki at thide zorder 1
     hide natsuki
     y 3u "N-Not much of a reader, I guess..."
