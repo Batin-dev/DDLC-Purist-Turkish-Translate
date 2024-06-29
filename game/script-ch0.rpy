@@ -257,123 +257,123 @@ label ch0_main:
     "Sayori'ye göre kapkekleri yapan da oymuş."
 
     show sayori 2q at f31 zorder 3
-    s "You can just ignore her when she gets moody~"
-    "Sayori says that quietly into my ear, then turns back toward the other girls."
-    s 1x "Anyway! This is Natsuki, always full of energy."
-    s "And this is Yuri, the smartest in the club!"
+    s "Huysuzlandığında onu görmezden gelebilirsin~"
+    "Sayori bunu sessizce kulağıma söylüyor, sonra diğer kızlara dönüyor."
+    s 1x "Her neyse! Bu Natsuki, her zaman enerji dolu."
+    s "Ve bu da Yuri, kulübün en akıllısı!"
     $ y_name = 'Yuri'
     show sayori at t31 zorder 2
     show yuri at f33 zorder 3
-    y 4b "D-Don't say things like that..."
-    "Yuri, who appears comparably more mature and timid, seems to have a hard time keeping up with people like Sayori and Natsuki."
+    y 4b "Böyle şeyler söyleme..."
+    "Nispeten daha olgun ve çekingen görünen Yuri, Sayori ve Natsuki gibi insanlara ayak uydurmakta zorlanıyor gibi görünüyor."
     show yuri at t33 zorder 2
-    mc "Ah... Well, it's nice to meet both of you."
+    mc "Ah... İkinizle de tanıştığıma memnun oldum."
     show yuri at thide zorder 1
     show natsuki at thide zorder 1
     hide yuri
     hide natsuki
     show sayori at f31 zorder 3
-    s 1a "And it sounds like you already know Monika, is that right?"
+    s 1a "Ve Monika'yı zaten tanıyormuşsunuz gibi görünüyor, doğru mu?"
     $ m_name = 'Monika'
     show sayori at t31 zorder 2
     show monika 2a at f32 zorder 3
-    m "That's right."
-    m "It's great to see you again, [player]."
+    m "Bu doğru."
+    m "Seni tekrar görmek çok güzel, [player]."
     show monika 5a at hop
-    "Monika smiles sweetly."
-    "We do know each other - well, we rarely talked, but we were in the same class last year."
-    "Monika was probably the most popular girl in class - smart, beautiful, athletic."
-    "Basically, completely out of my league."
-    "So, having her smile at me so genuinely feels a little..."
-    mc "Y-You too, Monika."
+    "Monika tatlı tatlı gülümser."
+    "Birbirimizi tanıyoruz - nadiren konuşurduk ama geçen yıl aynı sınıftaydık."
+    "Monika muhtemelen sınıftaki en popüler kızdı - zeki, güzel, atletik."
+    "Kısacası, tamamen benim ligimin dışında."
+    "O yüzden bana içtenlikle gülümsemesi biraz..."
+    mc "S-sende, Monika."
     show monika at thide zorder 1
     hide monika
     show sayori at f31 zorder 3
-    s 4x "Come sit down, [player]! We made room for you at the table, so you can sit next to me or Monika."
-    s "I'll get the cupcakes~"
+    s 4x "Gel otur, [player]! Masada senin için yer açtık, böylece benim ya da Monika'nın yanına oturabilirsin."
+    s "Ben kekleri getireyim.~"
     show sayori at t31 zorder 2
     show natsuki 1e at f32 zorder 3
-    n "Hey! I made them, I'll get them!"
+    n "Hey! Onları ben yaptım, ben alırım.!"
     show natsuki at t32 zorder 2
     show sayori at f31 zorder 3
-    s 5a "Sorry, I got a little too excited~"
+    s 5a "Özür dilerim, biraz fazla heyecanlandım~"
     show sayori at t31 zorder 2
     show yuri 1a at f33 zorder 3
-    y "Then, how about I make some tea as well?"
+    y "O zaman ben de biraz çay yapayım.?"
     hide sayori
     hide natsuki
     hide yuri
     with wipeleft
-    "The girls have a few desks arranged to form a table."
-    "As Sayori mentioned, it's been widened so that there is one space next to Monika and one space next to Sayori."
-    "Natsuki and Yuri walk over to the corner of the room, where Natsuki grabs a wrapped tray and Yuri opens the closet."
-    "Still feeling awkward, I take a seat next to Sayori."
-    "Natsuki proudly marches back to the table, tray in hand."
+    "Kızlar, masaya dönüştürülmüş birkaç sırayı düzenlemişler."
+    "Sayori'nin bahsettiği gibi, Monika'nın yanında bir yer ve Sayori'nin yanında bir yer olacak şekilde genişletilmiş."
+    "Natsuki ve Yuri, odanın köşesine doğru yürüyüp, Natsuki sarılı bir tepsi alırken Yuri dolabı açıyor."
+    "Hâlâ tuhaf hissederek, Sayori'nin yanına oturuyorum."
+    "Natsuki, elinde tepsiyle gururla masaya geri yürüyor."
     show natsuki 2z at t32 zorder 2
-    n "Okaaay, are you ready?"
+    n "Eveet, hazır mısınız?"
     n "...Ta-daa!"
     show sayori 4m at t31 zorder 2
     show monika 2d at t33 zorder 2
     s "Uwooooah!"
-    "Natsuki lifts the foil off the tray to reveal a dozen white, fluffy cupcakes decorated to look like little cats."
-    "The whiskers are drawn with icing, and little pieces of chocolate were used to make ears."
+    "Natsuki tepsinin üzerindeki folyoyu kaldırarak küçük kediler gibi süslenmiş bir düzine beyaz, kabarık keki ortaya çıkarıyor."
+    "Bıyıklar krema ile çizildi ve kulakları yapmak için küçük çikolata parçaları kullanıldı."
     show sayori at f31 zorder 3
-    s 4r "So cuuuute~!"
+    s 4r "Çoooooook tatlı~!"
     show sayori at t31 zorder 2
     show monika at f33 zorder 3
-    m 2b "I had no idea you were so good at baking, Natsuki!"
+    m 2b "Pişirme konusunda bu kadar iyi olduğunu bilmiyordum, Natsuki!"
     show monika at t33 zorder 2
     show natsuki at f32 zorder 3
-    n 2d "Ehehe. Well, you know."
-    n "Just hurry and take one!"
-    "Sayori grabs one first, then Monika. I follow."
+    n 2d "Ehehe. Tabi, bilirsin."
+    n "Acele edin ve bir tane alın!"
+    "Önce Sayori bir tane kapıyor, sonra Monika. Ben de takip ediyorum."
     show natsuki at t32 zorder 2
     show sayori at f31 zorder 3
-    s 4q "It's delicious!"
-    "Sayori talks with her mouth full and has already managed to get icing on her face."
-    "I turn the cupcake around in my fingers, looking for the best angle to take a bite."
+    s 4q "Bu çok lezzetli!"
+    "Sayori ağzı doluyken konuşuyor ve şimdiden yüzüne krema bulaştırmayı başardı."
+    "Keki parmaklarımın arasında çeviriyor, ısırmak için en iyi açıyı arıyorum."
     show sayori at thide zorder 1
     show monika at thide zorder 1
     hide sayori
     hide monika
     show natsuki 1c at t32 zorder 2
-    "Natsuki is quiet."
-    "I can't help but notice her sneaking glances in my direction."
-    "Is she waiting for me to take a bite?"
-    "I finally bite down."
-    "The icing is sweet and full of flavor - I wonder if she made it herself."
-    mc "This is really good."
-    mc "Thank you, Natsuki."
-    n 5h "W-Why are you thanking me? It's not like I...!"
-    "{i}(Haven't I heard this somewhere before...?){/i}"
+    "Natsuki sessiz."
+    "Bana doğru sinsi bakışlarını fark etmekten kendimi alamıyorum.."
+    "Acaba bir ısırık almam için bekliyor mu??"
+    "Sonunda ısırdım."
+    "Krema tatlı ve lezzet dolu - acaba kendisi mi yaptı?."
+    mc "Bu gerçekten çok iyi.."
+    mc "Teşekkür ederim, Natsuki."
+    n 5h "N-neden bana teşekkür ediyorsun? Ben öyle değilim..!"
+    "{i}(Bunu daha önce bir yerde duymamış mıydım...?){/i}"
     show natsuki at s32
-    n 5s "...Made them for you or anything."
-    mc "Eh? I thought you technically did. Sayori said--"
+    n 5s "...Senin için falan yapmadım."
+    mc "Ne? Teknik olarak yaptığını sanıyordum. Sayori dedi ki--"
     show natsuki at t32 zorder 2
-    n 12c "Well, maybe!"
-    n "But not for, y-you know, {i}you!{/i} Dummy..."
-    mc "Alright, alright..."
+    n 12c "Şey, belki!"
+    n "Ama değil, b-bilirsin, {i}sen!{/i} Aptal..."
+    mc "Tamam, tamam..."
     show natsuki at thide zorder 1
     hide natsuki
-    "I give up on Natsuki's weird logic and dismiss the conversation."
-    "Yuri returns to the table, carrying a tea set."
-    "She carefully places a teacup in front of each of us before setting down the teapot next to the cupcake tray."
+    "Natsuki'nin tuhaf mantığından vazgeçiyorum ve konuşmayı kapatıyorum."
+    "Yuri elinde bir çay setiyle masaya döner."
+    "Çaydanlığı kek tepsisinin yanına koymadan önce her birimizin önüne dikkatlice birer çay fincanı yerleştiriyor."
     show yuri 1a at t21 zorder 2
-    mc "You keep a whole tea set in this classroom?"
-    y "Don't worry, the teachers gave us permission."
-    y "After all, doesn't a hot cup of tea help you enjoy a good book?"
-    mc "Ah... I-I guess..."
+    mc "Bütün bir çay setini bu sınıfta mı tutuyorsun?"
+    y "Merak etme, öğretmenler bize izin verdi.."
+    y "Sonuçta, sıcak bir fincan çay iyi bir kitabın tadını çıkarmamıza yardımcı olmaz mı??"
+    mc "Ah... Sanırım..."
     show monika 4a at t22 zorder 2
-    m "Ehehe, don't let yourself get intimidated, Yuri's just trying to impress you."
+    m "Ehehe, gözünün korkmasına izin verme, Yuri sadece seni etkilemeye çalışıyor."
     show yuri at h21
-    y 3n "Eh?! T-That's not..."
-    "Insulted, Yuri looks away."
-    y 4b "I meant that, you know..."
-    mc "I believe you."
-    mc "Well, tea and reading might not be a pastime for me, but I at least enjoy tea."
-    y 2u "I'm glad..."
-    "Yuri faintly smiles to herself in relief."
-    "Monika raises an eyebrow, then smiles at me."
+    y 3n "Eh?! Bu değil..."
+    "Hakarete uğrayan Yuri gözlerini kaçırır."
+    y 4b "Bunu kastetmemiştim, biliyorsun..."
+    mc "Sana inanıyorum."
+    mc "Çay ve kitap okumak benim için bir eğlence olmayabilir ama en azından çaydan keyif alıyorum."
+    y 2u "Sevindim..."
+    "Yuri rahatlamış bir şekilde kendi kendine gülümser."
+    "Monika bir kaşını kaldırıyor, sonra bana gülümsüyor."
     show yuri at thide zorder 1
     hide yuri
     show monika at t11 zorder 2
