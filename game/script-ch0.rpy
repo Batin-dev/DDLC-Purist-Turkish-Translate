@@ -200,6 +200,10 @@ label ch0_main:
 
     stop music fadeout 2.0
 
+    $ m_name = 'Kız 3'
+    $ n_name = 'Kız 2'
+    $ y_name = 'Kız 1'
+
     scene bg corridor
     with wipeleft_scene
 
@@ -377,24 +381,24 @@ label ch0_main:
     show yuri at thide zorder 1
     hide yuri
     show monika at t11 zorder 2
-    m 1 "So, what made you consider the Literature Club?"
+    m 1 "Peki, Edebiyat Kulübü'nü düşünmene ne sebep oldu?"
     mc "Um..."
-    "I was afraid of this question."
-    "Something tells me I shouldn't tell Monika that I was practically dragged here by Sayori."
-    mc "Well, I haven't joined any clubs yet, and Sayori seemed really happy here, so..."
-    m 1j "That's okay! Don't be embarrassed!"
-    m 1b "We'll make sure you feel right at home, okay?"
-    m "As president of the Literature Club, it's my duty to make the club fun and exciting for everyone!"
+    "Bu sorudan korkuyordum."
+    "İçimden bir ses Monika'ya Sayori tarafından buraya sürüklendiğimi söylememem gerektiğini söylüyor."
+    mc "Henüz hiçbir kulübe katılmadım ve Sayori burada çok mutlu görünüyordu..."
+    m 1j "Sorun değil! Utanma!"
+    m 1b "Kendini evinde hissetmeni sağlayacağız, tamam mı??"
+    m "Edebiyat Kulübü'nün başkanı olarak görevim, kulübü herkes için eğlenceli ve heyecan verici hale getirmektir!"
     show monika 1a
-    mc "Monika, I'm surprised."
-    mc "How come you decided to start your own club?"
-    mc "You could probably be a board member for any of the major clubs."
-    mc "Weren't you a leader of the debate club last year?"
-    m 5 "Ahaha, well, you know..."
-    m "To be honest, I can't stand all of the politics around the major clubs."
-    m "It feels like nothing but arguing about the budget and publicity and how to prepare for events..."
-    m "I'd much rather take something I personally enjoy and make something special out of it."
-    m 1b "And if it encourages others to get into literature, then I'm fulfilling that dream!"
+    mc "Monika, şaşırdım."
+    mc "Nasıl oldu da kendi kulübünü kurmaya karar verdin?"
+    mc "Muhtemelen büyük kulüplerden herhangi birinin yönetim kurulu üyesi olabilirsiniz."
+    mc "Sen geçen sene münazara kulübünün lideri değil miydin?"
+    m 5 "Ahaha, bilirsin işte..."
+    m "Dürüst olmak gerekirse, büyük kulüplerin etrafındaki tüm politikalara katlanamıyorum."
+    m "Bütçe, tanıtım ve etkinliklere nasıl hazırlanılacağı hakkında tartışmaktan başka bir şey yokmuş gibi geliyor..."
+    m "Kişisel olarak keyif aldığım bir şeyi alıp ondan özel bir şey yapmayı tercih ederim."
+    m 1b "Ve eğer başkalarını edebiyatla ilgilenmeye teşvik ederse, o zaman bu hayalimi gerçekleştirmiş olurum!"
     show monika 1a
     show sayori 3q at t31 zorder 2
     s "Monika really is a great leader!"
