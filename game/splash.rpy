@@ -16,12 +16,12 @@ init -100 python:
 init python:
     menu_trans_time = 1
     #The default splash message, originally shown in Act 1 and Act 4
-    splash_message_default = "Bu oyun resmi olmayan bir hayran çalışmasıdır, Team Salvato ile bağlantısı yoktur. /nxd"
+    splash_message_default = "Bu oyun resmi olmayan bir hayran çalışmasıdır, Team Salvato ile bağlantısı yoktur. DEV-V"
     #Optional splash messages, originally chosen at random in Act 2 and Act 3
     splash_messages = [
     "O senin için bekliyor.",
     "Benim için de bir tane var mı?",
-    "Bu oyun resmi olmayan bir hayran çalışmasıdır, Team Salvato ile bağlantısı yoktur",
+    "Bu oyun resmi olmayan bir hayran çalışmasıdır, Team Salvato ile bağlantısı yoktur. DEV-V",
     "Tekrar hoş geldin."
     ]
 
