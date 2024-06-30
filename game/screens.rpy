@@ -420,14 +420,14 @@ screen quick_menu():
                 yalign 0.995
 
             #textbutton _("Back") action Rollback()
-                textbutton _("History") action ShowMenu('history')
-                textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+                textbutton _("Geçmiş") action ShowMenu('history')
+                textbutton _("İleri sar") action Skip() alternate Skip(fast=True, confirm=True)
                 textbutton _("Auto") action Preference("auto-forward", "toggle")
-                textbutton _("Save") action ShowMenu('save')
-                textbutton _("Load") action ShowMenu('load')
+                textbutton _("Kaydet") action ShowMenu('save')
+                textbutton _("Yükle") action ShowMenu('load')
             #textbutton _("Q.Save") action QuickSave()
             #textbutton _("Q.Load") action QuickLoad()
-                textbutton _("Settings") action ShowMenu('preferences')
+                textbutton _("Seçeneklerg") action ShowMenu('preferences')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -482,15 +482,15 @@ screen navigation():
                 #if persistent.playthrough == 1:
                 #    textbutton _("ŔŗñĮ¼»ŧþŀÂŻŕěōì«") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Please enter your name", ok_action=Function(FinishEnterName)))
                 #else:
-                textbutton _("New Game") action If(persistent.playername is not "", true=Start(), false=Show(screen="name_input", message="Please enter your name", ok_action=Function(FinishEnterName)))
+                textbutton _("Yeni oyun") action If(persistent.playername is not "", true=Start(), false=Show(screen="name_input", message="Please enter your name", ok_action=Function(FinishEnterName)))
 
             else:
 
-                textbutton _("History") action [ShowMenu("history"), SensitiveIf(renpy.get_screen("history") == None)]
+                textbutton _("Geçmiş") action [ShowMenu("history"), SensitiveIf(renpy.get_screen("history") == None)]
                 if saveLocked is False:
-                    textbutton _("Save Game") action [ShowMenu("save"), SensitiveIf(renpy.get_screen("save") == None)]
+                    textbutton _("Oyunu kaydet") action [ShowMenu("save"), SensitiveIf(renpy.get_screen("save") == None)]
 
-            textbutton _("Load Game") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
+            textbutton _("Devam et") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
 
             if _in_replay:
 
@@ -498,21 +498,21 @@ screen navigation():
 
             elif not main_menu:
                 if persistent.playthrough != 3:
-                    textbutton _("Main Menu") action MainMenu()
+                    textbutton _("Ana menü") action MainMenu()
                 else:
-                    textbutton _("Main Menu") action NullAction()
+                    textbutton _("Ana menü") action NullAction()
 
-            textbutton _("Settings") action [ShowMenu("preferences"), SensitiveIf(renpy.get_screen("preferences") == None)]
+            textbutton _("Seçenekler") action [ShowMenu("preferences"), SensitiveIf(renpy.get_screen("preferences") == None)]
 
             #textbutton _("About") action ShowMenu("about")
 
             if renpy.variant("pc"):
 
                 ## Help isn't necessary or relevant to mobile devices.
-                textbutton _("Help") action Help("README.html")
+                textbutton _("Yardım") action Help("README.html")
 
                 ## The quit button is banned on iOS and unnecessary on Android.
-                textbutton _("Quit") action Quit(confirm=not main_menu)
+                textbutton _("Çık") action Quit(confirm=not main_menu)
         #else:
         #    timer 1.75 action Start("autoload_yurikill")
 
@@ -707,7 +707,7 @@ screen game_menu(title, scroll=None):
     if not main_menu and persistent.playthrough == 2 and not persistent.menu_bg_m and renpy.random.randint(0, 49) == 0:
         on "show" action Show("game_menu_m")
 
-    textbutton _("Return"):
+    textbutton _("Geri dön"):
         style "return_button"
 
         action Return()
@@ -786,7 +786,7 @@ screen about():
     ## This use statement includes the game_menu screen inside this one. The
     ## vbox child is then included inside the viewport inside the game_menu
     ## screen.
-    use game_menu(_("About"), scroll="viewport"):
+    use game_menu(_("Hakkında"), scroll="viewport"):
 
         style_prefix "about"
 
@@ -892,7 +892,7 @@ screen file_slots(title):
 
                         add FileScreenshot(slot) xalign 0.5
 
-                        text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
+                        text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("boş slot")):
                             style "slot_time_text"
 
                         text FileSaveName(slot):
@@ -987,22 +987,22 @@ screen preferences():
 
                     vbox:
                         style_prefix "radio"
-                        label _("Display")
-                        textbutton _("Window") action Preference("display", "window")
-                        textbutton _("Fullscreen") action Preference("display", "fullscreen")
+                        label _("Ekran")
+                        textbutton _("Pencereli") action Preference("display", "window")
+                        textbutton _("Tamekran") action Preference("display", "fullscreen")
                 if config.developer:
                     vbox:
                         style_prefix "radio"
-                        label _("Rollback Side")
-                        textbutton _("Disable") action Preference("rollback side", "disable")
-                        textbutton _("Left") action Preference("rollback side", "left")
-                        textbutton _("Right") action Preference("rollback side", "right")
+                        label _("Geri alma tarafı")
+                        textbutton _("Devre dışı") action Preference("rollback side", "disable")
+                        textbutton _("Sol") action Preference("rollback side", "left")
+                        textbutton _("Sağ") action Preference("rollback side", "right")
 
                 vbox:
                     style_prefix "check"
-                    label _("Skip")
-                    textbutton _("Unseen Text") action Preference("skip", "toggle")
-                    textbutton _("After Choices") action Preference("after choices", "toggle")
+                    label _("Atla")
+                    textbutton _("Görünmeyen Metin") action Preference("skip", "toggle")
+                    textbutton _("Seçimlerden Sonra") action Preference("after choices", "toggle")
                     #textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
@@ -1016,26 +1016,26 @@ screen preferences():
 
                 vbox:
 
-                    label _("Text Speed")
+                    label _("Metin hızı")
 
                     #bar value Preference("text speed")
                     bar value FieldValue(_preferences, "text_cps", range=180, max_is_zero=False, style="slider", offset=20)
 
-                    label _("Auto-Forward Time")
+                    label _("Otomatik İlerleme Süresi")
 
                     bar value Preference("auto-forward time")
 
                 vbox:
 
                     if config.has_music:
-                        label _("Music Volume")
+                        label _("Müzik şiddeti")
 
                         hbox:
                             bar value Preference("music volume")
 
                     if config.has_sound:
 
-                        label _("Sound Volume")
+                        label _("Ses şiddeti")
 
                         hbox:
                             bar value Preference("sound volume")
@@ -1056,7 +1056,7 @@ screen preferences():
                     if config.has_music or config.has_sound or config.has_voice:
                         null height gui.pref_spacing
 
-                        textbutton _("Mute All"):
+                        textbutton _("Hepsini sustur"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
     text "v[config.version]":

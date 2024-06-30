@@ -16,13 +16,13 @@ init -100 python:
 init python:
     menu_trans_time = 1
     #The default splash message, originally shown in Act 1 and Act 4
-    splash_message_default = "This game is an unofficial fan work, unaffiliated with Team Salvato."
+    splash_message_default = "Bu oyun resmi olmayan bir hayran çalışmasıdır, Team Salvato ile bağlantısı yoktur. /nxd"
     #Optional splash messages, originally chosen at random in Act 2 and Act 3
     splash_messages = [
-    "She's waiting for you.",
-    "Is there one for me, too?",
-    "This game is an unofficial fan work, unaffiliated with Team Salvato.",
-    "Welcome back."
+    "O senin için bekliyor.",
+    "Benim için de bir tane var mı?",
+    "Bu oyun resmi olmayan bir hayran çalışmasıdır, Team Salvato ile bağlantısı yoktur",
+    "Tekrar hoş geldin."
     ]
 
 image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)
