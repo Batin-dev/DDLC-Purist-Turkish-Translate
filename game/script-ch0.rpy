@@ -177,7 +177,7 @@ label ch0_main:
     s 4r "Eveet??"
     mc "...Kesinlikle kulübüne gelmeyeceğim."
     show sayori at s11
-    s 5d "Eeeehhhhh?! Kaba!"
+    s 5d "Eeeehhhhh?! Kabasın!"
     "Sayori Edebiyat Kulübü'nün başkan yardımcısı."
     "Ama onun edebiyata ilgisi olduğunu hiç bilmiyordum."
     "Aslında, %99 eminim ki yeni bir kulübün başlatmak eğlenceli olacağını düşündüğü için yaptı."
@@ -451,12 +451,12 @@ label ch0_main:
     "Bir şey söylemek ister gibi görünüyor ama sessizliğini koruyor."
     show natsuki at thide zorder 1
     hide natsuki
-    y 3u "N-Not much of a reader, I guess..."
-    mc "...Well, that can change..."
-    "What am I saying?"
-    "I spoke without thinking after seeing Yuri's sad smile."
-    mc "Anyway, what about you, Yuri?"
-    y 1l "Well, let's see..."
+    y 3u "Pek okuyucu değilsin sanırım...."
+    mc "...Şey, bu değişebilir..."
+    "Ne diyorum ben?"
+    "Yuri'nin hüzünlü gülümsemesini gördükten sonra düşünmeden konuştum."
+    mc "Her neyse, ya sen, Yuri?"
+    y 1l "Pekala, bir bakalım..."
     "Yuri traces the rim of her teacup with her finger."
     y 1a "My favorites are usually novels that build deep and complex fantasy worlds."
     y "The level of creativity and craftsmanship behind them is amazing to me."
