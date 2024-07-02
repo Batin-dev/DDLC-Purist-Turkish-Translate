@@ -457,112 +457,112 @@ label ch0_main:
     "Yuri'nin hüzünlü gülümsemesini gördükten sonra düşünmeden konuştum."
     mc "Her neyse, ya sen, Yuri?"
     y 1l "Pekala, bir bakalım..."
-    "Yuri traces the rim of her teacup with her finger."
-    y 1a "My favorites are usually novels that build deep and complex fantasy worlds."
-    y "The level of creativity and craftsmanship behind them is amazing to me."
-    y 1f "And telling a good story in such a foreign world is equally impressive."
-    "Yuri goes on, clearly passionate about her reading."
-    "She seemed so reserved and timid since the moment I walked in, but it's obvious by the way her eyes light up that she finds her comfort in the world of books, not people."
-    y 2m "But you know, I like a lot of things."
-    y "Stories with deep psychological elements usually immerse me as well."
-    y 2a "Isn't it amazing how a writer can so deliberately take advantage of your own lack of imagination to completely throw you for a loop?"
-    y "Anyway, I've been reading a lot of horror lately..."
-    mc "Ah, I read a horror book once..."
-    "I desperately grasp something I can relate to at the minimal level."
-    "At this rate, Yuri might as well be having a conversation with a rock."
+    "Yuri parmağıyla çay fincanının kenarının izini sürüyor."
+    y 1a "Benim favorilerim genellikle derin ve karmaşık fantastik dünyalar inşa eden romanlardır."
+    y "Arkalarındaki yaratıcılık ve işçilik seviyesi benim için şaşırtıcı."
+    y 1f "Ve böyle yabancı bir dünyada iyi bir hikaye anlatmak da aynı derecede etkileyici."
+    "Yuri devam ediyor, okuması konusunda açıkça tutkulu."
+    "İçeri girdiğim andan beri çok çekingen ve çekingen görünüyordu, ama gözlerinin aydınlanma şekliyle tesellisini insanların değil kitapların dünyasında bulduğu açık."
+    y 2m "Ama biliyorsun, birçok şeyi severim."
+    y "Derin psikolojik unsurları olan hikayeler genellikle beni de içine çeker."
+    y 2a "Bir yazarın sizi tamamen bir döngüye sokmak için kendi hayal gücünüz eksikliğinden bu kadar kasıtlı olarak yararlanabilmesi şaşırtıcı değil mi?"
+    y "Her neyse, son zamanlarda çok fazla korku okuyorum..."
+    mc "ha, Bir keresinde bir korku kitabı okumuştum..."
+    "En az düzeyde ilişki kurabileceğim bir şeyi umutsuzca kavrıyorum."
+    "Bu hızla devam ederse, Yuri neredeyse bir taşla konuşuyor gibi olacak."
     show monika 1d at f33 zorder 3
-    m "Really? I wouldn't have expected that, Yuri."
-    m "For someone as gentle as you..."
+    m "Gerçekten mi? Bunu beklemezdim, Yuri."
+    m "Senin kadar nazik biri için..."
     show monika at t33 zorder 2
     show yuri at f32 zorder 3
-    y 1a "I guess you could say that."
-    y "But if a story makes me think, or takes me to another world, then I really can't put it down."
-    y "Surreal horror is often very successful at changing the way you look at the world, if only for a brief moment."
+    y 1a "Sanırım öyle diyebiliriz.."
+    y "Ama eğer bir hikaye beni düşündürüyorsa veya beni başka bir dünyaya götürüyorsa, o zaman gerçekten onu bırakamam."
+    y "Gerçeküstü korku genellikle dünyaya bakışınızı değiştirmekte çok başarılı olabilir, en azından kısa bir süre için bile olsa."
     show yuri at t32 zorder 2
     show natsuki 5q at f31 zorder 3
-    n "Ugh, I hate horror..."
+    n "ha, korkudan hoşlanmıyorum..."
     show natsuki at t31 zorder 2
     show yuri at f32 zorder 3
-    y 1f "Oh? Why's that?"
+    y 1f "Ha? Neden böyle düşünüyorsun?"
     show yuri at t32 zorder 2
     show natsuki at f31 zorder 3
-    n 5c "Well, I just..."
-    "Natsuki's eyes dart over to me for a split second."
-    n 5q "Never mind."
+    n 5c "Eh, ben sadece..."
+    "Natsuki'nin gözleri bir an için bana doğru kayar."
+    n 5q "Boşver..."
     show natsuki at t31 zorder 2
     show monika at f33 zorder 3
-    m 1a "That's right, you usually like to write about cute things, don't you, Natsuki?"
+    m 1a "Evet, genellikle sevimli şeyler hakkında yazmayı severdin, değil mi, Natsuki?"
     show monika at t33 zorder 2
     show natsuki 1o at f31 zorder 3
-    n "W-What?"
-    n "What gives you that idea?"
+    n "N-Ne?"
+    n "Bu fikri sana ne verdi?"
     show natsuki at t31 zorder 2
     show monika at f33 zorder 3
-    m 3b "You left a piece of scrap paper behind last club meeting."
-    m "It looked like you were working on a poem called--"
+    m 3b "Geçenlerde kulüp toplantısında bir parça kağıt unutmuştun."
+    m "Bir şiir üzerinde çalışıyormuş gibi görünüyor, adı-"
     show monika at t33 zorder 2
     show natsuki 1p at f31 zorder 3
-    n "Don't say it out loud!!"
-    n "And give that back!"
+    n "Sesli söyleme!!"
+    n "Ve onu geri ver!"
     show natsuki at t31 zorder 2
     show monika at f33 zorder 3
-    m 1j "Fine, fine~"
+    m 1j "Tamam, tamam~"
     show monika at thide zorder 1
     show yuri at thide zorder 1
     hide monika
     hide yuri
     show natsuki 1r at t42 zorder 2
     show sayori 4q at l41 behind natsuki
-    s "Ehehe, your cupcakes, your poems..."
-    s "Everything you do is just as cute as you are~"
+    s "Ehehe, cupcakelerin, şiirlerin..."
+    s "Yaptığın her şey senin kadar sevimli~"
     show sayori at t21 behind natsuki
-    "Sayori sidles up behind Natsuki and puts her hands on her shoulders."
+    "Sayori, Natsuki'nin arkasına yaklaşır ve omuzlarına ellerini koyar."
     show natsuki at h42
-    n 1v "{i}I'm not cute!!{/i}"
+    n 1v "{i}Igh! Ben sevimli değilim!!{/i}"
     show natsuki at t11 zorder 2
     show sayori at thide zorder 1
     hide sayori
-    mc "Natsuki, you write your own poems?"
-    n 1c "Eh? Well, I guess sometimes."
-    n "Why do you care?"
-    mc "I think that's impressive."
-    mc "Why don't you share them sometime?"
-    n 5q "N-No!"
-    "Natsuki averts her eyes."
-    n "You wouldn't...like them..."
-    mc "Ah...not a very confident writer yet?"
+    mc "Natsuki, kendi şiirlerini mi yazıyorsun?"
+    n 1c "Eh? Hm, sanırım bazen."
+    n "Neden önemsiyorsun ki?"
+    mc "Bence bu etkileyici."
+    mc "Neden onları zaman zaman paylaşmıyorsun?"
+    n 5q "Ha-Hayır!"
+    "Natsuki gözlerini kaçırıyor."
+    n "Onları... beğenmezsin..."
+    mc "Ah... henüz kendinden emin bir yazar değil misin?"
     show yuri 2f at t31 zorder 2
-    y "I understand how Natsuki feels."
-    y "Sharing that level of writing takes more than just confidence."
-    y 2k "The truest form of writing is writing to oneself."
-    y "You must be willing to open up to your readers, exposing your vulnerabilities and showing even the deepest reaches of your heart."
+    y "Natsuki'nin hissettiğini anlıyorum."
+    y "O seviyede yazıyı paylaşmak sadece özgüvenle olmuyor."
+    y 2k "Yazmanın en gerçek şekli, kendimize yazmaktır."
+    y "Okuyuculara açılmaya, kırılganlıklarınızı ortaya koymaya ve kalbinizin en derin noktalarını dahi göstermeye istekli olmalısınız."
     show natsuki at thide zorder 1
     hide natsuki
     show monika 2a at t33 zorder 2
-    m "Do you have writing experience too, Yuri?"
-    m "Maybe if you share some of your work, you can set an example and help Natsuki feel comfortable enough to share hers."
+    m "Senin de yazma deneyimin var mı, Yuri?"
+    m "Belki de birkaç eserini paylaşırsan, örnek olabilir ve Natsuki'nin de kendi eserlerini paylaşmaya cesaret etmesine yardımcı olabilirsin."
     show yuri at s31
     y 3o "..."
-    mc "I guess it's the same for Yuri..."
+    mc "Sanırım Yuri için de aynı şey geçerli..."
     show sayori 2g at t32 zorder 2
-    s "Aww... I wanted to read everyone's poems..."
+    s "Ah... Herkesin şiirlerini okumak istiyordum..."
     show sayori at thide zorder 1
     show yuri at thide zorder 1
     show monika at thide zorder 1
     hide sayori
     hide yuri
     hide monika
-    "We all sit in silence for a moment."
+    "Bir an için hepimiz sessizce otururuz.?"
     show monika 5a at f32 zorder 3
-    m "Okay!"
-    m "I have an idea, everyone~"
+    m "Pekii!"
+    m "Bir fikrim var, millet~"
     show yuri 3e at t31 zorder 2
     show natsuki 2k at t33 zorder 2
     ny "...?"
-    "Natsuki and Yuri look quizzically at Monika."
-    m 2b "Let's all go home and write a poem of our own!"
-    m "Then, next time we meet, we'll all share them with each other."
-    m "That way, everyone is even!"
+    "Natsuki ve Yuri, merakla Monika'ya bakar."
+    m 2b "Hadi hepimiz eve gidip kendi şiirimizi yazalım!"
+    m "Sonra bir dahaki buluşmamızda hepsini birbirimizle paylaşırız."
+    m "Bu şekilde, hepimiz için eşit olur!"
     show monika 2a at t32 zorder 2
     show natsuki at f33 zorder 3
     n 5q "U-Um..."
@@ -573,61 +573,61 @@ label ch0_main:
     show monika at t43 zorder 2
     show yuri at t42 zorder 2
     show sayori 4r at l41
-    s "Yeaaah! Let's do it!"
+    s "Eveeet! Hadi yapalım!"
     show monika at f43 zorder 3
-    m 1a "Plus, now that we have a new member, I think it will help us all get a little more comfortable with each other, and strengthen the bond of the club."
-    m "Isn't that right, [player]?"
+    m 1a "Üstelik, yeni bir üyemiz olduğuna göre, sanırım hepimizin birbirine biraz daha alışmasına ve kulübün bağlarını güçlendirmesine yardımcı olacak."
+    m "Öyle değil mi, [player]?"
     show monika at t43 zorder 2
-    "Monika smiles warmly at me once again."
-    mc "Hold on...there's still one problem."
+    "Monika bir kez daha sıcak bir şekilde bana gülümser."
+    mc "Bir dakika... hâlâ bir sorun var."
     show monika at f43 zorder 3
-    m 1d "Eh? What's that?"
-    "Now that we're back to the original topic of me joining the club, I bluntly come forth with what's been on my mind the entire time."
+    m 1d "Eh? O nedir??"
+    "Kulübe katılmamızın asıl konusuna geri döndüğümüze göre, tüm bu süre boyunca aklımda olanı açıkça ifade ederim."
     show monika at t43 zorder 2
-    mc "I never said I would join this club!"
-    mc "Sayori may have convinced me to stop by, but I never made any decision."
-    mc "I still have other clubs to look at, and...um..."
+    mc "Ben hiç bu kulübe katılacağımı söylemedim!"
+    mc "Sayori belki beni uğramaya ikna etmiş olabilir, ama hiçbir karar vermedim."
+    mc "Hâlâ bakacağım başka kulüpler var ve... eh..."
     show monika 1g
     show sayori 1g
     show natsuki 4g
     show yuri 2e
-    "I lose my train of thought."
-    "All four girls stare back at me with dejected eyes."
+    "Düşüncelerim dağılıyor."
+    "Dört kız da üzgün gözlerle bana bakıyor."
     show monika at s43
-    m 1p "B-But..."
+    m 1p "A-Ama..."
     show yuri at s42
-    y 2v "I'm sorry, I thought..."
+    y 2v "Üzgünüm... Düşündüm ki..."
     show natsuki at s44
     n 5s "Hmph."
     show sayori at s41
     s 1k "[player]..."
-    mc "Y-You all..."
-    "I...I'm defenseless against these girls."
-    "How am I supposed to make a clear-headed decision when it's like this?"
-    "That is, if writing poems is the price I need to pay in order to spend every day with these beautiful girls..."
-    mc "...Right."
-    mc "Okay, I've decided, then."
-    mc "I'll join the Literature Club."
+    mc "H-Hepiniz..."
+    "Ben... Ben bu kızlara karşı savunmasızım."
+    "Bu durumdayken nasıl net bir karar vereceğim?"
+    "Eğer bu güzel kızlarla her gün geçirmek için ödemen gereken bedel şiir yazmaksa..."
+    mc "...Pekala."
+    mc "Tamam, kararımı verdim o zaman."
+    mc "Edebiyat Kulübü'ne katılacağım."
     show monika 1e at t43 zorder 2
     show yuri 3f at t42 zorder 2
     show natsuki 1k at t44 zorder 2
     show sayori 4b at t41 zorder 2
-    "One by one, the girls' eyes light up."
+    "Kızların gözleri tek tek parlar."
     show sayori at h41
-    s 4r "Yesss! I'm so happyyy~"
-    "Sayori wraps her arms around me, jumping up and down."
+    s 4r "Evet! Çok mutluyummm~"
+    "Sayori kollarını etrafıma dolayıp zıplamaya başlar."
     mc "H-Hey--"
     show yuri at f42 zorder 3
-    y 1m "You really did scare me for a moment..."
+    y 1m "Beni gerçekten bir an korkuttun..."
     show yuri at t42 zorder 2
     show natsuki at f44 zorder 3
-    n 5q "If you really just came for the cupcakes, I would be super pissed."
+    n 5q "Eğer gerçekten sadece cupcake'ler için geldiysen, çok sinirlenirdim."
     show natsuki at t44 zorder 2
     show monika at f43 zorder 3
-    m 5 "Then that makes it official!"
-    m "Welcome to the Literature Club!"
+    m 5 "O zaman bu işi resmileştiriyoruz!"
+    m "Edebiyat Kulübü'ne hoş geldin!"
     show monika at t43 zorder 2
-    mc "Ah...thanks, I guess."
+    mc "Ah... teşekkürler, sanırım."
     show yuri at thide zorder 1
     show natsuki at thide zorder 1
     show sayori at thide zorder 1
@@ -635,31 +635,31 @@ label ch0_main:
     hide yuri
     hide natsuki
     hide sayori
-    m 3b "Okay, everyone!"
-    m "I think with that, we can officially end today's meeting on a good note."
-    m "Everyone remember tonight's assignment:"
-    m "Write a poem to bring to the next meeting, so we can all share!"
-    "Monika looks over at me once more."
-    m 1a "[player], I look forward to seeing how you express yourself."
+    m 3b "Pekala, millet!"
+    m "Sanırım bu şekilde, bugünkü toplantıyı iyi bir notla resmen sonlandırabiliriz."
+    m "Herkes bu akşamın ödevini hatırlasın:"
+    m "Bir sonraki toplantıya getirmek için bir şiir yazın, böylece hepsini paylaşabiliriz!"
+    "Monika bir kez daha bana bakar."
+    m 1a "[player], Nasıl ifade edeceğini merakla bekliyorum."
     show monika 5 at hop
     m "Ehehe~"
-    mc "Y-Yeah..."
+    mc "E-Evet..."
     show monika at thide zorder 1
     hide monika
-    "Can I really impress the class star Monika with my mediocre writing skills?"
-    "I already feel the anxiety welling up inside me."
-    "Meanwhile, the girls continue to chit-chat as Yuri and Natsuki clean up their food."
+    "Monika gibi sınıfın yıldızını vasat yazma yeteneklerimle gerçekten etkileyebilir miyim?"
+    "İçimdeki kaygının arttığını şimdiden hissediyorum."
+    "Bu arada, kızlar sohbetlerine devam ederken, Yuri ve Natsuki yemeklerini temizler."
     show sayori 1a at t11 zorder 2
-    s "Hey, [player], since we're already here, do you want to walk home together?"
-    "That's right - Sayori and I never walk home together anymore because she always stayed after school for clubs."
-    mc "Sure, might as well."
-    s 4q "Yaay~"
+    s "Hey, [player], Zaten buradayken, birlikte eve yürümek ister misin?"
+    "Doğru - Sayori ve ben artık birlikte eve yürümüyoruz çünkü o her zaman okul sonrası kulüplerde kalırdı."
+    mc "Tabii ki, neden olmasın."
+    s 4q "Yeeyy!~"
 
     scene bg residential_day
     with wipeleft_scene
 
-    "With that, the two of us depart the clubroom and make our way home."
-    "The whole way, my mind wanders back and forth between the four girls:"
+    "Bu şekilde, ikimiz de kulüp odasından ayrılıp eve doğru yol alırız."
+    "Tüm yol boyunca, aklım dört kız arasında gidip gelir:"
     show sayori 1 at t41 zorder 2
     "Sayori,"
     show natsuki 4 at t42 zorder 2
@@ -667,16 +667,16 @@ label ch0_main:
     show yuri 1 at t43 zorder 2
     "Yuri,"
     show monika 1 at t44 zorder 2
-    "and, of course, Monika."
-    "Will I really be happy spending every day after school in a literature club?"
-    "Perhaps I'll have the chance to grow closer to one of these girls..."
+    "ve tabii ki, Monika."
+    "Her gün okuldan sonra edebiyat kulübünde mi geçireceğim mutlu olacak mıyım?"
+    "Belki de bu kızlardan biriyle daha yakınlaşma şansım olur..."
     hide sayori
     hide natsuki
     hide yuri
     hide monika
     with wipeleft
-    "Alright!"
-    "I'll just need to make the most of my circumstances, and I'm sure good fortune will find me."
-    "And I guess that starts with writing a poem tonight..."
+    "Tamamdır!"
+    "Koşullarımın sunduğu imkanları en iyi şekilde değerlendirmem gerekecek ve eminim ki iyi şans beni bulacak."
+    "Ve sanırım bu gece bir şiir yazmakla başlıyor..."
 
     return
