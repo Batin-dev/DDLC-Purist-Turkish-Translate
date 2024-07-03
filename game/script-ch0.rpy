@@ -138,7 +138,7 @@ label ch0_main:
     "Sayori, benimle ilgili biraz fazla endişeleniyor. Oysa ben, oyunlar ve anime ile vakit geçirerek sıradan bir şekilde hayatımı sürdürüyor olmaktan memnunum."
     s 4j "Uh-huh!"
     s "Üniversiteden önce sosyalleşmeyi öğrenemeyeceği ya da herhangi bir beceriye sahip olamayacağı konusunda nasıl endişelendiğimden bahsediyordum."
-    s "Mutluluğunuz benim için gerçekten önemli, biliyorsun!"
+    s "Mutluluğun benim için gerçekten önemli, biliyorsun!"
     s "Şu anda mutlu olduğunu biliyorum ama gerçek dünyaya alışamadığın için birkaç yıl içinde NEET(Ne eğitimde ne istihdamda) olacağını düşünmek bile beni kahrediyor.!"
     s 4g "Bana güveniyorsun, değil mi?"
     s "Beni senin için endişelendirip durma..."
