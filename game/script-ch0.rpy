@@ -180,7 +180,7 @@ label ch0_main:
     s 5d "Eeeehhhhh?! Kabasın!"
     "Sayori Edebiyat Kulübü'nün başkan yardımcısı."
     "Ama onun edebiyata ilgisi olduğunu hiç bilmiyordum."
-    "Aslında, %99 eminim ki yeni bir kulübün başlatmak eğlenceli olacağını düşündüğü için yaptı."
+    "Aslında, neredeyse eminim ki yeni bir kulübün başlatmak eğlenceli olacağını düşündüğü için yaptı."
     "Kulübü öneren kişiden sonra ilgi gösteren ilk kişi olduğu için, \"Vice President\" unvanını aldı."
     "Bununla birlikte, edebiyata olan ilgimin daha da azalacağı garanti."
     mc "Evet. Anime kulübüne gidiyorum."
@@ -513,7 +513,7 @@ label ch0_main:
     hide yuri
     show natsuki 1r at t42 zorder 2
     show sayori 4q at l41 behind natsuki
-    s "Ehehe, cupcakelerin, şiirlerin..."
+    s "Ehehe, kapkeklerin, şiirlerin..."
     s "Yaptığın her şey senin kadar sevimli~"
     show sayori at t21 behind natsuki
     "Sayori, Natsuki'nin arkasına yaklaşır ve omuzlarına ellerini koyar."
