@@ -1,3 +1,5 @@
+<h1 align="center">📢The Project Has Been Stopped For A Time📢!</h1>
+
 <h1 align="center">Doki Doki Literature Club!<br>Purist Mod Turkish Translate!</h1>
 
 # Information
