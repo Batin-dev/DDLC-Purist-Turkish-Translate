@@ -5,14 +5,6 @@ __pycache__/
 *.log
 *.bak
 *.rpyc
-*.rpy~
-*.rpyc~
-images/.thumbs/
-renpy*.exe
-*.pyo
-*.rpyc
-*.rpa
-*.log
 .DS_Store
 Thumbs.db
 env/

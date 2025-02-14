@@ -412,124 +412,123 @@ label ch3_end:
     show monika at t32 zorder 2
     show yuri 1e at f33 zorder 3
     y "Bir şeyler biraz alışılmadık geliyordu..."
-y "Bu doğru."
-y 1f "Kulübe hitap ederken her zamanki sloganından sapmışsın."
-show yuri at t33 zorder 2
-show monika 1n at f32 zorder 3
-m "S-Slogan?"
-m "Benim bir sloganım yok..."
-show monika at t32 zorder 2
-show natsuki 4q at f31 zorder 3
-n "Tanrım..."
-n "Bugün neden bu kadar garip bir ruh hali var?"
-n "Bak, Yuri bile buna bağışık değil."
-show natsuki at t31 zorder 2
-show yuri 4b at f33 zorder 3
-y "Uu..."
-y "Durgun hava, korkunç bir şey olacağının habercisidir..."
-show yuri at t33 zorder 2
-mc "Belki {i}sizin{/i} kitaplarınızda!"
-mc "Bakın, farklı olan tek şey Sayori'nin burada olmaması."
-show yuri 2g at f33 zorder 3
-y "Ah..."
-y "...Görünüşe göre haklısın."
-show yuri at t33 zorder 2
-show monika 2r at f32 zorder 3
-m "İç çeker..."
-m 2d "Sayori her zaman havayı biraz olsun yumuşatmaya yardımcı olur, değil mi?"
-m "O etrafta olmadığında sanki herkesin dengesi biraz bozuluyor gibi..."
-show monika at t32 zorder 2
-show natsuki 3k at f31 zorder 3
-n "Hangi cehenneme kaçtı bu arada?"
-n "Sadece işemeye gittiğini sanıyordum."
-show natsuki at t31 zorder 2
-show yuri 1l at f33 zorder 3
-y "Natsuki, lütfen biraz nezaket göster..."
-show yuri at t33 zorder 2
-show natsuki 4w at f31 zorder 3
-n "Oh, hadi ama."
-show natsuki at t31 zorder 2
-mc "Ah, aslında kendini pek iyi hissetmiyordu ve eve erken gitti..."
-show yuri 2t at f33 zorder 3
-y "Öyle mi...?"
-y "Umarım iyidir..."
-show yuri at t33 zorder 2
-show natsuki 5c at f31 zorder 3
-n "Ciddi misin?"
-n "Onunla eve gitmemek için onca zaman varken, kendini iyi hissetmediği zamanı mı seçtin?"
-n "İkinizin sevgi dolu olması buraya kadarmış."
-show natsuki at t31 zorder 2
-mc "Ah--hayır!"
-mc "Öncelikle, Sayori ile olan arkadaşlığımı yanlış anlamayı bırak!"
-mc "Ve ikincisi..."
-mc "Bugün benden kaçıyor gibiydi, o yüzden zorlamak istemedim..."
-show yuri 1g at f33 zorder 3
-y "Hooooh?"
-show yuri at t33 zorder 2
-mc "{i}O kadar insan arasından Yuri'den mi geliyor bu tuhaf ifade?{/i}"
-show monika 1r at f32 zorder 3
-m "Sakin olun, arkadaşlar...!"
-m 1d "Onunla daha önce konuştum, her şey yolunda."
-show monika at t32 zorder 2
-mc "Ne dedi...?"
-show monika at f32 zorder 3
-show yuri 1e
-m 1a "Neyse, festival hazırlıklarının geri kalanını halletmemiz gerekiyor, o yüzden..."
-m "Hafta sonu herkesin ne yapacağına karar verelim."
-show monika at t32 zorder 2
-show natsuki 4l at f31 zorder 3
-n "Ben zaten ne yapacağımı biliyorum!"
-show natsuki at t31 zorder 2
-show monika 2b at f32 zorder 3
-m "Doğru."
-m "Natsuki cupcake'ler yapacak."
-m "Ama bir sürü lazım olabilir, farklı tatlar da..."
-m "Bunu tek başına yapabilir misin, Natsuki?"
-show monika at t32 zorder 2
-show natsuki at f31 zorder 3
-n 4z "Kabul ediyorum!"
-show natsuki 4a at t31 zorder 2
-show monika at f32 zorder 3
-m 1a "Ben de..."
-m "Şiir broşürlerini basıp monte edeceğim."
-m "Sayori de benimle tasarım konusunda yardım edecek."
-m "Yuri için ise..."
-m 1d "..."
-m 3n "Yuri, sen..."
-m "Ah... Um..."
-show monika at t32 zorder 2
-show natsuki 3c at f31 zorder 3
-n "...?"
-show natsuki at t31 zorder 2
-show monika 5 at f32 zorder 3
-m "Arkadaşlar..."
-m "Yuri için bir şeyler düşünmeme yardım eder misiniz...?"
-show monika at t32 zorder 2
-show yuri 4c at f33 zorder 3
-y "B... Ben..."
-y "Ben işe yaramazım..."
-show yuri at t33 zorder 2
-show monika 1g at f32 zorder 3
-m "H- Hayır!"
-m "Hiç de öyle değil!"
-m "Buradaki en yetenekli kişi sensin, biliyorsun!"
-show monika at t32 zorder 2
-show natsuki 5g at f31 zorder 3
-n "..."
-show natsuki at t31 zorder 2
-show monika at f32 zorder 3
-m 1g "Ş- Şimdi de Natsuki kızdı mı??"
-show monika at t32 zorder 2
-mc "Vay canına, ben bile fark edebiliyorum artık..."
-mc "Sanırım Sayori'ye yeterince kredi vermedim, ama senin etrafındayken işler daha da zor oluyor."
-show monika at f32 zorder 3
-m "Ah..."
-m "Öyle olabilir..."
-m 1i "Ama eğer kendi başıma liderlik yapamıyorsam, o zaman kişisel olarak da gelişemem."
-m 2i "O yüzden, Yuri...!"
-m 2a "Senin güzel bir el yazın var biliyorsun?"
-m "Atmosferi oluşturmaya yardımcı olacak bazı pankartlar ve süslemeler yapabilirsin."
-
+    y "Bu doğru."
+    y 1f "Kulübe hitap ederken her zamanki sloganından sapmışsın."
+    show yuri at t33 zorder 2
+    show monika 1n at f32 zorder 3
+    m "S-Slogan?"
+    m "Benim bir sloganım yok..."
+    show monika at t32 zorder 2
+    show natsuki 4q at f31 zorder 3
+    n "Tanrım..."
+    n "Bugün neden bu kadar garip bir ruh hali var?"
+    n "Bak, Yuri bile buna bağışık değil."
+    show natsuki at t31 zorder 2
+    show yuri 4b at f33 zorder 3
+    y "Uu..."
+    y "Durgun hava, korkunç bir şey olacağının habercisidir..."
+    show yuri at t33 zorder 2
+    mc "Belki {i}sizin{/i} kitaplarınızda!"
+    mc "Bakın, farklı olan tek şey Sayori'nin burada olmaması."
+    show yuri 2g at f33 zorder 3
+    y "Ah..."
+    y "...Görünüşe göre haklısın."
+    show yuri at t33 zorder 2
+    show monika 2r at f32 zorder 3
+    m "İç çeker..."
+    m 2d "Sayori her zaman havayı biraz olsun yumuşatmaya yardımcı olur, değil mi?"
+    m "O etrafta olmadığında sanki herkesin dengesi biraz bozuluyor gibi..."
+    show monika at t32 zorder 2
+    show natsuki 3k at f31 zorder 3
+    n "Hangi cehenneme kaçtı bu arada?"
+    n "Sadece işemeye gittiğini sanıyordum."
+    show natsuki at t31 zorder 2
+    show yuri 1l at f33 zorder 3
+    y "Natsuki, lütfen biraz nezaket göster..."
+    show yuri at t33 zorder 2
+    show natsuki 4w at f31 zorder 3
+    n "Oh, hadi ama."
+    show natsuki at t31 zorder 2
+    mc "Ah, aslında kendini pek iyi hissetmiyordu ve eve erken gitti..."
+    show yuri 2t at f33 zorder 3
+    y "Öyle mi...?"
+    y "Umarım iyidir..."
+    show yuri at t33 zorder 2
+    show natsuki 5c at f31 zorder 3
+    n "Ciddi misin?"
+    n "Onunla eve gitmemek için onca zaman varken, kendini iyi hissetmediği zamanı mı seçtin?"
+    n "İkinizin sevgi dolu olması buraya kadarmış."
+    show natsuki at t31 zorder 2
+    mc "Ah--hayır!"
+    mc "Öncelikle, Sayori ile olan arkadaşlığımı yanlış anlamayı bırak!"
+    mc "Ve ikincisi..."
+    mc "Bugün benden kaçıyor gibiydi, o yüzden zorlamak istemedim..."
+    show yuri 1g at f33 zorder 3
+    y "Hooooh?"
+    show yuri at t33 zorder 2
+    mc "{i}O kadar insan arasından Yuri'den mi geliyor bu tuhaf ifade?{/i}"
+    show monika 1r at f32 zorder 3
+    m "Sakin olun, arkadaşlar...!"
+    m 1d "Onunla daha önce konuştum, her şey yolunda."
+    show monika at t32 zorder 2
+    mc "Ne dedi...?"
+    show monika at f32 zorder 3
+    show yuri 1e
+    m 1a "Neyse, festival hazırlıklarının geri kalanını halletmemiz gerekiyor, o yüzden..."
+    m "Hafta sonu herkesin ne yapacağına karar verelim."
+    show monika at t32 zorder 2
+    show natsuki 4l at f31 zorder 3
+    n "Ben zaten ne yapacağımı biliyorum!"
+    show natsuki at t31 zorder 2
+    show monika 2b at f32 zorder 3
+    m "Doğru."
+    m "Natsuki cupcake'ler yapacak."
+    m "Ama bir sürü lazım olabilir, farklı tatlar da..."
+    m "Bunu tek başına yapabilir misin, Natsuki?"
+    show monika at t32 zorder 2
+    show natsuki at f31 zorder 3
+    n 4z "Kabul ediyorum!"
+    show natsuki 4a at t31 zorder 2
+    show monika at f32 zorder 3
+    m 1a "Ben de..."
+    m "Şiir broşürlerini basıp monte edeceğim."
+    m "Sayori de benimle tasarım konusunda yardım edecek."
+    m "Yuri için ise..."
+    m 1d "..."
+    m 3n "Yuri, sen..."
+    m "Ah... Um..."
+    show monika at t32 zorder 2
+    show natsuki 3c at f31 zorder 3
+    n "...?"
+    show natsuki at t31 zorder 2
+    show monika 5 at f32 zorder 3
+    m "Arkadaşlar..."
+    m "Yuri için bir şeyler düşünmeme yardım eder misiniz...?"
+    show monika at t32 zorder 2
+    show yuri 4c at f33 zorder 3
+    y "B... Ben..."
+    y "Ben işe yaramazım..."
+    show yuri at t33 zorder 2
+    show monika 1g at f32 zorder 3
+    m "H- Hayır!"
+    m "Hiç de öyle değil!"
+    m "Buradaki en yetenekli kişi sensin, biliyorsun!"
+    show monika at t32 zorder 2
+    show natsuki 5g at f31 zorder 3
+    n "..."
+    show natsuki at t31 zorder 2
+    show monika at f32 zorder 3
+    m 1g "Ş- Şimdi de Natsuki kızdı mı??"
+    show monika at t32 zorder 2
+    mc "Vay canına, ben bile fark edebiliyorum artık..."
+    mc "Sanırım Sayori'ye yeterince kredi vermedim, ama senin etrafındayken işler daha da zor oluyor."
+    show monika at f32 zorder 3
+    m "Ah..."
+    m "Öyle olabilir..."
+    m 1i "Ama eğer kendi başıma liderlik yapamıyorsam, o zaman kişisel olarak da gelişemem."
+    m 2i "O yüzden, Yuri...!"
+    m 2a "Senin güzel bir el yazın var biliyorsun?"
+    m "Atmosferi oluşturmaya yardımcı olacak bazı pankartlar ve süslemeler yapabilirsin."
     show monika at t32 zorder 2
     show yuri 4a at f33 zorder 3
     y "Atmosfer...?"

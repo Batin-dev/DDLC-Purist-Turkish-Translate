@@ -402,15 +402,15 @@ screen quick_menu():
                 xalign 0.5
                 yalign 0.995
 
-            #textbutton _("Back") action Rollback()
-                textbutton _("History") action ShowMenu('history')
-                textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-                textbutton _("Auto") action Preference("auto-forward", "toggle")
-            #textbutton _("Save") action ShowMenu('save') # disables saving
-                textbutton _("Load") action ShowMenu('load')
-            #textbutton _("Q.Save") action QuickSave()
-            #textbutton _("Q.Load") action QuickLoad()
-                textbutton _("Settings") action ShowMenu('preferences')
+            #textbutton _("Geri") action Rollback()
+                textbutton _("Geçmiş") action ShowMenu('history')
+                textbutton _("Atla") action Skip() alternate Skip(fast=True, confirm=True)
+                textbutton _("Oto") action Preference("auto-forward", "toggle")
+            #textbutton _("Kaydet") action ShowMenu('save') # disables saving
+                textbutton _("Yükle") action ShowMenu('load')
+            #textbutton _("H. Kaydet") action QuickSave()
+            #textbutton _("H. Yükle") action QuickLoad()
+                textbutton _("Ayarlar") action ShowMenu('preferences')
         
         if persistent.opening_scene is True and saveLocked is False:
             hbox:
@@ -419,15 +419,15 @@ screen quick_menu():
                 xalign 0.5
                 yalign 0.995
 
-            #textbutton _("Back") action Rollback()
+            #textbutton _("Geri") action Rollback()
                 textbutton _("Geçmiş") action ShowMenu('history')
                 textbutton _("İleri sar") action Skip() alternate Skip(fast=True, confirm=True)
                 textbutton _("Auto") action Preference("auto-forward", "toggle")
                 textbutton _("Kaydet") action ShowMenu('save')
                 textbutton _("Yükle") action ShowMenu('load')
-            #textbutton _("Q.Save") action QuickSave()
-            #textbutton _("Q.Load") action QuickLoad()
-                textbutton _("Seçeneklerg") action ShowMenu('preferences')
+            #textbutton _("H. Kaydet") action QuickSave()
+            #textbutton _("H. Yükle") action QuickLoad()
+                textbutton _("Seçenekler") action ShowMenu('preferences')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -480,9 +480,9 @@ screen navigation():
             if main_menu:
 
                 #if persistent.playthrough == 1:
-                #    textbutton _("ŔŗñĮ¼»ŧþŀÂŻŕěōì«") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Please enter your name", ok_action=Function(FinishEnterName)))
+                #    textbutton _("ŔŗñĮ¼»ŧþŀÂŻŕěōì«") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Lütfen ismini gir", ok_action=Function(FinishEnterName)))
                 #else:
-                textbutton _("Yeni oyun") action If(persistent.playername is not "", true=Start(), false=Show(screen="name_input", message="Please enter your name", ok_action=Function(FinishEnterName)))
+                textbutton _("Yeni oyun") action If(persistent.playername is not "", true=Start(), false=Show(screen="name_input", message="Lütfen ismini gir", ok_action=Function(FinishEnterName)))
 
             else:
 
@@ -490,11 +490,11 @@ screen navigation():
                 if saveLocked is False:
                     textbutton _("Oyunu kaydet") action [ShowMenu("save"), SensitiveIf(renpy.get_screen("save") == None)]
 
-            textbutton _("Devam et") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
+            textbutton _("Yükle") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
 
             if _in_replay:
 
-                textbutton _("End Replay") action EndReplay(confirm=True)
+                textbutton _("Geri sarmayı bitir") action EndReplay(confirm=True)
 
             elif not main_menu:
                 if persistent.playthrough != 3:
@@ -504,7 +504,7 @@ screen navigation():
 
             textbutton _("Seçenekler") action [ShowMenu("preferences"), SensitiveIf(renpy.get_screen("preferences") == None)]
 
-            #textbutton _("About") action ShowMenu("about")
+            #textbutton _("Hakkında") action ShowMenu("about")
 
             if renpy.variant("pc"):
 
@@ -799,7 +799,7 @@ screen about():
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+            text _("{a=https://www.renpy.org/}Ren'Py{/a} ile yapıldı [renpy.version_only].\n\n[renpy.license!t]")
 
 
 ## This is redefined in options.rpy to add text to the about screen.
@@ -827,14 +827,14 @@ screen save():
 
     tag menu
 
-    use file_slots(_("Save"))
+    use file_slots(_("Kaydet"))
 
 
 screen load():
 
     tag menu
 
-    use file_slots(_("Load"))
+    use file_slots(_("Yükle"))
 
 init python:
     def FileActionMod(name, page=None, **kwargs):
@@ -975,7 +975,7 @@ screen preferences():
     else:
         $ cols = 4
 
-    use game_menu(_("Settings"), scroll="viewport"):
+    use game_menu(_("Ayarlar"), scroll="viewport"):
 
         vbox:
             xoffset 50
@@ -993,7 +993,7 @@ screen preferences():
                 if config.developer:
                     vbox:
                         style_prefix "radio"
-                        label _("Geri alma tarafı")
+                        label _("Geri alma")
                         textbutton _("Devre dışı") action Preference("rollback side", "disable")
                         textbutton _("Sol") action Preference("rollback side", "left")
                         textbutton _("Sağ") action Preference("rollback side", "right")
