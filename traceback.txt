@@ -1,0 +1,32 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While parsing C:\Users\yucel\OneDrive\Belgeler\GitHub\DDLC-Purist-Turkish-Translate/game/credits.rpy.
+  File "game/definitions.rpy", line 7, in <module>
+    define persistent.demo = False
+OSError: [Errno 17] File exists: 'c:\\users\\yucel\\appdata\\local\\temp\\C-Users-yucel-OneDrive-Belgeler-GitHub-DDLC-Purist-Turkish-Translate-DDLC-.lock'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\yucel\OneDrive\Belgeler\GitHub\DDLC-Purist-Turkish-Translate\renpy\bootstrap.py", line 295, in bootstrap
+    renpy.main.main()
+  File "C:\Users\yucel\OneDrive\Belgeler\GitHub\DDLC-Purist-Turkish-Translate\renpy\main.py", line 364, in main
+    renpy.game.script.load_script()  # sets renpy.game.script.
+  File "C:\Users\yucel\OneDrive\Belgeler\GitHub\DDLC-Purist-Turkish-Translate\renpy\script.py", line 265, in load_script
+    self.load_appropriate_file(".rpyc", ".rpy", dir, fn, initcode)
+  File "C:\Users\yucel\OneDrive\Belgeler\GitHub\DDLC-Purist-Turkish-Translate\renpy\script.py", line 753, in load_appropriate_file
+    self.finish_load(stmts, initcode, filename=fn + source)
+  File "C:\Users\yucel\OneDrive\Belgeler\GitHub\DDLC-Purist-Turkish-Translate\renpy\script.py", line 445, in finish_load
+    node.early_execute()
+  File "C:\Users\yucel\OneDrive\Belgeler\GitHub\DDLC-Purist-Turkish-Translate\renpy\ast.py", line 865, in early_execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\yucel\OneDrive\Belgeler\GitHub\DDLC-Purist-Turkish-Translate\renpy\python.py", line 1719, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/definitions.rpy", line 7, in <module>
+    define persistent.demo = False
+  File "python-packages/singleton.py", line 45, in __init__
+OSError: [Errno 17] File exists: 'c:\\users\\yucel\\appdata\\local\\temp\\C-Users-yucel-OneDrive-Belgeler-GitHub-DDLC-Purist-Turkish-Translate-DDLC-.lock'
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+ 

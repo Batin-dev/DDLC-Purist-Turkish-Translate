@@ -3,338 +3,355 @@ label yuriRoute_crestfallen:
 
 
     scene bg club_day with wipeleft_scene
-    "It’s the next day. All the members of the Literature Club are present… sans Yuri. A palpable heaviness hangs in the air. No one is in much of a mood to talk."
-    "I have still heard nothing from Yuri. From the looks of the others, none of them have either."
+    "Ertesi gün. Edebiyat Kulübü’nün tüm üyeleri burada… ama Yuri yok. Havanın içinde hissedilen ağır bir gerilim var. Kimse pek konuşma isteği duymuyor."
+    "Yuri’den hala hiçbir haber yok. Diğerlerinin yüzlerine bakınca, sanırım kimse ondan bir şey duymamış."
     show monika 4j at t11
-    "Monika tries to dispel the crushing silence. She tries to put on her trademark smile and harmonious tone."
-    m 4k "So… does anyone have any poems to share today?"
+    "Monika, bu boğucu sessizliği dağıtmaya çalışıyor. Kendine ait o meşhur gülümsemesini ve uyumlu ses tonunu takınmaya çalışıyor."
+    m 4k "Yani… Bugün paylaşacak şiiriniz var mı?"
     show monika 4l at t21
     show sayori 2g at t22
-    "Sayori shakes her head."
+    "Sayori başını sallayarak cevap verir."
     show sayori at thide 
     hide sayori 
     show natsuki 4e at t22
-    "Natsuki just stares at her desk with a scowl."
+    "Natsuki, masasına bakarak suratını asıyor."
     show natsuki at thide 
     hide natsuki 
     show monika 4f at t11
-    "Monika looks to me, but I certainly don’t have anything to offer either. I can muster no effort to conceal the brooding worry on my face."
-    "The wind leaves Monika’s sails."
-    m 2j  "…I see."
-    "The subsequent pause is short but heavy."
-    m 3g "In that case… I suppose we should adjourn early today. Any objections?"
-    "Still, no one can find any words."
-    m 2n "I guess that’s all, then. I hope everyone has a wonderful afternoon. If anyone needs anything, you’re always welcome to talk to me."
+    "Monika bana bakıyor, ama bende de paylaşacak bir şey yok. Yüzümdeki endişeli ifade saklamaya gerek bile duymuyorum."
+    "Monika’nın çabası boşa gidiyor."
+    m 2j  "…Anladım."
+    "Kısa ama ağır bir sessizlik oluyor."
+    m 3g "O zaman… bugün erkenden toparlanabiliriz. Kimsenin itirazı yoksa?"
+    "Hala kimse bir şey söylemiyor."
+    m 2n "Sanırım bu kadar. Umarım herkesin harika bir öğleden sonrası olur. Eğer bir şeye ihtiyacınız olursa, bana her zaman gelebilirsiniz."
     show monika at thide
     hide monika 
-    "With one last attempt at a comforting smile, Monika takes her leave."
+    "Son bir kez, rahatlatmaya çalışan bir gülümsemeyle Monika kulüpten ayrılıyor."
     show sayori 2g at t11
-    "Sayori soon follows suit, unable to hide a worried glance towards me as she leaves."
+    "Sayori, çıkmadan önce bir an bana endişeyle bakıyor."
     show sayori at thide 
     hide sayori 
-    "If anything, I appreciate how Monika tried her best to continue the club despite the atmosphere, but that can only do so much."
+    "Eğer bir şey için takdir edeceksem, o da Monika’nın kulübü devam ettirmeye çalışmasıydı. Ama bu kadarla sınırlı kalıyor."
     show natsuki 4u at t11
-    "Natsuki pulls me aside before I could leave as well."
-    n "Well?"    
-    mc "…Still nothing."
+    "Natsuki, ben de çıkacakken beni yanına çekiyor."
+    n "Ne olacak?"
+    mc "…Hala bir şey yok."
     show natsuki 4w at t11
-    "Natsuki sighs."
-    n 4c "Okay… If anything, I’m glad you didn’t go after her. I think you made the right choice."
-    "A growing doubt bars my response. Natsuki notices the hang-up."
-    n 2e "Hey! I know it’s hard… But you’ve got to have some faith, alright? She’s come back on her own before. It sucks sometimes, but… All we can do is wait."
-    n 2u "We’ve offered her all we can, and now we have to respect how she handles things. Capiche?"
-    mc "But… But what if…"
-    n 4c "But what?"
-    mc "What if something happens to her? What if--"
-    "Natsuki cuts me off with a pointed glare."
-    n 4e "[player]. Do you love Yuri or not?"
-
-    mc "I--"
+    "Natsuki derin bir nefes alır."
+    n 4c "Tamam… Eğer bir şeyse, peşinden gitmediğine sevindim. Bence doğru seçimi yaptın."
+    "Beni cevap vermekten alıkoyan bir şüphe büyüyor. Natsuki, bu durumu fark ediyor."
+    n 2e "Hey! Biliyorum zor… Ama biraz inancın olmalı, tamam mı? Daha önce kendi başına geri dönmüştü. Bazen kötü oluyor ama… Tek yapabileceğimiz beklemek."
+    n 2u "Ona elimizden gelen her şeyi sunduk, şimdi nasıl başa çıkacağına saygı duymamız gerekiyor. Anladın mı?"
+    mc "Ama… Ya…"
+    n 4c "Ama ne?"
+    mc "Ya ona bir şey olursa? Ya--"
+    "Natsuki, gözlerini dikerek beni kesiyor."
+    n 4e "[player]. Yuri’yi seviyor musun, yoksa sevmiyor musun?"
     
-    "The question caught me off guard. Love? I certainly liked her, and I enjoyed the time we spent together… All the moments we’ve shared between us…"
+    mc "Ben--"
     
-    "I just want her to be happy. And I want to do all I can to help that happen."
+    "Bu soru beni hazırlıksız yakaladı. Aşk mı? Onu kesinlikle sevmiştim, birlikte geçirdiğimiz zamanlardan keyif almıştım… Aramızda paylaştığımız tüm o anlar…"
     
-    mc "I do love her."
+    "Sadece onun mutlu olmasını istiyorum. Ve bunu sağlamak için elimden gelen her şeyi yapmak istiyorum."
+    
+    mc "Onu seviyorum."
     show natsuki 2j at t11
-    "Natsuki breaks into a smile and teasingly swings at my shoulder."
+    "Natsuki birden gülümseyerek omzuma şaka yaparak hafifçe vuruyor."
     
-    n 2k "There you go! That wasn’t so hard, was it? Now, you can trust her with this, right? She’s strong."
+    n 2k "İşte böyle! O kadar da zor değildi, değil mi? Şimdi, buna güvenebilirsin, değil mi? O güçlü birisi."
     
-    mc "Yeah… I should. You’re right. Thank you, Natsuki."
+    mc "Evet… Güvenmeliyim. Haklısın. Teşekkür ederim, Natsuki."
     
-    n 1b "She’s a friend of the whole club. We all care about her. Just hang in there and let us know when she comes back, alright?"
+    n 1b "O, tüm kulübün arkadaşı. Hepimiz ona değer veriyoruz. Sadece dayan ve geri döndüğünde haber ver, tamam mı?"
     
-    "I nod, feeling some of the weight of my worries fade away."
+    "Başımı sallayarak, endişelerimin biraz olsun azaldığını hissediyorum."
     
-    mc "Sure thing."
+    mc "Tabii."
     
-    "Before I can start to head out, Natsuki stops me one last time."
+    "Çıkmaya başlamadan önce, Natsuki son bir kez beni durduruyor."
     
-    n 4c "If you make her cry like this again, I won’t let you forget it, alright?"
+    n 4c "Eğer onu bir daha böyle ağlatırsan, bunu sana unutturmayacağım, tamam mı?"
     
-    "Was that threat… Serious?"
+    "Bu tehdit… Ciddimiydi?"
     
-    n 1k "Haha! Just kidding. I’ve gotta head home now. See ya!"
+    n 1k "Haha! Şaka yapıyorum. Şimdi eve gitmem gerek. Görüşürüz!"
     show natsuki 1k at lhide
     hide natsuki 
-    "She smiles and waves at me as she exits the classroom, leaving me alone in the club room."
+    "Gülümseyerek el wave yapıp sınıftan çıkıyor, beni kulüp odasında yalnız bırakıyor."
     
-    "Natsuki {i}said{/i} she was kidding, but… I certainly don’t want to test if she is or not."
+    "Natsuki {i}şaka{/i} yaptığını söyledi, ama… Onun gerçekten şaka yapıp yapmadığını test etmek istemiyorum."
     
-    "My mind drifts to Yuri once again. Some concern still lingers, but… Natsuki has known Yuri longer than I have."
-    "I resolve myself to trust Yuri and pray that the wait isn’t too much longer."
+    "Zihnim bir kez daha Yuri’ye kayıyor. Biraz endişe hala var ama… Natsuki, Yuri’yi benden daha uzun süredir tanıyor."
+    "Kendimi Yuri’ye güvenmeye karar veriyorum ve bekleyişin çok uzun sürmemesini diliyorum."
     scene bg school_yard with wipeleft
     show sayori 1d at t11
-    "As I take my leave of the classroom, I find Sayori by the exit of the school, evidently waiting for me. She gives a cheerful smile as I approach."
+    "Sınıftan ayrılmaya başladığımda, Sayori’yi okulun çıkışında beni beklerken buluyorum. Yaklaşırken, bana neşeli bir gülümseme veriyor."
     
-    mc "You didn’t have to--"
+    mc "Bunu yapmana gerek yoktu--"
     
-    s 1c "Come on! We’ve always walked together. Why should today be any different?"
+    s 1c "Hadi ama! Hep birlikte yürüdük, değil mi? Bugün neden farklı olsun ki?"
     
-    "I chuckle and give in to a smile of my own."
+    "Gülümseyip, kendi gülümsememe karşı koyamıyorum."
     
-    mc "You’re right. Thank you, Sayori. Really."
+    mc "Haklısın. Teşekkür ederim, Sayori. Harbiden aga."
     
-    "Sayori beams her thousand-watt grin as we start to head home."
+    "Sayori, bin vatlık gülümsemesiyle gülümsüyor ve birlikte eve doğru yola çıkıyoruz."
     
     
     scene bg residential_day with wipeleft_scene
     
-    "A cool afternoon breeze brings refreshment to me and Sayori as we amble down the familiar street."
+    "Serin bir öğleden sonra rüzgarı, Sayori ile birlikte tanıdık sokakta yürürken bizlere ferahlık getiriyor."
     show sayori 1k at t11
-    "She hasn’t said anything since we departed school, nor have I--but I get the sense that, if I asked, she’d be happy to talk."
+    "Okuldan ayrıldığımızdan beri Sayori bir şey söylemedi, ben de söylemedim—ama sanki sorsam, konuşmaktan memnun olurmuş gibi hissediyorum."
     show sayori at thide 
     hide sayori 
-    "I make a mental note to think of a way to properly thank her at some point."
-    "The whole club, really - At this point, with all that’s happened, I don’t know where I would be without them."
-    
+    "Bir noktada ona nasıl düzgünce teşekkür edebileceğimi düşünmeye karar veriyorum."
+    "Tüm kulübe, aslında—Bu noktada, olanlardan sonra, onların yanında olmamış olsaydım nereye giderdim, bilmiyorum."
     
     scene bg house with wipeleft_scene
     
-    "We arrive home before too long."
+    "Çok geçmeden evimize varıyoruz."
     show sayori 1b at t11
-    "I face Sayori in front of our houses."
+    "Evlerimizin önünde Sayori’ye dönüyorum."
     play music Thoughts fadein 3.0
-    mc "Sayori… Thank you. For everything. Even though I blew my fuse and caused all this stress…"
+    mc "Sayori… Teşekkür ederim. Her şey için. Hızımı kaybettim ve bütün bu stresi yarattım ama…"
     
-    "Sayori maintains her ever-present smile."
+    "Sayori her zamanki gülümsemesini koruyor."
     
-    s 1d "Don’t be too down on yourself, [player]. We all have our low points. But we don’t let them define us, right?"
+    s 1d "Kendini çok üzme, [player]. Hepimizin düşük anları olur. Ama onları kendimizi tanımlatmak için kullanmayız, değil mi?"
     
-    s 1a "You’re still my best friend, [player]. This won’t change that. I know you’re still you."
+    s 1a "Sen hâlâ benim en iyi arkadaşımsın, [player]. Bu hiçbir şeyi değiştirmez. Hâlâ senin sen olduğunu biliyorum."
     
-    s "Take it from me… I know it can be hard to pick yourself up at times. Don’t think you have to deal with it all yourself--your friends are there for you."
+    s "Benden al… Bazen kendini toparlamak zor olabilir. Ama her şeyi tek başına halletmek zorunda değilsin—arkadaşların senin yanında."
     
-    "Sayori… Was she always like this? Or have I just been blind to her unwavering support? After all that she’s confided in me…"
-
-    "Geez, I’m dense sometimes, aren’t I."
+    "Sayori… Acaba her zaman böyle miydi? Yoksa ben onun sarsılmaz desteğine karşı kör müydüm? Sonuçta, bana güvenerek paylaştığı her şey…"
     
-    mc "I don’t think I can thank you enough, Sayori… The whole club, honestly."
+    "Vay be, bazen ne kadar körmüşüm, değil mi."
+    
+    mc "Sana yeterince teşekkür edebileceğimi sanmıyorum, Sayori… Tüm kulübe, gerçekten."
     show sayori 1q at t11
-    "Sayori giggles."
+    "Sayori kıkırdıyor."
     
-    s 1b "That’s what friends are for, isn’t it? I’ll be next door if you need someone to talk to."
+    s 1b "Arkadaşlar bunu yapmak için vardır, değil mi? Eğer konuşacak birine ihtiyacın olursa, yan komşumdayım."
     
-    mc "I’ll be sure to let you know if I do."
+    mc "Eğer ihtiyacım olursa, sana haber vereceğim."
     
-    "We embrace and head our separate ways to our houses."
+    "Birbirimize sarılıp, evlerimize doğru ayrılıyoruz."
     
     
     
     scene bg home_interior with wipeleft_scene
     
-    "I’m home earlier than normal, but it still feels like it was a long day."
+    "Normalden daha erken geldim ama yine de sanki çok uzun bir gün geçirmişim gibi hissediyorum."
 
     scene bg home_interior_afternoon with dissolve
-    "I collapse onto a couch and do little more than aimlessly lie down for an indeterminate amount of time."
-    
-    "My thoughts drift once more over the whirlwind of the past several days. Was it really only that long since this all started?"
+    "Bir kanepeye çöküyorum ve belirli bir süre boyunca, düşünmeden yatmaktan başka bir şey yapmıyorum."
 
-    "…Yeah, guess it was. It’s Friday, right? Now I have the whole weekend to ponder."
-    
-    "While in my slump, I replay all the advice and encouragement I’ve been given. The plan is still waiting…. Right. I can do that. Have faith in Yuri…"
-    
-    "Here at home, I’m left alone to stew in my own thoughts. All the assurances from today only did so much to stave off my growing worry."
-    "A day with no response, sure, but more than that…? Is everything really OK? Is there something more I should be doing…?"
-    
+    "Düşüncelerim, son birkaç gündeki karmaşayı bir kez daha gözden geçiriyor. Gerçekten her şey bu kadar kısa bir sürede mi başladı?"
+
+    "…Evet, galiba öyle. Bugün Cuma, değil mi? Şimdi bütün hafta sonum var, bunu düşündüğüm süre boyunca."
+
+    "Moralim bozukken, bana verilen tüm tavsiyeleri ve cesaretlendirici sözleri tekrar ediyorum. Plan hâlâ bekliyor… Evet, bunu yapabilirim. Yuri'ye güvenebilirim…"
+
+    "Evde, yalnız kalıp kendi düşüncelerimde kayboluyorum. Bugün verilen tüm güvenceye rağmen, endişelerim giderek artıyor."
+
+    "Bir gün yanıt yok, tamam ama daha fazlası… Her şey gerçekten yolunda mı? Yapmam gereken başka bir şey var mı…?"
+
     "…"
-    
+
     "…Yuri…"
     
-    "I said I loved her today. I really do, right?"
+    "Bugün ona sevdiğimi söyledim. Gerçekten öyle, değil mi?"
 
-    "Dammit, I shouldn’t have to prove this to myself… What am I thinking?"
+    "Lanet olsun, bunu kendime kanıtlamak zorunda olmamalıydım… Ne düşünüyorum ben?"
+
     show black with close_eyes
-    
-    "I envisioned flashbacks of our all time spent together as if on cue."
-    
-    "Sharing our poems… the festival preparation, and the festival itself… The bookshop… And then the breakup."
-    
-    "Dammit, if only I could go back in time and fix things… If I had just talked to Yuri more about how she felt about everything… If I had controlled my temper better…!"
-    
-    "I shake my head in frustration at myself. No, stop dwelling on what I could have done better. Just focus on what to do now."
-    
-    "I attempt to change my train of thought."
-    
-    "Whenever I was with Yuri… I felt at ease. Seeing the way she carries herself--maybe she doesn’t see it, but I do. The way she blossoms whenever she talks about her passions."
-    "The way that, no matter what, she’s stayed honest to herself."
-    
-    "I imagine she could have given up on her interests. Collecting knives? That’s something I’m sure not many girls do."
-    "But she didn’t give in. She’s remained steadfast, and even shared it with me--if I were in her position, I don’t know if I could have done the same."
-    
-    "Yuri is unwavering in her loves and hobbies despite the ridicule and rumors. Could I do something like that? Do I have that kind of strength?"
 
-    "Maybe…"
+    "Birden, birlikte geçirdiğimiz zamanların anılarına geri döndüm, sanki bir işaretle."
+
+    "Şiirlerimizi paylaşmak… festival hazırlıkları ve festivalin kendisi… Kitapçı… Ve sonra ayrılık."
+
+    "Lanet olsun, keşke zamanında geri gidebilsem ve her şeyi düzeltebilsem… Keşke Yuri ile her şey hakkında daha çok konuşmuş olsaydım… Keşke öfkem üzerinde daha fazla kontrol sağlayabilseydim…!"
+
+    "Kendime sinirle kafa sallıyorum. Hayır, yapabileceğimi düşündüğüm şeylere takılma. Şimdi ne yapmam gerektiğine odaklanmalıyım."
+
+    "Düşüncelerimi değiştirmeye çalışıyorum."
+
+    "Yuri ile olduğumda… rahat hissediyordum. O’nun nasıl durduğunu görmek… Belki o görmüyordur, ama ben görüyorum. Tutkularından bahsederken nasıl büyüdüğünü."
+
+    "Her ne olursa olsun, kendine sadık kalışını."
+
+    "Bence, ilgi alanlarını bırakabilirdi. Bıçak toplamak? Sanırım pek çok kız bunu yapmaz."
+
+    "Ama o pes etmedi. Kararlı kaldı ve bunu benimle paylaştı--Eğer onun yerinde olsaydım, aynı şekilde yapıp yapamayacağımı bilmiyorum."
+
+    "Yuri, alaylar ve dedikodulara rağmen tutkularına ve hobilerine sadık kaldı. Ben böyle bir şey yapabilir miydim? O tür bir gücüm var mı?"
+
+    "Belki…"
+
+    "Belki bir gün."
     
-    "Maybe someday."
-    
-    "More and more I come to realize that I miss how things were. Reading together, working together… Even overcoming our boundaries together, with the hiccups that accompanied."
-    
-    "Yuri was willing to separate from me because she wanted to preserve my reputation. It hurt, obviously, but… She put my well-being before herself. In its own way, it was selfless."
-    
-    "It was short-sighted. But I now realize the scope of the intent. When we…"
-    
-    "Well, {i}if{/i} we get back together… I should tell her how much she means to me in all this. Properly."
-    
-    "I’ll set things right. I need to."
-    
-    "Just… whenever…"
-    
-    "Whenever we can talk next."
-    
-    "My new resolve makes it even harder to just lounge around on the couch. But what else can I do right now?"
-    
-    "…Why would she be silent for so long anyways? I know Natsuki said that Yuri can take care of herself… But for days? What is she even doing by herself? Reading would be my first guess…"
-    
-    "I feel my pulse quicken in realization."
-    
-    "…Knives. She has a knife collection. Oh God, how could I be so stupid, she--"
+    "Giderek daha fazla, her şeyin nasıl olduğuna dair özlem duyduğumu fark ediyorum. Birlikte okumak, birlikte çalışmak… Hatta sınırlarımızı birlikte aşmak, yaşadığımız aksaklıklarla birlikte."
+
+    "Yuri, itibarımi korumak istediği için benden ayrılmaya karar vermişti. Tabii ki acıttı, ama… Kendi iyiliğimi kendi iyiliğinden önce koydu. Kendi şekilde fedakârcaydı."
+
+    "Bu kısa vadeli bir bakış açısıydı. Ama şimdi niyetin kapsamını fark ediyorum. Biz…"
+
+    "Peki, {i}eğer{/i} yeniden birlikte olursak… Ona bütün bu süreçte benim için ne kadar önemli olduğunu doğru bir şekilde söylemeliyim."
+
+    "Her şeyi düzelteceğim. Bunu yapmalıyım."
+
+    "Sadece… ne zaman…"
+
+    "Ne zaman bir araya gelip konuşabileceğiz."
+
+    "Yeni kararlılığım, kanepeye yayılmayı daha da zorlaştırıyor. Ama şu anda başka ne yapabilirim ki?"
+
+    "…Neden bu kadar uzun süre sessiz kaldı ki? Natsuki, Yuri'nin kendi başına halledebileceğini söylemişti… Ama günlerce? Kendi başına ne yapıyor ki? İlk tahminim okuma olurdu…"
+
+    "Birden kalp atışlarım hızlanıyor, farkına varıyorum."
+
+    "…Bıçaklar. Onun bir bıçak koleksiyonu var. Tanrım, nasıl bu kadar aptal olabilirim, o--"
     stop music
     play sound buzz
-    "My phone buzzes."
+    "Telefonum çalıyor."
     hide black with open_eyes
     stop sound
-    "A text? Who could-- "
+    "Bir metin mi? Kimden-- "
     
-    "My heart skips a beat. It’s Yuri."
+    "Kalbim küt küt atıyor. Bu Yuri.."
     $ o_name = "Phone"
     play music Dusk fadein 3.0
-    o "May I come over?"
+    o "Gelebilir miyim?"
     
-    "At first, I’m not even sure I’m seeing things correctly. Is it really…?"
-    
-    "I shake myself of any drowsiness just to make sure. It really is a text from Yuri asking if she can visit."
-    
-    "My fingers start shaking as I try and type out an answer. How do I even respond to this? I mean, of course I want to see her again, but just like this after days of…"
-    
-    "No. Stop overthinking it. Just…"
-    
-    o "Yes"
-    
-    "There."
-    
-    "It’s not long before a reply."
-    
-    o "Thank you. I’ll be there soon."
-    
-    "Soon, huh? It feels unreal. Did the past few days even happen?"
-    
-    "My shoulders slump as I realize how tense I had been. I can’t help but laugh a little. Getting this worked up over a girl coming over? It’s not even the first time!"
+    "İlk başta, gerçekten doğru görüyor muyum emin olamıyorum. Gerçekten…?"
+
+    "Kendimi biraz silkelerim, uykululuğumu atmak için. Gerçekten de Yuri'den, gelip gelemeyeceğini soran bir mesaj."
+
+    "Parmaklarım titremeye başlıyor, bir cevap yazmaya çalışırken. Buna nasıl cevap verebilirim ki? Yani, tabii ki onu tekrar görmek isterim ama, günlerce süren…"
+
+    "Hayır. Dur, fazla düşünme. Sadece…"
+
+    o "Evet."
+
+    "İşte böyle."
+
+    "Çok geçmeden bir cevap gelir."
+
+    o "Teşekkür ederim. Yakında orada olacağım."
+
+    "Yakında mı? Gerçek dışı geliyor. Son birkaç gün gerçekten oldu mu acaba?"
+
+    "Omuzlarım düşer, ne kadar gergin olduğumu fark ediyorum. Küçük bir gülümseme bile ediyorum. Bir kızın gelmesi için bu kadar heyecanlanmak mı? Hatta bu ilk seferim de değil!"
+
     show black with close_eyes
-    "So… I just have to wait a bit longer, don’t I?"
-    
+
+    "Yani… Biraz daha beklemem mi gerekiyor, değil mi?"
+
     "…"
+
     hide black with open_eyes
-    "Before too long, the doorbell rings."
-    "Before I get to the door, I pinch myself just in case; no, I’m not dreaming."
+
+    "Çok geçmeden, kapı çalar."
+
+    "Kapıya gitmeden önce, kendimi dürtüyorum, yoksa rüya mı görüyorum?"
+
     scene bg house_entrance_night with dissolve
+
     stop music fadeout 3.0
-    "I pull open the door." 
+
+    "Kapıyı açıyorum."
+
     show yuri 3o at t11
-    "Standing before me… Is Yuri. It’s really her… unharmed."
+
+    "Karşımdaki kişi… Yuri. Gerçekten o… zarar görmemiş."
+
     play music Dawn fadein 3.0
+
     show yuri 1s at face(y=600) with dissolve
-    "We fall into a mutual embrace, seconds feeling like hours."
+
+    "Birbirimize sarılıyoruz, saniyeler saatler gibi hissediliyor."
+
     show yuri 1s at t11
-    "We reluctantly separate, knowing someone has to speak first."
+
+    "Gönülsüzce ayrılıyoruz, çünkü biri önce konuşmalı."
+
+    "Aklımda o kadar çok şey var ki, bir türlü birleşik bir şeyler bulamıyorum. Hayatımın en uzun iki gününden sonra, söylemek istediğim çok şey var!"
+
+    mc "Ben..."
     
-    "My mind is racing a mile a minute, trying to find {i}some{/i} cohesive words. After the longest two days of my life, there’s so much I want to say!"
-    
-    mc "I…"
-    
-    y 2t "I…"
+    y 2t "Ben…"
     show yuri 2v at t11
-    "We both stop and find ourselves smiling a little after trying to start off at the same time. After a pause, I nod to Yuri as a gesture for her to speak first."
-    
-    y 2j "Thank you… Thank you for having me over after everything I’ve put you through."
-    
-    mc "No… don’t worry about it. It’s fine. You’re… You’re okay, right?"
+    "İkimiz de duruyoruz ve aynı anda konuşmaya başlamaya çalışırken biraz gülümsüyoruz. Bir süre sessiz kaldıktan sonra, Yuri'ye önce konuşması için başımla bir işaret yaparak onaylıyorum."
+
+    y 2j "Teşekkür ederim… Beni kabul ettiğin için… Sana yaşattığım her şeyden sonra."
+
+    mc "Hayır… Endişelenme. Sorun değil. Sen… İyi misin, değil mi?"
+
     show yuri 1e at t11
-    "Yuri gives a quick, reassuring nod."
-    
-    y 1j "Yes… I am. I am sorry for taking so long to get back to you…"
-    
-    mc "Again, it’s fine. I’m just… I’m just glad to see you again."
-    
+
+    "Yuri hızlıca, rahatlatıcı bir şekilde başını sallayarak onay verir."
+
+    y 1j "Evet… İyiyim. Sana geri dönmek bu kadar uzun sürdüğü için üzgünüm…"
+
+    mc "Yine de, sorun değil. Sadece… Sadece seni tekrar görmek çok güzel."
+
     show yuri 4a at t11
-    "Yuri blushes and fidgets with her hair."
+
+    "Yuri utanarak kızar ve saçlarıyla oynar."
+
+    y 4a "…Bunu duyduğuma sevindim. Hımm… Birlikte dışarı çıkmak ister misin? Yarın?"
+
+    mc "Hı… hı…"
+
+    "Lan, ne olur kekeleme!"
+
+    mc "Evet, tabii ki! Hımm… Neresi?"
+
+    "Yuri kolunun manşetini çekiştirir."
+
+    y 4b "Bu, hımm… Sana biraz garip gelebilir…"
+
+    mc "Eminim harika bir yerdir."
     
-    y 4a "…I’m glad. Um… Would you… Would you like to go out together? Tomorrow?"
+        y 1o "…Parktaki mezarlık, yarın bu vakit. Sana uygun mu?"
     
-    mc "Uh… uh…"
+    "Mezarlık, ha?"
     
-    "Stop stammering, dammit!"
+    mc "Harika olur."
     
-    mc "Yes, of course! Um… Where?"
-    
-    "Yuri tugs at her sleeve."
-    
-    y 4b "It’s, um… It might be kind of weird to you…"
-    
-    mc "I’m sure it’s a great place."
-    
-    y 1o "…The graveyard in the park, this time tomorrow. Is that alright with you?"
-    
-    "The graveyard, huh?"
-    
-    mc "That sounds great." 
-    
-    "I can’t think of a more fitting place."
+    "Bunun için daha uygun bir yer düşünemiyorum."
     show yuri 1c at t11
-    "Yuri beams, easily the most welcome sight I’ve seen as of late."
+    "Yuri, son zamanlarda gördüğüm en hoş manzara. Beni en çok mutlu eden şey o an."
     
-    y 1j "Thank you. I promise… I promise I’ll tell you everything, alright?"
+    y 1j "Teşekkür ederim. Söz veriyorum... Her şeyi sana anlatacağım, tamam mı?"
     
-    "I nod in agreement. It seems we both have a great deal we want to share."
+    "Başımı sallayarak onaylıyorum. Görünüşe göre, ikimizin de paylaşmak istediği çok şey var."
     
-    mc "See you tomorrow."
+    mc "Yarın görüşürüz."
     
-    "With one last embrace, Yuri turns to leave. She leaves me with one last assurance."
+    "Son bir kucaklaşmanın ardından Yuri, ayrılmak üzere dönüyor. Son olarak bana bir kez daha güvence veriyor."
     
-    y 2d "I’m doing better now, [player]. Thank you for all your patience."
+    y 2d "Şu an daha iyiyim, [player]. Bütün sabrın için teşekkür ederim."
     
-    mc "It’s the least I owe you, Yuri. You’re the one who deserves thanks for putting up with me."
+    mc "Yapmam gerekenin en azı, Yuri. Asıl teşekkür edilmesi gereken kişi sensin, bana katlanabildiğin için."
     show yuri 3c at t11
-    "Yuri leaves me with her enchanting smile as she departs."
+    "Yuri, beni büyüleyen gülümsemesiyle ayrılıyor."
     show yuri at thide
     hide yuri 
     stop music fadeout 3.0
-    "I can feel a burden lifting from my shoulders--I guess I’ll get my chance after all. No matter how tomorrow goes, as long as I can tell her what she’s done for me…"
+    "Omuzlarımdan bir yükün kalktığını hissediyorum—görünüşe göre, nihayet şansım olacak. Yarın ne olursa olsun, ona bana yaptığı her şeyi anlatabilirsem..."
     show black with close_eyes
-    "I think things will turn out alright."
-
+    "Sanırım her şey yoluna girecek."
     
     call yuriRoute_graveyard
     return
 
 label yuriRoute_final:
     
-    
-    
-    
     scene bg class_day with wipeleft_scene
-    "It’s the first day back at school since Yuri and I had our graveyard rendezvous."
+    "Yuri ile mezarlık buluşmamızdan sonraki ilk okul günü."
     play music aNewDay fadein 3.0
     scene bg club_day
     show sayori 1a at t41
@@ -342,15 +359,15 @@ label yuriRoute_final:
     show yuri 2a at t43
     show natsuki 4a at t44
     with wipeleft_scene
-    "The school day has ended, and for the first time in a while, every member of the Literature Club is present. It’s a scene I had sorely missed."
-    "There was much celebration upon Yuri’s return. A hole in the club was finally restored."
-    "And just like that, the club resumed its activities--it almost felt like nothing had really happened. Like the past week was just an empty gap in time."
+    "Okul günü bitmişti ve uzun bir aradan sonra, edebiyat kulübümüzün bütün üyeleri bir aradaydı. Özlemini çektiğim bir manzaraydı."
+    "Yuri'nin geri dönmesiyle kulüpte büyük bir kutlama vardı. Kulübün eksik olan parçası nihayet yerine oturdu."
+    "Ve böylece, kulüp faaliyetlerine kaldığı yerden devam etti—sanki hiçbir şey olmamış gibi. Geçen hafta sadece boş bir zaman dilimiymiş gibi hissediyorum."
 
-    "Everything feels right again."
+    "Her şey tekrar doğru görünüyor."
     show monika 4b at f42
-    m "...Thank you for sharing your poems, everyone! Another successful meeting for the Literature Club."
-
-    m 1b "I’m looking forward to seeing what you all will prepare for tomorrow!"
+    m "...Herkese teşekkürler, şiirlerinizi paylaştığınız için! Bir başka başarılı edebiyat kulübü toplantısı."
+    
+    m 1b "Yarın ne hazırlayacağınızı görmek için sabırsızlanıyorum!"
     show sayori at thide 
     show monika at thide 
     show yuri at thide
@@ -359,22 +376,22 @@ label yuriRoute_final:
     hide monika 
     hide yuri 
     hide natsuki 
-    "As usual, Monika’s leadership keeps the club running smoothly."
+    "Her zamanki gibi, Monika'nın liderliği kulübün düzgün bir şekilde işlemesini sağlıyor."
     show sayori 1a at t21 
     show natsuki 4a at t22
-    "Natsuki and Sayori soon make their leave."
+    "Sayori ve Natsuki kısa sürede ayrılmaya başlıyor."
     show sayori at thide
     hide sayori 
     show natsuki 4j at t11
-    "I catch Natsuki’s eye as she heads out; she nods and smiles at me, which I hope means \'Looks like you did alright.\'"
+    "Natsuki'nin gözleriyle beni yakaladığı anda, başını sallayıp bana gülümsüyor, bu da 'Sanırım iyi iş çıkardın.' anlamına geliyor gibi."
     show natsuki at thide 
     hide natsuki 
-    "I am about to ask Yuri if she wants to leave when I remember something I still want to know."
+    "Yuri'ye gitmek isteyip istemediğini sormak üzereyken, hâlâ öğrenmek istediğim bir şeyi hatırlıyorum."
 
     mc "Hey, Monika…"
     show monika 2b at t11
     m "Hm?"
-
+    
     mc "On the day of the festival… I recall that you basically set up me and Yuri."
 
     "Monika taps her chin in a mock thinking gesture."
