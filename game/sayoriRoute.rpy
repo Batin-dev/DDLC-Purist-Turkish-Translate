@@ -3291,7 +3291,6 @@ label sayoriRoute_midnight:
     "Biliyorum, sadece bir şansım var."
     "İpini sıkıca tutuş şekli... cevabımın, ikimizin de geleceğini belirleyeceğini biliyorum."
     s 1g "Neden..."
-#  DEVAM EDİCEM
     menu:
         s "Neden yaptın bunu?"
         "Çünkü sana yardım etmek istedim.":

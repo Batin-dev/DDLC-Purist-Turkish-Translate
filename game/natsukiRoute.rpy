@@ -3,296 +3,296 @@ label natsukiRoute_FestivalDays:
     stop music
     play sound alarm
     scene bg bedroom with open_eyes
-    "{i}BEEP! BEEP!{/i}"
-    "It’s the day of the festival! I hear my alarm clock going off, and while yawning, I stretch my arms out and look at the time."
+    "{i}BİP! BİP!{/i}"
+    "Festival günü geldi! Alarmım çalmaya başlıyor ve esneyerek kollarımı uzatıp saate bakıyorum."
     stop sound
-    "...Uhh, it’s not supposed to be this late, is it? I could’ve sworn I set my alarm clock correctly."
-    "I check my phone to see nearly fifty unread messages and a dozen missed calls, all of them from Natsuki."
-    "My heart sinks, and realize I’m about to be there an hour later than I was supposed to."
-    "I get ready as quickly as I can, and hurry over to the kitchen to grab the cupcakes Natsuki and I baked, hastily stacking two trays so I can carry everything."
-    "I rush out the door and head towards school, anxious about how much this might hurt our club’s activity today."
+    "...Hımm, bu kadar geç olmamalıydı, değil mi? Alarmı doğru ayarladığımı hatırlıyorum ama."
+    "Telefonuma bakıyorum, neredeyse elli tane okunmamış mesaj ve bir sürü kaçırılmış arama var, hepsi de Natsuki'den."
+    "Kalbim sıkışıyor ve okulumun başladığından bir saat geç kalmış olduğumu fark ediyorum."
+    "Hızla hazırlanıp mutfağa gidiyorum ve Natsuki'yle birlikte yaptığımız cupcakeleri alıp, iki tepsiyi üst üste koyarak her şeyi taşımaya başlıyorum."
+    "Kapıyı hızla açıp okula doğru koşuyorum, kulübümüzün etkinliği için bu kadar geç kalmamın ne kadar kötü bir etki yaratacağı konusunda endişeliyim."
     play music Bunkasai
     scene bg corridor with wipeleft
-    "I rush into the school and head towards the classroom, making sure not to drop the cupcakes. I walk into the room, and see a decent number of people already there for the festival."
+    "Okula koşarak girip sınıfa doğru ilerliyorum, cupcakeleri düşürmemek için dikkatli oluyorum. Odaya girdiğimde, festival için gelmiş birkaç kişi zaten burada."
     scene bg club_day with wipeleft
-    n "Seriously?"
+    n "Cidden?"
     show natsuki 4e at f31
-    "I turn to the side and see Natsuki glaring at me, as nervous as I was."
-    mc "Sorry! My alarm wasn't set correctly. I hadn't planned on being late, honest."
+    "Yan tarafa döndüğümde Natsuki'yi, benim kadar sinirli bir şekilde beni izlerken görüyorum."
+    mc "Üzgünüm! Alarmım düzgün ayarlanmamıştı. Geç kalmayı hiç planlamamıştım, gerçekten."
     hide natsuki with wipeleft
-    "I put the cupcake trays on a nearby table, and people start rushing towards it. Surely that's not the only reason they'd come, right?"
+    "Cupcake tepsilerini yakındaki bir masaya koyuyorum, ve insanlar tezgaha doğru koşuyor. Belki sadece cupcakes için gelmiyorlardır, değil mi?"
     show natsuki 4e at f42
-    n "Well, while you were struggling to figure out how to use basic technology, people have already started arriving and we didn't have any cupcakes!"
-    n "I mean, do you know how hard it is to get people to stick around for something like this when there's no food?"
-    "I look at my phone again, remembering how many times she tried messaging me."
-    mc "Yeah, I can see you were concerned. I'm really sorry."
-    mc "You tried pretty hard to get a hold of me, though. You were really worried about me, huh?"
-    n 4h "I was worried about how our club's activity would turn out, dummy. Sure, I was a little worried about you too, but…"
-    "Natsuki looks off the side."
-    n 4q "Look, it doesn't matter."
+    n "Yani, sen temel teknolojiyi kullanmayı çözerken biz burada hiçbir cupcake olmasından dolayı insanları bekliyorduk!"
+    n "Biliyor musun, insanların bu tür şeylerde kalmalarını sağlamak ne kadar zor?"
+    "Telefonuma tekrar bakıyorum, o kadar kez mesaj attığını hatırlıyorum."
+    mc "Evet, gerçekten endişelendiğini görebiliyorum. Gerçekten üzgünüm."
+    mc "Ama bana ulaşmaya bayağı çaba gösterdin, sanırım. Gerçekten benim için endişelendin mi?"
+    n 4h "Kulübün etkinliğinin nasıl olacağına endişelendim, aptal. Evet, biraz da olsa senin için endişelendim ama..."
+    "Natsuki, bakışlarını kenara çeviriyor."
+    n 4q "Bak, önemli değil."
     mc "Hey."
-    "I walk over a bit closer to Natsuki."
+    "Natsuki'nin yanına biraz daha yaklaşarak konuşuyorum."
     show natsuki 4q at f32
-    mc "We're here now. People are going to eat some of the best cupcakes on the planet while we're going to be enjoying the festival."
-    mc "I promise it'll be fun. Sound good?"
-    n "Hmph. You better not disappoint me, then."
+    mc "Şu an buradayız. İnsanlar en güzel cupcakeleri yiyip biz de festivalin tadını çıkaracağız."
+    mc "Söz veriyorum, eğlenceli olacak. Ne dersin?"
+    n "Hmph. Beni hayal kırıklığına uğratma o zaman."
     show natsuki 5b at f32
-    "Natsuki crosses her arms, but I could tell she was still excited, or at the very least interested."
+    "Natsuki kollarını çapraz yapıyor ama hala heyecanlı ya da en azından ilgileniyor gibiydi."
     hide natsuki with wipeleft
-    "Thankfully, the poem reading activity wasn't scheduled to happen until later today, so it seems I didn't mess up too badly."
-    "The club and I spent a while greeting everyone who came in and telling them about our club, but few of them seemed interested."
-    "I noticed that a good number of people came in solely for the purpose of taking a cupcake which… I should've expected, I guess."
-    "It wasn't the most exciting thing ever, but it wasn't that boring, either. After all, I was doing this to help the club."
-    "After some more time passed, I hear Monika's voice in the distance."
+    "Neyse ki, şiir okuma etkinliği günün ilerleyen saatlerinde yapılacaktı, bu yüzden büyük bir hata yapmadığımı düşünüyorum."
+    "Kulüp ve ben biraz daha gelen herkesle selamlaşıp kulübümüz hakkında konuştuk ama pek fazla ilgi gösteren olmamıştı."
+    "Birçok kişi cupcake almak için gelmişti, bu da… aslında beklediğim bir şeydi."
+    "En heyecan verici şey değildi ama o kadar da sıkıcı değildi. Sonuçta, bunu kulübe yardımcı olmak için yapıyordum."
+    "Bir süre sonra, Monika'nın sesini uzaklardan duyuyorum."
     show monika 4b at f32
-    m "Okay, everyone! It's time to read poems! We'll be starting by having our literature club members read their wonderful selections first. If you wouldn't mind starting us off, Sayori?"
+    m "Tamam, herkes! Şiir okumaya başlayacağız! Öncelikle edebi kulüp üyelerimiz kendi harika seçkilerini okuyacak. Sayori, başlamak ister misin?"
     show monika 4b at t21
     show sayori 1x at f22
-    s "Right! I'll... try my best!"
+    s "Tabii! Elimden gelenin en iyisini yapacağım!"
     hide monika with wipeleft
     hide sayori with wipeleft
     scene bg class_day with dissolve_cg
     show sayori 1d at f32
-    "Sayori looks nervous going up to the podium, but once she actually begins reading, it's clear that she becomes more and more comfortable as the poem goes on."
+    "Sayori, kürsüye çıkarken biraz gergin gözüküyor ama bir kez okumaya başladığında, şiir ilerledikçe daha rahat hale geldiği belli oluyor."
     show sayori 1r at f32
-    "Once she's finished with her poem, we all clap as Monika starts speaking again."
+    "Şiirini bitirdikten sonra hepimiz alkışlıyoruz, Monika tekrar konuşmaya başlıyor."
     show sayori 1a at t31
     show monika 4b at f33
-    m "Thank you for that great poem, Sayori! Next up is…"
+    m "Harika şiirin için teşekkürler Sayori! Şimdi sırada... "
     hide sayori 
     show yuri 3o at l32
     show monika 1a at t44
-    "Before Monika can finish, Yuri runs up to the podium, tightly clutching her poem."
+    "Monika bitirmeden, Yuri kürsüye doğru koşuyor, şiirini sıkıca tutarak."
     show monika 5a at f44
-    m "Yeah, Yuri. Take it away!"
+    m "Evet, Yuri. Başla!"
     hide monika with wipeleft
     show yuri 3o at f32
-    "Yuri starts reading her poem. There's soon an air of confidence in her voice, showing that she had definitely prepared for this."
+    "Yuri şiirini okumaya başlıyor. Sesindeki güven o kadar belirgin ki, bunun için gerçekten hazırlık yaptığı belli."
     show yuri 3b at f32
-    "With Yuri's poem finished, everyone claps again as Monika is ready for the next person to read their poem."
+    "Yuri'nin şiirini bitirmesinin ardından hepimiz tekrar alkışlıyoruz, Monika sıradaki kişiyi okumaya hazır."
     show yuri 3k at t31
     show monika 3b at f22
-    m "Next up will be myself! Ahem…"
+    m "Şimdi sırada ben varım! Ahem..."
     hide yuri with wipeleft
     show monika 3b at f32
-    "Monika takes out her poem and starts reading. Everyone who came to check out the festival were blown away by her poem… or maybe it was just her they loved?"
-    "Nonetheless, it was clear Monika was an expert at this."
+    "Monika şiirini çıkartıp okumaya başlıyor. Festival için gelen herkes onun şiirinden etkilendi… ya da belki sadece Monika'yı seviyorlar?"
+    "Her halükarda, Monika'nın bu konuda uzman olduğu kesin."
     scene bg class_day with wipeleft
     show monika 5a at f32
-    m "Well, I hope you enjoyed my poem. Next we'll be having [player] read his poem!"
+    m "Umarım şiirimi beğenmişsinizdir. Şimdi [player] şiirini okumaya başlayacak!"
     show monika 5a at t33
-    mc "Ah, right."
+    mc "Ah, tamam."
     scene bg club_day with wipeleft
-    "I was hoping I'd be able to go last, but it's now or never."
-    mc "Hey, everyone."
-    "I cough, and have to glance over at my poem a few times to make sure I'm ready. Luckily, the awkward silence doesn't last long as I begin reciting."
+    "Sonunda ben de geldim. Gerçekten sonuncu olmayı umuyordum ama bu, ya şimdi ya da hiç."
+    mc "Herkese merhaba."
+    "Boğazımı temizliyorum ve şiirime bir kaç kez bakarak hazırlığımı yapıyorum. Neyse ki, garip sessizlik çok uzun sürmüyor ve okumaya başlıyorum."
     show natsuki 1a at t22
-    "My performance somehow ends up being worse than when I practiced. Most people clap out of pity, but I see Natsuki clapping just a bit harder."
-    "To be fair, that was also probably out of pity, but I appreciated the gesture. I step down from the podium and walk over to Natsuki."
+    "Performansım, pratik yaptığım zamanlardan daha kötü oldu. Çoğu kişi acımasızca alkışladı, ama Natsuki'nin alkışı biraz daha güçlüydü."
+    "Gerçi muhtemelen acıma yüzünden alkışlıyordu, ama yine de jesti takdir ettim. Kürsüden inip Natsuki'ye doğru yürüyorum."
     show natsuki 1c at f32
-    n "Why are you so sad? You could've done so much worse. I'm almost surprised you didn't, actually."
-    mc "Yeah, that's true… Wait, you don't have that little faith in me, do you?"
-    n "I'm just saying that you did better than anyone outside this club could've done."
-    "Was Natsuki giving me a genuine compliment?"
-    n 1e "Granted, that's not saying a whole lot, but it's better than nothing."
+    n "Neden bu kadar üzgünsün? Belki daha kötü de olabilirdi. Aslında, hiç de şaşırmadım."
+    mc "Evet, bu doğru... Ama sen bana o kadar az mı güveniyorsun?"
+    n "Diyorum ki, bu kulübün dışında kimse bu kadarını yapamazdı."
+    "Natsuki bana gerçek bir iltifat mı etti?"
+    n 1e "Tabii ki, bu o kadar da büyük bir şey değil ama, yoktan iyidir."
     "Oh."
-    "I turn towards Monika as she speaks up again."
+    "Monika'nın tekrar konuşmaya başladığını fark ediyorum."
     scene bg class_day with wipeleft
     hide natsuki
     show monika 1b at f33
-    m "Last but not least, Natsuki will be reading her poem!"
+    m "Son olarak Natsuki şiirini okuyacak!"
     hide monika with wipeleft
     show natsuki 4e at f32
-    "Natsuki gets onto the podium and prepares her poem."
-    n "Of course I'm not least! I'll even prove it, not that I need to."
-    "Natsuki reads her poem, this time being noticeably more enthusiastic than when practicing with the club members."
-    "Her writing style shines through as usual, making for an entertaining experience."
+    "Natsuki kürsüye çıkıyor ve şiirini hazırlıyor."
+    n "Tabii ki ben sonuncu değilim! Bunu kanıtlayacağım, buna ihtiyacım yok."
+    "Natsuki şiirini okumaya başlıyor, bu sefer kulüp üyeleriyle pratik yaptığında olduğundan çok daha hevesli."
+    "Yazım tarzı yine ışıl ışıl parlıyor ve bu, oldukça eğlenceli bir deneyim oluyor."
     show natsuki 4l at f32
-    "Once she's done we all clap, although I drew a bit of attention by clapping a little longer after everyone else stopped."
-    "Natsuki gets down from the podium and walks over to me."
+    "Bittiğinde hepimiz alkışlıyoruz, ama biraz dikkat çekerek, herkesin alkışı durduktan sonra birkaç saniye daha alkışlıyorum."
+    "Natsuki kürsüden inip bana doğru yürüyor."
     scene bg club_day with wipeleft
-    mc "That was incredible!"
+    mc "Bu inanılmazdı!"
     show natsuki 4d at f32
-    n "Heh, what did you expect? I thought that would be obvious."
-    n "Buuuut there's no harm in accepting your compliment anyway. So thanks, I guess."
+    n "Heh, ne bekliyordun? Bunu belli etmem gerekmezdi ama."
+    n "Ama yine de, iltifatını kabul etmekte bir sakınca yok. Teşekkür ederim, sanırım."
     show natsuki 1a at t33
     show monika 4b at f31
-    m "Now that the literature club members are done, would anyone else like to..."
+    m "Edebiyat kulübü üyeleri bittiğine göre, başka biri...?"
     show monika 1g at f31
-    "Monika starts but looks around to see that most people were already leaving."
-    n 1c "I mean, we kept their attention longer than I thought we would."
+    "Monika etrafa bakıyor ve çoğu kişinin şimdiden ayrıldığını görüyor."
+    n 1c "Yani, beklediğimden daha uzun süre dikkatlerini çekmeyi başardık."
     show monika 1g at t31
     show natsuki 1a at t32
     show sayori 4x at f33
-    s "Yeah! And we had fun, didn't we?"
+    s "Evet! Ve eğlendik, değil mi?"
     show monika 1a at t41
     show natsuki 1a at t42
     show sayori 1x at t43
     show yuri 1b at f44
-    y "I suppose that went well enough..."
+    y "Sanırım bu kadar iyiydi..."
     show yuri 1a at t44
-    mc "Hey, there's one person that's still here!"
+    mc "Hey, hala burada biri var!"
     show natsuki 1c at f42
-    n "To take the last cupcake, but yeah."
-    mc "There's another hour before the festival ends, though. Now what?"
-    "We all brainstorm for a few moments."
+    n "Son bir cupcake almak için, ama evet."
+    mc "Ama festivalin bitmesine hala bir saat var. Şimdi ne yapalım?"
+    "Bir kaç dakika beyin fırtınası yapıyoruz."
     show yuri 1f at f44
-    y "We could try drawing in more people."
+    y "Daha fazla insan çekmeyi deneyebiliriz."
     show yuri 1a at t44
     show sayori 1r at f43
-    s "Why not? We don't have to give up!"
+    s "Neden olmasın? Vazgeçmek zorunda değiliz!"
     show sayori 1a at t43
     show natsuki 1c at f42
-    n "It's not like we have any more cupcakes, though."
+    n "Ama daha fazla cupcake'imiz yok ki."
     show natsuki 1a at t42
     show monika 1b at f41
-    m "I'm sure we can think of some reason for more people to visit."
+    m "Bir şekilde daha fazla insan gelmesi için bir şeyler bulabiliriz."
     show monika 1a at t41
     show natsuki 1b at f42
-    n "I don't know. To be honest, I don't think it's worth it to keep dragging this out."
+    n "Bilmiyorum. Gerçekten, bunu devam ettirmenin bir anlamı yok gibi."
     show natsuki 1a at t42
     show yuri 1f at f44
-    y "Don't be so pessimistic, Natsuki. There's always a chance to bring what we're doing in here back to life."
+    y "Bu kadar karamsar olma, Natsuki. Her zaman bu yaptıklarımızı geri getirme şansımız vardır."
     show yuri 1a at t44
-    mc "I think maybe we could just hang out for a bit. If more people want to come, then they'll come, but it would be a shame to not look at the rest of the festival."
+    mc "Bence belki bir süre takılabiliriz. Daha fazla insan gelirse gelir ama, festivalin geri kalanını boşuna geçirmiş olmak üzülmemek olur."
     show sayori 1r at f43
-    s "That's true. We should try to have some fun while we're here!"
+    s "Bu doğru. Buradayken biraz eğlenmeye çalışmalıyız!"
     show sayori 1a at t43
     show yuri 1l at f44
-    y "Well, if everyone else agrees..."
+    y "Eğer herkes kabul ederse..."
     show yuri 1m at t44
     show monika 1d at f41
-    m "If you guys want to do that, then I don't think I should be the one to stop you. I'll stay here in case anyone does come."
+    m "Eğer bunu yapmak istiyorsanız, sizi durdurmak benim işim değil. Ben burada kalırım, biri gelirse diye."
     hide yuri
     hide sayori 
     hide natsuki
     with wipeleft
     show monika 1k at f32
-    "Monika comes up to me and whispers in my ear."
-    m "Go with Natsuki. I'll help with Sayori like I said, don't worry."
+    "Monika yanıma gelip kulağıma fısıldıyor."
+    m "Natsuki ile git. Sayori'yi ben hallederim, merak etme."
     show monika 1a at f41
-    "Monika winks and walks away. Wait, is it that obvious?"
+    "Monika göz kırpıyor ve uzaklaşıyor. Bekle, bu kadar mı belli oluyor?"
     hide monika with wipeleft
-    "Seeing as there's no reason not to take her advice, I go up to Natsuki."
+    "Onun tavsiyesine uymanın bir sakıncası olmadığı için Natsuki'ye doğru ilerliyorum."
     show natsuki 1g at f32
-    mc "Natsuki, want to check out the rest of the festival with me?"
-    "Natsuki glances around and sees everyone else looking at us."
-    n 1j "Well, sure, but only because I have nothing better to do."
-    "Natsuki struggles to hide a smile on her face."
-    mc "Sure thing, Natsuki."
+    mc "Natsuki, festivali beraber gezmek ister misin?"
+    "Natsuki etrafa bakıp herkesin bize baktığını görüyor."
+    n 1j "Pekala, tabii, ama sadece yapacak başka hiçbir şeyim yok diye."
+    "Natsuki, yüzündeki gülümsemeyi gizlemeye çalışıyor."
+    mc "Tabii ki, Natsuki."
     scene bg corridor with dissolve_cg
-    "We walk outside the classroom and try getting through the hallway, which is filled with groups of students."
-    "The chaos makes it difficult to tell where we're going, but it doesn't take too long for us to get a grip on things."
-    scene bg school_yard with wipeleft_scene 
-    "Eventually we manage to make it outside the school. There's a lot of stands, most of them carnival games."
+    "Sınıfın dışına çıkıp koridora ilerliyoruz, koridor öğrenci gruplarıyla dolmuş."
+    "Bu kaos içinde nereye gittiğimizi anlamak zor oluyor ama, fazla uzun sürmeden işin üstesinden geliyoruz."
+    scene bg school_yard with wipeleft_scene
+    "Sonunda okulun dışına çıkmayı başarıyoruz. Etrafımızda çok sayıda stant var, çoğu da karnaval oyunlarıyla dolu."
     show natsuki 3a at f32
-    mc "Anything look interesting to you, Natsuki?"
-    n 1k "I guess I could try one of those games they have at some of those stands."
-    "To our left we see a stand with a game where you have to throw a ball to knock over milk bottles."
-    "We walk over and see what I assume is a first year as she places some balls on the counter."
-    $ o_name = "Student"
-    o "You have three shots to knock over all the bottles! Want to give it a try?"
-    "I turn to Natsuki."
-    mc "Who should go first?"
-    n 3b "You'll probably miss, so I don't mind giving you the chance to have some fun at least trying."
-    "That's... very nice of her, I think?"
-    "I pick up a ball and get ready to throw. I take a deep breath, and lob the ball at the bottles."
-    o "Three out of nine bottles! Not bad."
+    mc "Natsuki, burada ilginç bir şey var mı?"
+    n 1k "Sanırım şu stantlardaki oyunlardan birini deneyebilirim."
+    "Solumuza döndüğümüzde, bir standda süt şişelerini devirmek için top atılması gereken bir oyun gördük."
+    "Yanımıza gelip, topu masaya koyan birinci sınıf olduğunu düşündüğüm bir kızı gördük."
+    $ o_name = "Öğrenci"
+    o "Bütün şişeleri devirmek için üç şansınız var! Bir deneyelim mi?"
+    "Natsuki'ye döndüm."
+    mc "Kim başlasın?"
+    n 3b "Muhtemelen sen atarsın ve kaçırırsın, o yüzden önce sen denemelisin, ne de olsa biraz eğlenebilirsin."
+    "Bu... gerçekten çok nazik, sanırım?"
+    "Bir top alıp atış için hazırlanıyorum. Derin bir nefes alıyorum ve topu şişelere doğru fırlatıyorum."
+    o "Dokuz şişeden üçünü devirdin! Fena değil."
     show natsuki 2g at f32 
-    "Natsuki picks up a ball as well. A stern look of concentration envelops her face, as she looks for the best angle to throw from."
-    "However, ten seconds pass and she still hasn't thrown."
-    mc "Natsuki? Everything alright?"
-    n 2e "Shh! I'm concentrating!"
-    "Natsuki stares at the bottles for a few more moments, and finally throws."
+    "Natsuki de bir top alıyor. Yüzündeki ciddi bir konsantrasyon ifadesi var, en iyi atış açısını bulmaya çalışıyor."
+    "Ama on saniye geçtiği halde hala atış yapmamıştı."
+    mc "Natsuki? Her şey yolunda mı?"
+    n 2e "Şşş! Konsantre oluyorum!"
+    "Natsuki bir süre daha şişelere bakmaya devam etti, sonra nihayet topu fırlattı."
     show natsuki 2e at f32 with hpunch
-    "It was a straight, hard throw, which would be more impressive if she didn't not only miss the bottles, but threw the ball so hard that it bounced off the back of the stand and nearly hit one of us."
-    mc "Whoa, be careful!"
-    n 3i "Fine, you can have the last shot."
-    "I pick up the last ball and throw, only knocking off one bottle this time."
-    o "Aww, that's a shame. Thanks for playing, though!"
-   
+    "Direkt ve sert bir atış yaptı, aslında bu daha etkileyici olabilirdi ama top sadece şişeleri ıskalayıp, geri geri zıplayarak standın arkasına çarptı ve neredeyse bize çarpıyordu."
+    mc "Vay be, dikkat et!"
+    n 3i "Tamam, son atışı sana bırakıyorum."
+    "Son topu alıp atıyorum, bu sefer sadece bir şişeyi devirebildim."
+    o "Ayy, yazık oldu. Ama yine de teşekkürler!"
+    
     scene bg school_yard with dissolve_cg
     
     show natsuki 3i at f32
-    "Natsuki and I walk away, only to be approached by a third year who looks like he could pass for a door to door salesman."
-    o "How would you like to have your compatibility with each other measured?"
+    "Natsuki ile yürürken, bize yaklaşan, kapı kapı dolaşan bir satıcıyı andıran üçüncü sınıf bir öğrenciyle karşılaştık."
+    o "Birbirinizle uyumunuzu ölçmek ister misiniz?"
     show natsuki 3p at f32
-    n 3p "Excuse me?"
-    mc "No thank y--"
-    "I try saying no only for him to drag both us and Natsuki to a small table. Another third year sits at the end opposite of us, as the other third year walks away."
+    n 3p "Pardon?"
+    mc "Hayır, teşekkürler—"
+    "Hayır demeye çalışırken, bizi ve Natsuki’yi küçük bir masaya doğru çekip götürüyor. Başka bir üçüncü sınıf öğrenci de karşıya oturuyor, diğeriyse gidiyor."
     show natsuki 1g at f32
-    o "Please, have a seat."
+    o "Lütfen oturun."
     show natsuki 1g at s32
-    "Natsuki and I try to sit down only to bump into each other, realizing a small problem."
+    "Natsuki ve ben oturmaya çalışıyoruz, ama birbirimize çarpıyoruz ve küçük bir problem fark ediyoruz."
     show natsuki 1i at t32
-    mc "There's really only one chair for your love measurer thing?"
-    o "You two have to be close together for this to work, after all."
-    "I motion with my hands for Natsuki to take the seat."
+    mc "Gerçekten sadece bir sandalye mi var bu uyum ölçme işiniz için?"
+    o "Birlikte oturmanız lazım, bu şekilde çalışacak."
+    "Natsuki'ye işaret ederek sandalyeye oturmasını söylüyorum."
     show natsuki 1g at s32
-    o "Now, each of you need to hand me your palm."
-    n 1e "I'd rather leave, thanks."
-    "Before Natsuki could try getting up, the third year grabs her palm anyway."
-    "I'm pretty sure that's not allowed but as long as we're stuck doing this, I put out my palm as well."
-    o "Hmm... yes. Wait a moment. If you're already a couple, how am I supposed to measure your compatibility?"
-    n 4p "What?!"
-    mc "No, it's not like that!"
-    o "You have nothing to be ashamed of. But please, do not waste my time."
+    o "Şimdi, her biriniz elinizi bana verin."
+    n 1e "Gitmek isterim, teşekkürler."
+    "Natsuki kalkmaya çalışmadan, üçüncü sınıf öğrenci elini alıyor."
+    "Bunun yasak olduğundan eminim ama, bu tuhaf durumu yaşamak zorundayken, ben de elimle veriyorum."
+    o "Hımm... evet. Bir dakika. Eğer zaten bir çiftseniz, uyumunuzu nasıl ölçeyim?"
+    n 4p "Ne?!"
+    mc "Hayır, öyle değil!"
+    o "Bunda utanılacak bir şey yok. Ama lütfen zamanımı boşa harcamayın."
     show natsuki at lhide
-    "Frustrated, Natsuki gets up and walks away, grabbing my arm and dragging me along in the process."
-    
+    "Sinirli bir şekilde Natsuki kalkıp gitmeye başlıyor, beni de kolumdan tutarak çekiyor."
+
     scene bg school_yard with Dissolve(1.5)
     
     show natsuki 5h at f32
-    n 5h "Geez, the nerve of her!"
-    mc "To be fair, I could see why she'd make that mistake."
-    n 5e "Yeah, but people shouldn't jump to conclusions like that! Even if it's true that..."
+    n 5h "Vay canına, ne cesaret!"
+    mc "Aslında, onun bu hatayı yapmasına biraz hak veriyorum."
+    n 5e "Evet, ama insanlar böyle hemen sonuç çıkarmamalı! Hatta... eğer doğruysa..."
     show natsuki 5g at f32
-    "Natsuki stops mid-sentence."
+    "Natsuki cümlesini ortasında kesiyor."
     mc "Natsuki?"
-    n 5e "Whatever. Let's just get some food, okay? I haven't eaten all day."
+    n 5e "Neyse. Hadi biraz yemek yiyelim, tamam mı? Bütün gün bir şey yemedim."
     hide natsuki with wipeleft
     
     scene bg school_yard with dissolve_cg
     show natsuki 1c at f32
-    "We head over to a stand that appears to be serving hamburgers."
-    mc "Two hamburgers, please."
-    "I hand over some money to the person serving."
-    o "Unfortunately, we're out of buns for regular hamburgers. We do have some delicious ramen burgers, however!"
-    mc "Hmm, I'm not so sure about that. Would you be fine with it, Natsuki?"
-    "As I turn back to look at the server again, I see our money's already gone. I'm also pretty sure that's not allowed, but it isn't particularly expensive in the first place so I let it slide."
+    "Bir standın yanına gidiyoruz ve burada hamburger satıldığını fark ediyoruz."
+    mc "İki hamburger lütfen."
+    "Parayı görevliye veriyorum."
+    o "Maalesef, normal hamburger için ekmek kalmadı. Ama ramen ekmeğiyle yapılmış harika ramen hamburgerlerimiz var!"
+    mc "Hmm, pek emin değilim. Natsuki, sen buna razı olur musun?"
+    "Geri dönüp tekrar görevliye bakarken, paranın zaten alındığını görüyorum. Aslında bunun pek doğru olmadığını düşünüyorum ama zaten çok pahalı değildi, o yüzden önemli değil diye düşünüp geçiyorum."
     show natsuki 1a at s32
-    "We head over to a nearby table and sit down. The luxury of sitting down for once feels nice, I have to admit."
-    mc "As hectic as these past few days have been, I have to admit they were kinda fun."
-    n 1b "You're not a terrible baker, so I can give you credit for that."
-    mc "Come on, there's no way they would've turned out as well as they did without you."
-    n "Yeah, but besides that."
-    mc "I meant what I said yesterday about us hanging out more often, by the way. If you ever want to meet up, just send me a text."
-    n 1e "I sent you fifty messages earlier and you didn't respond, but I'll keep it in mind."
-    mc "But I got here in the end, didn't I?"
-    n 1h "Well, you're not wrong. I was just sca..."
-    "Natsuki quickly changes expressions."
-    n 1s "Don't oversleep next time, okay?"
-    "Could Natsuki have really been that worried about me when she didn't see me responding to any of her messages?"
-    "I thought she would've guessed I overslept, but maybe she thinks differently than I'd expect."
-    mc "I'll try. Sorry again for being late."
-    "The server comes over to our table and gives us each a burger that has ramen as the buns instead of traditional bread."
-    "It actually tastes okay, so I guess I'm at least getting my money's worth."
-    "I mean, I'm not going to go and claim this festival is professional in the slightest, but it is a {i}school{/i} festival, so I can't complain too much."
+    "Yakındaki bir masaya gidip oturuyoruz. Bir süre oturmak gerçekten güzel, itiraf ediyorum."
+    mc "Son birkaç gün ne kadar yoğun geçse de, biraz eğlenceli olduklarını kabul etmeliyim."
+    n 1b "Kötü bir fırıncı değilsin, bunu kabul edebilirim."
+    mc "Hadi ama, eğer sen olmasaydın, o kadar iyi sonuçlar almazdık."
+    n "Evet, ama ondan başka."
+    mc "Dün söylediğimi tekrar ediyorum, daha fazla vakit geçirelim diye. Eğer buluşmak istersen, bana mesaj atman yeterli."
+    n 1e "Az önce sana elli mesaj gönderdim, ama yanıt vermedin, ama yine de aklımda bulundururum."
+    mc "Ama sonuçta buradayım, değil mi?"
+    n 1h "Evet, yanlış değilsin. Sadece korkmuştum..."
+    "Natsuki hızla bir ifadeyi değiştiriyor."
+    n 1s "Bir dahaki sefere fazla uyuma, tamam mı?"
+    "Gerçekten Natsuki, benim cevaplarımı görmeyince bu kadar endişelenmiş olabilir mi?"
+    "Bunu geçirdiğimi düşünmüştüm ama belki de benden farklı bir şekilde düşünüyor."
+    mc "Çalışacağım. Yine de geç kaldığım için üzgünüm."
+    "Görevli masamıza gelip, ramen ekmeğiyle yapılmış hamburgerlerden birer tane veriyor."
+    "Aslında fena değil, en azından paramı boşa harcamadım."
+    "Yani, bu festivalin profesyonel olduğunu iddia etmiyorum, ama sonuçta bu bir {i}okul{/i} festivali, fazla da şikayet edemem."
     hide natsuki with wipeleft
     scene bg school_yard with dissolve_cg
     
-    "After talking a bit more, we finish eating and get up again."
+    "Biraz daha konuştuktan sonra, yemeklerimizi bitirip kalkıyoruz."
     show natsuki 1a at f32
-    mc "I'm exhausted. You?"
-    n 1b "Yeah, I'm a little tired too. Guess we should head home, huh?"
-    mc "I think I'd be fine with leaving the festival now. I'm glad I got to spend it with you."
-    n 4b "I had an okay time, too. Better than if I didn't go with you, probably."
-    "Somehow, we find ourselves staring into each other's eyes. Only for a brief moment, but it happened."
-    "Oh, it definitely happened."
-    mc "Yeah... Well, see you tomorrow."
-    n 4b "Y-You too."
-    "There, I did it. I went to the festival, recited my poem, and got to spend time with Natsuki. I'd say today was a success. I hope things can continue to go as well as this did."
-    "It's probably more likely to happen if I actually set my alarm clock correctly this time, though."
+    mc "Çok yoruldum. Ya sen?"
+    n 1b "Evet, biraz yoruldum. Sanırım eve gitsek iyi olacak."
+    mc "Festivalden şimdi ayrılmak fena olmaz. Seninle geçirdiğim vakit için mutluyum."
+    n 4b "Ben de fena vakit geçirmedim. Muhtemelen seninle gelmeseydim, daha kötü olurdu."
+    "Bir şekilde, birbirimizin gözlerinin içine bakıyoruz. Sadece kısa bir an için, ama oldu."
+    "Evet, kesinlikle oldu."
+    mc "Evet... Yani, yarın görüşürüz."
+    n 4b "S-Sen de."
+    "İşte yaptım. Festivale gittim, şiirimi okudum ve Natsuki ile vakit geçirdim. Bugün başarılıydı diyebilirim. Umarım her şey böyle devam eder."
+    "Muhtemelen bunun gerçekleşmesi için bu sefer alarmımı düzgün kurmam lazım."
     
     show black with wipedown
     stop music fadeout 5.0
@@ -303,12 +303,12 @@ label natsukiRoute_FestivalDays:
     play sound alarm
     "{i}BEEP! BEEP!{/i}"
     scene bg bedroom with open_eyes 
-    "Well, at least I set my alarm clock correctly, so that's a decent start for the day."
+    "Neyse ki alarmımı doğru kurmuşum, günün başı için bu bile iyi bir başlangıç."
     stop sound
-    "As I'm waking up, I check my phone and see a text from Natsuki. It's from this morning, and appears to be important."
+    "Uyanırken, telefonumu kontrol ediyorum ve Natsuki'den bir mesaj gördüm. Bugün sabah gönderilmiş ve önemli gibi görünüyor."
     
-    p "bad news! i'll explain at the literature club"
-    "This doesn't sound good. What could've happened?"
+    p "kötü haber! edebiyat kulübünde açıklayacağım"
+    "Bu iyi bir şey gibi görünmüyor. Ne olmuş olabilir ki?"
     scene bg club_day with dissolve_cg
     
     show natsuki 5g at t41
@@ -319,439 +319,438 @@ label natsukiRoute_FestivalDays:
     pause(1.0)
     show natsuki 5g at t44
     pause(1.0)
-    "I arrive at the Literature Club, filled with anxiety. Natsuki is pacing around with her head down, almost as if she's waiting for something, or maybe someone."
+    "Edebiyat Kulübüne geldiğimde, içimde bir kaygı var. Natsuki, kafasını aşağı eğmiş bir şekilde etrafta yürüyüp duruyor, sanki bir şey ya da birini bekliyormuş gibi."
     mc "Natsuki?"
     show natsuki 4c at t32
-    "She perks up a bit and looks over at me."
-    n 1b "[player]? What's up?"
-    mc "That's what I'd like you to tell me."
-    "I pull out my phone from my pocket and show her the message she sent me this morning."
-    n 4b "Oh, that. Yeah, did you hear?"
-    "Natsuki looks at me, expecting me to already know what she's referring to."
-    mc "I'm going to assume I haven't."
+    "Biraz başını kaldırıyor ve bana bakıyor."
+    n 1b "[player]? Ne var?"
+    mc "Bunu bana söylemeni isteyecektim."
+    "Cep telefonumu cebimden çıkarıp, sabah bana gönderdiği mesajı gösteriyorum."
+    n 4b "Ah, o. Evet, duydun mu?"
+    "Natsuki, bana bakıyor, ben de zaten ne olduğunu bildiğimi düşünerek."
+    mc "Henüz duymadığımı varsayacağım."
+
     stop music
     play music NatTheme
-    n 1v "Parfait Girls got cancelled! They had the nerve to stop it at Volume 76, too, right before the finale!"
-    mc "Oh, dang. Sorry to hear that, Natsuki."
-    mc "Wasn't there supposed to be a movie coming out at some point, though? I wonder what's going to happen with that."
-    n 4c "Since they put so much time and money into it, plus it's an original story unlike the anime adaptation, apparently they're still going to release it."
-    n "I mean, I'd like to see it at some point, but it's just a movie. The manga is what matters most, and now it's gone."
+    n 1v "Parfait Girls iptal oldu! Üstelik 76. ciltte, finalden hemen önce durdurmuşlar!"
+    mc "Vay be, bunu duyduğuma üzüldüm, Natsuki."
+    mc "Ama bir film yapılacağı söylenmişti, değil mi? O ne olacak acaba?"
+    n 4c "Buna çok para ve zaman harcadıkları için, ayrıca anime uyarlaması olmayan orijinal bir hikaye olduğu söyleniyor, hala çıkaracaklarmış."
+    n "Bunu bir noktada görmek isterim ama sonuçta sadece bir film. Manga önemli olan, ve şimdi o da gitti."
     show natsuki 4g at t32
-    "Even though I wasn't nearly as big of a fan as Parfait Girls as Natsuki was, it was still sad to hear since Natsuki looked so disappointed."
-    mc "Well, at least you have other series to read, yeah?"
-    n 4b "Yeah, but none of them are Parfait Girls."
-    mc "That's true. Then how about..."
-    "I pause, trying to think of an idea. This isn't really something that needs to be \"solved\" in the first place, but there's no point in backing out now."
-    mc "Why don't you make your own manga?"
-    "Natsuki glares at me."
-    n 4g "Very funny."
-    n "You know, I thought you'd have a bit more sympathy for me. I'd be sorry for you if your favorite manga ended."
-    mc "I'm serious. I'll help you, too."
-    n 2e "Seriously, sometimes you really don't get it. Creating a manga isn't nearly as easy as you're making it sound."
-    mc "Hey, I didn't say it would be easy. We don't have to do it all at once, either."
-    mc "As long as we work on it a little at a time, I think it's possible."
-    mc "It doesn't have to be some best seller, either, or something we'd even sell in the first place. Just something we'd do for fun."
-    mc "Besides, how do you know it's that tough, anyway? Personal experience?"
+    "Parfait Girls'e Natsuki kadar bağlı olmasam da, Natsuki'nin bu kadar hayal kırıklığına uğramış olduğunu görmek üzücüydü."
+    mc "Neyse ki hala başka seriler var, değil mi?"
+    n 4b "Evet, ama hiçbiri Parfait Girls değil."
+    mc "Doğru. O zaman... nasıl..."
+    "Bir an duraklıyorum, ne söyleyeceğimi düşünmeye çalışıyorum. Aslında bu çözülmesi gereken bir şey değil, ama şimdi geri adım atmanın da anlamı yok."
+    mc "Kendi manganı neden yapmıyorsun?"
+    "Natsuki bana keskin bir şekilde bakıyor."
+    n 4g "Çok komik."
+    n "Biliyor musun, biraz daha anlayışlı olmanı beklerdim. Ben de senin en sevdiğin mangan bitse üzülürdüm."
+    mc "Ciddiyim. Yardım da ederim."
+    n 2e "Ciddi misin? Bir manga yaratmak düşündüğün kadar kolay değil."
+    mc "Hey, kolay olacağını söylemedim ki. Hem her şeyi bir seferde yapmak zorunda değiliz."
+    mc "Yavaşça da olsa üstüne çalışırsak, bence mümkün."
+    mc "Bunun bir en çok satan olmasına da gerek yok. Ya da aslında satmamıza gerek yok. Sadece eğlencelik bir şey olsun."
+    mc "Hem, nasıl bu kadar zor olabileceğini nereden biliyorsun? Kişisel deneyim mi?"
     show natsuki 5s at t32
-    "Natsuki looks off to the side."
-    n "That's... besides the point."
-    mc "You wouldn't be on your own."
-    "Natsuki thinks it over for a few moments."
-    n 2e "Fine, but only so you'll stop bugging me about it."
-    mc "Alright. Where should we start, then?"
-    n 1b "Can you draw, [player]?"
-    mc "I'm not {i}terrible{/i} at drawing, I guess."
-    "Depending on what your definition of \"terrible\" is, anyway."
-    n "Okay, then I'll handle the writing."
-    "There's an awkward moment of silence."
-    mc "So... what should our manga be about, then?"
-    n 1c "Well, what's your taste in manga, anyway?"
-    mc "I usually gravitate towards shonen manga, although I'm willing to branch out sometimes."
-    n 1b "We can probably make this work. You already know that I prefer slice of life manga, but we can figure something out."
-    "More silence."
-    "Okay, maybe this is going to be harder than I imagined."
-    mc "The best writing material comes from real life, right? So why not draw inspiration from there?"
-    "I have no idea what I'm saying, now that I think about it."
-    n 4b "Yeah, but what inspiration am I supposed to get from there? My life's pretty boring, anyway."
-    mc "Why not make our manga about this literature club?"
-    n 1w "But this literature club is boring too!"
-    "I hear Monika's disappointed voice in the distance."
+    "Natsuki bir anlığa yan tarafta bakıyor."
+    n "O... konu dışında."
+    mc "Yalnız olmayacaksın."
+    "Natsuki bir kaç saniye düşünüyor."
+    n 2e "Tamam, ama sadece beni bundan bahsetmeyi kesmen için."
+    mc "Tamam. O zaman nereden başlayalım?"
+    n 1b "Çizebiliyor musun, [player]?"
+    mc "Çizimde {i}berbat{/i} sayılmam sanırım."
+    "Tabii, \"berbat\" tanımına bağlı olarak."
+    n "Tamam, o zaman yazmayı ben hallederim."
+    "Bir anlık garip bir sessizlik oluyor."
+    mc "O zaman... manganın konusu ne olacak?"
+    n 1c "Peki, senin manga zevkin ne?"
+    mc "Genelde shonen manga tercih ederim, ama bazen başka türlere de göz atarım."
+    n 1b "Bunu halledebiliriz sanırım. Ben zaten slice of life manganı tercih ederim ama bir yol buluruz."
+    "Bir sessizlik daha."
+    "Sanırım bu düşündüğüm kadar kolay olmayacak."
+    mc "En iyi yazma materyali gerçek hayattan çıkar, değil mi? O zaman neden buradan ilham almayalım?"
+    "Şimdi düşündüğümde, ne dediğimi bilmiyorum aslında."
+    n 4b "Evet, ama buradan ne ilham alacağım? Hayatım oldukça sıkıcı zaten."
+    mc "O zaman neden manganın konusunu edebiyat kulübü yapmıyoruz?"
+    n 1w "Ama bu edebiyat kulübü de sıkıcı!"
+    "Uzaklardan Monika'nın hayal kırıklığına uğramış sesi duyuluyor."
     show natsuki 1a at t44
     show monika 1g at f41
-    m "Oh, thanks..."
+    m "Ah, teşekkürler..."
     hide monika
     show natsuki 1b at f32
-    n "But we don't have any other ideas either, so..."
+    n "Ama başka bir fikrimiz yok, o yüzden..."
     show natsuki 1a at f32
-    "I'm still not sure how good this idea is, but I hope it sticks."
-    n 1b "Alright, we need a title. Any ideas?"
-    mc "Err... how about we name it The Doki Doki Literature Club?" 
-    "That title was painfully cheesy, but I was the last person to ask for advice for on a slice of life story."
-    n 4g "Are you kidding me? This isn't some kind of romance novel! What was on your mind to come up with that, anyway?"
-    mc "Hey, I made it up on the spot, I never said my ideas would be good."
+    "Bu fikrin ne kadar iyi olduğunu hala bilmiyorum ama umarım tutar."
+    n 1b "Peki, bir başlık bulmamız lazım. Fikirler?"
+    mc "Hmm... \"The Doki Doki Literature Club\" koysak nasıl olur?"
+    "O başlık oldukça kötüydü ama ben slice of life bir hikaye için tavsiye alacağım son kişiyim."
+    n 4g "Şaka mı yapıyorsun? Bu bir aşk romanı değil! Ne düşündün de bunu söyledin?"
+    mc "Hey, anında uydurdum, fikirlerimin iyi olacağını hiç söylemedim."
     show natsuki 4g at t44
     show monika 1k at f41
-    "I hear snickering coming from somewhere else in the room."
-    n 4w "See? Even Monika's laughing at it!"
-    hide monika 
+    "Odadan bir yerlerden gülüşmeler duyuluyor."
+    n 4w "Bak, Monika bile buna gülüyor!"
+    hide monika
     show natsuki 3q at f11
-    n "But hey, if you want romance elements in it that badly..."
-    mc "I didn't actually want any romance involved!"
-    n 4d "Too late, you were the one who suggested it!"
-    "Natsuki was clearly having fun messing with me."
-    n 2b "But for real, what will our characters be named?"
-    mc "We're basing this off of our literature club, aren't we? Maybe reverse everyone's names or something. Like Ikustan, Akinom, Iruy, and Iroyas."
+    n "Ama hadi, gerçekten hikayeye aşk unsuru eklemek istersen..."
+    mc "Ben aslında hiç aşk unsuru istememiştim!"
+    n 4d "Geç kaldın, bunu sen söyledin!"
+    "Natsuki açıkça benimle dalga geçmekten eğleniyordu."
+    n 2b "Ama ciddi olalım, karakterlerimizin adı ne olacak?"
+    mc "Bunu edebiyat kulübümüzden mi alıyoruz? Belki herkesin ismini ters çevirebiliriz. Mesela Ikustan, Akinom, Iruy, Iroyas."
 
     $ playerNameBackwards = player[::-1].title()
 
-    n 4b "Come on, you could at least {i}try{/i} to make this good. Take this more seriously, [playerNameBackwards]." 
-    "To be fair, I guess my name backwards doesn't sound too great."
-    y "You're working on a manga?"
+    n 4b "Hadi ama, en azından {i}çaba{/i} göster. Ciddiye al, [playerNameBackwards]."
+    "Adımı ters çevirdiğimde aslında pek de iyi çıkmadığını kabul ediyorum."
+    y "Bir manga mı yapıyorsunuz?"
     show natsuki 2b at t22
     show yuri 2f at f21
-    "I turn around and see Yuri pass by."
-    y 2a "Although manga is not one of my interests, I do excel at writing, you know. Maybe I could hel--"
-    "Natsuki interrupts her."
+    "Dönüp baktığımda Yuri'nin geçerken bize baktığını görüyorum."
+    y 2a "Manga ilgimi çekmiyor aslında ama yazı konusunda iyi olduğumu bilirsin. Belki yardımcı olabilirim..."
+    "Natsuki onu kesiyor."
     show yuri 4b at t21
     show natsuki 5c at f22
-    n "That won't be necessary, thanks."
+    n "Buna gerek yok, sağ ol."
     show yuri at lhide
     hide yuri
-    "Yuri quietly walks away, slightly offended."
+    "Yuri sessizce uzaklaşıyor, biraz alınmış gibi."
     show natsuki 5c at f11
-    mc "What was that for?"
-    n 2w "We don't need any distractions while working on this."
-    mc "Distractions? What are you talking about?"
-    n 2e "Yuri! I don't need you paying any attention to her."
-    mc "Are you jealous of her, Natsuki?"
+    mc "Ne oldu ki şimdi?"
+    n 2w "Buna odaklanırken başka hiçbir şey dikkatimi çekmesin istiyorum."
+    mc "Dikkat mi? Ne demek istiyorsun?"
+    n 2e "Yuri! Onunla ilgilenmene gerek yok."
+    mc "Yuri'yi kıskanıyor musun, Natsuki?"
     show natsuki 1x at f11
-    "I could see Natsuki clenching her fists a bit, and then taking a deep breath."
-    n 1b "No."
-    mc "So there'd be no issue adding Yuri to the team, right?"
-    n 1e "I wouldn't go that far."
-    "I clearly wasn't going to get anywhere with this, so I decide to drop the subject."
-    mc "You're the boss, Natsuki, so if you feel that strongly..."
-    n 5u "I just feel kinda insecure sometimes."
-    "Natsuki's openly admitting something like that? That's weird."
+    "Natsuki'nin ellerini biraz sıktığını, sonra derin bir nefes aldığını görebiliyorum."
+    n 1b "Hayır."
+    mc "Yani, o zaman Yuri'yi eklemek sorun yaratmaz, değil mi?"
+    n 1e "O kadar ileri gitmem."
+    "Bu konuda hiçbir yere varamayacağımı fark ettiğim için konuyu kapatmaya karar veriyorum."
+    mc "Senin kararın, Natsuki. Eğer bu kadar önemliyse..."
+    n 5u "Bazen biraz güvensiz hissediyorum."
+    "Natsuki'nin böyle bir şeyi açıkça itiraf etmesi tuhaf. "
     
     play sound paalert
     $ o_name = "PA System"
-    o "Attention all students!"
+    o "Dikkat tüm öğrencilere!"
     show natsuki 1c at f11
-    "We avert our eyes to the speaker from the school's PA system."
-    o "Due to technical issues that have arisen from the festival yesterday, school will be closed tomorrow."
+    "Hepimiz okulun hoparlöründen gelen sese yöneliyoruz."
+    o "Dün festivalde yaşanan teknik aksaklıklar nedeniyle, okul yarın kapalı olacak."
     $ o_name = "???"
-    "Wait, so did they finally notice the damage the pyrotechnics did, or was it because of the wall that was broken down due to the bullfighting match?"
-    mc "Huh. Well, guess there's no school tomorrow, then. I should probably think of something else to do, in that case."
+    "Hımm, acaba patlamaların neden olduğu hasarı mı fark ettiler, yoksa boğa güreşi yüzünden yıkılan duvar mı sebep oldu?"
+    mc "Hı. O zaman yarın okula gitmemiz gerekmiyor. Galiba o zaman başka bir şeyler yapmam gerekecek."
     show natsuki 5i at f11
-    "Natsuki looks like she's deep in thought about something."
-    n 5k "[player], I need to go shopping for food tomorrow. Want to come?"
-    mc "Huh? Are you asking me on..."
-    "Natsuki reacts quickly."
+    "Natsuki, bir şey hakkında derin düşüncelere dalmış gibi görünüyor."
+    n 5k "[player], yarın yiyecek alışverişine gitmem lazım. Benimle gelmek ister misin?"
+    mc "Hı? Beni... çağırıyor musun?"
+    "Natsuki hemen tepki veriyor."
     show natsuki 5h at hf11
-    n "I need help shopping! That's all."
-    "I'm pretty sure you don't need a second person to go grocery shopping, but whatever."
-    mc "I think I'm free then, but let me check my schedule."
+    n "Yardım etmeye ihtiyacım var! Sadece o kadar."
+    "Bence alışverişe gitmek için ikinci bir kişiye ihtiyacı yok, ama neyse."
+    mc "O zaman uygun olmalıyım, ama önce programıma bakayım."
     show natsuki 5s at f11
-    "I look through my phone and check what I was doing for the rest of the week to make sure I was able to go."
-    n 5q "You don't have plans with anyone, do you?"
-    mc "Not that I know of."
-    n "Good."
-    "I think I've figured it out. Natsuki seems to get jealous easily, but I just wish she knew she doesn't have to do that. What's she so scared of, anyway?"
-    mc "Tomorrow, then?"
-    n 4c "Yep. Now, let's get back to this manga."
-    mc "Yeah. Where were we, again?"
+    "Telefonumdan haftalık planımı kontrol ediyorum, böylece gidebileceğimden emin oluyorum."
+    n 5q "Başka biriyle planın falan yok, değil mi?"
+    mc "Bilmediğim kadarıyla yok."
+    n "İyi."
+    "Sanırım bir şeyi çözdüm. Natsuki kolayca kıskanabiliyor ama keşke bunun gerekmediğini anlasaydı. Ne korkuyor ki?"
+    mc "O zaman, yarın mı?"
+    n 4c "Evet. Şimdi, manga işine dönelim."
+    mc "Evet. Nerede kalmıştık, tekrar?"
     
     hide natsuki
     scene bg club_day with dissolve_cg 
-    "An hour passes, and we're feeling good about what we've accomplished."
-    mc "We've gotten pretty far with this, right?"
+    "Bir saat geçti ve başardıklarımız konusunda gayet iyiyiz gibi hissediyoruz."
+    mc "Oldukça ilerledik, değil mi?"
     show natsuki 3c at f11
-    n "Well, last time I checked, we've finished... one page."
-    mc "I could've sworn we did more than that."
-    n 3b "Nope. All we did was the title page."
-    "Natsuki holds up the page I drew. It featured poorly drawn versions of the Literature Club members and myself, all in dramatic poses. At the top was our title, The Literature Club Friends." 
-    n "It hasn't been colored in yet, either."
-    mc "Man, this is never going to work."
+    n "Son kontrol ettiğimde... bir sayfa bitirmiştik."
+    mc "Daha fazla şey yaptığımızı yemin edebilirim."
+    n 3b "Hayır. Sadece başlık sayfasını yaptık."
+    "Natsuki, çizdiğim sayfayı gösteriyor. Üzerinde, Edebiyat Kulübü üyelerinin ve benim kötü çizilmiş versiyonlarımız, dramatik pozlarla yer alıyor. Üstte ise 'Edebiyat Kulübü Arkadaşları' başlığımız var."
+    n "Henüz renklendirilmedi bile."
+    mc "Eyvah, bu asla işe yaramayacak."
     show natsuki 3c at t22
     show sayori 1b at f21
-    "Sayori walks by."
-    s "What's this?"
+    "Sayori geçiyor."
+    s "Bu ne?"
     show natsuki 4e at f22
     show sayori 1b at t21
-    n "A mistake."
-    mc "It's this dumb manga project we were working on."
+    n "Bir hata."
+    mc "Bu saçma manga projesine çalışıyoruz."
     show natsuki 4e at t22
     show sayori 1x at f21
-    s "I think it looks great!"
+    s "Bence harika görünüyor!"
     show natsuki 4f at f22
     show sayori 1x at t21
-    n 4f "You don't have to sugarcoat everything, Sayori."
+    n 4f "Her şeyi şekerleştirmene gerek yok, Sayori."
     show natsuki 4f at t22
     show sayori 4c at f21
-    s 4c "I'm serious! You guys did your best and that's what matters. What's important is that your style and feelings go into what you make."
-    s "A manga with perfect writing and art might be nice, but if it's soulless then what's the point?"
-    mc "Well, I guess you aren't wrong."
+    s 4c "Ciddiyim! Sizin en iyisini yaptığınız önemli, bu da önemli. Yaptığınız şeyde stiliniz ve duygularınız olması lazım."
+    s "Mükemmel yazı ve sanat içeren bir manga hoş olabilir, ama eğer ruhsuzsa ne anlamı var ki?"
+    mc "Evet, sanırım haklısın."
     show natsuki 4g at t22
-    s 1b "If there is something I could give advice on, it'd be the title."
-    mc "It's a bit generic, yeah."
-    s "How about..."
-    "Sayori pauses, but struggles to come up with anything."
-    n "Let's work on the title another time."
+    s 1b "Eğer bir tavsiyede bulunabileceksem, o da başlık olurdu."
+    mc "Biraz genel oldu evet."
+    s "Nasıl..."
+    "Sayori duraklıyor, ama hiçbir şey bulamıyor."
+    n "Başlığı başka bir zaman çalışalım."
     show natsuki 4g at t33
     show sayori 1b at t32
     show monika 3d at f31
-    "Monika walks by."
-    m "Actually, you're going to have to work on the manga another time, period. It's time to go, after all!"
+    "Monika geçiyor."
+    m "Aslında, manga üzerinde çalışmaya başka bir zaman devam etmeniz gerekecek. Zaten gitme zamanı!"
     show monika 3c at t31
     show natsuki 1e at f33
-    n "What? We were only getting started!"
+    n "Ne? Daha yeni başlamıştık!"
     show natsuki 1g at s33
-    "After Natsuki objects, she puts her head down."
-    mc "Yeah, can't we stay a bit longer?"
+    "Natsuki itiraz ettikten sonra, başını eğiyor."
+    mc "Evet, biraz daha kalamaz mıyız?"
     show monika 4b at f31
-    m "Well, you technically could. But why not stay at a place a bit cozier? You're working on a romance novel, right?"
+    m "Pekala, teknik olarak kalabilirsiniz. Ama neden daha rahat bir yerde çalışmıyorsunuz? Sonuçta bir aşk romanı üzerinde çalışıyorsunuz, değil mi?"
     show monika 1j at t31
     show natsuki 5e at f33
-    "Natsuki quickly interjects."
-    n "N-No! And we don't need to work somewhere \'cozy.\' We could work on it in a prison cell and be fine." 
+    "Natsuki hızlıca araya giriyor."
+    n "H-Hayır! Ve 'rahat bir yerde' çalışmamıza da gerek yok. Hapsi de olsa burada çalışabiliriz."
     show monika 5a at f31
-    m "Whatever you say~"
+    m "Ne derseniz deyin~"
     hide monika with wipeleft   
     hide sayori with wipeleft
-    "Monika winks as she walks out the door with Sayori."
+    "Monika, Sayori ile birlikte kapıdan çıkarken göz kırpıyor."
     show natsuki 1g at f11
-    "Natsuki glances at the rest of the room and sees that nobody else is here anymore."
-    n 1c "Alright, let's go to your house."
-    mc "Wait, what?"
-    n "To work on the manga, duh! Come on, before it's too late."
+    "Natsuki, odanın geri kalanına bakıyor ve kimse başka kimse kalmadığını fark ediyor."
+    n 1c "Tamam, hadi senin evine gidelim."
+    mc "Bekle, ne?"
+    n "Manga üzerinde çalışmak için, tabii! Hadi gel, geç olmadan."
     show natsuki at lhide
     hide natsuki
-    "Natsuki pulls me by the arm out of the classroom. Turns out we were going to keep working after all."
+    "Natsuki, beni kolumdan çekip sınıftan dışarı çıkarıyor. Demek ki, sonradan da olsa çalışmaya devam edeceğiz."
     scene bg bedroom with wipeleft_scene
 
-    "Before I know it, we're in my house."
-    mc "Okay, let's get back to work, then."
+    "Bir bakmışım, evime gelmişiz."
+    mc "Hadi o zaman, işe geri dönelim."
     show natsuki 4c at f11
-    n "Actually, I'm kind of out of ideas."
-    mc "Then what the heck are we here for?"
-    n 1e "To think! How else will we get ideas for the manga? Besides, I can't let you sit alone and do nothing but watch anime on a tiny computer screen for the rest of the day like some NEET."
-    mc "What do you suggest we do, then?"
-    n 3b "You wouldn't be a NEET if you watched anime with more than one person, so why not start with that?"
-    mc "Huh, didn't know you watched anime. It'd be fair to assume, though, since reading manga and watching anime kind of go hand in hand."
-    n 4d "That's right, and I'll have you know my taste in anime is as good as my taste in manga."
-    mc "In that case, I'll let you decide what we should watch."
-    n "Perfect, because I chose just the thing to help us draw inspiration for our manga."
+    n "Aslında, pek bir fikrim kalmadı."
+    mc "O zaman buradayken ne yapıyoruz?"
+    n 1e "Düşünmek için geldik! Manga için nasıl fikirler bulacağız başka? Hem, seni yalnız bırakıp bütün gün anime izlerken küçük bir ekranda NEET gibi oturmanı izleyemem."
+    mc "O zaman ne öneriyorsun?"
+    n 3b "NEET olmazdın, eğer animeyi tek başına izlemek yerine birisiyle izlersen, neden önce bunu yapmıyoruz?"
+    mc "Hıh, anime izlediğini bilmiyordum. Ama haklısın, manga okumakla anime izlemek genelde bir arada gider."
+    n 4d "Tabii ki, ve şunu bilmelisin ki anime zevkim manga zevkim kadar iyidir."
+    mc "O zaman, ne izleyeceğimize sen karar ver."
+    n "Harika, çünkü manga için ilham almak adına izleyeceğimiz tam şey bu."
     hide natsuki with wiperight
-    "Is this even still about our manga?"
-    "After taking a few seconds to search through her backpack, Natsuki pulls out a set of Blu-Ray DVDs. I take a moment and I think I recognize the cover."
+    "Bu hala manga hakkında mı ki?"
+    "Bir süre Natsuki çantasından birkaç saniye boyunca bir şeyler aradı, derken Blu-Ray DVD'lerden bir set çıkardı. Bir an, kapağı tanıdığımı düşündüm."
     show natsuki 2a at f11
-    mc "The Parfait Girls anime? More importantly, you brought that with you to school?"
-    n 4b "Sure, in most cases I'd recommend to read the manga. But you've already read a lot of it, so it's nice to see the subtle differences that are in the anime."
+    mc "Parfait Girls anime mi? Dahası, bunu okula mı getirdin?"
+    n 4b "Tabii, çoğu zaman mangayı okumanı öneririm. Ama sen zaten çoğunu okudun, bu yüzden animeyi izlemek de hoş, çünkü aradaki ince farkları görmek güzel."
     stop music fadeout 5.0
-    n "Plus, it's more Parfait Girls. The anime doesn't have any filler episodes, either."
-    mc "If that's what you want to watch, then let's do it. I'll go set it up."
-    
+    n "Ayrıca, bu daha fazla Parfait Girls. Anime de herhangi bir gereksiz bölüme sahip değil."
+    mc "Eğer senin istediğin buysa, o zaman izleyelim. Ben de ayarları yaparım."
+	
     hide natsuki
-    
-   
+	
     scene bg bedroom with Dissolve(1.5)
     play music aNewDay fadein 2.0
-    "The rest of that afternoon was a lot of fun. I don't think we ever actually worked on the manga at any point, but that's fine."
-    "The Parfait Girls anime was good, actually. It was interesting to see the nuances in this version, and it was something even I could appreciate."
+    "Geride kalan o öğleden sonra gerçekten eğlenceliydi. Sanırım hiç manga üzerinde çalışmadık, ama sorun değil."
+    "Parfait Girls animeyi izlemek gayet güzeldi. Bu versiyonun ince detaylarını görmek gerçekten ilginçti ve hatta ben bile takdir edebildim."
     show natsuki 1c at f11
-    n "Crap, I just realized it's time for me to go now."
+    n "Aman tanrım, gitmem gerektiğini yeni fark ettim."
     show natsuki 1c at t41
-    "Natsuki gets off of the beanbag we sat on while watching our show and rushes to pick up all her stuff."
-    n 1b "I wish I could stay longer, but we still have tomorrow, don't we?"
-    mc "Yeah. I'll see you then!"
+    "Natsuki, izlediğimiz şovun ardından üzerinde oturduğumuz beanbag'tan kalkıp bütün eşyalarını toplamaya başlıyor."
+    n 1b "Keşke daha uzun kalabilsem, ama yarın yine birlikteyiz, değil mi?"
+    mc "Evet. O zaman görüşürüz!"
     show natsuki at lhide
     hide natsuki
-    "Natsuki waves as she walks out of my room, only for her backpack to get caught by the doorknob, causing her to trip."
-    n "I'm fine!"
-    "Natsuki gets up and is soon out of my house, as I'm left with a satisfied smile on my face."
-    "It would be nice if I could keep goofing off with Natsuki, not having to worry about the burdens of life."
+    "Natsuki, odama doğru yürürken elini sallayarak dışarı çıkıyor, fakat çantasının sapı kapı koluna takılıp düşmesine neden oluyor."
+    n "İyiyim!"
+    "Natsuki toparlanıp kalkıyor, ardından kısa sürede evimden çıkıyor ve ben, yüzümde tatmin olmuş bir gülümseme ile kalıyorum."
+    "Keşke Natsuki ile böyle eğlenmeye devam edebilsem, hayatın yüklerinden hiç endişelenmeden."
     show black with wipedown
-    "It would be nice if both of us could."
+    "Keşke biz ikimiz de böyle olabilsek."
     window hide
     stop music fadeout 2.0
-    pause(4.0)
-
-    
+    pause(4.0)  
+	
     window show
-    
+	
     play sound alarm
     "{i}BEEP! BEEP!{/i}"
     scene bg bedroom with open_eyes
-    "I wake up to the sound of my alarm clock beeping."
+    "Alarm saatimin çaldığını duyup uyanıyorum."
     stop sound
-    "I forgot to disable it yesterday since there's no school right now, but it did remind me about how I was going to spend time with Natsuki today."
-    "Putting things into perspective, though, this would likely be a smoother process if I hadn't forgotten to ask her when we were actually going."
-    "I pick up my phone and text Natsuki, asking when she wanted to get there, and almost immediately she messages me back."
-    p "how about now?"
-    "This feels a little early by my standards, but I'd probably get anxious waiting anyway."
-    "I text back saying that would be fine, and proceed to try to make myself look at least slightly presentable."
-    "A little bit later, I hear a knock at my door."
+    "Dün alarmı kapatmayı unuttum, çünkü okul yok ama yine de, bana bugün Natsuki ile vakit geçireceğimizi hatırlattı."
+    "Durumu gözden geçirdiğimde, aslında bu iş biraz daha kolay olurdu, eğer ona ne zaman gideceğimizi sormayı unutmasaydım."
+    "Telefonumu alıp Natsuki'ye ne zaman gelmek istediğini yazıyorum ve neredeyse hemen mesaj atıyor."
+    p "Şu an nasıl?"
+    "Biraz erken olduğunu düşündüm ama beklemektense hemen gitmek, bana daha makul geldi."
+    "Mesajımı onaylayıp, birazcık düzgün görünmeye çalışarak hazırlanıyorum."
+    "Bir süre sonra, kapıma bir tekme duyuyorum."
     scene bg house_entrance with dissolve_cg
     show natsuki 4ba at f11
     play music aNewDay fadein 2.0
-    "I open it up and see Natsuki standing there, looking slightly impatient but also happy to see me."
-    n 4bb "So, are you ready or what?"
+    "Kapıyı açıyorum ve Natsuki'nin orada olduğunu görüyorum, biraz sabırsız ama aynı zamanda beni gördüğüne mutlu."
+    n 4bb "Yani, hazırsın değil mi?"
     show natsuki 4ba at f11
-    mc "I'm guessing that you're ready, so that means I'm ready too."
-    n 4bb "Alright. I'm hoping you're not too slow when helping me with this, by the way."
-    mc "Well, I'll try my best."
-    "I've gone grocery shopping plenty of times so it's not like there's going to be any issue, but for all I know Natsuki could be some pro grocery shopper or something, if that exists."
-    
+    mc "Sanırım sen hazırsın, o zaman ben de hazırım."
+    n 4bb "Tamam. Umarım bu işte çok yavaş davranmazsın, bu arada."
+    mc "Elimden geleni yaparım."
+    "Birçok kez alışverişe çıktım, bu yüzden sorun olacağını düşünmüyorum, ama kim bilir, belki Natsuki bir profesyonel alışverişçi falandır, varsa öyle bir şey."
+
     scene bg streets_day with wipeleft_scene
-    
+	
     play sound crowds
-    
+	
     pause(1.5)
     scene bg grocery with dissolve_cg
-    "We arrive at a large supermarket that I don't think I've ever been to. There's large crowds scrambling around, which makes it slightly difficult to see where everything is."
+    "Hiç gitmediğim büyük bir süpermarkete geliyoruz. Her yer kalabalık, bu da her şeyin nerede olduğunu görmekte biraz zorluk yaşamama neden oluyor."
     show natsuki 1ba at f32
-    n 1bb "Come on! We've got a lot of time, but not {i}that{/i} much time!"
+    n 1bb "Hadi! Zamanımız var ama o kadar da değil!"
     
-    "We walk further inside, and I wait on Natsuki to tell me the details of this trip."
-    n "We're in KO Supermarket, a large store that should have everything we need for now."
-    mc "Interesting. I've never heard of this place."
-    mc "Anything special about it?"
-    n 3bl "What's great about this store are the low prices on mostly everything, which makes this place the obvious pick."
-    n "You should start coming here too, you know. Unless you have bad taste in grocery stores or something."
+    "İçeri doğru ilerliyoruz ve ben, bu gezinin detaylarını bana söylemesini bekliyorum."
+    n "Buradayız, KO Süpermarket. Burada şimdilik ihtiyacımız olan her şeyi bulabiliriz."
+    mc "İlginç. Daha önce hiç duymamıştım burayı."
+    mc "Burası hakkında özel bir şey var mı?"
+    n 3bl "Bu mağazanın güzel yanı, çoğu üründe düşük fiyatlar olması. Yani burası kesinlikle doğru tercih."
+    n "Sen de buraya gelmeye başlamalısın, biliyorsun. Hani, kötü bir alışveriş zevkin yoksa tabii."
     show natsuki 3bj
-    "I didn't know that it was possible to have bad taste in places to shop for food, but I do now."
-    mc "What are we going to be buying, anyway?"
-    n 3bl "Cupcake supplies, duh! It's important to always be stocked up on ingredients."
-    mc "That's fair. Where do we start?"
-    n "First up is flour. Follow me, it's just a few aisles away."
+    "Alışveriş için kötü bir zevkin olabileceğini hiç düşünmemiştim, ama artık düşünüyorum."
+    mc "Peki, ne alacağız peki?"
+    n 3bl "Cupcake malzemeleri tabii! Malzemelerimizi eksiksiz almak önemli."
+    mc "Anladım. Nereden başlayalım?"
+    n "İlk önce un. Beni takip et, birkaç koridor ileride."
     show natsuki 3ba at t44
-    mc "Wouldn't it be more convenient if we split up to get more done instead?"
-    "Natsuki freezes."
+    mc "Daha hızlıca işimizi bitirebilmek için ayrı ayrı gitsek daha iyi olmaz mı?"
+    "Natsuki birden donakaldı."
     show natsuki 5bq at t44
-    n "N-Nah, we're fine like this." 
-    mc "Whatever you say, Natsuki."
+    n "Y-Yok, böyle iyiyiz." 
+    mc "Peki, sen ne dersen."
     hide natsuki with wipeleft
-    "We head over to the flour and sugar section, and Natsuki looks through the flours." 
+    "Un ve şeker reyonuna doğru ilerliyoruz ve Natsuki unları inceliyor."
     show natsuki 3bc at t41
     pause(1.5)
     show natsuki 3bc at t33
     pause(1.5)
     show natsuki 3bc at t42
-    "There are many of the same kind, but each are different brands. I notice that Natsuki is taking awhile to pick something out."
-    mc "I don't think the brand is going to affect the taste too much."
+    "Aynı türden birçok çeşit var ama her biri farklı markalarda. Natsuki'nin bir şey seçmekte biraz zaman harcadığını fark ediyorum."
+    mc "Markanın tat üzerinde fazla etkisi olacağını sanmıyorum."
     show natsuki 4bb at f11
-    n "It's not about the brand! Price is the most important thing here. You have to check the size of each bag and compare it to how much it costs versus other sizes."
+    n "Marka önemli değil! Buradaki en önemli şey, her çuvalın büyüklüğüne bakıp, fiyatlarını diğerlerinden nasıl karşılaştırdığını anlamak."
     show natsuki 4ba at f11
-    mc "Stuff like three 4 pound bags of flour being cheaper overall than a single 10 pound bag, you mean?"
-    n 3bb "Basically. It's a long process and even though we should have enough time to do this, you have to be very careful."
-    mc "I see. I didn't realize you were so thorough with this kind of stuff."
-    n "Well, if you can save money, then why wouldn't you, right?"
+    mc "Yani üç tane 4 kiloluk un çuvalı, bir tane 10 kiloluk çuvaldan daha ucuz oluyorsa?"
+    n 3bb "Aynen öyle. Bu uzun bir işlem ve aslında vaktimiz olsa da çok dikkatli olman gerekiyor."
+    mc "Anlıyorum. Bu kadar ayrıntılı düşündüğünü hiç bilmiyordum."
+    n "Eğer para birikiyorsa, neden yapmayasın ki?"
     show natsuki 3ba at t44
-    "Natsuki does bring up a good point; I never really paid attention to those kinds of things when shopping. Well, that and I hated doing math."
+    "Natsuki haklı bir noktaya değindi; alışveriş yaparken hiç bu tarz şeylere dikkat etmemiştim. Hatta matematik yapmayı hiç sevmedim."
     show natsuki 1bl at f44
-    "A few moments later, Natsuki finally picks out a bag of flour."
-    n 1bb "Here, hold this."
+    "Bir süre sonra, Natsuki sonunda un çuvalını seçiyor."
+    n 1bb "Al, bunu tut."
     show natsuki 1bb at f11
-    "Without giving me time to react, she throws the bag at me and I barely catch it as she looks at her shopping list again."
+    "Bir şey söylemeye fırsatım bile olmadan, un çuvalını bana atıyor ve ben zorla yakalıyorum, o da alışveriş listesine tekrar bakıyor."
     show natsuki 1ba at f11
-    "It would've been faster for her to just put the flour in the shopping cart we took before coming in, but I guess she must've been in too much of a rush to think straight."
-    n 1bb "Okay, next up are eggs."
+    "Unu önce alışveriş sepetine koymak çok daha hızlı olurdu ama sanırım biraz aceleciydi."
+    n 1bb "Tamam, sırada yumurta var."
     show natsuki 1ba at t44
-    "We move over to the aisle that has all the egg cartons. As Natsuki is picking which kind to buy again, I decide to strike up a conversation."
-    mc "Are you making these cupcakes for an event or something?"
-    n 1bb "That part's not important, trust me."
-    mc "I don't know. If it's not important, I don't think there'd be an issue with telling me. If you're making it for someone, I can keep a secret."
-    n 4bq "I'm sure you'll find out soon enough anyway. Shouldn't you be helping me right now or something?"
-    "I really have no idea what I'm supposed to be helping with in the first place. I'd like to sigh, but it's not as if I haven't gotten used to Natsuki's occasional moments of bizarre logic."
-    mc "I wouldn't mind doing that, but I don't know how I'm supposed to help."
-    n 4bb "Hmm... see what's next on the list, maybe? I think it's in the shopping cart."
-    "As Natsuki mentioned, I find the list while peering into the cart."
-    mc "Next up should be butter."
-    n "Alright, then let's get going."
+    "Yumurta kutularının olduğu reyonda ilerliyoruz. Natsuki yine hangi türü alacağına karar verirken, ben de sohbete başlamak istiyorum."
+    mc "Bu cupcake'leri bir etkinlik için mi yapıyorsun?"
+    n 1bb "O kısmı önemli değil, güven bana."
+    mc "Bilmiyorum, önemli değilse, bana söylemenin ne zararı var? Eğer biri için yapıyorsan, sır tutarım."
+    n 4bq "Sonunda öğrenirsin zaten. Hadi ama, şimdi bana yardım etmelisin, değil mi?"
+    "Gerçekten neye yardım etmem gerektiğinden hiç bir fikrim yok. Ama Natsuki'nin bazen garip mantıklarını anlamaya alıştım."
+    mc "Yardım etmeyi isterim ama nasıl yardımcı olacağımı bilmiyorum."
+    n 4bb "Hmm... listenin geri kalanına bak, belki? Sanırım alışveriş sepetinde."
+    "Natsuki'nin dediği gibi, sepete bakarken listeyi buluyorum."
+    mc "Sıradaki şey tereyağı olmalı."
+    n "Tamam, o zaman gidelim."
     show natsuki 4ba at f11
-    "Natsuki finds the perfect carton of eggs to put into the cart, and we continue our trip once more."
-    mc "I was wondering, Natsuki. Want me to help you bake cupcakes once we're done with all this?"
+    "Natsuki mükemmel bir yumurta kartonunu seçiyor ve yolumuza devam ediyoruz."
+    mc "Bir şey soracaktım Natsuki. Bütün bu iş tamamlandıktan sonra, cupcake'leri birlikte yapmayı ister misin?"
     show natsuki 4bs at f11
-    "Natsuki looks off to the side and then back at me."
-    n 4bq "Normally I would, but..."
-    mc "Yeah?"
-    n "I'll just say that this is a special occasion."
-    mc "Oh, I see."
+    "Natsuki bir anlık olarak yanına bakıyor, sonra tekrar bana dönüyor."
+    n 4bq "Normalde isterdim ama..."
+    mc "Evet?"
+    n "Sadece özel bir durum olduğunu söyleyeyim."
+    mc "Anladım."
     show natsuki 4bs at f11
-    "I quiet down as I wonder what that's supposed to mean."
+    "Bir anda ne demek istediğini anlayamıyorum ve sessizleşiyorum."
     hide natsuki with wipeleft
-    "This whole thing felt a bit strange to me. Was it a date or was it not? Maybe I'm misinterpreting things, but at the same time I'd be lying if I said I didn't like spending more time with Natsuki."
-    "Maybe one day I could ask her out on an actual date. You know, actually call it a date, and have us specifically refer to it as a date."
-    "But I don't think I'd ever have the courage to do that, so I may as well forget it for now."
-    "Our shopping trip continued until we had all the supplies we needed and headed to the self-checkout stand."
+    "Bu bütün iş bana biraz garip geldi. Bu bir randevu muydu yoksa değildi mi? Belki yanlış anlıyorum ama aynı zamanda, Natsuki ile daha fazla vakit geçirmeyi sevmediğimi de söyleyemem."
+    "Belki bir gün onu gerçekten bir randevuya davet ederim. Hani, tam olarak bir randevu diyerek, randevu olarak adlandırıp, öyle bir şey yaparız."
+    "Ama sanırım bunu yapmaya cesaretim olmayacak, o yüzden şimdilik unutmalıyım."
+    "Alışverişimiz devam etti, ihtiyacımız olan tüm malzemeleri alıp, self-checkout kasasına yöneldik."
     show natsuki 2ba at f11
-    "I notice that Natsuki pulls out a membership card for this place, so she must be even more of a regular than I thought."
-    mc "Right, how much is that for all of this?"
-    n 1bk "It should be... oh, wow. That's a new record!"
-    mc "New record?"
-    n 2bc "Yeah, I like to see how cheap I can get this stuff for. Not counting coupons, of course."
-    mc "You know, that's cheap enough that I wouldn't mind paying for it."
-    mc "I have enough money on me, I think."
+    "Natsuki'nin burası için bir üyelik kartı çıkardığını fark ettim, demek ki düşündüğümden daha sık geliyormuş buraya."
+    mc "Peki, bunların hepsi toplamda ne kadar?"
+    n 1bk "Bunu... Vay, yeni bir rekor kırdım!"
+    mc "Yeni rekor mu?"
+    n 2bc "Evet, bu ürünleri ne kadar ucuza alabileceğimi görmek hoşuma gidiyor. Tabii kuponları saymazsak."
+    mc "Biliyorsun, o kadar ucuz ki, bence ben de ödemek isterim."
+    mc "Yanımda yeterince param var galiba."
     show natsuki 2bu at t11
-    "Natsuki looks a bit nervous."
+    "Natsuki biraz tedirgin görünüyor."
     show natsuki 2bu at f11
-    n "You don't have to do th--"
-    n "...Actually, if you seriously want to, then sure."
-    mc "Of course, I don't mind."
+    n "Yapmak zorunda değilsin... "
+    n "...Aslında, gerçekten istersen, olur."
+    mc "Tabii ki, hiç sorun değil."
     show natsuki 4bj
-    "Natsuki smiles for a moment."
-    n "Thanks. But remember that you volunteered, so I'm not paying you back!"
+    "Natsuki kısa bir an için gülümsüyor."
+    n "Teşekkürler. Ama unutma, sen gönüllü oldun, ben sana geri ödeme yapmam!"
     hide natsuki with wipeleft
     scene bg streets_day with wipeleft_scene
-    "After we get everything together, we walk out while carrying a few grocery bags."
-    mc "Well, I'm certainly not an expert on shopping for food, but I have to admit this was fun."
+    "Her şeyi toparlayıp, birkaç alışveriş torbası taşıyarak dışarı çıkıyoruz."
+    mc "Yani, ben alışveriş konusunda pek uzman değilim ama açıkçası bu eğlenceliydi."
     show natsuki 1bb at f11
-    n "It's usually boring, but it was nice to have someone come along. So I guess I have you to thank for that."
-    mc "Yeah."
+    n "Genelde sıkıcıdır, ama biriyle gelmek güzeldi. O yüzden sana teşekkür ederim."
+    mc "Evet."
     show natsuki 1ba at f11
-    "There was an awkward silence. I had the urge to say something, but I couldn't figure out what entirely it was."
+    "Bir sessizlik oldu. Bir şeyler söyleme isteği duyuyordum ama ne söyleyeceğimi tam olarak anlayamadım."
     mc "Natsuki..."
     show natsuki 1bs at f11
-    n "Y-Yeah?"
-    mc "I... um..."
-    "Nope, I can't do this."
-    mc "Good luck baking those cupcakes."
-    n 1bq "Of course!"
-    n "And... uh..."
-    "Natsuki also struggled to get out whatever she was trying to say."
-    n "Good luck with whatever you usually do."
-    "What was I supposed to say here?"
-    mc "Thanks."
+    n "E-Evet?"
+    mc "Ben... şey..."
+    "Yok, bunu yapamam."
+    mc "İyi şanslar cupcake'leri yaparken."
+    n 1bq "Tabii ki!"
+    n "Ve... şey..."
+    "Natsuki de, söylemeye çalıştığı şeyi bir türlü çıkaramadı."
+    n "İyi şanslar, ne yapıyorsan."
+    "Ne demem gerektiğini bilmiyorum."
+    mc "Teşekkürler."
     hide natsuki with dissolve_cg
-    "Thanks? That was it?"
-    "You know, one day I'll confess my feelings. Or maybe Natsuki will beat me to it, if she even has feelings strong enough to overcome her pride." 
-    "But regardless of what happens, I'll be there for her."
+    "Teşekkürler? O kadar mı?"
+    "Bir gün duygularımı itiraf edeceğim. Ya da belki Natsuki, gururunu aşacak kadar güçlü hisler besliyorsa, o önce itiraf eder."
+    "Ama ne olursa olsun, ben her zaman onun yanında olacağım."
     stop music fadeout 3.0
     hide window
     pause(1.0)
     scene bg bedroom with wipeleft_scene
     play music Thoughts fadein 3.0
     
-    "I sit on my bed at home, trying to put things into perspective."
-    "It hasn't been that long since I joined the Literature Club, but it's still been long enough."
-    "Long enough for me to feel that I have a connection with the club members and, most importantly, Natsuki."
-    "When Sayori first asked me to join the club, I didn't think it would lead to this."
-    "Sure, I've had feelings for girls in the past, but I don't think they've been as strong as they are when I'm with Natsuki."
-    "She can be difficult to get through to, yeah, but there's still a genuine kindness to her underneath all her insecurities."
-    "And hey, it's good when a girl I like shares my interest in manga."
-    "Thinking about it, it's interesting how manga has gotten us closer to each other, too. Not only reading it together, but when we tried making our own manga yesterday as well."
-    "It doesn't matter that we barely got anywhere, she was clearly enjoying herself and so was I."
-    "I don't know what has been coming over me, but I pick up my phone. Without thinking, I text a message to Natsuki: \"Goodnight!\""
-    "I feel incredibly embarrassed after doing so, too. Do friends even do that? It's not like we're in a relationship. What was I thinking?"
-    "Expecting the worst, I soon get a response from Natsuki."
-    p "you too! :)"
-    "My mind is put at ease, but then I'm wondering other things too."
+    "Yatakta otururken, her şeyi biraz daha net görmeye çalışıyorum."
+    "Edebiyat Kulübü'ne katılalı pek uzun sayılmaz, ama yine de yeterince uzun."
+    "Yeterince uzun ki kulüp üyeleriyle, özellikle de Natsuki ile bir bağ kurduğumu hissediyorum."
+    "Sayori beni kulübe davet ettiğinde, bunun bu kadarına yol açacağını düşünmemiştim."
+    "Tabii, geçmişte kızlara karşı duygularım olmuştu ama sanırım Natsuki ile geçirdiğim zaman kadar güçlü değillerdi."
+    "Zor birini anlamak bazen kolay olmuyor, evet, ama onun tüm güvensizliklerinin altında gerçekten bir iyilik var."
+    "Ve neyse ki, sevdiğim bir kızın manga ilgimle de ortak paydada buluşması güzel."
+    "Düşünüyorum da, aslında manga, birbirimize daha da yakınlaşmamıza da neden oldu. Sadece birlikte okumak değil, dün kendi manga'mızı yapmaya çalışmamız da."
+    "Önemli değil, neredeyse hiçbir şey yapamadık ama belli ki o da keyif alıyordu, ben de."
+    "Ne olduğunu tam olarak bilmiyorum ama telefonumu alıyorum. Düşünmeden Natsuki'ye mesaj atıyorum: \"İyi geceler!\""
+    "Yaptıktan sonra inanılmaz derecede utanıyorum. Arkadaşlar böyle şeyler yapar mı? Hem biz bir ilişkide değiliz. Ne düşünüyordum ki?"
+    "En kötü ihtimali beklerken, Natsuki'den cevap alıyorum."
+    p "sen de! :)"
+    "Zihnim biraz rahatlıyor ama sonra başka şeyler düşünmeye başlıyorum."
     hide window
     show black with Dissolve(4.0)
     window show
-    "If I were to confess, what would I even say? When would it happen? Would something happen that would push me to say it?"
-    "I barely know anything at this point. All I know is that tomorrow's a new day and I get to enjoy spending time with Natsuki and hopefully she enjoys spending time with me."
+    "Eğer itiraf etmeye karar verirsem, ne söyleyebilirim? Ne zaman olur? Beni buna iten bir şey olur mu?"
+    "Bu noktada neredeyse hiçbir şey bilmiyorum. Tek bildiğim yarının yeni bir gün olduğu ve Natsuki ile vakit geçirebileceğim, umarım o da benimle vakit geçirmekten keyif alır."
     hide window
     pause(1.0)
     stop music fadeout 3.0
@@ -761,7 +760,6 @@ label natsukiRoute_FestivalDays:
     call natsukiRoute_SchoolDaysTwo
     return
 
-   
 label natsukiRoute_SchoolDaysTwo:
     scene bg bedroom with open_eyes
     window show
@@ -769,170 +767,170 @@ label natsukiRoute_SchoolDaysTwo:
     play sound alarm
     "{i}BEEP! BEEP!{/i}" 
     stop sound
-    "Man, did I even get any sleep last night? It's hard for me to tell with how tired I am."
-    "In the end, it doesn't really matter. Another day means another session with the Literature Club, although that's not to say that's a bad thing."
-    "Which reminds me, I wonder how Natsuki is doing? I mean, things were a bit awkward after we left the grocery store."
-    "...No, that's the wrong way to think of things. If I keep getting nervous about this I'm not going to get anywhere. In the end, what's going to happen will happen."
-    "For now, I just need to live my life the way I normally do. And so, I turn off my alarm clock and get ready to go to school."
-    
+    "Vay be, geçen gece hiç uyumadım mı acaba? Ne kadar yorgunum, bir türlü anlamıyorum."
+    "Sonuçta, pek de önemli değil. Yeni bir gün, yeni bir Edebiyat Kulübü toplantısı demek, ama bu kötü bir şey değil tabii."
+    "Haa, bir de, acaba Natsuki nasıl? Hani, marketten sonra biraz garip olmuştu durum."
+    "...Hayır, böyle düşünmemeliyim. Eğer bu kadar gergin olursam hiçbir yere varamam. Sonuçta, ne olursa olsun olacak."
+    "Şu anda, normal bir şekilde hayatıma devam etmem gerek. O yüzden alarmımı kapatıp okula gitmek için hazırlanıyorum."
+
     scene bg class_day with wipeleft_scene
     pause(1.5)
     scene bg club_day with wipeleft_scene
-    "With another dull day of classes over (Did I ever mention that I hate French class?), I head over to the Literature Club."
-    "I walk into the room, and see all the members doing their own thing. The exception to this is Natsuki, who is sitting with her head down at a desk."
-    "It's possible that she's asleep, but it's hard to tell."
+    "Dersler nihayet bitmişken (Fransızca dersini sevdiğimi hiç söyledim mi?), Edebiyat Kulübü'ne doğru ilerliyorum."
+    "Odaya girdiğimde, herkes kendi işine dalmış durumda. Buna Natsuki de dahil, ama o başı öne eğilmiş bir şekilde masasında oturuyor."
+    "Belki uyuyordur, ama anlamak zor."
     show monika 1a at f11
-    m "Hey, [player]! It's good to see you came."
+    m "Hey, [player]! Geldiğini görmek güzel."
     hide monika with wipeleft
     show natsuki 5u at t44
-    "After greeting Monika, Yuri, and Sayori, I walk over to Natsuki."
+    "Monika, Yuri ve Sayori'ye selam verdikten sonra, Natsuki'nin yanına gidiyorum."
     show natsuki 5u at t11
-    mc "Natsuki? You awake?"
+    mc "Natsuki? Uyanık mısın?"
     show natsuki 1c at f11
-    "Natsuki slowly rubs her eye and after realizing it was my voice she heard, her head perks up."
-    "I'd like to think she perked up because it was my voice specifically, but I'm jumping to conclusions at this point."
-    n 1e "Ugh... it's about time you showed up."
-    "Natsuki stretches her arms and yawns."
-    mc "Did you not get much sleep last night?"
-    n "I guess you could say that."
-    mc "Was something keeping you up, then?"
-    n "I had been thinking of something a lot, yeah."
+    "Natsuki, gözünü yavaşça ovuşturuyor ve sesimi duyduğunu fark ettikten sonra başını kaldırıyor."
+    "Onun başını kaldırmasının, özellikle benim sesimi duyduğunda olduğunu düşünmek isterdim, ama şu anda fazla çıkarımda bulunuyorum."
+    n 1e "Hah... Sonunda geldin."
+    "Natsuki kollarını esnetip esneyerek uyanıyor."
+    mc "Dün gece pek uyudun mu?"
+    n "Sanırım öyle diyebilirim."
+    mc "Bir şey mi seni uyandırdı, yoksa?"
+    n "Aslında çok düşündüğüm bir şey vardı, evet."
     show natsuki 1q at f11
-    n "N-Nothing to do with you or anything like that."
-    mc "Yeah, same here."
-    n 1e "Huh?"
-    "I probably could have worded that better."
-    mc "Oh, it's nothing. I had trouble sleeping last night too."
-    n 1s "Yeah."
-    "Either we were both tired or we were both flustered, because it was clear that we had been confused by what was going on yet didn't question it."
+    n "S-Seninle falan alakası yok yani."
+    mc "Aynen, bende de öyle."
+    n 1e "Hı?"
+    "Belki bunu daha iyi ifade edebilirdim."
+    mc "Haa, önemli değil. Ben de dün gece uyumakta zorlandım."
+    n 1s "Evet."
+    "Ya gerçekten çok yorgunduk ya da kafamız karışmıştı, çünkü olan biteni anlamıştık ama yine de sorgulamıyorduk."
     hide natsuki with dissolve_cg
-    "Maybe it was both. I did know for sure that things had felt different lately."
-    mc "So, what we should do today?"
-    "Natsuki yawns again and closes her eyes."
+    "Belki her ikisi de oluyordur. Ama kesinlikle son zamanlarda her şeyin biraz farklı hissettirdiğini biliyordum."
+    mc "Peki, bugün ne yapalım?"
+    "Natsuki yine esneyip gözlerini kapatıyor."
     
-    n "There's always manga. I'd... like it if you'd read to me, actually."
+    n "Her zaman manga var. Aslında... bana okumanı isterim."
     show natsuki 4p at hf11
-    "Natsuki quickly opens her eyes, realizing how strange it is for her to say something like that."
-    n 4q "I didn't mean it like that! I'm just super tired, okay?"
-    "It feels strange to see a side of Natsuki that's this calm, like her tense attitude has worn off. That has to be the effect that not getting enough sleep has on some people."
+    "Natsuki gözlerini aniden açıp, böyle bir şey söylemesinin ne kadar tuhaf olduğunu fark ediyor."
+    n 4q "Böyle demek istemedim! Gerçekten çok yorgunum, tamam mı?"
+    "Natsuki'nin bu kadar sakin bir halini görmek garip, sanki gerginliği gitmiş gibi. Belli ki uykusuzluk bazı insanlarda böyle bir etki yaratıyor."
     pause(1.5)
     hide natsuki
     scene bg club_day with wipeleft_scene
-    "We spend some time reading manga together. Although Natsuki asked me to read to her because she was tired, she went back to being her usual self pretty soon."
+    "Bir süre birlikte manga okuduk. Natsuki bana okuma isteğini yorgun olduğu için yapmıştı, ama çok geçmeden yine eski haline döndü."
     show monika 1a at f41
-    m "Okay, everyone!"
+    m "Tamam, herkes!"
     show monika 1a at f11
-    "We all turn towards Monika."
+    "Hepimiz Monika'ya dönüyoruz."
     play music aNewDay fadein 2.0
-    m 1b "Since it's been awhile since we've held an event, I was thinking of things we could do."
+    m 1b "Bir süredir etkinlik yapmadık, o yüzden ne yapabileceğimizi düşündüm."
     show monika 1a at t21
     show yuri 1f at f22
-    y "We participated in the school festival only a few days ago, though."
+    y "Okul festivaline sadece birkaç gün önce katıldık, değil mi?"
     show monika 1b at f21
     show yuri 1e at t22
-    m "As I was saying, I decided that we should do something nice and simple to help us get to know each other better."
+    m "Dediğim gibi, birbirimizi daha iyi tanımamıza yardımcı olacak basit bir şeyler yapalım dedim."
     show monika 1b at t31
     show yuri 1e at t32
     show natsuki 3b at f33
-    n "As long as it's not something stupid like--"
+    n "Bunu salakça bir şey yapmazsanız olur."
     show natsuki 3b at t33
-    "Natsuki is interrupted."
+    "Natsuki'nin sözü yarıda kesiliyor."
     show monika 1b at f31
-    m "That's right, we're doing show and tell!"
+    m "Evet, gösteri yapıp anlatıyoruz!"
     show monika 1a at t41
     show yuri 1e at t42
     show natsuki 1c at t43
     show sayori 1c at f44
-    s "Show and tell? You mean that thing where you bring an item and tell people about it?"
+    s "Gösteri ve anlatım? Yani, bir şey getirip hakkında konuştuğun şey mi?"
     show sayori 1a at t44
-    mc "Isn't that like, something only little kids do though?"
+    mc "Ama bu sadece küçük çocukların yaptığı bir şey değil mi?"
     show monika 1b at f41
-    m "Yeah, but it still holds a lot of value! For one thing, it's good for improving our public speaking skills--not that you guys did a bad job at the festival, but there's always room for improvement."
-    m "It'll also help us get to know each other better. Especially you, [player], since you haven't been part of the club for that long."
+    m "Evet ama hâlâ çok faydalı! Birincisi, topluluk önünde konuşma becerilerimizi geliştiriyor—festivalde kötü bir iş çıkarmadınız ama her zaman gelişim alanı var."
+    m "Ayrıca, birbirimizi daha iyi tanımamıza da yardımcı olur. Özellikle sen, [player], çünkü kulüpte çok yeni sayılırsın."
     show monika 1a at t41
     show natsuki 4e at f43
-    n "This is embarrassing. Couldn't you have picked something less terrible?"
-    n "Just because half the people here act like kids doesn't mean we have to treat them like it."
+    n "Bu gerçekten utanç verici. Biraz daha az kötü bir şey seçmedin mi?"
+    n "Buradaki yarısı çocuk gibi davranıyor diye, biz de onlara öyle davranmak zorunda değiliz."
     show monika 1b at f41
     show natsuki 4g at t43
-    m "I'll admit, I was running out of ideas for events and this was the last one I could think of, but still."
+    m "Kabulleniyorum, etkinlik için fikirlerim tükenmişti ve son aklıma gelen buydu, ama yine de."
     show monika 1a at t41
     show yuri 1f at f42
-    y "Then do you have any event ideas that come to mind, Natsuki?"
+    y "O zaman aklına başka etkinlik fikirleri gelen var mı, Natsuki?"
     show yuri 1e at t42
     show natsuki 1c at f43
-    "Natsuki stops to think."
-    n 1b "Well..."
+    "Natsuki düşünmeye başlıyor."
+    n 1b "Hımm..."
     show natsuki 1b at t43
     show sayori 4c at f44
-    s "Come on, Yuri, you shouldn't put someone on the spot like that!"
+    s "Yapma, Yuri, insanları böyle sıkboğaz etme!"
     show sayori 4c at t44
-    "It seems like this was my time to step in."
-    mc "Why don't we write poems together?"
+    "Sanırım burada devreye girme sıram geldi."
+    mc "Ne dersiniz, birlikte şiir yazsak?"
     show natsuki 4e at f43
-    n "We already do that. That's the point of the club, [player]."
-    "Oh, yeah."
+    n "Zaten bunu yapıyoruz. Kulübün amacı bu, [player]."
+    "Oh, evet."
     show yuri 1f at f42
     show natsuki 4c at t43
-    y "Actually, I have a potential suggestion."
+    y "Aslında, bir önerim var."
     show monika 1b at f41
     show yuri 1e at t42
-    m "Go ahead, Yuri."
+    m "Hadi, Yuri, söyle."
     show monika 1a at t41
     show yuri 1f at f42
-    y "We can write all our names down on separate slips of paper and draw them out of a hat."
-    y "The name that gets picked decides on an activity that they enjoy. For example, if Natsuki's name was picked, we could all read manga together."
-    y "This would encourage us to broaden our interests while ensuring that the selection process is completely fair."
+    y "Herkesin ismini ayrı ayrı kağıtlara yazıp bir şapkaya koyabiliriz."
+    y "Çekilen ismin belirlediği etkinlik, herkesin hoşlandığı bir şey olmalı. Mesela Natsuki'nin adı çekilirse, hepimiz manga okuyabiliriz."
+    y "Bu, ilgi alanlarımızı genişletmemize yardımcı olurken, seçim sürecinin tamamen adil olmasını sağlar."
     show monika 1b at f41
     show yuri 1e at t42
-    m "Well, what does everyone else think?"
+    m "Peki, diğerleri ne düşünüyor?"
     show monika 1a at t41
     show sayori 1c at f44
-    s "Sounds good to me."
+    s "Bana gayet iyi bir fikir gibi geldi."
     show sayori 1x at t44
     show natsuki 4b at f43
-    n "It might work, but don't expect me to show up if it's something dumb."
+    n "Fena olmayabilir, ama eğer saçma bir şey çıkarsa orada olmayın."
     show natsuki 4c at t43 zorder 2
     show sayori 4q at t33 zorder 1
-    s "I'll drag you there, then!"
+    s "Seni zorla götürürüm o zaman!"
     s 4r "Ehehe~"
     
-    mc "How about we do the raffle now and sort out the details later?"
+    mc "Hadi o zaman, şimdiden çekilişi yapalım, ayrıntıları sonra hallederiz."
     show yuri 1b at f42
-    y "I agree. I will set it up."
+    y "Katılıyorum. Ben hallederim."
     hide monika
     hide yuri
     hide natsuki
     hide sayori 
     with wipeleft
-    "Yuri writes down everyone's names and then comes up to us with a request."
+    "Yuri herkesin ismini yazıp yanımıza gelir ve bir şey ister."
     show yuri 1b at f21
-    y "We'll need something along the lines of a hat to put these in."
+    y "Bunları koymak için bir şeyler lazım, bir şapka gibi bir şey."
     show yuri 1a at t21
     show natsuki 1b at f22
-    n "I have a cat beanie if that'll work."
+    n "Benim bir kedi bereim var, iş görür mü?"
     hide natsuki
-    "Natsuki grabs a beanie out of her backpack. It has the design of a cutely drawn gray cat, which is something I'd expect from her at this point."
+    "Natsuki çantasından bir bere çıkarıyor. Üzerinde şirin bir gri kedi tasarımı var, bu durumun onun tarzı olduğunu düşündürür."
     hide yuri
     show natsuki 1c at f11
-    mc "It's your beanie, so you should probably draw the names, Natsuki."
-    "In a few moments the drawing is already over. Natsuki looks at the paper that was drawn and reads it."
+    mc "Bere senin, o yüzden isimleri sen çekmelisin Natsuki."
+    "Bir kaç dakika içinde çekiliş bitmişti. Natsuki çekilen kağıda bakıyor ve okuyor."
     n 1b "[player]."
-    mc "Wait, me?"
-    n 4b "Yes, you."
-    "I didn't expect to win the raffle, honestly. It was only a 1 in 5 chance, after all, but I guess it's all on me now."
+    mc "Hah, ne? Ben mi?"
+    n 4b "Evet, sen."
+    "Çekilişi kazanmayı beklemiyordum aslında. Sonuçta sadece 5'te 1 şansım vardı ama her şey şimdi bana kaldı."
     show monika 1b at f21
     show natsuki 1c at t22
-    m "So, what event do you have in mind?"
+    m "O zaman, ne tür bir etkinlik düşündün?"
     hide monika 
     hide natsuki
     menu:
-        "Right, an event. I didn't think about what I'd choose for an activity, either. It should be something both me and Natsuki would enjoy, though."
-        "Bake something":
+        "Evet, etkinlik... Ne yapacağıma karar vermedim. Ama hem ben hem de Natsuki'nin keyif alacağı bir şey olmalı."
+        "Bir şeyler pişirmek":
             call choiceBaking
-        "Watch anime":
+        "Anime izlemek":
             call choiceAnime
-        "Read manga":
+        "Manga okumak":
             $ readManga = True
             call choiceManga
     call natsukiRoute_SchoolDaysTwo_End
@@ -940,31 +938,31 @@ label natsukiRoute_SchoolDaysTwo:
 
 
 label choiceBaking:
-    mc "Uhh, what about baking cupcakes?"
+    mc "Hımm, cupcake yapmayı ne dersiniz?"
     
     show natsuki 1p at f11
-    "Natsuki looks shocked."
+    "Natsuki şaşkın bir şekilde bakıyor."
     show natsuki 1p at t21
     show yuri 1f at f22
-    y "You know how to bake?"
+    y "Gerçekten pişirme biliyor musun?"
     hide natsuki
     hide yuri
     show sayori 1x at f11
-    "Sayori whispers into my ear."
-    s "I think it's cute how you're trying to impress Natsuki here, but you've only baked once, haven't you? I'm not trying to be sarcastic or anything, I just think there's better ways to get her attention."
+    "Sayori kulağıma fısıldıyor."
+    s "Bence Natsuki'yi etkilemeye çalıştığını görmek tatlı ama sen daha sadece bir kere pişirdin, değil mi? Sadece sarcastik bir şekilde demiyorum, aslında Natsuki'nin dikkatini çekmek için daha iyi yollar var."
     show sayori 1a at t21
     show monika 1b at f22
-    m "If you were going to pick that, we might as well have let Natsuki win the raffle."
+    m "Eğer bunu seçeceksen, en iyisi Natsuki'nin çekilişi kazanmasına izin verirken, senin için de yapmamıza gerek yok."
     hide sayori
     show monika 1a at t21
     show yuri 1b at t22
-    y "You should pick something {i}you{/i} enjoy doing, [player]."
-    mc "If you say so."
+    y "Bence {i}senin{/i} gerçekten sevdiğin bir şeyi seçmelisin, [player]."
+    mc "Dediğin gibi."
     hide monika 
     hide yuri
-    "I mean, it's not as if I disliked baking cupcakes, but I think I made my intentions too obvious."
+    "Yani, cupcake yapmayı sevmesem de biraz fazla belli ettim galiba."
     menu:
-        mc "Okay, then I'll pick..."
+        mc "Tamam, o zaman ben..."
         "Anime":
             call choiceAnime
         "Manga":
@@ -973,38 +971,38 @@ label choiceBaking:
 
 
 label choiceAnime:
-    mc "Why don't we all watch some anime?"
+    mc "Hadi gelin, birlikte biraz anime izleyelim?"
     show natsuki 1b at f11
-    n "That idea isn't half bad, actually."
+    n "Fena fikir değil aslında."
     show natsuki 1c at t22
     show sayori 1c at f21
-    s "Our school has an A/V room, so they probably have a projector we can borrow."
+    s "Okulda bir A/V odamız var, sanırım oradan bir projektör alabiliriz."
     show natsuki 1c at t33
     show sayori 1a at t32
     show monika 1b at f31
-    m "It's settled, then! I'll go there and see if they have something we can use."
-    hide monika 
+    m "Karar verildi o zaman! Ben gidip kullanabileceğimiz bir şey var mı bakarım."
+    hide monika
     hide sayori
     with wipeleft
     show natsuki 1b at f11
-    n "What are you going to choose for us to watch then, [player]? I hope it's something good."
+    n "Peki, ne izleyeceğiz o zaman, [player]? Umarım iyi bir şey seçersin."
     show natsuki 1a at f11
-    mc "Come on, you already know I have good taste."
-    n 1b "Hey, that's still up for debate."
-    mc "I'll pick something good, I promise."
-    "I take a deep breath and prepare to say something clever."
+    mc "Hadi canım, zaten güzel zevkim olduğunu biliyorsun."
+    n 1b "Hala tartışılır bu."
+    mc "Söz veriyorum, iyi bir şey seçeceğim."
+    "Derin bir nefes alıp, akıllıca bir şey söylemeye hazırlanıyorum."
     show natsuki 1q at hf11
-    mc "It's not about the anime, anyway. What's important is spending time with you."
+    mc "Aslında anime önemli değil. Önemli olan seninle vakit geçirmek."
     show natsuki 1i at f11
-    mc "...and the rest of the club, I mean!"
-    "Well, I thought it was halfway clever at least. Natsuki doesn't look convinced, though."
-    n "Y-Yeah, the club."
-    n 4w "But we're getting off topic anyway."
-    mc "Wait, since Monika said she's going now, does that mean we're doing it today?"
+    mc "...ve tabii ki diğer kulüp üyeleriyle!"
+    "Eh, bence yarım akıllıca bir şeydi. Ama Natsuki pek ikna olmuş gibi görünmüyor."
+    n "Y-Ya, kulüp işte."
+    n 4w "Neyse, konuyu dağıtıyoruz."
+    mc "Bekle, Monika şimdi gidiyor dedi, o zaman bugün mü yapıyoruz?"
     hide natsuki
-    show monika 5a at l41 
-    m "Right now, actually!"
-    "I turn around and see Monika by the clubroom door."
+    show monika 5a at l41
+    m "Aslında hemen şimdi!"
+    "Dönüp, kulüp odası kapısının önünde Monika'yı görüyorum."
    
     show monika 1a at t31
     
@@ -1015,99 +1013,99 @@ label choiceAnime:
     scene bg club_day with wipeleft_scene
     pause(1.0)
     window show
-    "It only takes a few minutes, but Monika and Yuri return with a laptop and a projector and get it set up."
-    "In the meantime, Sayori, Natsuki, and I push a few desks around so we can sit on the floor and have a clear view of the screen."
-    mc "Alright, that's the last desk..."
+    "Birkaç dakika sürüyor, ama Monika ve Yuri bir laptop ve projektörle geri dönüp her şeyi kuruyor."
+    "Bu arada, Sayori, Natsuki ve ben birkaç masayı itip, yerde rahatça izleyebilmek için yer açıyoruz."
+    mc "Tamam, son masa da yerleştirildi..."
     "Oh."
-    "I was hoping to sit down next to Natsuki, but I see that Yuri and Sayori are already sitting down next to her. Coming up with an excuse on the spot, I try to figure out a way to get Natsuki over here."
-    mc "Natsuki, over here! There's a glare over there, so it'd be better if you came over to this side."
-    "Well, granted, there wasn't actually any glare, but..."
+    "Yanımda Natsuki'yi oturtmayı umuyordum, ama Yuri ve Sayori'nin zaten yanına oturduğunu görüyorum. Anında bir bahane bulup, Natsuki'yi buraya çekmeye çalışıyorum."
+    mc "Natsuki, buraya gel! Orada bir parlama var, buraya gelmen daha iyi olur."
+    "Evet, aslında orada hiç parlama yoktu ama..."
     
     show natsuki 5q at f44
-    n "Anyway, I'm only doing this because of the glare, so d-don't get any ideas."
-    hide natsuki 
-    "An hour passes as we all sit and watch a variety of anime. Natsuki and I are the only ones invested, but the others look like they're still having fun, so I'd consider that a success."
-    "At least, it would've ended normally until I looked over at Natsuki and realized I subconsciously made a giant mistake."
-    "I mutter under my breath."
-    mc "Crap!"
+    n "Her neyse, bunu sadece parlama yüzünden yapıyorum, o yüzden aklından başka şeyler geçirme."
+    hide natsuki
+    "Bir saat kadar geçti, hepimiz değişik anime türleri izledik. Natsuki ve ben yalnızca ilgilendik, ama diğerleri hala eğleniyor gibiydi, bence bu da başarılı sayılır."
+    "Normalde burada bitmesi gerekirdi, ama Natsuki'ye bir bakış attım ve fark ettim ki farkında olmadan büyük bir hata yapmışım."
+    "Kendi kendime mırıldanıyorum."
+    mc "Aman Tanrım!"
     show natsuki 1c at f11
     n "Hmm?"
-    mc "It's nothing."
+    mc "Hiçbir şey."
     hide natsuki with dissolve_cg
-    "Did I actually put my arm around her? With everyone else watching, too? This is unbelievably awkward. Trying to be as stealthy as I can, I slowly move my arm away off of her shoulder."
+    "Gerçekten omzuma kolumu mu attım? Hem de herkes izlerken? Bu inanılmaz derecede garip. Gizlice, elimden geldiğince sessizce kolumu çekiyorum."
     show natsuki 1q at f11
-    n "Keep it there."
-    mc "Huh?!"
-    n 1i  "I was cold anyway."
-    mc "Right."
+    n "Bırak orada kalsın."
+    mc "Ne?!"
+    n 1i "Zaten üşüyordum."
+    mc "Anladım."
     return
 
 label choiceManga:
-    mc "How about we read some manga?"
+    mc "Hadi manga okuyalım mı?"
     show yuri 1b at f11
-    y "Manga isn't my preferred form of reading, but I'd be fine with it nonetheless."
+    y "Manga, benim tercih ettiğim okuma şekli değil ama yine de sorun değil."
     show yuri 1a at t22
     show natsuki 1b at f21
-    n "I'd be up for it, but you probably already knew that."
+    n "Buna sıcak bakıyorum, zaten bunu tahmin etmiştin."
     show natsuki 1a at t31
     show yuri 1a at t32
     show sayori 1c at f33
-    s "How's this going to work, though? Will we all read from the same book?"
+    s "Peki, nasıl olacak? Hepimiz aynı kitaptan mı okuyacağız?"
     show natsuki 1a at t42
     show yuri 1a at t43
     show sayori 1a at t44
     show monika 1b at f41
-    m "It might get a bit cramped if we do that."
+    m "Biraz sıkışık olabilir, eğer öyle yaparsak."
     show monika 1a at t41
-    mc "We could each read a different book and share our thoughts once we're done reading it, maybe?"
-    hide natsuki 
-    hide sayori 
-    hide yuri 
+    mc "Hepimiz farklı kitaplar okuruz belki, sonra bitince düşüncelerimizi paylaşırız?"
+    hide natsuki
+    hide sayori
+    hide yuri
     show monika 2b at f11
-    m "Well, that's not exactly the most social group activity, but it is your choice."
-    m "Let's do it, then."
+    m "Pek sosyal bir grup etkinliği sayılmaz, ama yine de senin kararın."
+    m "Hadi yapalım o zaman."
     hide monika with wipeleft
-    mc "Natsuki, why don't you pick a series out for everyone?"
-    mc "I'll do you a favor and help choose what each person would like, too."
-    "After choosing out a manga for each of us to read, we read it in silence as we all open to the first page of each one."
+    mc "Natsuki, herkes için bir seri seçer misin?"
+    mc "Ben de sana yardım ederim, herkesin sevdiği bir şey seçmeye."
+    "Herkese bir manga seçtikten sonra, hepimiz sessizce kitaplarımıza açıp okumaya başlıyoruz."
     
-    "Natsuki and I choose to read the same manga, since it's something we've done for so long. We chose the spin-off to Parfait Girls, \'Ice Cream Sundae Girls\'."
-    "Once we were done reading it, I ask Natsuki for her thoughts on it."
+    "Natsuki ve ben aynı mangayı okumayı seçtik, çünkü uzun zamandır bunu yapıyoruz. Parfait Girls'in spin-off'u olan 'Ice Cream Sundae Girls'ı seçtik."
+    "Bittiğinde, Natsuki'ye ne düşündüğünü soruyorum."
     show natsuki 4b at f11
-    n "It's okay. It's a decent attempt at a spin-off but misses the original point of Parfait Girls."
+    n "Fena değil. Spin-off için iyi bir deneme ama Parfait Girls'in asıl amacını kaçırmış."
     show natsuki 4a at f11
-    n "Still enjoyable, though."
-    mc "Yeah, I agree. It was decent, but that's about it."
+    n "Yine de keyifliydi."
+    mc "Evet, katılıyorum. Fena değildi ama o kadar işte."
     show natsuki 4a at t11 zorder 2
     $ saveLocked = False
-    n "Well, now you can say that you've read it, can't you?"
+    n "Neyse, artık bunu okudun diyebilirsin, değil mi?"
     
-    "I'm not sure I can think of many situations where I'd be bragging about reading this, but you never know." 
+    "Bunu okuduğumla gururlanacağım çok bir durum yok ama, kim bilir belki bir gün?"
     
-    "I look towards Natsuki again and realize something extremely surprising."
-    "We're really holding hands? But when did that happen? Was it me or her who did it?"
-    "For now I should keep quiet. But as Monika walks over..."
+    "Yine Natsuki'ye bakıyorum ve gerçekten şaşırtıcı bir şey fark ediyorum."
+    "Gerçekten el ele mi tutuyoruz? Ama ne zaman oldu bu? Ben mi yoksa o mu yaptı?"
+    "Şimdilik sessiz kalmalıyım. Ama Monika yaklaşırken..."
     show monika 5 at t21 zorder 1
-    m "I see you two are enjoying yourselves."
-    "Natsuki and I look down and notice, although this was her first time seeing it, I think."
+    m "Beni gördüğünüzde eğlendiğiniz belliydi."
+    "Natsuki ve ben aşağıya bakıyoruz ve bunu ilk kez gördüğünü düşünüyorum."
     show natsuki 1o at t22
-    n "Ack! No!"
+    n "Ahh! Hayır!"
     show natsuki 1p at t22
-    "We quickly move our hands away."
-    m "Aww, you didn't have fun?"
-    n "No, we had fun! It's just, y'know..."
+    "Hızla ellerimizi çekiyoruz."
+    m "Aww, eğlenmediniz mi?"
+    n "Hayır, eğlendik! Ama, işte..."
     show natsuki 5q at t22
-    m "Hmm?"
-    n "It's none of your business!"
+    m "Hımm?"
+    n "Senin işin değil!"
     show natsuki 5s at t22
-    "Instead of outright denying any claims about if something was going on between us, Natsuki instead tells Monika to back off."
-    "I wonder if that counts as progress? Hmm..."
+    "Natsuki, arasında bizde bir şey olup olmadığını açıkça reddetmek yerine, Monika'ya biraz geri durmasını söylüyor."
+    "Bunun ilerleme sayılabileceğini merak ediyorum. Hmm..."
     return
 
 label natsukiRoute_SchoolDaysTwo_End:
     scene bg club_day with Dissolve(2.0)
-    "I have no idea what happened there, but afterwards the rest of the day seemed to vanish. I definitely had fun the whole way through, and I can't wait for tomorrow."
-    "Life's looking brighter than ever. I don't think anything could bring it down at this point."
+    "Gerçekten ne olduğunu anlamıyorum ama sonrasında günün geri kalanı bir şekilde geçti. Tamamen eğlendim ve yarını sabırsızlıkla bekliyorum."
+    "Hayat her zamankinden daha parlak görünüyor. Artık hiçbir şey onu aşağı çekemez gibi hissediyorum."
     window hide
     stop music fadeout 2.0
     show black with Dissolve(2.0)
@@ -1120,200 +1118,200 @@ label natsukiRoute_Stress:
     scene bg bedroom with open_eyes
     play music Thoughts fadein 2.0
     window show
-    "I feel really happy today."
-    "Maybe it's because of Natsuki or maybe it's not, but man."
-    "I haven't felt this good in a long time."
-    "Luckily, life has a way of making sure that happiness doesn't last, as I find a concerning message on my phone this morning from Natsuki."
+    "Bugün çok mutlu hissediyorum."
+    "Belki Natsuki yüzünden ya da belki değil, ama gerçekten."
+    "Uzun zamandır böyle iyi hissetmemiştim."
+    "Neyse ki, hayat bazen mutluluğun kısa süreli olmasını sağlıyor, çünkü bu sabah Natsuki'den endişe verici bir mesaj alıyorum."
     
-    p"i need to talk to you about something"
-    "This wasn't Natsuki's usual texting style filled with emoticons or emojis. Instead, it gave off a much more serious tone."
-    "Granted, that didn't mean it was anything bad. It might not even be anything important at all."
-    "But just the thought of what that message could mean scared me. If earlier I felt like nothing could bring me down, now I feel like I've been brought back to reality."
-    "I respond, asking her what's going on. Several minutes pass until I get a response."
-    p "it's nothing"
-    p "nevermind"
-    "There's no way that it was \'nothing.\' I suspect that there's definitely something going on, but if Natsuki doesn't want to tell me, then that's that."
-    "It's none of my business, right? But I wish it was. I wish I could help. All I can do for now, though, is to respect her wishes."
-    "...Of course, I'm probably looking way too deep into this anyway."
+    p"seninle konuşmam lazım"
+    "Bu, Natsuki'nin genelde kullandığı emojili ya da simgeli yazışma tarzından çok farklıydı. Bunun yerine, daha ciddi bir ton vardı."
+    "Tabii ki bu, kötü bir şey olduğu anlamına gelmiyordu. Belki de hiç önemli bir şey değildir."
+    "Ama bu mesajın ne anlama gelebileceğini düşünmek bile beni korkutuyor. Daha önce her şeyin yolunda gideceğini düşünürken, şimdi gerçeğe dönmüş gibiyim."
+    "Ona ne olduğunu sordum, birkaç dakika geçtikten sonra bir cevap aldım."
+    p "hiçbir şey"
+    p "boşver"
+    "O 'hiçbir şey' değil. Kesinlikle bir şeyler oluyor ama Natsuki bana söylemek istemiyorsa, o zaman yapacak bir şey yok."
+    "Bu benim işim değil, değil mi? Ama keşke olsaydı. Keşke yardımcı olabilseydim. Şu an yapabileceğim tek şey, onun isteklerine saygı göstermek."
+    "...Tabii ki, belki de bunu çok derin düşünüyorumdur."
     
     scene bg club_day with Dissolve(2.0)
     stop music
     show natsuki 4c at t44
-    "I walk into the Literature Club, and see the same familiar scene that I always do."
-    "Sayori and Monika are working on poems."
-    "Yuri is reading a book in the corner of the room."
-    "And Natsuki is sitting alone at a desk."
+    "Literatür Kulübüne girdiğimde, her zamanki tanıdık manzarayı görüyorum."
+    "Sayori ve Monika şiirleri üzerinde çalışıyor."
+    "Yuri köşede bir kitap okuyor."
+    "Ve Natsuki tek başına bir masada oturuyor."
     show natsuki 4c at f11
-    "I walk over to Natsuki and sit down next to her."
-    mc "Hi."
+    "Natsuki'nin yanına gidiyorum ve yanına oturuyorum."
+    mc "Merhaba."
     
-    "Natsuki speaks in a monotone voice."
+    "Natsuki monoton bir şekilde konuşuyor."
     show natsuki 4e at f11
-    n "Hey."
-    mc "Think we should read some manga?"
-    n "Whatever you want."
+    n "Selam."
+    mc "Biraz manga okusak mı?"
+    n "Ne istersen."
     
     hide natsuki with wipeleft
-    "Earlier I said this was none of my business, but I'd be lying if I said I wasn't at least curious."
-    "I still need to respect her feelings, though. So for now we'll keep reading manga and if what's going on with her becomes relevant, I'll know."
+    "Önce bunun benim işim olmadığını söyledim ama yalan söyleyemem, en azından merak etmiyorum dersem."
+    "Yine de duygularına saygı göstermeliyim. Şimdilik manga okumaya devam edeceğiz ve eğer onunla ilgili bir şey olursa, zamanla öğrenirim."
     if(readManga is True):
-        "Going over to the closet, I search for the next volume of Ice Cream Sundae Girls. Once I find it, I go back to the desk."
+        "Dolaba gidip, Ice Cream Sundae Girls'ın bir sonraki cildini arıyorum. Bulduğumda masaya geri dönüyorum."
         show natsuki 4c at f11
-        n "Ice Cream Sundae Girls again?"
-        mc "Well, what we read last time was mediocre, but who's to say the series doesn't get better over time?"
-        n "Me. I've read the series."
-        n "It doesn't get better over time."
-        mc "Oh."
+        n "Yine Ice Cream Sundae Girls mı?"
+        mc "Evet, geçen sefer okuduklarımız orta seviyedeydi ama kim der ki seri zamanla daha iyiye gitmez?"
+        n "Ben. Seriyi okudum."
+        n "Zamanla daha iyiye gitmez."
+        mc "Ahh."
     else:
-        "Going over to the closet, I search for the next volume of Parfait Girls. Once I find it, I go back to the desk."
+        "Dolaba gidip, Parfait Girls'ın bir sonraki cildini arıyorum. Bulduğumda masaya geri dönüyorum."
         show natsuki 4c at f11
-        n "Parfait Girls again?"
-        mc "Well, the beginning of this particular arc has been pretty mediocre, but who's to say it doesn't get better over time?"
-        n "Me. I've read the full arc."
-        n "It doesn't get better over time."
+        n "Yine Parfait Girls mı?"
+        mc "Evet, bu özel arcın başlangıcı pek iyi değildi ama kim der ki zamanla daha iyiye gitmez?"
+        n "Ben. Tam arcı okudum."
+        n "Zamanla daha iyiye gitmez."
     show natsuki 4u at f11
-    n "Read it to me anyway, okay?"
-    mc "Are you tired again or something?"
-    n "That's one thing, yeah."
-    n "I just... don't feel like myself today."
-    mc "I'm always willing to help if you need it, you know."
-    n "We'll see about that."
-    "We'll see about that?"
-    "What's that supposed to mean? I mean, I like to think I'm a fairly reliable guy. Was I misinterpreting her statement?"
-    n "Come on, read already."
-    mc "Yeah, of course."
+    n "Yine de bana oku, tamam mı?"
+    mc "Yine yorgun musun yoksa?"
+    n "Evet, bir şeyler var."
+    n "Bugün kendimi pek iyi hissetmiyorum."
+    mc "Her zaman yardımcı olmak isterim, biliyorsun."
+    n "Bakalım."
+    "Bakalım mı?"
+    "Bu ne demek? Yani, aslında kendimi oldukça güvenilir bir adam olarak görüyorum. Söylediğini yanlış mı anlamışım?"
+    n "Hadi ama, oku zaten."
+    mc "Tabii, hemen."
     hide natsuki with wipeleft
     
-    "That... well, that ended up being a day. Then it was back at my house, as anxious as usual."
+    "Bu... işte böyle geçti bir gün. Sonra eve geri döndüm, her zamanki gibi endişeliyim."
     window hide
     
     scene bg bedroom with Dissolve(2.0)
     window show
-    "Before I knew it, it was the next morning."
-    "Another text came from Natsuki, this one worrying me even more."
-    p "don't worry about it"
-    "Don't worry about it? What am I not supposed to worry about?"
-    "Saying that makes me even more worried. For what reason, though?"
-    "I don't know much about Natsuki when it comes down to it. I know she doesn't live a perfect life, but none of us do."
-    "Am I getting this nervous for nothing? Will any of this matter in a month, or even a week?"
-    "As things are, I'll continue to stand by Natsuki's side. There's nothing else that would make me happy."
-    "If I can continue to be able to do that, at least."
+    "Farkına varmadan sabah oldu."
+    "Natsuki'den bir mesaj daha geldi, bu defa beni daha da endişelendirdi."
+    p "bunu boşver"
+    "Bunu boşver mi? Ne için endişelenmemeliyim?"
+    "Bunu söylemek, beni daha çok endişelendirdi. Ama neden?"
+    "Natsuki hakkında çok fazla şey bilmiyorum. Biliyorum ki mükemmel bir hayatı yok ama hiçbiri bizinkiler gibi."
+    "Bunun için gereksiz yere mi bu kadar endişeleniyorum? Bir hafta sonra, hatta bir ay sonra bu durum önemli olacak mı?"
+    "Şu an olduğu gibi, Natsuki'nin yanındayım ve başka hiçbir şey beni daha mutlu edemez."
+    "Eğer bunu yapmaya devam edebileceğimse, en azından."
     
     scene bg club_day with wipeleft_scene
     show natsuki 4c at t44
-    "I'm back at the Literature Club and go up to Natsuki, who is once again sitting alone at a desk."
+    "Literatür Kulübü'ne geri döndüm ve yine yalnız bir masada oturan Natsuki'ye yaklaştım."
     show natsuki 4c at f11
-    mc "What's up?"
-    n 4e "Nothing."
-    "I doubt it's truly nothing, though. She seems more distant than usual."
-    mc "Like I said before, just remember that if you want to talk to me, I'm here for you."
-    n 4c "Sure."
-    "I read manga to her again, but she didn't seem to be enjoying it nearly as much. But hey, not much else I can do, right?"
+    mc "Ne var ne yok?"
+    n 4e "Hiçbir şey."
+    "Ama bu gerçekten hiçbir şey olduğuna inanmıyorum. Oldukça mesafeli duruyor, her zamankinden farklı."
+    mc "Daha önce de söylediğim gibi, ne zaman konuşmak istersen ben buradayım."
+    n 4c "Tamam."
+    "Gene manga okudum ona, ama hiç o kadar keyif alıyormuş gibi görünmedi. Ama ne yapabilirim ki, değil mi?"
     hide natsuki
     scene bg bedroom with wipeleft_scene
-    "Another day passed, leading to another morning and another text."
-    p "i said not to worry about it"
-    "This confirmed my suspicions about there being something major going on. I don't know what it is, though, and I doubt I'll be able to easily find it."
+    "Bir başka gün geçti, başka bir sabah ve başka bir mesaj."
+    p "söyledim, endişelenme"
+    "Bu, benim şüphelerimi doğruladı, yani büyük bir şeyin olduğunu hissediyorum. Ama ne olduğunu bilmiyorum ve kolayca bulabileceğimi de sanmıyorum."
     scene bg club_day with Dissolve(2.0)
     show natsuki 42b at t11
-    "The rest of the day involved Natsuki giving me the cold shoulder, though, so that's starting to become consistent."
-    "Things repeated like this for several days. Natsuki continued to get colder and colder towards me, until one day."
+    "Günün geri kalanı, Natsuki'nin bana soğuk davranmasıyla geçti, yani artık buna alıştım."
+    "Birkaç gün boyunca aynı şeyler tekrarlandı. Natsuki bana daha da mesafeli yaklaşmaya devam etti, ta ki bir gün..."
     hide natsuki
     show black with Dissolve(2.0)
-    "One day, things were different."
+    "Bir gün her şey farklıydı."
     scene bg bedroom with open_eyes
-    "I wake up and check my phone as usual, and I get a message from Natsuki."
-    "This one worries me the most, because it feels like this past week had been leading up to something and I was finally about to find out what it was."
+    "Her zamanki gibi telefonumu kontrol ederek uyandım ve Natsuki'den bir mesaj aldım."
+    "Bu beni en çok endişelendiren mesaj, çünkü bu geçen hafta boyunca bir şeylerin biriktiğini hissediyorum ve sonunda ne olduğunu öğreneceğim gibi."
     
-    p "we need to get something straight. the literature club after everyone's left will work fine."
+    p "bir şeyi netleştirmeliyiz. herkes gittikten sonra literatür kulübü çok iyi olur."
     scene bg club_day with wipeleft_scene
     show natsuki 4g at t44
-    "And here I am, at the Literature Club. Before I can grab any manga, Natsuki tells me not to bother."
+    "Ve işte buradayım, Literatür Kulübü'nde. Hiçbir manga almayı bile düşünmeden, Natsuki bana uğraşmamamı söylüyor."
     show natsuki 4g at f11
-    "So we sat there together. Both bored yet nervous at the same time, unaware of what today would lead to. Natsuki knew much more than I did, though."
+    "Böylece oturduk. İkimiz de aynı anda hem sıkılmış hem gergindik, bugünün nereye gideceğinden habersizdik. Ama Natsuki'nin benden daha fazla bildiği kesin."
     "..."
     "..."
-    "A few hours feel like they've passed before Natsuki decides to look around."
-    n 4g "Okay, everyone's gone."
-    mc "What was it you wanted to tell me?"
-    n 4u "Where do I start?"
-    n "I'm so confused by everything. I keep trying to figure out if I'm making the right choices, or if even discussing this with you is a good idea."
-    n "Thinking about it, it's not a good idea. Why did I even send that text to you?"
-    n 4w "Why did I think making decisions at 2 AM was okay to do?"
-    n "Whatever, it doesn't matter."
-    n 4u "All I have to say now is..."
+    "Birkaç saat gibi bir şey geçti, sonra Natsuki etrafına bakmaya başladı."
+    n 4g "Tamam, herkes gitti."
+    mc "Bana ne söylemek istiyordun?"
+    n 4u "Nereden başlayayım?"
+    n "Her şey o kadar karışık ki. Bir şeylerin doğru olup olmadığını anlamaya çalışıyorum ama sana bunu söylemek iyi bir fikir mi, ondan da emin değilim."
+    n "Düşününce, aslında iyi bir fikir değilmiş. Neden sana o mesajı attım ki?"
+    n 4w "Saat 2'de karar vermek doğru muydu, neden buna inandım ki?"
+    n "Neyse, önemli değil."
+    n 4u "Şu anda tek söylemem gereken şey..."
     show natsuki 1g at hf11
-    "Natsuki anxiously twiddles her thumbs for a moment and then slams her hands on the desk, startling me."
+    "Natsuki, parmaklarını endişeyle ovuşturarak bir an bekledi ve sonra masaya yumruklarını vurdu, beni şaşırtarak."
     play music Dusk fadein 2.0
-    n "What's wrong with you?!"
-    mc "Huh?"
-    n "I thought you would've left. So why are you still here?"
-    mc "What are you talking about? We're friends, aren't we?"
-    n "I was so cold to you! I tried scaring you off, I tried to retreat and be by myself."
-    n "Why didn't it work? Why haven't you left me yet?"
-    n "As mean as I can be, even I can't get much crueler."
+    n "Ne var seninle?!"
+    mc "Ha?"
+    n "Hadi ama, gitmeyi düşündüm. O yüzden hala buradayken ne istiyorsun?"
+    mc "Ne demek istiyorsun? Biz arkadaş değil miyiz?"
+    n "Sana o kadar soğuk davrandım! Senin gitmeni istedim, kendimi yalnız kalmaya zorladım."
+    n "Ama neden işe yaramadı? Neden hala gitmedin?"
+    n "Ne kadar kaba olursam olayım, aslında o kadar da acımasız olamam."
     show natsuki 1g at f11
-    mc "Natsuki, I..."
+    mc "Natsuki, ben..."
     stop music fadeout 3.0
     play music AfterAll fadein 3.0
-    "I figured it out. Not what Natsuki had been intending or anything like that, no. I can worry about that later."
-    "I finally figured out when it was the time for {i}that{/i}. I realized that this was the moment."
-    "Because if not now, then when?"
-    "I have to say this."
-    mc "Because I want to be there for you."
+    "Neyin peşinde olduğumu anladım. Natsuki'nin niyetini ya da herhangi bir şeyi çözmeye çalışmak falan değil. Sonra düşünebilirim bunları."
+    "Ama şu an anlamam gereken şey şu: {i}Burası anıydı{/i}. Bu an."
+    "Çünkü şimdi değilse, ne zaman?"
+    "Bunu söylemem gerek."
+    mc "Çünkü senin yanında olmak istiyorum."
     show natsuki 12c at f11
-    mc "Because I want you to be able to trust me."
+    mc "Çünkü sana güvenebilmeni istiyorum."
     show natsuki 12b at f11
-    mc "Because no matter what, I want to always help."
+    mc "Çünkü her durumda sana yardım etmek istiyorum."
     show natsuki 12a at f11
-    "I take a deep breath."
-    mc "Most important of all, though, because I like you. A lot."
-    "Natsuki is stunned. She stands there for several moments, until tears begin to roll down her face."
+    "Derin bir nefes alıyorum."
+    mc "En önemlisi de, seni çok seviyorum."
+    "Natsuki şok olmuş durumda. Birkaç saniye boyunca orada durdu, sonra gözlerinden yaşlar süzüldü."
     show natsuki 12i at f11
-    n "You can't make this easy for me, can you?"
-    n "Dang it. I like you too, but that's not the point."
-    n "I... can't keep living like this."
+    n "Bunu benim için kolaylaştırmak zorundasın, değil mi?"
+    n "Bunu söylesen de ben seni seviyorum ama, mesele bu değil."
+    n "Ben... böyle yaşayamam."
     hide natsuki with Dissolve(1.0)
-    "Natsuki bursts into tears and hugs me. Things are happening so fast, yet I don't have time to think."
-    mc "Like I said, I'll always be there for you. That's a promise, Natsuki."
-    "Natsuki's words come out in-between her sobs."
+    "Natsuki gözyaşları içinde bana sarıldı. Her şey o kadar hızlı gelişiyor ki, düşünmeye fırsatım yok."
+    mc "Dediğim gibi, her zaman senin yanında olacağım. Bu bir söz, Natsuki."
+    "Natsuki'nin sözleri, hıçkırıkları arasında çıktı."
     show natsuki 12g at f11
-    n "I don't get it. What did I do to deserve to have someone be this nice to me?"
-    mc "Deep breaths, Natsuki. It'll be okay, and I'll make sure of that."
+    n "Anlamıyorum. Biri neden bana bu kadar nazik davranmalı?"
+    mc "Derin nefes al, Natsuki. Her şey yoluna girecek ve ben bunun garantisini veriyorum."
     show sayori 1m at t41
-    "Time felt like it had froze. Except for Sayori who I had to shoo away when she walked by, anyway. That'll probably come up later, but I don't particularly care at the moment."
+    "Zaman sanki donmuş gibiydi. Sayori dışında, ki o da geçtiği sırada onu kovalamak zorunda kaldım, sonuçta bunun şimdilik pek önemi yok."
     hide sayori with Dissolve(1.0)
-    "All I care about right now is comforting Natsuki."
-    mc "You can trust me, Natsuki. I don't know what your life is like right now, but I can say with absolute certainty that you can trust me."
-    "Natsuki tries to speak but is so exhausted that no words come out of her mouth."
-    mc "Just relax."
+    "Şu an tek önemli şey, Natsuki'yi rahatlatmak."
+    mc "Bana güvenebilirsin, Natsuki. Ne durumda olduğunu bilmiyorum ama sana güvenebileceğinden eminim."
+    "Natsuki bir şeyler söylemeye çalıştı ama o kadar yorulmuştu ki, ağzından tek kelime çıkmadı."
+    mc "Sadece rahatla."
     show natsuki 4s at f11
-    "And she does. She relaxes so much she falls asleep, still in my arms."
+    "Ve rahatladı. O kadar rahatladı ki, hala kollarımda uyuyakaldı."
     hide natsuki with wipeleft
     "..."
-    "Well, it was a nice feeling, but I did eventually get a bit tired of standing up."
-    mc "Alright, Natsuki."
-    "Natsuki slowly wakes up and yawns."
+    "Evet, güzel bir duygu oldu ama sonunda bir süre ayakta durmaktan sıkıldım."
+    mc "Tamam, Natsuki."
+    "Natsuki yavaşça uyandı ve esnedi."
     show natsuki 1c at f11
-    n "Huh? What happened?"
-    mc "Nothing happened."
-    mc "You had a bad day and needed to let it all out. That's all."
-    n 2q "I was serious, though. I do have feelings for you, but it's... complicated."
-    mc "Yeah."
-    "I scramble my brain to think of an idea. The weekend's almost here, so maybe..."
-    mc "There's no school tomorrow, so I've got an idea. You don't have to agree to it, but I think you should."
-    mc "Let's have a day where we forget about all the bad things. We could go somewhere to eat, for example."
-    mc "It doesn't have to be called a date, either. Just a relaxation day. Does that sound good to you?"
+    n "Hı? Ne oldu?"
+    mc "Hiçbir şey olmadı."
+    mc "Kötü bir gün geçirdin ve her şeyi dışarıya vurman gerekiyordu. Hepsi bu."
+    n 2q "Ciddiyim, sana karşı duygularım var ama... karmaşık."
+    mc "Evet."
+    "Aklımda bir çözüm ararken, hafta sonu neredeyse geldi, belki..."
+    mc "Yarın okul yok, bir fikrim var. Kabul etmek zorunda değilsin ama bence yapmalısın."
+    mc "Bir gün geçirelim, tüm kötü şeyleri unutalım. Mesela bir yere yemek yemeye gidebiliriz."
+    mc "Buna 'randevu' demek zorunda değiliz, sadece bir rahatlama günü. Bunun sana uygun olduğunu düşünüyor musun?"
     show natsuki 1a at f11
-    "Natsuki briefly smiles."
-    n "...Sure."
-    mc "Then it's settled! I'll text you the details, okay?"
-    n "Got it."
-    n "I'll be looking forward to it, I guess..."
+    "Natsuki kısa bir şekilde gülümsedi."
+    n "...Tabii."
+    mc "O zaman karar verildi! Detayları sana yazacağım, tamam mı?"
+    n "Anladım."
+    n "Sabırsızlıkla bekliyorum galiba..."
     show natsuki 1a at t41
-    "Natsuki starts walking out of the classroom."
-    n 1q "And, um... thank you."
-    mc "Any time."
+    "Natsuki sınıftan çıkmaya başladı."
+    n 1q "Ve... teşekkür ederim."
+    mc "Her zaman."
     hide natsuki with wipeleft
     stop music fadeout 1.0
     play music Thoughts fadein 1.0
@@ -1321,13 +1319,13 @@ label natsukiRoute_Stress:
     scene bg residential_day with Dissolve(2.0)
     scene bg bedroom with Dissolve(2.0)
     window show
-    "Soon after that I slowly walk home, yet only when I'm laying in bed do things really sink in."
-    "Seriously. {i}I confessed to Natsuki{/i}. I actually did it. And she said she liked me back, too?"
-    "Holy crap. I had my suspicions, sure, but to actually hear the words? The feeling is incredible."
-    "She did say that things were complicated. I don't know really know what that means, but for now it doesn't matter."
-    "All I'm thinking about is tomorrow, and that it'll be the best day ever."
-    "As for what happens after, that doesn't matter to me."
-    "I don't want to worry about that yet. What matters to me are my feelings {i}now{/i}."
+    "Bundan kısa bir süre sonra evime doğru yürümeye başladım ama ancak yatağımda yattığımda her şey gerçekten yerleşti."
+    "Cidden. {i}Natsuki'ye itiraf ettim{/i}. Gerçekten yaptım. Ve o da beni sevdiğini söyledi mi? Şaşkınım."
+    "Şüphelerim vardı tabii ama bunu gerçekten duymak? Duygu inanılmaz."
+    "Karmaşık olduğunu söyledi. Ne anlama geldiğini bilmiyorum ama şu an için önemli değil."
+    "Şu an düşündüğüm tek şey yarın ve bunun harika bir gün olacağı."
+    "Gerisi ne olursa olsun önemli değil."
+    "Şu an tek düşündüğüm şey {i}şu an{/i}ki duygularım."
     stop music fadeout 3.0
     window hide
     show black with Dissolve(3.0)
@@ -1335,540 +1333,542 @@ label natsukiRoute_Stress:
     scene bg bedroom with open_eyes
     window show
     play music aNewDay fadein 2.0
-    "One day, separated from everything else. A day of peace, a day that felt like filler in our lives."
-    "That day was today."
-    "There was plenty of time until me and Natsuki were supposed to go to dinner, though. Until then, I messaged her about a variety of dumb stuff."
-    "She gushed about her favorite anime and I gushed about mine, that sort of thing. It felt good to just talk like this, and before I knew it, it was already almost 7 PM."
+    "Bir gün, her şeyden uzak bir şekilde. Huzurlu bir gün, hayatımızdaki boş bir gün gibi hissedilen bir gün."
+    "O gün bugündü."
+    "Natsuki ile akşam yemeğine gitmemize kadar daha epey vakit vardı. O zamana kadar ona saçma sapan şeyler hakkında mesaj attım."
+    "O, en sevdiği animelerden bahsetti, ben de kendi favorilerimden. Böyle sohbet etmek güzel hissettirdi ve farkına bile varmadan saat neredeyse 7 olmuştu."
     stop music fadeout 2.0
     scene bg house_entrance_night with Dissolve(2.0)
     play music NatTheme fadein 2.0
     show natsuki 1ba at f11
-    "It's not long until I hear a knock at the door and open it up to see Natsuki, who looks happy for the first time in a while."
-    mc "I'm guessing you're ready, then?"
-    n 1bb "Yep!"
-    "And so it begins."
+    "Bir süre sonra kapı çaldı ve kapıyı açtığımda, Natsuki'yi, uzun bir aradan sonra ilk kez mutlu bir şekilde gördüm."
+    mc "Sanırım hazırsın, öyle mi?"
+    n 1bb "Evet!"
+    "Ve böylece başladı."
     window hide
     scene bg streets_night with Dissolve(1.5)
     window show
     show natsuki 1bj at f11
-    "We head off to the restaurant I picked. It was a pretty fancy choice, or at least a place that I would never normally go to."
-    "But this is a special occasion, isn't it? I don't mind stepping out of my comfort zone sometimes."
+    "Gittiğimiz restoranı seçtim. Oldukça şık bir yerdi, ya da en azından normalde gitmeyeceğim bir yerdi."
+    "Ama bu özel bir gündü, değil mi? Bazen konfor alanımın dışına çıkmaktan bir sakınca yok."
     
     scene bg restaurant with wipeleft_scene
     show natsuki 1bj at f11
-    "We walk into the front doors of the restaurant, and I go up to the host behind the front counter."
-    mc "I believe I called yesterday for a reservation for two."
+    "Restoranın kapısından içeri adım attık ve hemen kasanın arkasındaki görevliye yöneldim."
+    mc "Dün iki kişilik rezervasyon yaptırmıştım."
     $ o_name = "Host"
-    o "Of course, sir."
+    o "Tabii, efendim."
     show natsuki 1bd at f11
-    "Natsuki smirks."
-    n "Sir?"
-    mc "I think it fits me quite well, personally."
-    n "Whatever, {i}sir{/i}."
+    "Natsuki sırıtıyor."
+    n "Efendim mi?"
+    mc "Bence bana oldukça yakıştı."
+    n "Ne diyorsun, {i}efendim{/i}."
     $ o_name = "Host"
-    o "Ahem. First name?"
+    o "Ahem. Adınız?"
     mc "[player]."
-    o "Last name?"
+    o "Soyadınız?"
     "..."
     scene bg restaurant with wipeleft_scene 
     "..."
-    o "...Right."
+    o "...Anladım."
     hide natsuki 
-    "After we're lead towards our table, we each sit down and look at the menus in front of us."
+    "Bize masamız gösterildikten sonra oturduk ve önümüzdeki menülere göz attık."
     show natsuki 4bp at f11
-    n "Excuse me?!"
-    "I look up from my menu."
-    mc "What's wrong?"
-    n 4bw "They gave me a freaking kids menu!"
-    mc "For real?"
-    n "Yeah! Can you believe it?"
-    "Natsuki shows me her menu which does turn out to be a kids menu."
-    mc "To be fair, it's not that unlikely for them to have made that mistake."
-    n 4be "Still, though. I'm small, yeah, but that's it. Small. I'm not 12 anymore, I don't need a stupid kids menu!"
-    "An employee walking by notices something going on and she quickly walks over."
+    n "Ne demek istiyorsun?!"
+    "Menüden kafamı kaldırıp ona bakıyorum."
+    mc "Ne oldu?"
+    n 4bw "Bana çocuk menüsü verdiler!"
+    mc "Gerçekten mi?"
+    n "Evet! İnanabiliyor musun?"
+    "Natsuki, çocuk menüsü olduğunu gösteriyor."
+    mc "İyi, aslında böyle bir hata yapmaları hiç de şaşırtıcı değil."
+    n 4be "Ama işte, küçük olabilirim ama bu kadar da değil. Ben hâlâ 12 yaşında değilim, çocuksu bir menüye ihtiyacım yok!"
+    "Yanımızdan geçerken bir çalışan, bir şeylerin ters gittiğini fark etti ve hızla yanımıza geldi."
     $ o_name = "Employee"
-    o "Is something the matter?"
-    n 4bc "Yeah, I'm not a kid anymore so what's up with this kids menu?"
-    mc "It's not a big deal, but please get her another menu."
-    o "I see. One moment, then."
-    "The employee walks off."
-    n 4be "I'm just saying!"
-    mc "Natsuki, pl--"
-    n "Just because I'm short doesn't mean anything! Short adults exist, y'know, and some of them are probably hot, too! They don't look as good as me, of course, but still."
-    "After sighing, I look around and see a few people starting to stare at us."
-    mc "I totally agree. Please try not to draw too much attention to us, though."
+    o "Bir problem mi var?"
+    n 4bc "Evet, ben çocuk değilim! Neden bana çocuk menüsü verdiniz?"
+    mc "Önemli değil, ama ona başka bir menü getirir misiniz lütfen?"
+    o "Tabii, bir dakika."
+    "Çalışan uzaklaşıyor."
+    n 4be "Söylemek istediğim şey bu!"
+    mc "Natsuki, lütfen..."
+    n "Kısa olmamın hiçbir anlamı yok! Kısa yetişkinler de var, biliyor musun? Hem de bazıları benden çok daha çekici! Ama tabi ben onlardan daha iyi görünüyorum, hâlâ."
+    "Sığ bir iç çekiş yapıp etrafa bakıyorum, birkaç kişi bize bakmaya başlamış."
+    mc "Haklısın. Ama lütfen çok dikkat çekmemeye çalışalım."
     show natsuki 5bo at t11
-    "Natsuki sits back, crosses her arms, and pouts."
+    "Natsuki geriye yaslanıyor, kollarını kavuşturuyor ve somurtuyor."
     show natsuki 4bb at t11
-    n "It's the truth, though."
-    "I look and see the employee walking back to us."
-    o "Here you are, madam."
-    "I raise an eyebrow as the employee walks away."
-    mc "And you joked about me being called sir?"
+    n "Ama bu gerçek, değil mi?"
+    "Ve o an, o çalışan menüyü tekrar getirmeye başlıyor."
+    o "İşte efendim."
+    "Çalışan masadan uzaklaşırken ben bir kaşımı kaldırıyorum."
+    mc "Ve sen bana 'efendim' demiştin, değil mi?"
     show natsuki 4bt at t11
-    n "At least I deserve my title."
-    mc "Well, who am I to say otherwise?"
-    mc "We should probably start looking at our menus now, though."
+    n "En azından ben unvanımı hak ediyorum."
+    mc "Bana ne diyebilirim ki?"
+    mc "Ama şimdi menülere bakalım."
     hide natsuki with wipeleft
-    "We both glance over our menus. I try to look at Natsuki's facial expression and see what I think is a gasp behind that menu."
+    "İkimiz de menülere göz atıyoruz. Natsuki'nin yüz ifadesine bakarak, menünün arkasında bir şaşkınlık sesinin geldiğini düşünüyorum."
     show natsuki 4bc at t11
-    n 4bc "It's that expensive? This has got be a typo."
-    mc "Nope. It's an upper-class restaurant with upper-class prices."
-    n 4be "[player], what were you thinking? It's one thing that I can't pay for this, but I can't make you spend this much money either!"
-    mc "Why not?"
-    n 4bc "It wouldn't feel right."
-    mc "Hey, it's my money. I've got enough of it, too, so what else am I going to spend it on?"
-    "That was a lie. I'm close to being broke, but it sounded good at the time so I said it anyway."
+    n 4bc "Bu kadar mı pahalı? Bu kesinlikle bir yazım hatası olmalı."
+    mc "Hayır. Burası lüks bir restoran, lüks fiyatlarıyla."
+    n 4be "[player], ne düşünmüştün? Bu kadar para harcamanın anlamı yok, ama ben de sana bu kadar para harcatamam!"
+    mc "Neden olmasın?"
+    n 4bc "Bu hiç de doğru olmaz."
+    mc "Bak, bu benim param. Hem, yeterince param var, o yüzden başka neyle harcayacağım ki?"
+    "Tabii ki yalan söylüyorum. Neredeyse iflas etmiş durumdayım ama o an böyle söyledim."
     show natsuki 4bc at f11
-    "Regardless, I slowly lean in closer."
-    mc "Besides, you're worth it."
+    "Her neyse, yavaşça ona daha yakınlaşıyorum."
+    mc "Ama sen buna değer birisin."
     show natsuki 4bs at t11
-    "Natsuki gets flustered and seems to forget how to respond."
-    mc "I'll find some way to get my money's worth. Maybe I can feed you, since memories are more valuable than money alone and all that."
+    "Natsuki şaşkın bir şekilde ne diyeceğini unutuyor."
+    mc "Bir şekilde paramın karşılığını almak zorundayım. Belki sana yediririm, çünkü hatıralar, paradan çok daha değerli falan, ne bileyim."
     show natsuki 1bp at t11
-    "Natsuki looks even more stunned."
-    n "W-What..."
-    mc "Come on, I was kidding! Unless you want me to feed you~"
-    "What the heck? Since when was I this confident? Since when did I even use \'~\'?"
+    "Natsuki daha da şaşırmış görünüyor."
+    n "N-Ne...?"
+    mc "Şaka yapıyordum! Eğer beni beslememi istiyorsan, belki~"
+    "Ne oluyor? Ne zamandan beri bu kadar özgüvenliyim? Hem de ne demek ' ~ '?!"
     show natsuki 4bs at t11
-    n "F-Fine, if you want me to hurry up and order something that badly then I will!"
+    n "O-O zaman ne istiyorsan hemen sipariş veriyorum!"
     show natsuki 4bj at t11
-    "Natsuki pulls up her menu again, but before she does I quickly catch a smile on her face. I guess I can't have messed up that badly, then."
-    "After we're done ordering our dishes, we have a moment to ourselves."
-    mc "Nice place, eh? It was the fanciest restaurant I could find."
-    n 4bb "That doesn't mean it's okay for them to rip you off."
-    n "I ordered the cheapest thing on the menu, by the way. So you're welcome for that."
-    mc "Like I said, you're worth it. I wanted to choose somewhere nice, with memorable food."
-    n "Unless their food is memorable for the wrong reasons."
-    mc "You still seem tense."
-    "I put out my hand close to hers."
-    mc "May I?"
-    "She nods her head as we proceed to hold hands."
-    mc "Forget about everything else for now and enjoy the moment."
-    n 4bh "Y-You're not so bad at this romance thing after all."
-    n "N-Not that it matters! We already said this wasn't a date anyway."
-    "This moment was perfection."
+    "Natsuki menüsünü tekrar kaldırıyor ama bunu yapmadan önce, yüzünde bir gülümseme yakalıyorum. Demek ki pek de fena yapmamışım, sanırım."
+    "Yemek siparişlerimizi verdikten sonra kendimize ait bir anımız oluyor."
+    mc "Hoş bir yer, değil mi? Bulabildiğim en şık restoran burasıydı."
+    n 4bb "Ama bu, seni soymalarına göz yummak anlamına gelmez."
+    n "Bu arada menüdeki en ucuz şeyi sipariş ettim. O yüzden teşekkürler."
+    mc "Dediğim gibi, sen buna değersin. Güzel bir yer seçmek istedim, hatırlanacak yemekler."
+    n "Ya da belki yemekleri hatırlayacağız ama yanlış sebeplerle."
+    mc "Hala gerginsin gibi görünüyor."
+    "Ellerimi onun ellerinin yakınına koyuyorum."
+    mc "Bunu yapabilir miyim?"
+    "O başını sallayarak onaylıyor ve ellerimizi birbirine bağlıyoruz."
+    mc "Şu anda her şeyi unut ve anın tadını çıkar."
+    n 4bh "V-Vay, sen bu romantizm işini pek fena yapmıyorsun aslında."
+    n "B-Bu önemli değil! Zaten biz bunun bir randevu olmadığını söyledik!"
+    "Bu an mükemmeldi."
     $ o_name = "???"
-    o "Your order?"
-    "Never mind."
-    mc "Uh, thanks."
-    "The employee behind me walks around the table delivering each of our meals to us."
+    o "Siparişiniz?"
+    "Neyse."
+    mc "Uh, teşekkürler."
+    "Arkamızda bir çalışan, her birimizin yemeklerini masaya getiriyor."
     $ o_name = "Waiter"
-    o "Enjoy."
-    "The employee walks away as we're about to dig into our food. I ordered fried lobster while Natsuki ordered macaroni and cheese."
-    mc "You gotta admit that this has been fun, hasn't it?"
-    n 1bb "Yeah. It's nice to get away from life sometimes."
-    n "Although I will say that this mac and cheese..."
-    "Natsuki takes a bite of her meal."
-    n "Meh."
-    "The plate of pasta is exquisite. There's the perfect amount of cheese, both melted and shredded."
-    "Well, maybe. I don't actually know; frankly, it just looks like your average dish of mac and cheese to me."
-    mc "That's... quite the mac and cheese, huh?"
-    mc "I'll share some of my food with you if you'd like."
-    n "Nah, I'm not a fan of lobster."
-    "Natsuki plays with her fingers and says something in a quiet voice."
-    n 4bq "But, uh, thanks for offering..."
+    o "Afiyet olsun."
+    "Çalışan uzaklaşıyor, biz de yemeklerimize dalmaya hazırlanıyoruz. Ben kızarmış ıstakoz sipariş ettim, Natsuki ise makarna ve peynir."
+    mc "İtiraf etmelisin, bu eğlenceli değil mi?"
+    n 1bb "Evet. Hayattan biraz uzaklaşmak güzel."
+    n "Ama şunu söylemeliyim ki, bu makarna ve peynir..."
+    "Natsuki yemeğinden bir lokma alıyor."
+    n "Eh."
+    "Tabak, oldukça kusursuz. Peynirin tam olarak erimiş ve rendelenmiş miktarı var."
+    "Tabii, belki de sadece sıradan bir makarna ve peynir gibi görünüyor, ama kim bilebilir?"
+    mc "Bu... oldukça farklı bir makarna ve peynir, değil mi?"
+    mc "Eğer istersen, biraz yemek paylaşırım seninle."
+    n "Hayır, ben ıstakozdan pek hoşlanmam."
+    "Natsuki parmaklarıyla oynuyor ve sessizce bir şeyler söylüyor."
+    n 4bq "Ama, şey, teşekkürler... Teklifin için."
     hide natsuki with dissolve_cg
-    "Man, it feels good. I feel like I've finally gotten through to her, which is all I wanted."
+    "Vay, gerçekten harika hissettiriyor. Sanki nihayet ona ulaşabildim, ki tek istediğim buydu."
     window hide
     
     window show
-    "Once we finish our meal, I write a check and get ready to leave. I notice Natsuki looking shyly at me."
+    "Yemeklerimizi bitirince, bir çek yazıyorum ve çıkmaya hazırlanıyorum. Natsuki'nin utangaç bir şekilde bana baktığını fark ediyorum."
     show natsuki 1bc at f11
-    mc "We should do this again sometime."
-    n 1bq "I'll think about it."
-    "It's more assuring than an outright no, I guess."
-    n 1bl "Thanks for everything, [player]. I really enjoyed being with you."
-    mc "Me too, Natsuki."
-    mc "I'll see you at school in a few days, then?"
-    n "Yup."
+    mc "Bunu bir daha yapmalıyız."
+    n 1bq "Düşüneceğim."
+    "Bu kesinlikle bir hayırdan daha iyi, herhalde."
+    n 1bl "Her şey için teşekkürler, [player]. Gerçekten seninle vakit geçirmek çok keyifliydi."
+    mc "Ben de, Natsuki."
+    mc "Birkaç gün sonra okulda görüşürüz, o zaman mı?"
+    n "Evet."
     show natsuki 1bs at f11
-    "We stare into each other's eyes for a brief moment, only for both of us to quickly look away once we realize what we're doing."
-    mc "Haha, why does this feel familiar?"
-    mc "Um, yeah. Later."
-    n "Bye."
+    "Birbirimizin gözlerine kısa bir süre bakıyoruz, ama her ikimiz de ne yaptığımızı fark edip hemen bakışlarımızı kaçırıyoruz."
+    mc "Haha, bu neden tanıdık geliyor?"
+    mc "Eh, hadi bakalım. Görüşürüz."
+    n "Hoşça kal."
     show natsuki at lhide
     hide natsuki
-    "And that was the end of the most calming day I've had in a long time."
+    "Ve işte, uzun bir zamandır yaşadığım en huzurlu günün sonuydu."
     stop music fadeout 2.0
     
     scene bg bedroom with Dissolve(1.5)
     play music Thoughts fadein 2.0
-    "After today's success, I sit on my bed and decide to think about it."
-    "So many things could've gone wrong today, but they didn't. Today felt like pure bliss. It feels wonderful to have a day that I can look back on like this."
-    "When I look back at a lot of my memories, for example, they might seem happy, but only during that moment. The rest of the day could've been awful."
-    "But today was great from start to finish. I hope that things continue to stay like this."
-    "They probably won't, though, but that's something I'll deal with tomorrow if it comes up."
-    "For now, though, it's time to sleep."
+    "Bugünkü başarının ardından, yatağımda oturup buna dair düşünmeye karar veriyorum."
+    "Bugün pek çok şey ters gidebilirdi, ama gitmedi. Bugün saf bir mutluluk gibiydi. Gerçekten böyle bir günün hatırlanabilir olması harika."
+    "Birçok anıma bakınca mesela, mutlu görünüyorlar ama aslında sadece o an mutlu olmamı sağlıyordu. Geriye kalan zaman rezaletti."
+    "Ama bugün her şey harikaydı. Umarım her şey böyle devam eder."
+    "Muhtemelen etmez, ama bununla yarın baş ederim, eğer gelirse."
+    "Ama şimdilik, uyuma zamanı."
     window hide
     $ o_name = "???" 
     stop music fadeout 2.0
     show black with Dissolve(2.0)
     
     pause(2.0)
-    
+
     scene bg bedroom with Dissolve(1.5)
     window show
     play music aNewDay fadein 2.0
-    "Whenever I'd wake up and check my phone, it was usually to see if I received any texts from people in general."
-    "Now, though, it's to see if I've been messaged from Natsuki. I think it's interesting how things change over time."
-    "She didn't message me this morning, by the way. Which is fair seeing as I didn't message her this morning either, although it's not like she's obligated to message me in the first place."
-    "I don't think she's messaged me this whole weekend, actually."
-    "Regardless, since the weekend is over now and there's school today, I'm heading off there."
+    "Genelde sabahları uyanıp telefonuma baktığımda, genellikle mesaj alıp almadığımı kontrol ederdim."
+    "Ama şimdi, tek amacım Natsuki'den mesaj gelip gelmediğine bakmak. Zamanla her şeyin nasıl değiştiğini görmek ilginç."
+    "Bu sabah bana mesaj atmadı, bu arada. Ama tabii ki ben de ona mesaj atmadım, yine de ona mesaj atmak zorunda değilim."
+    "Aslında sanırım bu hafta sonu boyunca bana hiç mesaj atmadı."
+    "Neyse, hafta sonu bitti ve bugün okul var, o yüzden okula gitmek zorundayım."
     
     scene bg club_day with wipeleft
-    "Eventually I arrive at the Literature Club. I expect to see the same sight as usual, but it's a bit different this time, as Natsuki is nowhere to be seen."
-    "Curious and slightly worried, I ask the other members if they know anything."
-    mc "So, Monika, do you know where Natsuki is?"
+    "Sonunda Edebiyat Kulübüne vardım. Her zamanki gibi aynı manzarayı bekliyordum ama bu sefer biraz farklı, çünkü Natsuki ortada yok."
+    "Meraklı ve biraz endişeli bir şekilde diğer üyelere, Natsuki'nin nerede olduğunu soruyorum."
+    mc "Monika, Natsuki nerede?"
     show monika 1b at f11
-    m "I don't think so. Anything you need?"
-    mc "No, it's nothing."
+    m "Sanırım bilmiyorum. Yardımcı olabileceğim bir şey var mı?"
+    mc "Yok, sadece merak ettim."
     hide monika with dissolve_cg
-    "It wasn't actually nothing, of course."
+    "Tabii ki aslında bir şey vardı, ama söylemek istemedim."
     show sayori 1a at f11
-    mc "Have you seen Natsuki, Sayori?"
-    s 1c "Nope! I thought you'd know where she was after, well, what happened a few days ago..."
-    "I sigh."
-    mc "Yeah, that's what I thought too."
+    mc "Sayori, Natsuki'yi gördün mü?"
+    s 1c "Hayır! Birkaç gün önce olanlardan sonra onun nerede olduğunu sanırım senin bilmen gerekiyordu..."
+    "Bir iç çekiyorum."
+    mc "Evet, ben de öyle düşünmüştüm."
     hide sayori with dissolve_cg
     pause(0.5)
     show yuri 1a at f11
-    "Guess that leaves Yuri, although I don't expect to get anything from her."
-    mc "Yuri, have you seen Natsuki anywhere?"
-    y 1b "I don't believe so."
+    "Sanırım geriye sadece Yuri kaldı, ama ondan da pek bir şey alacağımı sanmıyorum."
+    mc "Yuri, Natsuki'yi gördün mü?"
+    y 1b "Sanırım görmedim."
     hide yuri with dissolve_cg
     pause(0.5)
     show natsuki 4c at t41
-    "Annoyed, I walk away only to notice Natsuki walking in."
-    mc "Natsuki! I almost thought you weren't going to be here today."
-    n 4b "I needed some time to myself."
-    mc "Ah, I see. Should we read some manga now?"
+    "Sinirli bir şekilde uzaklaşırken, Natsuki'nin içeri girdiğini fark ediyorum."
+    mc "Natsuki! Bugün gelmeyecek gibi düşündüm seni."
+    n 4b "Biraz yalnız kalmaya ihtiyacım vardı."
+    mc "Anladım. Şimdi manga okumasak mı?"
     stop music
     play music Dusk fadein 1.0
-    n "No."
+    n "Hayır."
     show natsuki 4c at t44
-    "Natsuki dismisses me and sits in a corner."
+    "Natsuki beni reddediyor ve bir köşeye oturuyor."
     hide natsuki
-    "Uh... now what?"
+    "Eee... şimdi ne yapacağım?"
     show monika 1b at t41
     m "Natsuki!"
     show monika 1a at t32 zorder 2
     show natsuki 4c at t44 zorder 1
-    "I turn and see Monika walking over to Natsuki."
-    m 1b "What's up? You're not usually late."
-    n 1g "I already said I needed some time to myself."
-    "I decide to go over as well."
-    mc "Don't forget, I'm always here if you need to tal--"
+    "Dönüp Monika'nın Natsuki'ye doğru yürüdüğünü görüyorum."
+    m 1b "Nasılsın? Normalde geç kalmazsın."
+    n 1g "Zaten dedim ya, biraz yalnız kalmaya ihtiyacım var."
+    "Ben de yanlarına gitmeye karar veriyorum."
+    mc "Unutma, her zaman konuşmak istersen buradayım--"
     show monika 1g with dissolve_cg
     hide monika
-    n 4e "Yes, I know. You don't need to repeat it."
+    n 4e "Evet, biliyorum. Tekrar söylemene gerek yok."
     show natsuki 4c at t44
-    mc "I... okay."
-    "What happened? Yesterday went so well."
-    "Sure, there's a lot I don't know about, but for Natsuki to be this on edge?"
+    mc "Ben... tamam."
+    "Ne oldu? Dün her şey çok iyiydi."
+    "Tabii, bilmediğim çok şey var ama Natsuki'nin bu kadar gergin olması ne demek?"
     show sayori 1c at f43
     s "Hey, Natsuki!"
-    "I turn again and see Sayori this time."
-    s "How ar--"
+    "Yine dönüp bu sefer Sayori'yi görüyorum."
+    s "Nasılsın--"
     show sayori 1m at t43
     show natsuki 1e at f44
-    n "I'm sitting in this corner for a reason! I thought it made it obvious I don't want to be around anyone."
+    n "Bu köşede oturuyorum çünkü! Bunu, kimseyle olmak istemediğimi açıkça belli etmiyor mu?"
     show natsuki 1c at t44
     show sayori 1g at t43
     show yuri 1h at f42
-    y "I don't mean this in a rude way, Natsuki, but if you don't want to be around anyone, what made you come here today?"
+    y "Bunu kaba bir şekilde söylemek istemiyorum Natsuki, ama kimseyle olmak istemiyorsan, neden bugün geldin?"
     show yuri 1g at t42
     show natsuki 1g at f44
-    n "You guys would've came looking for me if I didn't show up."
-    "She's not entirely wrong, I suppose. I certainly would've looked for her."
+    n "Eğer gelmeseydim, mutlaka beni aramaya başlardınız."
+    "Tamamen haklı değil mi? Ben kesinlikle onu arardım."
     hide yuri 
     hide sayori 
     hide natsuki 
     with dissolve_cg
     scene bg club_day with wipeleft_scene
     
-    "I spent the rest of the day not really doing anything. I didn't even have the desire to talk with Sayori."
-    "I had gotten so used to spending time with Natsuki that I didn't think much about what would happen if that stopped."
-    "The past week she wasn't nearly as enthusiastic, yeah, but at least she was there. We still read manga together."
-    "So what now? Our friendship isn't just going to end like this, right? Especially after we expressed our feelings for each other."
-    "The only idea I have for now is to do what I've always done, and stay by her side. I can give her some space, but I still want to be there for her."
-    "That may be going against her wishes, but I can't sit and do nothing."
-    "I'll never give up on her."
+    "Günün geri kalanını pek bir şey yapmadan geçirdim. Sayori'yle bile konuşasım gelmedi."
+    "Natsuki ile vakit geçirmeye o kadar alışmışım ki, bunun nasıl olacağını hiç düşünmemiştim."
+    "Geçen hafta, evet, çok hevesli değildi ama yine de oradaydı. Hala manga okuduk birlikte."
+    "Peki ya şimdi? Arkadaşlığımız böyle sona ermez, değil mi? Özellikle duygularımızı birbirimize açıkladıktan sonra."
+    "Şu an yapabileceğim tek şey, her zaman yaptığım gibi yanında olmaya devam etmek. Ona biraz alan verebilirim ama yine de ona destek olmak istiyorum."
+    "Belki bu, onun isteklerine karşı geliyor ama hiç bir şey yapmamaktan iyidir."
+    "Asla ondan vazgeçmeyeceğim."
     show black with Dissolve(2.0)
     pause(2.0)
     scene bg club_day with wipeleft_scene
-    "And so, it was another day. School felt like it dragged on forever, and getting to go to the Literature Club didn't make up for it at this point."
+    "Ve böylece başka bir gündü. Okul sanki sonsuza kadar sürüyormuş gibi hissettirdi, Edebiyat Kulübüne gitmek bile buna pek iyi gelmedi."
     show natsuki 1c at t44
-    "I was inside the room, as Natsuki was here on time today, still sitting in a corner. I go up to her and ask a question."
+    "Odaya girdiğimde, Natsuki bu sefer zamanında gelmişti, yine köşede oturuyordu. Yanına gidip bir soru soruyorum."
     show natsuki 1c at t11
-    mc "Are you feeling any better today?"
+    mc "Bugün kendini biraz daha iyi hissediyor musun?"
     show natsuki 1e at f11
-    n "No, and I'd like you to stop asking me, okay?"
-    mc "Alright."
-   
+    n "Hayır ve lütfen tekrar sorma, tamam mı?"
+    mc "Tamam."
+
     hide natsuki with dissolve_cg
-    "I walk away and sigh, unsure of what the future would hold."
+    "Hızla uzaklaşıp derin bir nefes alıyorum, geleceğin ne getireceğini bilemeden."
     show sayori 1h at t41
-    s "You didn't make her mad, did you?"
+    s "Onu kızdırmadın, değil mi?"
     show sayori 1h at t11
-    "I notice Sayori from the corner of my eye."
-    s 1j "How dare you, [player]?"
-    mc "It's not like that, I swear. At least, I don't think it is."
-    s 1g "You don't {i}think{/i}?"
-    mc "I mean, if she's not going to tell me, then I'll never know, right?"
-    s 1h "I don't think that's entirely true. What have you been doing the past few days?"
-    mc "Nothing that would make her mad. I took her out to a restaurant two days ago, and she seemed to enjoy it."
-    mc "We both did."
-    s 1x "So there is something going on between you two! I knew it!"
-    mc "Sayori, that's not the point. Besides, it's not li--"
+    "Göz ucumla Sayori'yi fark ediyorum."
+    s 1j "Ne yaptıysanız, [player]?"
+    mc "Durum öyle değil, sana yemin ederim. En azından öyle olduğunu sanmıyorum."
+    s 1g "Sanmıyorsun {i}değil{/i} mi?"
+    mc "Yani, eğer bana söylemeyecekse, o zaman asla bilemeyeceğim, değil mi?"
+    s 1h "Bence bu tamamen doğru değil. Peki, son birkaç gündür ne yaptın?"
+    mc "Onu kızdıracak bir şey yapmadım. İki gün önce onu restorana götürdüm, ve o da keyif almış gibiydi."
+    mc "Biz ikimiz de keyif aldık."
+    s 1x "Yani, aranızda bir şeyler varmış! Bunu biliyordum!"
+    mc "Sayori, mesele bu değil. Hem zaten, o... yani--"
     show sayori 1x at t21
     show natsuki 1c at f44
-    n "Hmm?"
+    n "Hımm?"
     show natsuki 1c at f22
-    "I see Natsuki get up and come over to me and Sayori."
-    n 1g "You two were talking about me, huh?"
-    mc "You weren't eavesdropping, were you?"
-    s 1k "To be fair, I guess we are in the same room as each other."
+    "Natsuki'nin kalkıp yanıma ve Sayori'ye gelmeye başladığını görüyorum."
+    n 1g "Beni mi konuşuyordunuz?"
+    mc "Casusluk mu yapıyordun?"
+    s 1k "Gerçekten de aynı odada olduğumuz için haklısın."
     s "Ehehe..."
-    n 4e "Seriously, [player]. Just go away."
-    n "It'll be easier that way."
+    n 4e "Cidden, [player]. Sadece git."
+    n "Böyle daha kolay olur."
     hide sayori with dissolve_cg
     hide natsuki with dissolve_cg
-    "I don't get it anymore."
-    "I just don't get it."
-    "Over the next week, Sayori and I tried coming up with ways to break through to Natsuki."
-    "Unfortunately, each plan failed worse than the last."
+    "Artık hiçbir şey anlamıyorum."
+    "Sadece anlamıyorum."
+    "Önümüzdeki hafta boyunca, Sayori ve ben Natsuki'ye ulaşmak için çeşitli yollar düşündük."
+    "Ne yazık ki, her plan bir öncekinden daha kötüydü."
     scene bg club_day with wipeleft_scene
-    "I remember our first attempt. I thought my plan to get her to open up was decent enough, but I guess not."
+    "İlk denememizi hatırlıyorum. Onu açmaya çalışmak için hazırladığım plan yeterince iyiydi sanırım, ama sanırım değildi."
     show natsuki 4g at f11
-    n "I don't know if you forgot, but go away. That's all I'm asking."
-    n "It's not hard."
+    n "Unuttuğunu sanmıyorum ama git, sadece bu kadar istiyorum."
+    n "Zor değil."
     hide natsuki with wipeleft
-    
+
     scene bg club_day with wipeleft_scene
-    "Then we tried the next day. This time went even worse."
+    "Sonraki gün bir başka deneme yaptık. Bu kez her şey daha da kötü gitti."
     show natsuki 4e at f11
-    n "How many times do I have to say it? Leave."
-    n "Leave."
-    n "Leave."
-    n "Leave."
-    n "Still don't get it yet?"
+    n "Kaç kere söylemem gerek? Git."
+    n "Git."
+    n "Git."
+    n "Git."
+    n "Hala anlamadın mı?"
     hide natsuki with wipeleft
-    "Later that day, I had tried calling Natsuki's phone, but the call ended after one ring."
-    "When that happens, it usually means that the phone you're calling ran out of battery, or it can also mean..."
-    "She couldn't have blocked me, right? I hadn't texted her earlier or anything, so if she did, it would've been something she did on her own."
-    "Maybe the third time would be the charm at the end of all this. But it wasn't."
+    "O gün sonra, Natsuki'nin telefonunu aradım ama bir çaldıktan sonra arama kapandı."
+    "Böyle bir şey olduğunda, genellikle aradığın telefonun bataryası bitmiştir, ya da..."
+    "Beni engellemiş olamaz, değil mi? Çünkü ona daha önce mesaj atmadım, eğer engellediyse, bu tamamen kendi isteğiyle olmuştur."
+    "Belki de üçüncü kez denemek son şansımdı. Ama olmadı."
     
     scene bg club_day with wipeleft_scene
     show natsuki 5g at f11
     n "..."
-    "But we kept trying. We had to, after all."
-    "Or at least, {i}I{/i} had to. And so, another day was another attempt."
-    n "Are you dumb? How many times are you going to try this? It's not happening."
+    "Ama biz denemeye devam ettik. Sonuçta, {i}ben{/i} devam etmeliydim."
+    "Ya da en azından, {i}ben{/i} etmek zorundaydım. Ve böylece, başka bir gün, başka bir deneme."
+    n "Saçma mısın? Kaç kere deneyeceksin? Olmayacak."
     hide natsuki with wipeleft
-    "But there was a sliver of hope in my heart that I could still win. {i}Just one more day{/i}."
+    "Ama içimde bir umut vardı, belki hala kazanabilirim. {i}Bir gün daha{/i}."
     scene bg club_day with wipeleft_scene
-    
+
     show natsuki 42c at f11
-    n "I'm getting really sick of doing this, you know."
-    "No matter how long it might take, I was determined. Just one more day."
-    n "Can't you respect my one wish? What if I died or something, and you had to deal with the fact that you didn't follow my one simple wish, and that there was no way to make it up to me anymore?"
-    n "How would that feel, huh?"
+    n "Bundan gerçekten bıktım, biliyor musun?"
+    "Ne kadar sürerse sürsün, kararlıydım. Sadece bir gün daha."
+    n "Bir tek dileğime saygı gösteremez misin? Ya da öldüm falan ve senin benim tek basit dileğimi yerine getirmediğini düşünmek zorunda kalsaydın, geri kalan hiçbir şeyle bunu telafi edemezdin? "
+    n "Bunu nasıl hissedersin, ha?"
     show natsuki 42b at t22
     show sayori 4h at t21
-    s "I..."
+    s "Ben..."
     show natsuki 42b at t33
     show sayori 4g at t32
     show monika 1d at f31
-    m "Natsuki? Perhaps you'd like a few days off from the club?"
-    m "If there is something bothering one of my club members, I want to make sure tha--"
+    m "Natsuki? Belki kulüpten birkaç gün uzaklaşmak istersin?"
+    m "Eğer bir kulüp üyemi rahatsız eden bir şey varsa, onu halletmek isterim."
     show monika 1c at t31
     show natsuki 42c at f33
-    n "Screw off, Monika!"
+    n "Defol git, Monika!"
     hide monika 
     hide natsuki
     hide sayori with dissolve_cg
-    "But I had to do it. I had to wi--"
+    "Ama bunu yapmak zorundaydım. Kazanmak zorundaydım--"
     show sayori 4h at f11
-    s "[player], stop."
+    s "[player], dur."
+
     mc "Huh?"
-    s "There's something you're not telling me about you and Natsuki. She's been rude towards everyone, but the most towards you."
-    s "I'm here to help too, you know, but I need to know everything to do that."
-    mc "It's like I said, I've got no idea how I could've made her mad!"
-    "I keep telling myself that, but what if I did do something to make her mad? What if I did it all along, voluntarily, but couldn't figure out what it was?"
-    "...No, it doesn't matter. Even if it is all my fault, I promised to make it up to Natsuki."
-    s 4g "I'd suggest apologizing to her, but somehow I don't think that'll make much of a difference at this point, huh?"
-    mc "It'd be way too late for that."
-    mc "But what, then? We've tried everything we could think of."
-    s 1b "I dunno. But the least I can do is try and comfort her."
-    s 1c "Hey, Natsuki! Could you come here?"
+    s "Bana ve Natsuki'ye dair bir şeyler saklıyorsun, değil mi? O, herkese karşı kaba ama özellikle sana karşı daha da sert."
+    s "Yardım etmek için buradayım, ama bunu yapabilmem için her şeyi bilmem gerekiyor."
+    mc "Dediğim gibi, nasıl sinirlendirdiğimi hiç anlamadım ki!"
+    "Bunu kendime defalarca söyledim ama ya gerçekten onu sinirlendirecek bir şey yaptıysam? Belki de fark etmeden, ama yine de bilemedim."
+    "...Hayır, önemli değil. Her ne kadar suçlu olsam da, Natsuki'ye bunu telafi edeceğimi söyledim."
+    s 4g "Ona özür dilemeni öneririm ama sanmıyorum ki şu an bir fark yaratır, değil mi?"
+    mc "Bunun için çok geç kaldık."
+    mc "Peki ya şimdi? Denediğimiz her şeyi denedik."
+    s 1b "Bilmiyorum. Ama en azından onu rahatlatmayı denemeliyim."
+    s 1c "Hey, Natsuki! Buraya gelir misin?"
     show sayori 1c at t21
     show natsuki 4g at f22
-    "Natsuki rolls her eyes and gets up."
-    n "Look, if you're seriously going to try an--"
+    "Natsuki gözlerini devirdi ve kalktı."
+    n "Bak, gerçekten buna kalkıp bir şeyler yapmayı düşünüyorsan--"
     show sayori 1b at t43
     show natsuki 4f at t22 zorder 2
-    "Natsuki is interrupted as Sayori hugs her."
-    s "Hugs make everyone feel better, right?"
-    "Sayori said that, but I saw a look of deep anger on Natsuki's face."
-    "This clearly wasn't going to end well."
+    "Sayori, Natsuki'yi sarıldığında, Natsuki'nin sözünü kesildi."
+    s "Sarılmak, herkese iyi gelir, değil mi?"
+    "Sayori bunu söyledi ama, Natsuki'nin yüzünde derin bir öfke vardı."
+    "Bunun iyi bitmeyeceği belliydi."
     show natsuki 12e at f22
-    n "I HATE YOU!"
+    n "SENİ NEFRET EDİYORUM!"
     show sayori 4m at t21
     show natsuki 12g at f22
-    "Natsuki breaks out of Sayori's grasp."
-    n "All of you! You don't get it, do you?"
-    n "Just leave me alone!"
-    n "It's the simplest thing ever! I'm sorry if none of you ever learned how to leave someone alone but that's not my problem!"
-    n "I can't do this."
-    n "I'm so sick of this."
-    n "Of everything."
+    "Natsuki, Sayori'nin kollarından sıyrılıp kaçtı."
+    n "Hepiniz! Hiçbiriniz anlamıyorsunuz, değil mi?"
+    n "Beni yalnız bırakın!"
+    n "Bu kadar basit bir şey! Eğer hiçbirinizin yalnız bırakmayı öğrenmediyseniz, o da benim sorunum değil!"
+    n "Bunu yapamam."
+    n "Bundan bıktım."
+    n "Her şeyden."
     show natsuki 12h at lhide
     hide natsuki
-    "Natsuki breaks into tears and runs out of the room."
+    "Natsuki gözyaşlarına boğulup odadan çıktı."
     hide sayori
     mc "Natsuki!"
-    "But it was too late."
-    "There's no chance at repairing anything now."
-    "It's over, and we ruined it."
-    "I ruined it. Sayori broke the straw on the camel's back, but this was ultimately my mess."
+    "Ama çok geçti."
+    "Artık hiçbir şeyi düzeltme şansım yok."
+    "Bitti ve biz her şeyi mahvettik."
+    "Ben mahvettim. Sayori, her şeyi daha da kötüleştirdi ama sonuçta bu benim karışıktığım bir durumdu."
     scene bg class_day with Dissolve(1.5)
-    "I don't clearly remember what happened after that. I think I laid down at a desk in the club."
-    "Monika and Yuri kept trying to ask what that was all about, but I didn't feel like responding. I didn't feel like talking at all."
+    "Sonrasında ne olduğuna net olarak hatırlamıyorum. Sanırım kulüpte bir masaya yaslandım."
+    "Monika ve Yuri ne olduğunu sormaya çalıştı ama yanıt vermek istemedim. Hiç konuşmak istemedim."
     window hide
     stop music fadeout 4.0
     show black with Dissolve(4.0)
     pause(2.0)
     scene bg class_night with open_eyes
     play music Dusk fadein 3.0
-    "I fell asleep for a few hours after that, until I was woken up by Sayori."
-    s "It's pretty late, [player]. Even I'm not allowed to work on school projects at the library past this time, and I don't think they'd let you sleep like this. Sorry..."
-    mc "No, it's fine. I'll get going."
-    "I yawn and sit there for a few more moments before getting up to check the time."
-    "7 PM already?"
+    "Bundan birkaç saat sonra Sayori tarafından uyandırıldım."
+    s "Epey geç oldu, [player]. Benim bile okul projeleri için bu saatte kütüphanede çalışmama izin vermiyorlar ve sanırım burada uyumana da izin vermezler. Üzgünüm..."
+    mc "Hayır, sorun değil. Gidiyorum."
+    "Hıçkırık alarak bir süre daha oturup kalkıp saate baktım."
+    "Saat 7 mi olmuş?"
    
     stop music fadeout 3.0
     scene bg streets_afternoon with dissolve_cg
-    "I go to a fast food place after leaving the school, knowing I wouldn't be in the mood to cook when I got home."
-    "I look like a mess after today, but it's not like I cared what others thought of me at this point."
-    "I couldn't stay there forever, either. I couldn't stay anywhere forever, as much as I wanted and tried, which meant it was finally time to go home."
+    "Okuldan çıktıktan sonra bir fast food restoranına gittim çünkü evde yemek yapacak halim kalmazdı."
+    "Bugün gerçekten kötü bir haldeydim ama açıkçası kimse ne düşündüğüme takılmıyordu."
+    "Ama orada kalamam, değil mi? Hiçbir yerde sonsuza kadar kalamam, istediğim ve denediğim kadar, bu yüzden nihayet eve gitme zamanıydı."
     
     scene bg dark_streets with dissolve_cg
-    "I walk on my way home until I'm in my neighborhood. I try going up to my house, only to see something I never expected."
-    "No, not something. Some{i}one{/i}."
+    "Eve doğru yürürken mahalleme geliyorum. Evime çıkmaya çalışıyorum ama hiç beklemediğim bir şeyle karşılaşıyorum."
+    "Hayır, bir şey değil. {i}Birisi{/i}."
     scene bg natsukiCG1 with dissolve_cg
     mc "Natsuki?!"
     play music Dusk fadein 3.0
     
-    n "I messed up, [player]."
+    n "Berbat ettim, [player]."
+
     
-    mc "Natsuki, what's going on?"
-    " I didn't expect to see this, especially not after everything that had happened."
-    "Natsuki, sitting on my porch? How long has she been waiting here?"
-    n "I know you hate me now, but I need somewhere to stay."
-    mc "Of course! But Natsu--"
-    n "This doesn't mean anything. Only until..."
-    "Natsuki stops to think."
-    n "It doesn't matter."
-    mc "Well, we can discuss that later. It's cold out here, yeah? Come inside."
+    mc "Natsuki, ne oluyor burada?"
+    "Bunu görmek beni şaşırttı, özellikle de her şeyin yaşandığı şu dönemde."
+    "Natsuki, veranda mı? Burada ne kadar zamandır bekliyor ki?"
+    n "Beni artık sevmiyorsun, biliyorum, ama kalacak bir yere ihtiyacım var."
+    mc "Tabii! Ama Natsu--"
+    n "Bunun bir anlamı yok. Sadece... "
+    "Natsuki bir an durup düşünüyor."
+    n "Önemli değil."
+    mc "Tamam, o zaman sonra konuşuruz. Burada soğuk, değil mi? Gel, içeri girelim."
     
     scene bg home_interior_night with dissolve_cg
-    "I open my front door and we both walk into my living room."
-    mc "So I guess you'll be staying here for awhile, then. As you'd probably expect, there is some stuff I need to explain."
+    "Kapımı açıp, birlikte oturma odamıza geçiyoruz."
+    mc "Sanırım bir süre burada kalacaksın. Herhalde tahmin edebileceğin gibi, açıklamam gereken birkaç şey var."
     show natsuki 4c at f11
-    n "You're sleeping on the couch."
-    mc "Wait, wha--"
-    mc "...I mean yeah, sure. The couch is comfy enough anyway."
-    "Might as well not fight it."
-    mc "Then you'll be sleeping in my room, right?"
-    n 4e "There's not any other options, are there?"
-    "Technically, she could be sleeping on the couch instead of making me do it, but I guess this is fine."
-    mc "Okay, so you'll be sleeping in my room, then. Don't touch anything, got it?"
-    n "Honestly, the stuff you've hid in your room would probably gross me out too much to make me want to look at it anyway."
-    mc "I'll take that as a compliment."
-    n "It's not one."
-    mc "I see."
+    n "Sofrada yatıyorsun."
+    mc "Ne--"
+    mc "...Yani evet, tabii. Koltuk zaten yeterince rahat."
+    "Buna karşı çıkmanın anlamı yok."
+    mc "O zaman odada kalırsın, değil mi?"
+    n 4e "Başka bir seçenek yok sanırım?"
+    "Teknik olarak, koltukta uyuyabilir, beni zor durumda bırakmayabilirdi ama sanırım bu da sorun değil."
+    mc "Tamam, o zaman odada kalırsın. Ama hiçbir şeye dokunma, tamam mı?"
+    n "Açıkçası, odanda sakladığın şeyler beni o kadar tiksindirebilir ki, bakmak bile istemem."
+    mc "Bunu bir iltifat olarak kabul ediyorum."
+    n "Değil."
+    mc "Anladım."
     show natsuki 4u at t11
-    "Awkward silence fills the room. I notice a nervous look shows up on Natsuki's eyes, almost as if she's wondering if how she's behaving is too rude even for her."
-    "I wonder if it's because of pent up emotion from whatever happened to her?"
-    mc "Um, I'll see you tomorrow then."
-    n "Right."
+    "Odada garip bir sessizlik hakim. Natsuki'nin gözlerinde, sanki biraz kaba davranıp davranmadığını düşündüğü bir korku var gibi görüyorum."
+    "Acaba, başına gelenlerden dolayı içindeki duygulara mı kapılıyor?"
+    mc "Eee, o zaman yarın görüşürüz."
+    n "Tamam."
     show natsuki 4u at lhide
     hide natsuki
-    "Natsuki heads outside for a moment to grab a suitcase she brought that was in the bushes, and then goes to my room while I plop down on the large couch in my living room."
-    "There weren't any blankets, but I was too exhausted to go get any."
-    "All I want for now is sleep. Nothing more than some good, long rest."
+    "Natsuki bir anlığına dışarı çıkıp, çalılıkların arasında bıraktığı valizini alıyor ve odama doğru yöneliyor. Ben de büyük koltuğuma oturup, uyumak için hazırlanıyorum."
+    "Yatak örtüsü yoktu ama, artık çok yorgundum, gidip almaya üşendim."
+    "Şu an tek istediğim uyumak. Sadece iyi bir uyku."
     stop music fadeout 2.0
     show black with Dissolve(3.0)
     
-    "{i}BZZT! BZZT!{/i}" 
+    "{i}BZZT! BZZT!{/i}"
     stop sound
-    "Seeing as Natsuki has my alarm clock, I use my phone alarm to wake up the next morning; thankfully I had found a place to charge it for the night."
-    "And as soon as I do wake up today, I see Natsuki already cooking something."
+    "Natsuki'nin alarm saatimle uyandırdığını görünce, telefon alarmımı kurarak sabah uyandım. Neyse ki, onu gece boyunca şarj edebileceğim bir yer bulmuştum."
+    "Ve tam da uyanınca, Natsuki'nin bir şeyler pişirdiğini görüyorum."
     scene bg kitchen with wipeleft_scene
     play music NatTheme fadein 2.0
-    mc "Natsuki? You're up already?"
+    mc "Natsuki? Çoktan kalktın mı?"
     show natsuki 3bb at f11
-    n "Just because you sleep forever doesn't mean I do too."
-    mc "I suppose. What are you cooking?"
-    n "Scrambled eggs."
-    mc "That makes sense. I thought your specialty was baking, though?"
-    n "It is, but cooking's still an important skill."
-    n "I usually eat processed food, though."
-    n 4be "Oh, and I'm not making anything for you, by the way. It's your kitchen, so you can make it yourself."
+    n "Senin gibi her şeyi uyuyarak geçirecek değilim."
+    mc "Sanırım. Ne yapıyorsun?"
+    n "Çırpılmış yumurta."
+    mc "Mantıklı. Ama senin uzmanlığın pastacılık değil miydi?"
+    n "Evet ama yemek yapmak da önemli bir yetenek."
+    n "Genelde işlenmiş gıda tüketirim."
+    n 4be "Ama senin için bir şey yapmıyorum, tabii. Mutfak senin, sen yaparsın."
     hide natsuki with wipeleft
-    "Harsh, but not wrong."
-    "I was never an expert when it came to cooking, so I grab a bowl of cereal instead."
-    "By the time I'm ready, Natsuki is done making her food as well. Whereas I sit at the kitchen table, she sits on the couch in the living room instead."
-    mc "Are you sure you don't want to eat at an actual kitchen table?"
-    n "I'm fine."
-    mc "Alright."
-    "She's not going to be this cold the whole time, is she? I certainly hope not."
-    "After we were done eating, we continued to sit."
+    "Sert ama haksız da sayılmaz."
+    "Ben yemek yapma konusunda pek uzman değilim, o yüzden bir kase mısır gevreği alıp geçiyorum."
+    "Tam ben hazır olduğumda, Natsuki yaptığı yemeği de bitiriyor. Ben mutfak masasında otururken, o oturma odasında koltukta oturuyor."
+    mc "Gerçekten yemek masasında oturmak istemiyor musun?"
+    n "İyiyim."
+    mc "Tamam."
+    "Bütün bu soğuk tavırları sürekli sürdürecek mi? Umarım etmez."
+    "Yemek yedikten sonra, ikimiz de oturmaya devam ediyoruz."
     scene bg home_interior with Dissolve(1.5)
-    "I don't know how well this would go, but I decide to get up and go to the couch and talk to Natsuki."
-    mc "In case you get bored, you can always read some of my manga."
+    "Bunun nasıl gideceğini bilmesem de, kalkıp Natsuki ile konuşmak için koltuğa gidiyorum."
+    mc "Sıkılırsan, manga koleksiyonumdan bir şeyler okuyabilirsin."
     show natsuki 1bc at f11
-    n "Sure."
+    n "Tabii."
     n "..."
     "..."
-    mc "Well, I've got stuff to do. Later."
+    mc "Benim halletmem gereken şeyler var. Sonra görüşürüz."
     hide natsuki with wipeleft  
     scene bg bedroom with Dissolve(1.5)
-    "I get up and go into my room, trying to figure out what I was actually about to do."
-    "...I've got nothing, when I think about it. Guess I'll watch some anime."
+    "Kalkıp odamıza gidiyorum, aslında ne yapacağımı düşünerek."
+    "...Şimdi düşündüğümde hiçbir şeyim yok. O zaman anime izlerim."
     window hide
     scene bg bedroom with wipeleft_scene
     window show
-    "A few hours pass and I feel numb from binge watching too many episodes. Before I can fall asleep in my chair, I hear Natsuki's voice."
-    n "What?! Where and how did you get this?"
+    "Bir kaç saat geçiyor ve fazlasıyla anime izleyip numaralanmış hissediyorum. Tam koltukta uyumak üzereyken Natsuki'nin sesini duyuyorum."
+    n "Ne?! Bunu nereden ve nasıl buldun?"
     show natsuki 1bb at t41
-    "I stretch my arms and turn around to see that Natsuki did actually come in to check my manga collection."
-    mc "What are you talking about?"
-    "Natsuki pulls out a volume of manga from my shelf."
-    n 2bb "I'm talking about this, duh!"
-    mc "Parfait Girls? I don't remember ever buying that."
-    n 4be "It's not just any issue of Parfait Girls, though. It's a France exclusive volume that had only a hundred copies ever produced."
-    n 4bc "Why do you own this?"
-    "Yeah, I'd like to know that as well."
-    mc "I dunno. I probably got it at a garage sale bundled with a bunch of other manga, since I do that kind of shopping sometimes."
-    mc "I wouldn't have cared about Parfait Girls at the time, so it was probably the other manga it came with I cared about. That's the only thing I can think of."
-    mc "But yeah, go ahead and read it if you want."
-    n 4be "How am I supposed to read it when it's in French?"
+    "Kollarımı gererken, dönüp bakınca, Natsuki'nin manga koleksiyonuma göz attığını fark ediyorum."
+    mc "Ne hakkında konuşuyorsun?"
+    "Natsuki, rafımdan bir manga cildi çıkarıyor."
+    n 2bb "Bunu diyorum, aptal!"
+    mc "Parfait Girls? Hiç hatırlamıyorum bunu aldığımı."
+    n 4be "Ama bu sadece herhangi bir Parfait Girls cildi değil. Bu, sadece Fransa'da çıkan ve sadece yüz tane basılan özel bir sayı."
+    n 4bc "Bunu neden almışsın?"
+    "Evet, ben de tam olarak bunu merak ediyorum."
+    mc "Bilmiyorum. Sanırım başka manga kitaplarıyla birlikte bir garaj satışında almıştım, çünkü bazen böyle alışveriş yaparım."
+    mc "O zaman Parfait Girls'in benim ilgimi çekecek bir şey olmadığını düşünürdüm, ama diğer manga kitapları ilgi çekiciydi. Başka bir şey hatırlamıyorum."
+    mc "Ama evet, istersen oku."
+    n 4be "Nasıl okuyabilirim ki, Fransızca?"
     show natsuki 4bc at t41
-    mc "Okay, that's a fair point."
-    mc "Well, my French isn't {i}amazing{/i} but I think I should be able to translate the manga. Want me to read it to you?"
+    mc "Tamam, haklısın."
+    mc "Fransızcam {i}mükemmel{/i} olmasa da, sanırım manga'yı çevirebilirim. Okumamı ister misin?"
     show natsuki 5bs at t41
-    "Natsuki looks nervous."
-    n "I'll read something else."
-    mc "If you insist."
+    "Natsuki biraz gergin görünüyor."
+    n "Başka bir şey okurum."
+    mc "İstediğin gibi."
     hide natsuki with wipeleft
-    "Maybe there is an opportunity for me to get her to open up this time. Not right this moment or anything, but y'know."
-    "Wait, was there school today? That sounds random to bring up, but... crap."
-    "Well, too late now."
-    "I try watching a few more hours of anime, but there's a pit in my stomach that makes it hard for me to fully enjoy it."
-    "I know it's not good to let your worries get the best of you, but sometimes it's hard to shake it off, knowing everything that's been going on."
-    "It might be a bit early to do this, but I guess I'll try to get some sleep. Maybe some rest will help me feel a little better..."
+    "Belki, bu sefer biraz açılmasına fırsat verebilirim. Şu an olmasa da, belki daha sonra."
+    "Dur, bugün okul var mıydı? Bu biraz rastgele oldu ama... lanet olsun."
+    "Neyse ki çok geç oldu."
+    "Bir kaç saat daha anime izledikten sonra, midemdeki o boşluk, bunun tadını çıkarmamı zorlaştırıyor."
+    "Endişelerim beni yıkmasaydı iyi olurdu ama bazen gerçekten zor oluyor, yaşanan her şeyin farkında olunca."
+    "Bunu yapmak belki erken, ama bir denemek istiyorum. Belki biraz dinlenmek, beni daha iyi hissettirir..."
     window hide
     stop music fadeout 2.0
     show black with Dissolve(3.0)
@@ -1878,17 +1878,17 @@ label natsukiRoute_Stress:
     scene bg bedroom with open_eyes 
     window show
     stop sound
-    "I wake up the next morning with Natsuki near the doorway leading out of my room."
+    "Ertesi sabah uyanıyorum ve Natsuki'yi odamın kapısında dururken görüyorum."
     show natsuki 1b at t41
-    n "So you're up now."
-    n "[player], was there school yesterday?"
-    mc "Yeah, um, about that."
-    n 5e "Ughh. How do you manage to do anything when you're like this?"
+    n "Artık kalktın mı?"
+    n "[player], dün okul var mıydı?"
+    mc "Evet, aslında... "
+    n 5e "Ughh. Böyle nasıl bir şeyler yapmayı başarıyorsun?"
     show natsuki at lhide
     hide natsuki
-    n "I'm going to school now. Get yourself together and come too if you want, but I won't wait up for you."
-    "Natsuki walks out and slams the door, leaving me by myself. I look at my phone to check the time and, since nothing wants to go my way, I find out I'm almost late."
-    "I thought I'd have learned to set my alarm correctly by now, but oh well."
+    n "Şimdi okula gidiyorum. Kendine gel, gelmek istersen gel ama seni beklemem."
+    "Natsuki kapıyı çarpıp çıkarken, yalnız kalıyorum. Telefonuma bakıp saate bakınca, neredeyse geç kaldığımı fark ediyorum."
+    "Alarmı düzgün kurmayı öğrenmiştim sanmıştım ama işte, neyse."
    
     stop music fadeout 2.0
     window hide
@@ -1896,38 +1896,38 @@ label natsukiRoute_Stress:
     scene bg club_day with Dissolve(1.5)
     play music aNewDay fadein 2.0
     window show 
-    "School was a thing, I guess, but it's not like I care about it too much. Once it was over I finally wander over to the Literature Club and see everyone else look up at me."
-    mc "Hey."
+    "Okul vardı, herhalde ama önemli değil. Okuldan sonra, nihayet Edebiyat Kulübü'ne geçiyorum ve herkes bana bakıyor."
+    mc "Selam."
     show sayori 4h at f11
-    s "[player]! Where were you and Natsuki?"
-    mc "Oh, that? We accidentally skipped school."
+    s "[player]! Neredeydiniz, Natsuki?"
+    mc "Bunu mu? Tesadüfen okulu kaçırdık."
     show natsuki 4g at t22
     show monika 1d at f21
-    m "Accidentally?"
-    mc "Yeah, Natsuki was at my hou--"
+    m "Tesadüfen mi?"
+    mc "Evet, Natsuki evimdeydi--"
     show monika 1c at t31
     show sayori 1q at t33
     show natsuki 1o at f32
-    "Natsuki quickly runs over to cover my mouth."
-    m 1l "Ohh, I see. At your house, huh? That's... neat."
-    n 5q "We were busy, that's all."
-    s 1i "I bet you were busy, yeah."
-    "Everyone looks at us with a disappointed stare. I take Natsuki's hand off my mouth."
-    mc "It's not what it sounds like, I swear."
+    "Natsuki hemen gelip ağzımı kapatıyor."
+    m 1l "Aaa, görüyorum. Evinde mi? İlginç."
+    n 5q "Yoğunluktan başka bir şey değil."
+    s 1i "Evet, yoğun olduğunuzu tahmin ettim."
+    "Herkes bize hayal kırıklığıyla bakıyor. Natsuki ağzımı açıyor."
+    mc "Durum böyle değil, yemin ederim."
     show sayori 1i at t43
     show monika 1c at t41
     show natsuki 5q at t42
     show yuri 2r at f44
-    y "If you want to be in the club then you need to actually attend, unless it's an emergency. That's all we're saying."
+    y "Kulübe katılmak istiyorsanız, gerçekten katılmanız lazım, acil bir durum yoksa tabii."
     show yuri 2r at t44
     show monika 1i at f41
-    m "I mean, when you're skipping for {i}that{/i} reason, it's just a tiny bit disrespectful."
-    show monika 1c at t41
-    mc "We'll make a note of it."
+    m "Yani, {i}bunu{/i} kaçıracak kadar, çok küçük bir saygısızlık."
+    show monika 1c at f41
+    mc "Bunu dikkate alacağız."
     show natsuki 1q at f42
-    n "Yeah!"
-    n 2t "So, um... how about those poems, am I right?"
-    "We never forgot to go to school since."
+    n "Evet!"
+    n 2t "O zaman... ne dersiniz? Şiirlerimiz?"
+    "O günden sonra okula hiç kaçmadık."
     window hide
     stop music fadeout 2.0
     show black with Dissolve(2.0)
@@ -1935,49 +1935,49 @@ label natsukiRoute_Stress:
     scene bg flashback_home with Dissolve(2.0)
     window show
     $ o_name = "???"
-    n "Daddy? What's going on with mommy?"
+    n "Baba? Annemle ne oluyor?"
     o "..."
-    n "Daddy?"
-    o "She'll... be okay."
-    o "She has to be okay."
+    n "Baba?"
+    o "O... iyi olacak."
+    o "Olmak zorunda."
     window hide
     show black with Dissolve(1.5)
 
     scene bg kitchen with wipeleft_scene
     window show
     play music NatTheme fadein 2.0
-    "At least today was a day off from school. I don't feel like showing my face at the Literature Club again after last time anyway."
-    "Natsuki and I both make our own breakfast. As we're eating (still in separate rooms), she says something to me."
+    "En azından bugün okuldan bir gündü. Son seferdeki gibi tekrar Edebiyat Kulübü'ne yüzümü göstermek istemiyorum açıkçası."
+    "Natsuki ve ben kahvaltımızı yapıyoruz. Hala ayrı odalarda olmamıza rağmen, bir şey söylüyor."
     show natsuki 1bb at t44
-    n "So, [player]."
+    n "Yani, [player]."
     show natsuki 1bc at f11
-    "Natsuki walks over and sits down a few chairs away from me."
-    n 1bq "About your offer to read that French Parfait Girls volume..."
-    mc "Sure, I don't mind."
-    n "Yeah, you don't really have a lot of other manga I like, so you know."
-    mc "Let me finish eating and I'll go get it."
+    "Natsuki kalkıp yanıma oturuyor, ama gerçekten paneli görmesi gerektiğinde bile yanımda oturacak kadar yakınlaşmıyor."
+    n 1bq "O Fransız Parfait Girls cildini okuma teklifin hakkında..."
+    mc "Tabii, hiç sorun değil."
+    n "Evet, aslında başka sevdiğim manga türlerinden çok yok, o yüzden yani."
+    mc "Kahvaltımı bitireyim, hemen alıp getireyim."
     hide natsuki with wipeleft  
     scene bg bedroom with Dissolve(1.5)
     scene bg home_interior with Dissolve(1.5)
-    "Once I was done with my food, I head to my room and grab the manga Natsuki is talking about. I then head back and sit down on the living room couch."
-    "Natsuki follows, although she doesn't sit close to me until she actually has to see any of the panels."
-    mc "Ready?"
+    "Yemeklerimi bitirdikten sonra odamıza gidip, Natsuki'nin bahsettiği manga cildini alıyorum. Sonra salona geri dönüp kanepeye oturuyorum."
+    "Natsuki de geliyor, ama gerçekten yanımda oturana kadar pek yaklaşmıyor."
+    mc "Hazır mısın?"
     show natsuki 1bb at f11
-    n "Sure."
+    n "Hazırım."
     hide natsuki with wipeleft
-    "As I read to Natsuki, thoughts swirl through my head."
-    "Last time she didn't sit next to me because she didn't want anyone in the Literature Club to assume something about us, until she scooted closer anyway."
-    "We've both admitted our feelings for each other, though, and nobody else is here this time, so what's with her hesitating?"
-    "Does she not trust me anymore?"
-    "...No, I'm probably looking too deep into this."
+    "Natsuki'ye okurken kafamda bir sürü düşünce dolaşıyor."
+    "Geçen sefer yanıma oturmamıştı çünkü Edebiyat Kulübü'ndeki herkes bizim hakkımızda bir şeyler düşünmesin diye, ama o bile sonunda yaklaşıp oturdu."
+    "Birbirimize duygularımızı itiraf ettik, ama bu sefer kimse burada değil, o zaman neden tereddüt ediyor?"
+    "Beni artık güvenmiyor mu?"
+    "...Yok, belki de fazla anlam yüklemiyorumdur."
     scene bg home_interior with Dissolve(1.5)
     show natsuki 1bs at f11
-    "Once we're done reading, I go and put the manga away. As I come back from my room, Natsuki seems to be thinking about something."
-    mc "Everything alright?"
-    n "Yeah, I've just been thinking about things."
-    mc "Well, you can stay here as long as you like, assuming I don't sell this house or anything."
-    n 1bq "Thanks, [player]."
-    mc "Any time."
+    "Okumayı bitirdikten sonra mangayı yerine koyuyorum. Odamdan geri dönerken Natsuki bir şeyler düşünüyor gibi görünüyor."
+    mc "Her şey yolunda mı?"
+    n "Evet, sadece birkaç şey hakkında düşünüyorum."
+    mc "Ya, istediğin kadar burada kalabilirsin, hani evi satmadığım sürece falan."
+    n 1bq "Teşekkür ederim, [player]."
+    mc "Ne zaman istersen."
     window hide
     stop music fadeout 2.0
     show black with Dissolve(2.0)
@@ -1989,112 +1989,113 @@ label natsukiRoute_Stress:
     "{i}BZZT! BZZT!{/i}"
     "{i}BZZT! BZ--{/i}"
     $ o_name = "???"
-    o "Come on, [player]!"
+    o "Hadi ama, [player]!"
     scene bg home_interior with open_eyes
     play music NatTheme fadein 2.0
     show natsuki 5b at f11
-    "I groggily open my eyes and see Natsuki looking at me."
+    "Gözlerimi zorla açıyorum ve Natsuki'yi görüyorum."
     stop sound
-    mc "Huh? What's going on?"
-    n 5g "The alarm wasn't waking you up, so I had to."
-    n "Anyway, your breakfast is about to go cold, so get up already."
-    mc "Breakfast?"
-    n 1b "Only because I can't stand you eating cereal every day."
-    n "Cereal for breakfast, lunch, and dinner? Sheesh. That's not a healthy way to live."
-    n "And don't make any assumptions. Nutrition's been an important topic for me lately, that's all."
-    mc "Come on, you already know I eat more than that, Natsuki."
-    mc "Still... I shouldn't exactly complain about this, so thank you."
+    mc "Hıh? Ne oluyor?"
+    n 5g "Alarm seni uyandırmıyordu, o yüzden ben de zorla uyandırdım."
+    n "Neyse, kahvaltın soğumadan kalk hadi."
+    mc "Kahvaltı?"
+    n 1b "Sadece senin her gün kahvaltıda mısır gevreği yediğini kaldıramadım da ondan."
+    n "Kahvaltıda, öğle yemeğinde, akşam yemeğinde mısır gevreği mi? Vay be. Böyle sağlıklı bir hayat tarzı olmaz."
+    n "Ve sakın yanlış anlamalar yapma. Son zamanlarda beslenme konusu benim için önemli bir mesele, hepsi bu."
+    mc "Gel, zaten biliyorsun, Natsuki, sadece mısır gevreği yemiyorum."
+    mc "Yine de... bunun için şikayet etmemeliyim, teşekkür ederim."
     hide natsuki with dissolve_cg
-    "Nutrition's been an important topic for her, huh..."
+    "Beslenme meselesi onun için önemliymiş, öyle mi..."
     scene bg kitchen with wipeleft_scene    
-    "I get up and head over to the dining room table and see a plate of scrambled eggs waiting for me."
+    "Kalkıp yemek masasına gidiyorum ve önümde sıcacık bir tabak karışık yumurta görüyorum."
     show natsuki 3b at t44
-    n "Okay, scrambled eggs are actually all I can make. Sorry about that."
-    mc "It's no problem."
+    n "Tamam, karışık yumurta yapabildiğim tek şey bu. Kusura bakma."
+    mc "Sorun değil."
     hide natsuki with dissolve_cg  
-    "Natsuki goes over to the couch as usual so that she can eat the meal she made."
-    "I almost feel like I've been getting closer to her, little by little."
+    "Natsuki her zamanki gibi kanepeye geçiyor ve yaptığı yemeği yiyor."
+    "Neredeyse onunla biraz daha yakınlaşıyor gibiyim, azar azar."
     scene bg home_interior with wipeleft_scene  
     show natsuki 1a at f11
-    "Once we're done eating, I ask something that's been on my mind."
-    mc "How long do you plan on staying here, anyway?"
-    mc "Like I said, you can stay as long as you want, but I don't think you want to stay here forever, right?"
+    "Yemeklerimizi bitirdikten sonra aklımda olan bir şeyi soruyorum."
+    mc "Ne kadar süre burada kalmayı planlıyorsun, peki?"
+    mc "Dediğim gibi, burada kalmak istersen kalabilirsin ama sanırım sonsuza kadar burada kalmak istemezsin, değil mi?"
     show natsuki 1s at f11
-    "Natsuki looks off to the side."
-    n "Hey, maybe I do."
-    mc "Well, not that it matters. Guess we're off to school, huh?"
-    n "Yup."
+    "Natsuki yanına bakarak sessiz kalıyor."
+    n "Belki de isterim."
+    mc "Neyse, çok da önemli değil. Sanırım okula gitme zamanı geldi, değil mi?"
+    n "Evet."
     hide natsuki with dissolve_cg  
     scene bg class_day with Dissolve(2.0)
     scene bg club_day with Dissolve(2.0)
     stop music fadeout 2.0
-    "School wasn't particularly special or anything like that. Neither was the time we spent at the Literature Club, where things were slowly getting closer to how they used to be."
-    "I don't think all this patience has been a complete waste, if nothing else."
+    "Okul aslında pek özel bir şey değildi ya da öyle hissettirmedi. Edebiyat Kulübü'nde geçirdiğimiz zaman da pek değişmemişti, her şey yavaşça eskisi gibi olmaya başlıyordu."
+    "Bütün bu sabırlı bekleyişin boşa gitmediğini düşünüyorum, başka bir şey olmasa da."
+
     
-    "Things progressed like this for awhile."
+    "Böyle birkaç hafta geçti."
     scene bg home_interior with open_eyes
     play music NatTheme fadein 2.0
-    "Once it had been nearly a month since Natsuki started living here, she came up to me as I was waking up to talk about something."
+    "Natsuki'nin burada yaşamaya başlamasından neredeyse bir ay sonra, sabah uyanırken yanıma gelip bir şey konuşmak istedi."
     show natsuki 4b at f11
-    n "You know, you can sleep in your bed from now on if you want."
-    "Whoa, what?"
-    mc "Wait, do you mean what I think you mean?"
-    n 4q "No! Geez, I'm not even surprised that's the first thing your mind jumps to at this point."
-    n 4s "Actually, I have something in mind. Follow me."
+    n "Bundan sonra istersen kendi yatağında uyuyabilirsin."
+    "Ne? Ne diyorsun?"
+    mc "Bekle, ne demek istediğini düşündüm ama... doğru mu anlıyorum?"
+    n 4q "Hayır! Cidden, aklın başka bir yere gitmesine şaşırmadım bile."
+    n 4s "Aslında başka bir şey düşündüm. Beni takip et."
     hide natsuki with wiperight 
     scene bg bedroom with Dissolve(1.5)
-    "I follow Natsuki into my room and look at my bed."
+    "Natsuki'yi takip edip odamın içine giriyorum ve yatağıma bakıyorum."
     show natsuki 2b at f11
-    n "See?"
-    "A barrier made of pillows covers the middle of the bed, separating the two sides. A bit convoluted, but I can see it working."
-    mc "So we each get our own side of the bed, then?"
-    n "Yeah. It's a fairly big bed for one person, and I felt kinda bad about you having to be on the couch, so..."
+    n "Bak işte."
+    "Yatakta iki tarafı ayıran yastıklardan yapılmış bir bariyer var. Biraz karmaşık ama işe yaradığını görebiliyorum."
+    mc "Yani, yatağın iki tarafı var ve her birimiz kendi tarafımıza mı geçiyoruz?"
+    n "Evet. Yatak bir kişi için oldukça büyük ve senin kanepede yatmanı biraz garip buluyordum, o yüzden..."
     show natsuki 2a at f11
-    mc "Thanks, Natsuki. It'll be nice to sleep in my own room again."
-    mc "Oh, by the way. It'd be nice if we could both eat something different tonight, so maybe we could go out for pizza?"
-    "I expect Natsuki to straight up reject me, but she gives me an answer I don't expect."
-    n 2b "Sure. I guess it could be fun."
+    mc "Teşekkür ederim, Natsuki. Kendi odamda uyumak gerçekten güzel olacak."
+    mc "Bu arada, akşam yemeği için farklı bir şeyler yesek nasıl olur? Belki pizza yemeye çıkabiliriz?"
+    "Natsuki'nin reddetmesini bekliyordum ama beklediğimin tersine bir cevap verdi."
+    n 2b "Tamam. Sanırım eğlenceli olabilir."
     show black with dissolve_cg
-    "Later that night, we went to a local pizza parlor and had a great time."
-    "While we were there, we discussed manga and other stupid stuff like we used to."
-    "It feels good to be at this point once again, even though I already know it probably wouldn't last forever..."
-    "Nothing does."
-    "Still, I interacted with Natsuki more in general after that night. We'd read manga, watch anime, play board games, and so on."
-    "Even though she trusted me more now, there was still a small piece of anxiety flowing through her. One day I'd ask why, but for now I was going to keep living with Natsuki."
-    "A life of peace, even though it wasn't perfection."
-    "That's all I want, honestly."
+    "O akşam, yerel bir pizzacıya gidip harika zaman geçirdik."
+    "Orada, eski günlerde olduğu gibi manga ve diğer saçma şeylerden konuştuk."
+    "Bunu tekrar yaşamak gerçekten güzel, ama biliyorum ki bu sonsuza kadar süremez..."
+    "Hiçbir şey sonsuza kadar sürmez."
+    "Yine de, o geceden sonra Natsuki ile daha fazla vakit geçirmeye başladım. Manga okuduk, anime izledik, masa oyunları oynadık falan."
+    "Artık bana daha fazla güveniyor olsa da, hala küçük bir kaygı vardı içinde. Bir gün nedenini sorarım belki, ama şimdilik Natsuki ile yaşamaya devam ediyorum."
+    "Huzurlu bir hayat, mükemmel olmasa da."
+    "Gerçekten tek istediğim bu."
     stop music fadeout 2.0
     window hide
     scene bg bedroom with open_eyes
     window show
     play music NatTheme fadein 2.0
-    "We both get up the next morning. I go to finish my homework at the last minute before heading off to school, while Natsuki makes us breakfast."
-    "Unfortunately, the usual routine is broken up as I receive a message on my phone."
-    "It was a message I knew I was eventually going to receive, but one I didn't look forward to getting."
-    "I look at the sender and it's who I expected to be the one to send it, that person being Sayori."
-    p "Seriously tho, what's up with you and Natsuki?"
-    "I respond with a text saying I'd talk to her about it later. I do have homework to finish, after all."
-    "But really, it was also something that I think should be said in person."
+    "Ertesi sabah ikimiz de kalkıyoruz. Ben son dakikada ödevimi bitirip okula gitmek için hazırlanırken, Natsuki kahvaltıyı hazırlıyor."
+    "Ne yazık ki, alıştığımız rutin bozuluyor ve telefonuma bir mesaj geliyor."
+    "Bu mesajı bir gün alacağımı biliyordum ama açıkçası almak istemediğim bir mesaja bakıyorum."
+    "Göndereni görüyorum ve tahmin ettiğim gibi, Sayori."
+    p "Cidden, Natsuki ile aranızda ne var?"
+    "Mesajı alıp, 'Bunu sonra konuşuruz.' diye cevap veriyorum. Sonuçta, ödevimi bitirmem gerek."
+    "Ama gerçekten, bunun yüz yüze konuşulması gereken bir şey olduğunu düşünüyorum."
     stop music fadeout 2.0
     scene bg class_day with Dissolve(2.0)
     scene bg club_day with Dissolve(2.0)
     play music aNewDay fadein 2.0
-    "After Natsuki and I finish our meals like always, we head out for another dull day of school."
-    "Once our classes are over, we head into the Literature Club together to see the place running like it usually does."
+    "Natsuki ve ben her zamanki gibi yemeklerimizi yedikten sonra, sıradan bir okul günü için dışarı çıkıyoruz."
+    "Derslerimiz bittiğinde, birlikte Edebiyat Kulübü'ne giriyoruz ve her şeyin yine normal şekilde işlediğini görüyoruz."
     show sayori 1a at t44
     show natsuki 1c at t41
-    "I quietly speak to Natsuki."
+    "Natsuki'ye sessizce bir şeyler söylüyorum."
     hide natsuki with wipeleft  
-    mc "One second, alright?"
+    mc "Bir dakika, tamam mı?"
     show sayori 1a at f11
-    "I walk over to Sayori."
-    mc "Yeah, so, about Natsuki. We might want to find a quieter place for this?"
-    s 1c "Oh, sure!"
+    "Sayori'nin yanına gidiyorum."
+    mc "Evet, Natsuki hakkında. Belki biraz daha sessiz bir yer bulmalıyız?"
+    s 1c "Tabii!"
     hide sayori with wipeleft
     scene bg corridor with dissolve_cg
-    "Sayori and I walk into the hallway to discuss things."
+    "Sayori ile birlikte koridora gidip konuşmamız gereken şeyi tartışmaya başlıyoruz."
     show sayori 4h at f11
-   
+    # DEVAM EDİLİCEK
     menu:
         s "What's going on with Natsuki, then?"
         "Try to tell the full story.":
