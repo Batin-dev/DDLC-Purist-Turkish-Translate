@@ -390,8 +390,8 @@ label yuriRoute_final:
 
     mc "Hey, Monika…"
     show monika 2b at t11
-    m "Hm?"
-    
+    m "Hmm?"
+
     mc "On the day of the festival… I recall that you basically set up me and Yuri."
 
     "Monika taps her chin in a mock thinking gesture."
