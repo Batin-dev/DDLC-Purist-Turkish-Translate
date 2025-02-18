@@ -1,23 +1,23 @@
-## This splash screen is the first thing that Renpy will show the player
+## Bu başlangıç ekranı, Ren'Py'nin oyuncuya gösterdiği ilk şeydir
 ##
-## Before load, check to be sure that the archive files were found.
-## If not, display an error message and quit.
+## Yüklemeden önce, arşiv dosyalarının bulunduğundan emin olun.
+## Eğer yoksa, bir hata mesajı gösterin ve çıkın.
 init -100 python:
-    #Check for each archive needed
+    # Gerekli her arşivi kontrol et
     for archive in ['audio','images','scripts','fonts']:
         if not archive in config.archives:
-            #If one is missing, throw an error and chlose
-            renpy.error("DDLC archive files not found in /game folder. Check installation and try again.")
+            # Eğer bir eksikse, bir hata mesajı göster ve çık
+            renpy.error("DDLC arşiv dosyaları /game klasöründe bulunamadı. Kurulumu kontrol edin ve tekrar deneyin.")
 
-## First, a disclaimer declaring this is a mod is shown, then there is a
-## check for the original DDLC assets in the install folder. If those are
-## not found, the player is directed to the developer's site to download.
+## Önce, bu mod olduğunu belirten bir uyarı gösterilir, ardından
+## orijinal DDLC varlıklarının kurulum klasöründe olup olmadığı kontrol edilir. 
+## Eğer bulunamazsa, oyuncu geliştiricinin sitesine yönlendirilir.
 ##
 init python:
     menu_trans_time = 1
-    #The default splash message, originally shown in Act 1 and Act 4
+    # Varsayılan başlangıç mesajı, ilk ve dördüncü bölümde gösterilen
     splash_message_default = "DDLC purist modu için geliştirici versiyon"
-    #Optional splash messages, originally chosen at random in Act 2 and Act 3
+    # Opsiyonel başlangıç mesajları, ikinci ve üçüncü bölümde rastgele seçilen
     splash_messages = [
     "O senin için bekliyor.",
     "Benim için de bir tane var mı?",
@@ -27,7 +27,7 @@ init python:
 
 image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)
 
-##Here's where you can change the logo file to whatever you want
+## Logo dosyasını istediğiniz şeyle değiştirebilirsiniz
 image menu_logo:
     "images/menu/mod_logo.png"
     subpixel True
@@ -206,10 +206,9 @@ image warning:
 image tos = "bg/warning.png"
 image tos2 = "bg/warning2.png"
 
-
 label splashscreen:
 
-    #If this is the first time the game has been run, show a disclaimer
+    # Eğer bu oyunun ilk kez çalıştırılıyorsa, bir uyarı göster
     default persistent.first_run = False
     if not persistent.first_run:
         $ quick_menu = False
@@ -218,18 +217,18 @@ label splashscreen:
         scene tos
         with Dissolve(1.0)
         pause 1.0
-        "[config.name] is a Doki Doki Literature Club fan mod that is not affiliated with Team Salvato."
-        "It is designed to be played only after the official game has been completed, and contains spoilers for the official game."
-        "Game files for Doki Doki Literature Club are required to play this mod and can be downloaded for free at: http://ddlc.moe"
+        "[config.name] Doki Doki Edebiyat Kulübü fan modudur ve Team Salvato ile bağlantısı yoktur."
+        "Resmi oyunun tamamlandıktan sonra oynanması için tasarlanmıştır ve resmi oyunun spoilerlarını içermektedir."
+        "Doki Doki Edebiyat Kulübü oyun dosyaları bu modu oynamak için gereklidir ve ücretsiz olarak indirilebilir: http://ddlc.moe"
         menu:
-            "By playing [config.name] you agree that you have completed Doki Doki Literature Club and accept any spoilers contained within."
-            "I agree.":
+            "[config.name] oynayarak, Doki Doki Edebiyat Kulübü'nü tamamladığınızı ve içindeki tüm spoilerları kabul ettiğinizi onaylıyorsunuz."
+            "Kabul ediyorum.":
                 pass
         scene tos2
         with Dissolve(1.5)
         pause 1.0
 
-        #Optional, load a copy of DDLC save data
+        # Opsiyonel, DDLC kayıt verisinin bir kopyasını yükle
         #call import_ddlc_persistent
 
         scene white
@@ -237,26 +236,23 @@ label splashscreen:
 
         $ persistent.first_run = True
 
-
-
     $ basedir = config.basedir.replace('\\', '/')
 
-    #autoload handling
-    #Use persistent.autoload if you want to bypass the splashscreen on startup for some reason
+    # autoload işlemleri
+    # splash ekranını atlamak istiyorsanız persistent.autoload kullanabilirsiniz
     if persistent.autoload and not _restart:
         jump autoload
 
-    # Start splash logic
+    # Başlangıç ekranı mantığı
     $ config.allow_skipping = False
 
-    # Splash screen
+    # Splash ekranı
     show white
-    $ persistent.ghost_menu = False #Handling for easter egg from DDLC
-    $ splash_message = splash_message_default #Default splash message
+    $ persistent.ghost_menu = False # DDLC'den gelen bir şaka için
+    $ splash_message = splash_message_default # Varsayılan başlangıç mesajı
 
     #if persistent.monikaRouteStarted is True:
     #    $ splash_message = renpy.random.choice(splash_messages)
-
 
     if persistent.opening_scene is True:
         $ config.main_menu_music = audio.titleTheme
@@ -266,7 +262,7 @@ label splashscreen:
     show intro with Dissolve(0.5, alpha=True)
     pause 2.5
     hide intro with Dissolve(0.5, alpha=True)
-    #You can use random splash messages, as well. By default, they are only shown during certain acts.
+    # İsterseniz rastgele başlangıç mesajları kullanabilirsiniz. Varsayılan olarak, yalnızca belirli bölümlerde gösterilirler.
     if persistent.playthrough == 2 and renpy.random.randint(0, 3) == 0:
         $ splash_message = renpy.random.choice(splash_messages)
     show splash_warning "[splash_message]" with Dissolve(0.5, alpha=True)
@@ -283,23 +279,21 @@ label warningscreen:
 label after_load:
     $ config.allow_skipping = allow_skipping
     $ _dismiss_pause = config.developer
-    $ persistent.ghost_menu = False #Handling for easter egg from DDLC
+    $ persistent.ghost_menu = False # DDLC'den gelen bir şaka için
     $ style.say_dialogue = style.normal
-    #Check if the save has been tampered with
+    # Kayıt dosyasının değiştirilip değiştirilmediğini kontrol et
     if anticheat != persistent.anticheat:
         stop music
         scene black
-        "The save file could not be loaded."
-        "Are you trying to cheat?"
-        #Handle however you want, default is to force reset all save data
+        "Kayıt dosyası yüklenemedi."
+        "Hile yapmaya mı çalışıyorsunuz?"
+        # İstediğiniz gibi işleyin, varsayılan olarak tüm kayıt verilerini sıfırlamak
         $ renpy.utter_restart()
     return
 
-
-
 label autoload:
     python:
-        # Stuff that's normally done after splash
+        # Genellikle splash'tan sonra yapılan işler
         if "_old_game_menu_screen" in globals():
             _game_menu_screen = _old_game_menu_screen
             del _old_game_menu_screen
@@ -308,27 +302,26 @@ label autoload:
             del _old_history
         renpy.block_rollback()
 
-        # Fix the game context (normally done when loading save file)
+        # Oyun bağlamını düzeltin (genellikle kayıt dosyası yüklendiğinde yapılır)
         renpy.context()._menu = False
         renpy.context()._main_menu = False
         main_menu = False
         _in_replay = None
 
-    # Pop the _splashscreen label which has _confirm_quit as False and other stuff
+    # _splashscreen etiketini poplayın, burada _confirm_quit False ve diğer şeyler var
     $ renpy.pop_call()
     jump expression persistent.autoload
 
 label before_main_menu:
     #$ persistent.opening_scene = False
-    if persistent.opening_scene is False: # have not scene opening, shower it
+    if persistent.opening_scene is False: # açılış sahnesi yoksa, göster
         #$ persistent.opening_scene = False
         call ch_opening
         $ persistent.opening_scene = True
         $ persistent.playername = ""
         $ persistent.autoload = ""
 
-
-    $ config.name = "Doki Doki Literature Club - Purist Mod"
+    $ config.name = "Doki Doki Edebiyat Kulübü - Purist Mod"
 
     if persistent.opening_scene is True:
         $ config.main_menu_music = audio.titleTheme

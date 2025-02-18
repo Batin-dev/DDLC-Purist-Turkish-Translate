@@ -42,41 +42,37 @@ label yuriRoute_voxPopuli:
     
     
 menu:
-        o "Bak, yardımcı olmaya çalışıyorum. Ondan uzak dur. Bu kadarını söyleyeceğim."
-        "Sen bir korkaksın.":
-            $ yuri_gPoints = yuri_gPoints + 1
-            $ yuri_coward = True
-            "Sadece sessiz kalamıyorum."
-            mc "Bir korkaksın, bunu biliyor musun?"
-            "Gözleri kocaman açılıyor, tamamen şaşkın."
-            o "Pardon?"
-            "Göz göze bakıyorum ona."
-            mc "Kimle takılıp takılmayacağımı bana söylemeni ne ben isterim ne de ihtiyacım var."
-            mc "Ve bunu onun arkasından yapmaya çalışman…"
-            mc "Sana ait olan hiçbir şeyi istemiyorum."
-            "Çantamı omzuma atarak, ağzı açık şekilde onu arkada bırakıyorum. Zihnimde bir sürü soru var."
-            "Neden bizimle ilgilensin ki?"
-            "Yuri ne yaptı ki?"
-            "Kendini kim sanıyor?"
-        "Tamam, tabii ki.": 
-            $ yuri_gPoints = yuri_gPoints + 1
-            $ yuri_bPoints = yuri_bPoints + 1
-            "‘Evet’ gibi bir şey mırıldanıyorum, ama kafam bambaşka bir yerde."
-            o "Aynı fikirde olmamız güzel. Dediğim gibi, sert olacak ama ikinizin de iyiliği için."
-            "Onun yapmacık nezaketine neredeyse kusacağım."
-            "Neden bizimle ilgilensin ki?"
-            "Yuri ne yaptı ki?"
-            "Kendini kim sanıyor?"
+    o "Bak, yardımcı olmaya çalışıyorum. Ondan uzak dur. Bu kadarını söyleyeceğim."
+    "Sen bir korkaksın.":
+        $ yuri_gPoints += 1
+        $ yuri_coward = True
+        "Sadece sessiz kalamıyorum."
+        mc "Bir korkaksın, bunu biliyor musun?"
+        "Gözleri kocaman açılıyor, tamamen şaşkın."
+        o "Pardon?"
+        "Göz göze bakıyorum ona."
+        mc "Kimle takılıp takılmayacağımı bana söylemeni ne ben isterim ne de ihtiyacım var."
+        mc "Ve bunu onun arkasından yapmaya çalışman…"
+        mc "Sana ait olan hiçbir şeyi istemiyorum."
+        "Çantamı omzuma atarak, ağzı açık şekilde onu arkada bırakıyorum. Zihnimde bir sürü soru var."
+        "Neden bizimle ilgilensin ki?"
+        "Yuri ne yaptı ki?"
+        "Kendini kim sanıyor?"
+    "Tamam, tabii ki.":
+        $ yuri_gPoints += 1
+        $ yuri_bPoints += 1
+        "‘Evet’ gibi bir şey mırıldanıyorum, ama kafam bambaşka bir yerde."
+        o "Aynı fikirde olmamız güzel. Dediğim gibi, sert olacak ama ikinizin de iyiliği için."
+        "Onun yapmacık nezaketine neredeyse kusacağım."
+        "Neden bizimle ilgilensin ki?"
+        "Yuri ne yaptı ki?"
+        "Kendini kim sanıyor?"
 
-    
-    
-    
-    
-    scene bg corridor with wipeleft
-    "Gitmem gerek. Muhtemelen edebiyat kulübünün geri kalan kısmının bir kısmını yakalarım."
-    "Yuri ile bu sonrasında nasıl karşılaşacağımı bilmiyorum ama o köprüyü geçerken düşünürüm."
-    call yuriRoute_return
-    return
+scene bg corridor with wipeleft
+"Gitmem gerek. Muhtemelen edebiyat kulübünün geri kalan kısmının bir kısmını yakalarım."
+"Yuri ile bu sonrasında nasıl karşılaşacağımı bilmiyorum ama o köprüyü geçerken düşünürüm."
+call yuriRoute_return
+return
 
 label yuriRoute_return:
     play music aNewDay fadein 3.0
