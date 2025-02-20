@@ -111,7 +111,7 @@ label yuriRoute_return:
     n "Ayrıca, dedikodular o kadar yaygın değil."
     n "Eğer yaygın olsaydı, sanırım Monika zaten duymuş olurdu ve bir şeyler yapardı. Ya da belki zaten denedi ve işe yaramadı, ama ne demek istediğimi anlıyorsun, değil mi?"
     n "Yuri, senin o dedikodulara karışmanı istemezdi zaten."
-show natsuki 1c at t11
+    show natsuki 1c at t11
 
     "Natsuki gözlerini bana doğru kaldırıyor."
     n "Beni gerçekten çok seviyor, biliyor musun?"
@@ -361,7 +361,7 @@ label yuriRoute_tasseography:
     "Yuri, bu yorumumdan sonra biraz daha sakinleşiyor."
     y 1b "Sanırım öyle…"
     "Konu değiştirmeye karar veriyorum."
-        mc "Şey, biliyorum ki sen şiirle ilgileniyorsun ama hiç kendi kitabını yazmayı denedin mi?"
+    mc "Şey, biliyorum ki sen şiirle ilgileniyorsun ama hiç kendi kitabını yazmayı denedin mi?"
     y 1f "Hı?"
     y 1b "Aslında, bir tür hikaye yazmayı denedim diyebilirim."
     y 1o "Ama bir kitap yayınlamak, yazdıklarımı başkalarına göstermek anlamına gelir ve, açıkçası… kimse okuma zahmetine girmezdi."
@@ -388,7 +388,7 @@ label yuriRoute_tasseography:
     "Yuri’nin yanakları hızla kızarıyor."
     y 4a "Teşekkür ederim…"
     mc "Kalanını bir ara birlikte okuruz, ne dersin?"
-        y 1d "Bunu çok isterim."
+    y 1d "Bunu çok isterim."
     mc "Bu randevuyu gerçekten çok sevdim, Yuri."
     y 1b "Ah… doğru, bu bir randevu olduğunu unutmuşum."
     y 1b "Ben de çok keyif aldım."
@@ -418,7 +418,7 @@ label yuriRoute_tasseography:
     scene bg streets_afternoon
     show yuri 1c at t11
     with wipeleft_scene
-        "Yürürken, kaldırımda tanıdık birini fark ediyorum."
+    "Yürürken, kaldırımda tanıdık birini fark ediyorum."
     
     "O çocuk… okuldan biri, değil mi? Beni uyaran kişi. Ona bakmak için durduğumda, o da bizi fark ediyor. Yüzünde küçük bir sinsi gülümseme beliriyor ve aynı anda birbirimizi tanıyoruz."
     y 1f "[player]?"
@@ -428,7 +428,7 @@ label yuriRoute_tasseography:
     "Ama bu sefer neden bu kadar korkutucu hissettirdi? Bir önsezi mi? Belki de o sinsi gülümseme… Evet, o gerçekten biraz ürkütücüydü."
     
     
-        "Neyse, sanırım önemi yok."
+    "Neyse, sanırım önemi yok."
     "Ve, Yuri hakkında duyduğum dedikoduları konuşmam gerekmiyor muydu?"
     show black with close_eyes
     "Hıh… herhalde bir sonraki sefere kadar beklemem gerekecek."
@@ -495,7 +495,7 @@ label yuriRoute_interlude:
     "Monika'nın çekingen bir şekilde yanıma gelmeye başladığını fark ediyorum."
     show monika 3b at t21
     show yuri 1u at t11
-        m "Burada her şey yolunda mı?"
+    m "Burada her şey yolunda mı?"
     m "Tam olarak ne olduğunu anlamıyorum ama belki bunu kulüp odasının dışında konuşmak istersiniz?"
     m "Yani, önerimi kabul etmek zorunda değilsiniz, ama iyisin, değil mi?"
     mc "Biz iyiyiz, Monika."
@@ -560,7 +560,7 @@ label yuriRoute_petrichor:
     mc "Evet, Yuri. Eminim."
     "Yuri yavaşça geri kayıyor."
     show yuri 1t at f11
-        y "Bana kızmadığın için teşekkür ederim, [player]."
+    y "Bana kızmadığın için teşekkür ederim, [player]."
     y 1v "Biliyorsun değil mi, o dedikoduların gerçek olmadığını? Bunu söylediğini duydum ama, yanılıyor olmanı kınamam…"
     mc "Hiçbir dedikodu, sana olan duygularımı değiştiremez, Yuri."
     mc "O insanlar ne düşünürse düşünsün, bunun doğru olmadığını biliyorum."
@@ -614,7 +614,7 @@ label yuriRoute_petrichor:
     show yuri 1b at t11
     y "Eğer bana bir yer teklif ediyorsan, reddetmek kaba olurdu."
 
-scene bg home_interior_night with wipeleft_scene
+    scene bg home_interior_night with wipeleft_scene
     show yuri 1a at s11
     "Yuri, oturma odasına doğru yürüyüp kanepeye oturuyor, ben de yanına oturuyorum."
     "Kanepe ıslanacak ama şu anda bu konuda endişelenmeyecek kadar umurumda değil."
@@ -656,7 +656,7 @@ scene bg home_interior_night with wipeleft_scene
     "Yaklaşık yirmi dakika kadar orada kalıyoruz, sadece yağmurun düşüşünü dinliyoruz."
     
     "{i}BZZT!{/i}"
-hide black with open_eyes
+    hide black with open_eyes
     "Cebimden bir bildirim titreşiyor."
     "İçgüdüsel olarak telefonumu çıkarıp yeni bir e-posta mesajı aldığımı görüyorum."
     y 3f "[player]?"
@@ -738,7 +738,7 @@ hide black with open_eyes
     show yuri 1h at f11
     "Yuri şüpheli görünüyor."
     y "Gerçekten?"
-        mc "Evet, gerçekten. Söz veriyorum, Yuri. Endişelenecek bir şey yok."
+    mc "Evet, gerçekten. Söz veriyorum, Yuri. Endişelenecek bir şey yok."
     y 1f "Kesin olduğundan emin misin?"
     mc "Eminim."
     "Zaten bir hata yaptım. Yakında bunun sonuçlarıyla yüzleşeceğim."
@@ -787,7 +787,7 @@ label yuriRoute_shatter:
     "Konuşma, eğer buna konuşma denirse, bir türlü ilerlemiyor."
     "Muhtemelen şüpheli davrandığımı fark etti. Şimdi benden ilk hamleyi yapmamı bekliyor."
     "Kaşlarımı çatıyorum."
-        mc "Son zamanlarda garip e-postalar aldın mı?"
+    mc "Son zamanlarda garip e-postalar aldın mı?"
     "Gözlerini kırpıyor, sonra başını sallıyor."
     o "Hiçbir şey olağan dışı değil, dostum."
     stop sound fadeout 2.0
@@ -841,7 +841,7 @@ label yuriRoute_shatter:
     pause(3.0)
     scene black with wipeleft_scene 
     window show
-        $ o_name = "Müdür"
+    $ o_name = "Müdür"
     o "Yani... o zaman ona yumruk attın."
     "Sarışın çocuk burnundan gülerek, kollarını kavuşturuyor. Müdür onun tarafında, bu da demek oluyor ki, benim söylediklerim önemsiz."
     "Başlatan ben oldum, o yüzden beklenmedik bir şey değil."
