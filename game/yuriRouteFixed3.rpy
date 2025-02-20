@@ -315,7 +315,7 @@ label yuriRoute_crestfallen:
 
     mc "Eminim harika bir yerdir."
     
-        y 1o "…Parktaki mezarlık, yarın bu vakit. Sana uygun mu?"
+    y 1o "…Parktaki mezarlık, yarın bu vakit. Sana uygun mu?"
     
     "Mezarlık, ha?"
     
@@ -392,7 +392,7 @@ label yuriRoute_final:
     show monika 2b at t11
     m "Hmm?"
 
-        mc "Festival gününde… Hani beni ve Yuri'yi adeta bir araya getirdiğini hatırlıyorum."
+    mc "Festival gününde… Hani beni ve Yuri'yi adeta bir araya getirdiğini hatırlıyorum."
 
     "Monika, sahte bir düşünme hareketiyle çenesini okşar."
 
@@ -454,7 +454,7 @@ label yuriRoute_final:
 
     "Güzel."
 
-        mc "Maalesef, bir noktada bunu bozmam gerektiğini düşünüyorum."
+    mc "Maalesef, bir noktada bunu bozmam gerektiğini düşünüyorum."
 
     mc "Şey… Bu hafta ilerleyen zamanlarda kitapçığa gitmek ister misin? Yeni çıkan bazı kitaplar var, sanırım ikimizin de hoşuna gidecek."
 
@@ -536,7 +536,7 @@ label yuriRoute_final:
 
     "Beni köşeye sıkıştırmış durumda. O alaycı gülüşü, seçeneklerimle zihinsel bir mücadele verirken sadece daha da büyür."
 
-        "Yine geri dönüp Yuri'ye bakarım. Titriyor, gözleri genişlemiş."
+    "Yine geri dönüp Yuri'ye bakarım. Titriyor, gözleri genişlemiş."
 
     "Bu hafta sonu benden ne istemişti, diye düşünürüm. Sözlerimi kullan, ha?"
 
@@ -651,7 +651,7 @@ label yuriRoute_gEnd:
 
     y 1b "Hayır... Bu doğruydu. Teşekkür ederim, [player]. Onunla çatışmaya girmek cazip gelmiş olabilir."
 
-        mc "Evet, öyleydi ama... Bu konuda gerçekten sorun olmayacak mısın?"
+    mc "Evet, öyleydi ama... Bu konuda gerçekten sorun olmayacak mısın?"
 
     y 2b "Kesinlikle. Sanırım bana bir şey söylemiştin... Aslında başkalarının bizim hakkımızda ne düşündüğü ya da ne yaptığımız çok önemli değil, değil mi?"
 
@@ -723,7 +723,7 @@ label yuriRoute_gEnd:
 
     y 1c "O zaman ben de üstesinden gelirim."
     
-        "Bir kolumu Yuri’nin etrafına sardım, o da hareketime uyum sağladı. Okuma için pek uygun olmasa da, sanırım ikimiz de bu pozisyonu tercih ediyoruz."
+    "Bir kolumu Yuri’nin etrafına sardım, o da hareketime uyum sağladı. Okuma için pek uygun olmasa da, sanırım ikimiz de bu pozisyonu tercih ediyoruz."
 
     "Okumaya devam ediyoruz, hızımız eski haline dönüyor."
 
@@ -894,8 +894,8 @@ label yuriRoute_bEnd:
     #Dostum biliyorsun değil mi? bunları çevirirken bir yandan okumuş sayılıyoruz. Diyorum ki, Vay amk.
     #Bu çeviri projesine bir süre ara vermiştik aslında, sonra tekrar başladık. işte gör, hala Sayori favorim.
     #Projeye başlayalı 8 ay geçti. Aslında aynı zamanda 8 Ay ara verdik gkpreghprh.
-
-        o "Tüh! Bir senaryo falan mı lazım sana?"
+    #kardesim bos yapcana devam et ve sayori yi hele bi favorin olmasın, görürsün sen jsjsj
+    o "Tüh! Bir senaryo falan mı lazım sana?"
     o "Tamam, sana ne demen gerektiğini söyleyeyim."
     o "Dediğini söyle: ‘Okulu terörize etmeye çalışan bir garip olduğum için üzgünüm’."
     o "Anladın mı?"
@@ -976,7 +976,7 @@ label yuriRoute_bEnd:
 
     "Bitti, ama istediğim şekilde değil."
 
-        "Okul müdürüne durumu savunarak, bunun kendini savunma olduğunu söyledim, ama o buna inanmadı."
+    "Okul müdürüne durumu savunarak, bunun kendini savunma olduğunu söyledim, ama o buna inanmadı."
     "Belki dövüşü kaydeden telefonu alıp kanıt olarak kullanabilseydim, ama bizi kaydeden kişi, bunu düşünmeden önce kaçtı."
 
     "Dövüşten aldığım morlukları gösterdim, ama bu da onu ikna etmedi. ‘Kesin kanıt’ değildi, çünkü bu morlukları herhangi bir yerden almış olabilirdim."
@@ -1047,7 +1047,7 @@ label yuriRoute_bEnd:
 
     y 1w "Geç kaldık, [player]."
 
-        mc "Bunu hala düzeltebiliriz, Yu--"
+    mc "Bunu hala düzeltebiliriz, Yu--"
 
     y 1v "Seninle olmak beni rahatsız ediyor, [player]."
     y "Ne hissettiğini önemsediğimi düşünme, bu, silinemeyen suçluluğumu değiştirmez."
@@ -1117,7 +1117,7 @@ label yuriRoute_bEnd:
     y 3t "Hoşçakal, [player]. Seni seviyorum."
     show yuri at thide
     hide yuri
-        mc "O zaman bu kadar işte."
+    mc "O zaman bu kadar işte."
 
     "Kaybettim."
 

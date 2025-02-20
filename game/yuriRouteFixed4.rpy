@@ -1,6 +1,6 @@
 label yuriRoute_aftermath:
     scene bg bedroom with wipeleft_scene
-        mc "Günaydın."
+    mc "Günaydın."
 
     "Gün ışığı, yatak odamın penceresinden süzülerek içeri giriyor, ben de kendimi yataktan kaldırıyorum. İki gün mü geçti? Evet... oldu galiba."
 
@@ -102,7 +102,7 @@ label yuriRoute_aftermath:
 #olduğum gibi gören, he bazen piç namussuz gerizekalının teki ama, herşeyin başındayken dalga geçmeyen tek kişim, Batın oldu.
 #Batın'dan Önce Sayori, Sayori'den önce Allah. İkimizde şizofreniz aw, neyse Batın bana Sayori peluşu aldığın için teşekkürler.
 
-        mc "Sayori'ye el sallayıp ayrılırken, her gün okula birlikte gitmek için bir arkadaşım olmasaydı nerede olurdum, diye düşünüyorum."
+    mc "Sayori'ye el sallayıp ayrılırken, her gün okula birlikte gitmek için bir arkadaşım olmasaydı nerede olurdum, diye düşünüyorum."
     scene bg corridor with wipeleft
     play music Dusk fadein 3.0
     "...Ama Sayori gittiği için, düşüncelerim tekrar Yuri'yi endişelendirmeye dönüyor. İki gündür benden haber almadı... Acaba Edebiyat Kulübü'nde benimle konuşacak mı?"
@@ -187,7 +187,7 @@ label yuriRoute_aftermath:
 
     n 4u "Evet. Endişelisin, biliyorum ama bence onu tekrar aramayı denemek bir şey değiştirmez."
 
-        n "...Bu onu daha da strese sokabilir, gerçekten ama gerçekten daha da strese sokabilir."
+    n "...Bu onu daha da strese sokabilir, gerçekten ama gerçekten daha da strese sokabilir."
 
     "Yuri’nin kendisini bir yük olarak görme alışkanlığını düşünüyorum."
 
@@ -246,7 +246,7 @@ label yuriRoute_aftermath:
 
             mc "...Evet, o... Sanırım haklısın Natsuki..."
 
-                "Telefonumu cebime koyarken kafamı sallıyorum, ama metni göndermek için düğmeye gizlice basıyorum. Umarım kimse görmemiştir."
+            "Telefonumu cebime koyarken kafamı sallıyorum, ama metni göndermek için düğmeye gizlice basıyorum. Umarım kimse görmemiştir."
     
     mc "Teşekkürler, Natsuki."
     show natsuki 5c at t11
@@ -330,7 +330,7 @@ label yuriRoute_aftermath:
     
     "Devam ettik. Ama her defasında katılımı sayarken bu eksiklik kalbimizi sıkıştırıyordu."
 
-                "Arada sırada, Yuri ve ben koridorda birbirimize bakışlarımızı çalardık."
+    "Arada sırada, Yuri ve ben koridorda birbirimize bakışlarımızı çalardık."
     
     "Her seferinde, hızla bakışlarımızı başka yöne çevirdik."
     
@@ -394,8 +394,7 @@ label yuriRoute_graveyard:
     
     
     
-     
-        "Onun dokunaklı sözleri beni derinden etkiliyor. Sonuçta haklı. Bu kadarını kaldırmak zorunda kaldığını düşündükçe, ne kadar mücadele ettiğini merak ediyorum."
+    "Onun dokunaklı sözleri beni derinden etkiliyor. Sonuçta haklı. Bu kadarını kaldırmak zorunda kaldığını düşündükçe, ne kadar mücadele ettiğini merak ediyorum."
     
     y 3bj "Peki... Bunu garip buluyor musun, yani? Bir mezarlıkta buluşmak?"
     
@@ -476,7 +475,7 @@ label yuriRoute_graveyard:
     
     "Yuri başını sallıyor, ifadesi hala düşünceli."
 
-        y 1bj "...Başlangıçta bir kaçıştı. Küçükken… Kendimi oyalayabilirsem, yalnızlık hissimin kaybolacağını düşünürdüm. Acı bir çıkış yolu olmuştu…"
+    y 1bj "...Başlangıçta bir kaçıştı. Küçükken… Kendimi oyalayabilirsem, yalnızlık hissimin kaybolacağını düşünürdüm. Acı bir çıkış yolu olmuştu…"
     
     "Yuri'yi bu kadar çaresiz bir noktaya sürükleyecek kadar derin bir umutsuzluk düşüncesi beni ürpertiyor."
     
@@ -553,8 +552,9 @@ label yuriRoute_graveyard:
     "İşte böyle mi sona eriyor? Sadece… gidiyor mu?"
     #Bişey diyimmi bu arkadaş grupları çok yoruyor aga ya, kavga tartışma felan. Bence sebebi karma olması
     #Kızla erkek aynı arkadaş grubu olunca sence anlaşılırmı amk
-     
-        "...Hayır."
+    #Bence anlasabilir ya, ama o aga sohbeti s*ksen olmaz :d
+    # Yani en azından öyle deneyimledim hiç olmuyo o tat bea
+    "...Hayır."
     
     "Buna izin veremem."
     
@@ -634,8 +634,7 @@ label yuriRoute_graveyard:
     mc "…"
     
     "Yuri'yi böyle duymak içimi acıtıyor."
-     
-        "Natsuki ve Sayori'nin söyledikleri aklıma geliyor. Şimdi her zamankinden daha fazla, doğru olanı söylemek istiyorum. Durumu nasıl anlatacağımı tam olarak bilmiyorum ama…"
+    "Natsuki ve Sayori'nin söyledikleri aklıma geliyor. Şimdi her zamankinden daha fazla, doğru olanı söylemek istiyorum. Durumu nasıl anlatacağımı tam olarak bilmiyorum ama…"
     
     mc "Yuri… Sana nasıl söyledim, değil mi?"
     
@@ -710,8 +709,7 @@ label yuriRoute_graveyard:
     scene bg park_day 
     show yuri 1ba at t11
     with Dissolve(3.0)
-     
-        "Sonunda kendimize gelir ve sarılmamızdan ayrılırız. Bir an birbirimize bakarız, sıradaki ne söyleyeceğimizi bilmiyoruz."
+    "Sonunda kendimize gelir ve sarılmamızdan ayrılırız. Bir an birbirimize bakarız, sıradaki ne söyleyeceğimizi bilmiyoruz."
     
     y 1bb "…Bir gün bir defada. Bu kulağa hoş geliyor…"
     
@@ -792,39 +790,28 @@ label yuriRoute_graveyard:
     y 4ba "…O zaman, gidelim mi?"
     
     mc "Tabii."
-     
-        "Mezarlıktan birlikte yürümeye başlıyoruz."
+
+    "Mezarlıktan birlikte yürümeye başlıyoruz."
     stop music fadeout 3.0
-     
     y 2bj "Ah, şey… [player]…"
-     
     "Yuri'nin sorusuyla duraklıyorum."
-     
+
     mc "Ne oldu?"
-     
     y 2bb "Okulda benim için nasıl durduğunu takdir ediyorum da…"
-     
     y "Ama…"
-     
+
     y "Bir daha böyle bir karşılaşma yaşamak istemiyorum, o kadar."
-     
+
     y "Eğer o çocuk yine bize sataşırsa… Şiddet içermeyen bir tepki vermek daha iyi olur diye düşünüyorum. Bence bizim için en doğrusu bu olur."
-     
     "O aptalın suratını bir daha görmek bile beni sinirlendiriyor ama… Yuri haklı."
-     
     mc "Tamam, söz."
-     
     "Yuri'nin üzerinde çalışacakları varsa… Benim de yapmam gereken şeyler var."
     show yuri 1bc at t11
     "Birbirimize gülümsüyoruz, bu güvenle parkın dışına doğru yürümeye devam ediyoruz."
     show black with dissolve
-     
     "Önümüzde halletmemiz gereken çok şey olduğunu biliyorum."
-     
     "…Ama belki de ilk olarak Edebiyat Kulübü'nü yeniden yoluna koymamız gerek."
-     
     "Ama bunu sonra düşünürüz. Şimdi… Sadece anın tadını çıkarıyoruz. Bütün o karışıklığın ardından biraz nefes alabileceğimiz kısa bir an."
-     
     "Umudum var. Şimdi… Bence her şey yoluna girebilir."
     call yuriRoute_final
     return
