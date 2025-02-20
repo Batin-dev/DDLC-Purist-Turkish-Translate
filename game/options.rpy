@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = "Doki Doki Literature Club - Purist Mod"
+define config.name = "Doki Doki Edebiyat Klubü - Purist"
 
 
 ## Determines if the title given above is shown on the main menu screen. Set

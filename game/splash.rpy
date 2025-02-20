@@ -321,7 +321,7 @@ label before_main_menu:
         $ persistent.playername = ""
         $ persistent.autoload = ""
 
-    $ config.name = "Doki Doki Edebiyat Kulübü - Purist Mod"
+    $ config.name = "Doki Doki Edebiyat Kulübü - Purist"
 
     if persistent.opening_scene is True:
         $ config.main_menu_music = audio.titleTheme
