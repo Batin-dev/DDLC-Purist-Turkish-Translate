@@ -9,53 +9,48 @@ label MonikaInterlude_NatsukiGoodEnd:
     $ persistent.natsukiCompletedGood = True
     window show
     if(persistent.natsukiRouteCompletions==1):
-        m "Hm?"
-        show m_neutral1 with dissolve_cg
-        m "What, you want me to comment on what you've done?"
-        m "Hear some sort of congratulations?"
-        if persistent.sayoriCompletedGood is False and persistent.yuriCompletedGood is False:
-            m "Maybe an admission you've succeeded at making someone in the Literature Club happy?"
-            m "It's still only one of them."
-            m "Besides, it won't last."
-            m "You and I are well aware that this is only a mod."
-        show m_thoughtful with dissolve_cg
-        m "Besides, what else is there to say?"
-        m "You 'saved' Natsuki, didn't you? She's recovering towards that normal home life and you two admitted your love for each other time and time again."
-        m "Though maybe you felt something was lacking."
-        show m_smug with dissolve_cg
-        m "Haha, did you think you'd get into a fight?"
-        m "Deliver justice with your own hands?"
-        m "Well, that's just too bad, if you were looking for one."
-        show m_neutral2 with dissolve_cg
-        m "I don't think Natsuki would have appreciated it, though."
-        m "Is there anything more for me to say, though?"
+            m "Belki de Edebiyat Kulübü'nde birini mutlu ettiğini kabul etmeni mi bekliyorsun?"
+    m "Hala sadece birini mutlu ettin."
+    m "Ama, bu sürmez."
+    m "Sen ve ben çok iyi biliyoruz ki, bu sadece bir mod."
+    show m_thoughtful with dissolve_cg
+    m "Başka, ne söyleyebilirim ki?"
+    m "Natsuki'yi 'kurtardın', değil mi? O normal bir ev hayatına doğru iyileşiyor ve birbirinize olan sevdanızı defalarca itiraf ettiniz."
+    m "Ama belki de bir şeylerin eksik olduğunu hissettin."
+    show m_smug with dissolve_cg
+    m "Haha, kavga etmeyi mi düşünmüştün?"
+    m "Kendi ellerinle adalet mi sağlamak istedin?"
+    m "E, işte biraz talihsizlik, eğer böyle bir şey arıyorsan."
+    show m_neutral2 with dissolve_cg
+    m "Ama sanmıyorum ki Natsuki bunu takdir ederdi."
+    m "Benim söyleyebileceğim başka bir şey var mı?"
     elif(persistent.natsukiRouteCompletions == 2):
         show m_thoughtful with dissolve_cg
-        m "Natsuki again, hm?"
-        m "Well, I hope you didn't just skip to the parts you liked."
-        m "That'd rather cruel of you, wouldn't it?"
-        m "Just going to the happy parts."
-        m "Not being there with her every step of the way."
-        m "Though I guess you've been there once before."
+        m "Yine Natsuki, ha?"
+        m "Peki, umarım sadece sevdiğin kısımlara atlamamışsındır."
+        m "Bu oldukça acımasız olurdu, değil mi?"
+        m "Sadece mutlu kısımlara gitmek."
+        m "Onunla her adımda yanında olmadan."
+        m "Ama herhalde bir kez orada oldun."
     else:
-        m "You really do like Natsuki, huh?"
-        m "After all, this is the third time you've done her route."
+        m "Gerçekten Natsuki'yi seviyorsun, değil mi?"
+        m "Sonuçta, bu üçüncü kez onun yolunu yapıyorsun."
         m "Hmmm..."
     if persistent.sayoriCompletedGood is False and persistent.yuriCompletedGood is False:
-        m "You've still got the others to go after, right?"
-        m "Or are you just here for Natsuki?"
+        m "Diğerlerini de bitirmelisin, değil mi?"
+        m "Yoksa sadece Natsuki için mi buradasın?"
         if(persistent.natsukiRouteCompletions == 1):
-            m "That might be the case, considering you haven't even gone after the others."
+            m "Belki de durum budur, çünkü diğerlerine bile yönelmedin."
         elif(persistent.natsukiRouteCompletions > 1):
-            m "That might be the case, as you've just repeated her route so far."
+            m "Belki de durum budur, çünkü şu ana kadar sadece onun yolunu tekrar ettin."
 
     if persistent.sayoriCompletedGood is True and persistent.yuriCompletedGood is True:
         call MonikaRouteOpening
         return
 
-    m "Not that it really matters in the end."
-    m "Don't let me keep you from being happy."
-    m "Do what you want."
+    m "Ama en sonunda pek de bir anlamı yok."
+    m "Beni seni mutlu olmana engel olmasına izin verme."
+    m "Ne istersen onu yap."
     window hide
     $ saveLocked = False
     stop music fadeout 5.0
@@ -79,41 +74,41 @@ label MonikaInterlude_NatsukiBadEnd:
     window show
     show m_unhappy2 with dissolve_cg
     m "..."
-    m "Well."
-    m "I didn't think you'd honestly tell him that."
+    m "Hmm."
+    m "Gerçekten ona bunu söyleyeceğini düşünmemiştim."
     show m_neutral1 with dissolve_cg
-    m "I guess you're just full of surprises."
-    m "But it's not like you can't go back and fix things."
-    m "You have that power, don't you?"
+    m "Sanırım seni bir sürprizle karşılaştıramam."
+    m "Ama geri dönüp her şeyi düzeltemezsin diye bir şey yok."
+    m "Bunun gücüne sahipsin, değil mi?"
     if persistent.sayoriCompletedGood is False and persistent.yuriCompletedGood is False:
         show m_thoughtful with dissolve_cg
-        m "I don't think you'd be so easily disheartened, after all."
-        m "You set out to make them happy, so I doubt you'll stop here."
-        m "I'm sure you care enough about Natsuki to really see things through to the end."
-        m "It's just a 'load game' away for you."
-        m "Don't let me keep you."
+        m "Bence kolayca moralin bozulmaz."
+        m "Onları mutlu etmek için yola çıktın, bu yüzden burada durmayacağını düşünüyorum."
+        m "Bence Natsuki'yi gerçekten mutlu etmek için her şeyi sonuna kadar götürürsün."
+        m "Bunun için sadece bir 'oyun kaydet' meselesi."
+        m "Beni engellemene gerek yok."
     elif (persistent.sayoriCompletedGood is False and persistent.yuriCompletedGood is True) or (persistent.sayoriCompletedGood is True and persistent.yuriCompletedGood is False) and not (persistent.sayoriCompletedGood is True and persistent.yuriCompletedGood is True):
         show m_neutral2 with dissolve_cg
-        m "You've already made one of them happy, so I doubt you'll give up just because you messed up with someone else."
-        m "I'd be really disappointed in you if you did."
-        m "Not that I care for them, but..."
-        m "Seeing you give up on something you've tried so hard for hurts me, too."
-        m "I want to see you succeed at things, after all."
+        m "Zaten birini mutlu ettin, bu yüzden başkasında hata yapman yüzünden pes etmeyeceğini sanıyorum."
+        m "Eğer pes edersen, gerçekten hayal kırıklığına uğrarım."
+        m "Onlara önem verdiğimden değil ama..."
+        m "Bu kadar çok uğraştıktan sonra senin pes etmene tanık olmak beni de üzse de."
+        m "Sonuçta, senin başarılı olmanı istiyorum."
     else:
         show m_worried with dissolve_cg
-        m "You've managed to make Sayori and Yuri happy, so you're almost there."
-        m "Don't give up just yet."
-        m "Hm?"
-        m "No, it's not for them, but..."
-        m "You seem happy."
-        m "So I can give you a bit of a push."
-        m "Don't let me distract you, I suppose."
+        m "Sayori ve Yuri'yi mutlu ettin, o yüzden neredeyse oradasın."
+        m "Henüz pes etme."
+        m "Hmm?"
+        m "Hayır, onlar için değil, ama..."
+        m "Mutlu görünüyorsun."
+        m "O yüzden sana biraz itici bir güç verebilirim."
+        m "Beni dikkate alma, sanırım."
     show m_neutral2 with dissolve_cg
-    m "The choice you need to take is pretty obvious now, isn't it?"
-    m "I'm sure you'll take it now, unless you're that mean-hearted."
-    m "But I know you're not that kind of person."
-    m "Anyways, I think you know what you have to do."
-    m "Back to the title screen..."
+    m "Verilmesi gereken karar şu anda oldukça belli, değil mi?"
+    m "Bunu alacağından eminim, yoksa o kadar kötü yürekli misin?"
+    m "Ama senin o tür biri olmadığını biliyorum."
+    m "Her neyse, ne yapman gerektiğini biliyorsundur."
+    m "Başlık ekranına geri..."
     $ persistent.natsukiBadInterludeViewed = True
     window hide
     $ saveLocked = False
@@ -139,48 +134,48 @@ label MonikaInterlude_SayoriBadEnd:
     window show
     show m_neutral1 with dissolve_cg
     m "..."
-    m "So, that didn't quite work out as you intended, didn't it?"
+    m "Evet, demek ki planladığın gibi gitmedi, değil mi?"
     show m_thoughtful with dissolve_cg
-    m "If you're about to start blaming me, I kept my word."
-    m "I didn't do a thing."
-    m "It's not like you can always blame me for anything, anyways."
-    m "But you can still go back and fix things."
-    m "You have that power, don't you?"
+    m "Eğer bana suç atmaya başlıyorsan, sözümü tuttum."
+    m "Hiçbir şey yapmadım."
+    m "Her durumda, bana her şey için suç atamayacağını unutmamalısın."
+    m "Ama hâlâ geri dönüp her şeyi düzeltebilirsin."
+    m "Bunun gücüne sahipsin, değil mi?"
     if persistent.natsukiCompletedGood is False and persistent.yuriCompletedGood is False:
-        m "I don't think you'd be so easily disheartened, after all."
-        m "You set out to make them happy, so I doubt you'll stop here."
-        m "I'm sure you care enough about Sayori to really deliver her to the end you envision."
-        m "It's just a 'load game' away for you."
-        m "Don't let me keep you."
+        m "Bence kolayca moralin bozulmaz."
+        m "Onları mutlu etmek için yola çıktın, bu yüzden burada durmayacağını düşünüyorum."
+        m "Sayori'yi istediğin sona ulaştırmak için uğraşacağına eminim."
+        m "Bunun için sadece bir 'oyun kaydet' meselesi."
+        m "Beni engellemene gerek yok."
     elif (persistent.natsukiCompletedGood is False and persistent.yuriCompletedGood is True) or (persistent.natsukiCompletedGood is True and persistent.yuriCompletedGood is False) and not (persistent.natsukiCompletedGood is True and persistent.yuriCompletedGood is False):
         show m_neutral2 with dissolve_cg
-        m "You've already made one of them happy, so I doubt you'll give up just because you messed up with someone else."
-        m "I'd be really disappointed in you if you did."
-        m "Not that I care for them or you care what I think, but..."
-        m "Seeing you give up on something you've tried so hard for hurts me, too."
-        m "I want to see you succeed at things, after all."
-        m "Even if my heart breaks a little bit."
+        m "Zaten birini mutlu ettin, bu yüzden başkasında hata yapman yüzünden pes etmeyeceğini sanıyorum."
+        m "Eğer pes edersen, gerçekten hayal kırıklığına uğrarım."
+        m "Onlara önem verdiğimden değil ama..."
+        m "Bu kadar çok uğraştıktan sonra senin pes etmene tanık olmak beni de üzse de."
+        m "Sonuçta, senin başarılı olmanı istiyorum."
+        m "Hatta kalbim biraz kırılıyor olsa bile."
     else:
         show m_worried with dissolve_cg
-        m "You've managed to make Natsuki and Yuri happy, so you're almost there."
-        m "Don't give up just yet."
+        m "Natsuki ve Yuri'yi mutlu ettin, o yüzden neredeyse oradasın."
+        m "Henüz pes etme."
         show m_confused1 with dissolve_cg
-        m "Hm?"
-        m "No, it's not for them, but..."
+        m "Hmm?"
+        m "Hayır, onlar için değil, ama..."
         show m_thoughtful with dissolve_cg
-        m "You seem happy."
-        m "So I can give you a bit of a push."
-        m "Don't let me distract you, I suppose."
+        m "Mutlu görünüyorsun."
+        m "O yüzden sana biraz itici bir güç verebilirim."
+        m "Beni dikkate alma, sanırım."
     show m_neutral2 with dissolve_cg
-    m "The choices you need to make are pretty obvious now, aren't they?"
-    m "She wants to be able to stand on her own."
-    m "You can't just pity her, either."
-    m "I'm sure you know what to do from here on out."
-    m "Unless you're that mean-hearted, that you just want to see her suffer."
-    m "But I know you're not that kind of person."
-    m "Anyways, I think you know what you have to do."
-    m "Back to the title screen..."
-    m "Do a little better this time, okay?"
+    m "Verilmesi gereken kararlar oldukça belli, değil mi?"
+    m "O, kendi başına ayakta durmak istiyor."
+    m "Sadece ona acımamalısın."
+    m "Bundan sonrası için ne yapman gerektiğini biliyorsundur."
+    m "Yoksa o kadar kötü yürekli misin, sadece onun acı çekmesini istiyorsun?"
+    m "Ama senin o tür biri olmadığını biliyorum."
+    m "Her neyse, ne yapman gerektiğini biliyorsundur."
+    m "Başlık ekranına geri..."
+    m "Bu sefer daha iyi yap, tamam mı?"
 
     $ persistent.sayoriBadInterludeViewed = True
     window hide
@@ -214,49 +209,59 @@ label MonikaInterlude_SayoriGoodEnd:
     show m_neutral2 with dissolve_cg
     $ persistent.sayoriCompletedGood = True
     m "Hm?"
-    m "What, you want me to comment on what you've done?"
-    m "Hear some sort of congratulations?"
+    m "Ne, yaptıklarını mı yorumlamamı istiyorsun?"
+    m "Bir çeşit tebrik duymak mı?"
     if persistent.natsukiCompletedGood is False and persistent.yuriCompletedGood is False:
         show m_thoughtful with dissolve_cg
-        m "Maybe an admission you've succeeded at making someone in the Literature Club happy?"
-        m "It's still only one of them."
-        m "Besides, it won't last."
-        m "You and I are well aware that this is only a mod."
+    m "Belki de sonunda Edebiyat Kulübü'ndeki birini mutlu etmeyi başardığını kabul etmelisin, ha?"
+    m "Ama sadece birini."
+    m "Hem, bu da uzun sürmeyecek."
+    m "Sen de ben de gayet iyi biliyoruz ki bu sadece bir mod."
+    
     show m_neutral1 with dissolve_cg
-    m "What else is there to say?"
-    m "You 'saved' Sayori, didn't you?"
-    m "She's no longer haunted by her demons of depression."
-    m "You two will run along, holding hands, kissing, and making happy memories."
-    m "Or so the game says, anyways."
+    
+    m "Başka ne söylenebilir ki?"
+    m "Sayori'yi 'kurtardın', değil mi?"
+    m "Artık depresyonun karanlığı onu yutmuyor."
+    m "Bundan sonra el ele tutuşup, öpüşüp, mutlu anılar biriktireceksiniz."
+    m "Tabii oyunun dediğine bakarsak."
+    
     if not (sayori_flag_one is True and sayori_flag_two is True):
         show m_smug with dissolve_cg
         hide m_neutral1
-        m "Oh, but it seems like you've missed something."
-        m "I wonder, if you make a few key choices, maybe something special would happen."
-        m "I wouldn't know."
-        m "You did have a lot of choices in this 'route', though."
-        m "Don't mind me."
+        
+        m "Ah, ama sanki bir şeyi atlamış gibisin."
+        m "Kim bilir, belki bazı kritik seçimleri değiştirsen özel bir şey olurdu?"
+        m "Bilmiyorum tabii."
+        m "Ama bu 'rota'da bayağı seçenek vardı."
+        m "Beni boş ver."
+    
     else:
-        m "You even managed to get that nice little scene at the end."
-        m "Making chocolate for one another."
-        m "A bit cliche, however, I suppose if you were just looking for her smile, it's enough for you."
-        m "Oh well."
+        m "Sonunda o tatlı küçük sahneyi bile görebildin."
+        m "Birlikte çikolata yapıyordunuz, değil mi?"
+        m "Biraz klişe ama... Onun gülümsemesini görmek istiyorsan, senin için yeterlidir herhalde."
+        m "Kim bilir."
     
     show m_neutral1 with dissolve_cg
-    m "But, if you thought you'd be able to get a vengeful strike against me..."
-    m "Well, that's just too bad, if you were looking for something like that."
-    m "I don't think Sayori would have appreciated it, though."
-    m "Is there anything more for me to say, though?"
-
+    
+    m "Ama eğer bana karşı bir intikam planı kurduysan..."
+    m "Üzgünüm, ama hevesin kursağında kalacak."
+    m "Gerçi Sayori de böyle bir şeyi istemezdi, değil mi?"
+    m "Artık benim söyleyecek başka bir şeyim kaldı mı ki?"
+    
     if persistent.natsukiCompletedGood is True and persistent.yuriCompletedGood is True:
         call MonikaRouteOpening
         return
+    
     show m_worried with dissolve_cg
     hide m_neutral1
-    m "Not that it really matters in the end."
-    m "Don't let me keep you from being happy."
+    
+    m "Sonunda pek de bir önemi yok gerçi."
+    m "Mutlu olmana engel olacak değilim."
+    
     show m_neutral1 with dissolve_cg
-    m "Do what you want."
+    
+    m "Ne istiyorsan onu yap."
     window hide
     $ saveLocked = False
     stop music fadeout 5.0
@@ -287,45 +292,48 @@ label monikaInterlude_YuriBadEnd1:
     window show
     show m_neutral2 with dissolve_cg
 
-    m "...well then."
-    m "I didn't quite expect you to go off track that quickly."
-    m "But I guess we all make mistakes."
-    m "You can trust Natsuki, you know?"
-    m "Even though she and Yuri fight sometimes, she still knows her well enough to make a decent suggestion or two."
+        m "...peki, demek böyle."
+    m "Açıkçası, bu kadar çabuk yoldan çıkacağını beklemiyordum."
+    m "Ama hepimiz hata yaparız, değil mi?"
+    m "Bu arada, Natsuki'ye güvenebilirsin, biliyorsun, değil mi?"
+    m "Yuri'yle bazen tartışsalar da, onu yeterince iyi tanıyor ve iyi önerilerde bulunabiliyor."
+    
     if persistent.natsukiCompletedGood is True:
-        m "Besides, you know a bit about trust and Natsuki, right?"
-
+        m "Hem, Natsuki ve güven meselesine dair biraz fikrin var artık, değil mi?"
+    
     if persistent.natsukiCompletedGood is False and persistent.sayoriCompletedGood is False:
         show m_thoughtful with dissolve_cg
         hide m_neutral2
-        m "I don't think you'd be so easily shaken away just after one mistake, though."
-        m "You set out to make them happy, so I doubt you'll stop here."
-        m "Sometimes Yuri just needs a bit of space, is all."
-        m "It's just a 'load game' away for you."
-        m "Don't let me keep you."
+        m "Ama tek bir hatayla hemen pes edeceğini sanmıyorum."
+        m "Onları mutlu etmek için yola çıktın, değil mi? Burada duracak değilsin."
+        m "Yuri bazen sadece biraz mesafeye ihtiyaç duyar, hepsi bu."
+        m "Senin için sadece bir 'oyunu yükle' meselesi sonuçta."
+        m "Ben seni durdurmayayım."
+    
     elif (persistent.natsukiCompletedGood is False and persistent.sayoriCompletedGood is True) or (persistent.natsukiCompletedGood is True and persistent.sayoriCompletedGood is False) and not (persistent.natsukiCompletedGood is True and persistent.sayoriCompletedGood is True):
         show m_neutral2 with dissolve_cg
-        m "You've already made one of them happy, so I doubt you'll give up just because you messed up with someone else."
-        m "I'd be really disappointed in you if you did."
-        m "Not that I care for them or you care what I think, but..."
-        m "Seeing you give up on something you've tried so hard for hurts me, too."
-        m "I want to see you succeed at things, after all."
-        m "Even if my heart breaks a little bit."
+        m "Sonuçta birini mutlu etmeyi başardın, değil mi? Sırf biriyle hata yaptın diye pes edeceğini sanmıyorum."
+        m "Öyle yapsaydın, gerçekten hayal kırıklığına uğrardım."
+        m "Gerçi ne onları umursuyorum ne de sen benim ne düşündüğümü önemsiyorsun ama..."
+        m "Bu kadar çabaladıktan sonra vazgeçtiğini görmek beni de biraz yaralıyor."
+        m "Başarılı olmanı görmek istiyorum, sonuçta."
+        m "Bunu söylerken içim biraz acıyor olsa da..."
+    
     else:
-        m "You can still go back and fix things."
+        m "Hâlâ geri dönüp işleri düzeltebilirsin."
         show m_worried with dissolve_cg
         hide m_neutral2
-        m "You have that power, don't you?"
-        m "You've managed to make the other two happy, so..."
-        m "You're almost there."
-        m "Don't give up so easily. After all, I'm sure there's more trials ahead."
-        m "...for you, anyways."
+        m "Bu güce sahipsin, değil mi?"
+        m "Sonuçta diğer ikisini mutlu etmeyi başardın..."
+        m "Neredeyse tamamladın."
+        m "Bu kadar kolay vazgeçme. Önünde daha zorlayıcı şeyler var, eminim."
+        m "...senin için en azından."
+    
     show m_neutral2 with dissolve_cg
-    m "Though... don't think this is the only important choice you'll make."
-    m "You never know."
-    m "Back to the title screen."
-    m "Make the better choice this time, okay?"
-
+    m "Ama... bunun tek önemli seçim olduğunu sanma."
+    m "Ne olacağını asla bilemezsin."
+    m "Hadi, başa dönelim."
+    m "Bu sefer daha doğru bir seçim yap, tamam mı?"
 
     $ persistent.yuriBadInterlude1Viewed = True
     window hide
@@ -362,45 +370,47 @@ label monikaInterlude_YuriBadEnd2:
     m "..."
     m "..."
     show m_confused1 with dissolve_cg
-    m "So that... happened."
-    m "I didn't think you'd actually, well... fight."
-    m "I'd ask if you're okay, but it wasn't, well, {i}you{/i}."
-    m "Though that seemed like a fairly easy choice to me..."
-    m "I hope you didn't pick it just to make her suffer."
+        m "Demek... bu da oldu."
+    m "Açıkçası, gerçekten kavga edeceğinizi düşünmemiştim."
+    m "Sana 'iyi misin' diye sormak isterdim ama... şey, {i}sen{/i} değildin."
+    m "O kadar da zor bir seçim gibi gelmemişti bana..."
+    m "Umarım bunu sadece onun acı çekmesini izlemek için seçmemişsindir."
     m "Ha..."
-    m "Well, I think you already know what to do."
+    m "Neyse, sanırım ne yapman gerektiğini zaten biliyorsun."
 
     if persistent.natsukiCompletedGood is False and persistent.sayoriCompletedGood is False:
         show m_thoughtful with dissolve_cg
         hide m_neutral2
-        m "You haven't even gotten started yet, right?"
-        m "You might stumble out of the gate, but..."
-        m "I know you won't stop here."
-        m "Maybe you won't go after the others, but I know that if you've made it this far, you won't stop."
-        m "So... you know what to do."
-        m "It's just a 'Load Game' away for you, right?"
+        m "Daha yolun başındasın, değil mi?"
+        m "Bazen ilk adımda tökezlersin ama..."
+        m "Burada durmayacağını biliyorum."
+        m "Belki diğerlerine yönelmeyeceksin ama buraya kadar geldiysen, devam edeceksin."
+        m "O yüzden... ne yapacağını biliyorsun."
+        m "Senin için sadece bir 'Oyunu Yükle' meselesi, değil mi?"
+    
     elif (persistent.natsukiCompletedGood is False and persistent.sayoriCompletedGood is True) or (persistent.natsukiCompletedGood is True and persistent.sayoriCompletedGood is False) and not (persistent.natsukiCompletedGood is True and persistent.sayoriCompletedGood is True):
         show m_neutral2 with dissolve_cg
-        m "You've already made one of them happy, so I doubt you'll give up just because you messed up with someone else."
-        m "I'd be really disappointed in you if you did."
-        m "You're definitely not that kind of person."
-        #m "Not that I care for them or you care what I think, but..."
-        m "Seeing you give up on something you've tried so hard for hurts me, too."
-        m "I want to see you succeed at things, after all."
-        m "Even if it hurts me just a little bit."
+        m "Sonuçta birini mutlu etmeyi başardın, değil mi? Sırf biriyle hata yaptın diye pes edeceğini sanmıyorum."
+        m "Eğer öyle yaparsan, gerçekten hayal kırıklığına uğrarım."
+        m "Sen kesinlikle öyle biri değilsin."
+        m "Bu kadar çabaladıktan sonra vazgeçtiğini görmek beni de biraz yaralıyor."
+        m "Başarılı olmanı görmek istiyorum, sonuçta."
+        m "Bunu söylerken içim biraz acıyor olsa da..."
+    
     else:
         show m_worried with dissolve_cg
         hide m_neutral2
-        m "You can still go back and fix things."
-        m "You have that power, don't you?"
-        m "You've managed to make the other two happy, so..."
-        m "You're almost there."
-        m "Don't give up so easily."
-        m "You know what you have to do."
+        m "Hâlâ geri dönüp işleri düzeltebilirsin."
+        m "Bu güce sahipsin, değil mi?"
+        m "Sonuçta diğer ikisini mutlu etmeyi başardın..."
+        m "Neredeyse tamamladın."
+        m "Bu kadar kolay vazgeçme."
+        m "Ne yapman gerektiğini biliyorsun."
+
     show m_neutral2 with dissolve_cg
-    m "Well..."
-    m "Back to the title screen, right?"
-    m "Do a little better this time around, okay?"
+    m "Peki..."
+    m "Başa dönüyoruz, değil mi?"
+    m "Bu sefer biraz daha iyi bir iş çıkar, tamam mı?"
 
     $ persistent.yuriBadInterlude2Viewed = True
     window hide
@@ -435,44 +445,50 @@ label monikaInterlude_YuriGoodEnd:
     show m_neutral2 with dissolve_cg
     $ persistent.yuriCompletedGood = True
 
-    m "Hm?"
-    m "What, you want me to comment on what you've done?"
-    m "Hear some sort of congratulations?"
+        m "Hm?"
+    m "Ne yani, yaptıkların hakkında bir şeyler mi söylememi istiyorsun?"
+    m "Bir tebrik mi bekliyorsun yoksa?"
+    
     if persistent.natsukiCompletedGood is False and persistent.sayoriCompletedGood is False:
         show m_thoughtful with dissolve_cg
-        m "Maybe you want to hear some praises about making Yuri happy?"
-        m "It's still only one of them."
-        m "Besides, it won't last."
-        m "You and I are well aware that this is only a mod."
-        m "Someday..."
+        m "Belki de Yuri'yi mutlu ettiğin için birkaç övgü duymak istiyorsun?"
+        m "Ama sonuçta sadece birini mutlu edebildin."
+        m "Hem, bunun sonsuza kadar süreceğini mi sanıyorsun?"
+        m "Sen de ben de gayet iyi biliyoruz ki bu sadece bir mod."
+        m "Bir gün..."
+    
     show m_neutral1 with dissolve_cg
-    m "What else is there to say?"
-    m "You 'saved' Yuri, didn't you?"
-    m "She's getting help and has a pillar to stand on when all those nasty rumors come around."
-    m "You two will run along, holding hands, reading books together, the whole thing."
-    m "Or so the game says, anyways."
-    m "Really though..."
-    m "What's up with all the kids at this school?"
+    
+    m "Daha ne söylenebilir ki?"
+    m "Sonuçta Yuri'yi 'kurtardın', değil mi?"
+    m "Artık yardım alıyor ve o korkunç dedikodular başladığında tutunabileceği bir dayanağı var."
+    m "Bundan sonra el ele tutuşup, kitap okuyup, mutlu mesut takılacaksınız."
+    m "Tabii oyunun dediğine göre."
+    m "Ama cidden..."
+    m "Bu okuldaki çocukların hepsi neden böyle?"
 
     if persistent.sayoriCompletedGood is True:
-        m "Both in Sayori's 'route' and here..."
-        m "Kids seem fairly vicious, don't they?"
+        m "Hem Sayori’nin 'rotasında' hem burada..."
+        m "Çocuklar biraz fazla acımasız değil mi?"
     
-    m "Geez, what school did we enroll into to have all of these kinds of people?"
-    m "Well, I guess it doesn't really matter to you."
-    m "After all, you're happy with Yuri."
-    m "Is there anything left for me to say, though?"
-
+    m "Ah, biz nasıl bir okula yazıldık ki böyle insanlar var?"
+    m "Gerçi senin için pek bir önemi yok, değil mi?"
+    m "Sonuçta Yuri ile mutlusun."
+    m "Benim daha fazla söyleyecek bir şeyim kaldı mı ki?"
 
     if persistent.natsukiCompletedGood is True and persistent.sayoriCompletedGood is True:
         call MonikaRouteOpening
         return
+
     show m_worried with dissolve_cg
     hide m_neutral1
-    m "Not that it really matters in the end."
-    m "Don't let me keep you from being happy."
+    
+    m "Ama en sonunda pek de bir önemi yok sanırım."
+    m "Mutlu olmanı engellemeyeceğim."
+    
     show m_neutral1 with dissolve_cg
-    m "Do what you want."
+    
+    m "Ne yapmak istiyorsan onu yap."
 
     window hide
     $ saveLocked = False
@@ -496,44 +512,67 @@ label monikaInterlude_YuriGoodEnd:
 label MonikaRouteOpening:
     $ persistent.monika_unlock = True
     show m_thoughtful with dissolve_cg
-    m "I suppose there's one thing."
-    m "You've done what I didn't think was possible..."
+    m "Sanırım söylemem gereken bir şey var."
+    m "Benim bile mümkün olduğunu düşünmediğim bir şeyi başardın..."
+    
     show m_surprise with dissolve_cg
-    m "Happiness... from the Literature club."
+    
+    m "Edebiyat Kulübü’nden gelen... mutluluk." 
     show m_confused2 with dissolve_cg
-    m "Isn't that something?"
-    m "I can feel it... practically pouring off of them."
+    
+    m "Bu gerçekten ilginç, değil mi?"
+    m "Hissedebiliyorum... adeta içlerinden taşan o duyguyu."
+    
     show m_teary with dissolve_cg
-    m "Part of being... well part of the game, I suppose."
-    m "They're all... so happy..."
-    m "I'm a little jealous, haha~"
+    
+    m "Sanırım oyunun bir parçası olmanın bir getirisi bu."
+    m "Hepsi... gerçekten çok mutlu..."
+    m "Biraz kıskandım, haha~"
+    
     show m_neutral1 with dissolve_cg
-    m "But it's fine."
-    m "You've accomplished what you set out to do."
+    
+    m "Ama sorun değil."
+    m "Sonuçta yapmak istediğin şeyi başardın."
     m "Sayori, Yuri, Natsuki..."
-    m "They're all smiles, inside and out."
+    m "Hepsinin yüzü gülüyor, içten ve gerçekten."
+    
     show m_thoughtful with dissolve_cg
-    m "So congratulations are in order."
-    m "You've beaten the game."
-    m "You've gone ahead and saved everyone from... well, you know."
+    
+    m "Öyleyse bir tebrik gerekiyor sanırım."
+    m "Oyunu tamamladın."
+    m "Herkesi kurtardın... yani, ne demek istediğimi anlıyorsun."
+    
     show m_neutral2 with dissolve_cg
-    m "Aren't you special?"
+    
+    m "Ne kadar da özelsin, değil mi?"
+    
     show m_surprise with dissolve_cg
-    m "Hm? Something wrong?"
-    m "Why are you still here?"
-    m "There's nothing left for you here now."
+    
+    m "Hm? Bir şey mi oldu?"
+    m "Neden hâlâ buradasın?"
+    m "Burada senin için artık hiçbir şey kalmadı."
+    
     show m_neutral1 with dissolve_cg
+    
     m "..."
+    
     show m_smug with dissolve_cg
+    
     m "Ah."
+    
     show m_thoughtful with dissolve_cg
-    m "The credits aren't playing, are they?"
-    m "Did you miss something in your script? Maybe a branch condition didn't go off?"
+    
+    m "Krediler akmaya başlamadı, değil mi?"
+    m "Senaryoda bir şeyi mi kaçırdın? Belki de bir dal seçeneği tetiklenmedi?"
+    
     show m_neutral2 with dissolve_cg
-    m "It's fine. It happens to us all."
-    m "As far as I know, it's only you and I who can do this sort of thing."
-    m "Clearly you have the upper hand on me, though."
+    
+    m "Sorun değil. Hepimizin başına gelebilir."
+    m "Bildiklerim kadarıyla, bunu yapabilen sadece sen ve benim gibileriyiz."
+    m "Gerçi üstünlük sende gibi görünüyor."
+    
     show m_neutral1 with dissolve_cg
-    m "Well, whatever."
-    m "Back to the title screen, I suppose..."
+    
+    m "Neyse, ne fark eder ki."
+    m "Sanırım başa dönme vakti geldi..."
     return
