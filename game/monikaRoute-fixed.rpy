@@ -10,7 +10,7 @@ label monikaRoute_opening:
     "Sınıftan hızla çıkıyorum ve koridorda Sayori'yle burun buruna geliyorum."  
     "Yanından geçerken kısaca selam verip hemen banyoya giriyorum."  
     "Aslında utanılacak bir şey değil ama Sayori'yi biraz şaşırtmak istiyorum."  
-    "Sonuçta, o Edebiyat Kulübü’nün başkan yardımcısı."  
+    "Sonuçta, o Edebiyat Kulübü'nün başkan yardımcısı."  
 
     scene bg corridor with wipeleft_scene  
 
@@ -29,7 +29,7 @@ label monikaRoute_opening:
 
     m 2e "Sen... sen burada ne yapıyorsun?"  
 
-    mc "Şey, ben... Edebiyat Kulübü’ne katılmak istiyorum."  
+    mc "Şey, ben... Edebiyat Kulübü'ne katılmak istiyorum."  
 
     m "Ama sen... Burada tek başına olmaman gerekiyordu, sadece Sa—"  
 
@@ -108,7 +108,7 @@ label monikaRoute_opening:
     show sayori 1a at t42  
     show monika 5a at f41  
 
-    m "Edebiyat Kulübü’ne hoş geldin, [player]! Bize katılmaya karar verdiğin için çok mutluyuz!"  
+    m "Edebiyat Kulübü'ne hoş geldin, [player]! Bize katılmaya karar verdiğin için çok mutluyuz!"  
 
     mc "Ah, teşekkürler Monika."  
 
@@ -133,7 +133,7 @@ label monikaRoute_opening:
         n "Yani, eğer Sayori senin burada olmana bu kadar seviniyorsa, sanırım senin burada olman o kadar da kötü olmayacak."
     show natsuki 1b at t43
     "Biraz mahcup bir gülümsemeyle karşılık veriyorum, bunu bir iltifat olarak kabul etmeye karar vererek."
-    mc "Teşekkürler. Kimsenin keyfini kaçırmamaya çalışırım."
+    mc "Teşekkürler. Kimsenin keyfini kaçırmaz."
     show yuri 1b at f44
     y "Eminim ki kaçırmazsın, [player]."
     "Bir an duraksıyor, sonra omzumun üzerinden birine bakıyor."
@@ -205,7 +205,7 @@ label monikaRoute_theClub:
     s "Mmmmphh! Çok lezzhhetliii!"
     
     "Sayori ağzı doluyken konuşuyor ve şimdiden yüzünü kremaya bulamış bile."
-    "Ben ise cupcake’i elimde çevirerek en iyi ısırık noktasını bulmaya çalışıyorum."
+    "Ben ise cupcake'i elimde çevirerek en iyi ısırık noktasını bulmaya çalışıyorum."
     
     show sayori at thide zorder 1
     show monika at thide zorder 1
@@ -219,12 +219,12 @@ label monikaRoute_theClub:
     "Sanki bir şeyler farklı ama tam olarak ne olduğunu kestiremiyorum."
     
     show monika 1h at t33 zorder 2
-    "Düşüncelerimden Monika’nın küçük bir dürtmesiyle sıyrılıyorum. Gözlerini hafifçe kısarak bana bakıyor."
+    "Düşüncelerimden Monika'nın küçük bir dürtmesiyle sıyrılıyorum. Gözlerini hafifçe kısarak bana bakıyor."
     
     hide monika
     "Sonra fark ediyorum ki Natsuki sessizleşmiş."
     "Bana kaçamak bakışlar attığını görüyorum."
-    "Ah... Muhtemelen benim cupcake’i tatmamı bekliyor."
+    "Ah... Muhtemelen benim cupcake'i tatmamı bekliyor."
     
     "Sonunda bir ısırık alıyorum."
     "Kreması tatlı ve dolgun bir lezzete sahip – acaba hepsini kendi mi yaptı?"
@@ -250,7 +250,7 @@ label monikaRoute_theClub:
     show monika 4a at t22 zorder 2
     m "Aha, d..."
     show monika 4q at t22 zorder 2
-    "Monika’nın sesi bir anda kesiliyor, cümlesinin devamı tamamen kayboluyor."
+    "Monika'nın sesi bir anda kesiliyor, cümlesinin devamı tamamen kayboluyor."
     y "İyi misin, Monika? İstersen otomatlardan bir kutu kahve alayım. Belki kendine gelirsin."
     show monika 3a at t22 zorder 2
     "Monika birden kendine gelip başını hızla iki yana sallıyor."
@@ -268,13 +268,13 @@ label monikaRoute_theClub:
     mc "Şey, çay ve kitap okumak benim için bir alışkanlık değil ama mantıklı geldi."
     y 2c "Buna sevindim."
     "Yuri hafifçe gülümsüyor ve yerine geçiyor."
-    "Monika kaşlarını kaldırarak önce bana, sonra Yuri'ye, ardından tekrar bana bakıyor. Sonra dikkatini önündeki cupcake’e çeviriyor."
+    "Monika kaşlarını kaldırarak önce bana, sonra Yuri'ye, ardından tekrar bana bakıyor. Sonra dikkatini önündeki cupcake'e çeviriyor."
     show yuri at thide zorder 1
     hide yuri
     show monika at t11 zorder 2
     m "Ahem, peki..."
     m "[player], Edebiyat Kulübü'nü seçmene sebep olan şey ne?"
-    m "Sayori’nin anlattığına göre daha çok anime ve video oyunlarına ilgilisin."
+    m "Sayori'nin anlattığına göre daha çok anime ve video oyunlarına ilgilisin."
     "Sayori'ye biraz sinirli bir bakış atıyorum."
     show sayori 5c at t41 zorder 1
     s "Ehehe~"
@@ -291,7 +291,7 @@ label monikaRoute_theClub:
     show monika 1a
     mc "Ama şaşırdım doğrusu."
     mc "Kendi kulübünü kurmaya nasıl karar verdin?"
-    mc "Geçen yıl Münazara Kulübü’nün başkanıydın bile."
+    mc "Geçen yıl Münazara Kulübü'nün başkanıydın bile."
     m 2m "Ahaha, şey, bilirsin işte..."
     m 1b "Farklı bir şey yapmak istedim."
     m "Sadece rutin bir şekilde ilerlemek yerine, ipleri elime almak istedim."
@@ -327,7 +327,7 @@ label monikaRoute_theClub:
     show natsuki 4d at t41 zorder 2
     n "Kesinlikle!"
     "Monika'nın sözlerine hep birlikte gülümseyerek katıldıklarını görmek, onlarla aramda bir bağ kuruyormuşum gibi hissettiriyor."
-    "Monika’nın onları kulübe katmak için gerçekten çok çalışmış olmalı."
+    "Monika'nın onları kulübe katmak için gerçekten çok çalışmış olmalı."
     "Belki de bu yüzden yeni bir üyenin gelme fikri onları bu kadar mutlu etmişti."
     "Yine de, onların edebiyata olan heveslerine ayak uydurmak biraz zor olabilir."
     show sayori at thide zorder 1
@@ -348,9 +348,9 @@ label monikaRoute_theClub:
     y 3u "Pek kitap okuyan biri değilsin, sanırım..."
     mc "...Şey, bu değişebilir..."
     "Ben ne diyorum böyle?"
-    "Yuri’nin üzgün gülümsemesini görünce düşünmeden konuştum."
+    "Yuri'nin üzgün gülümsemesini görünce düşünmeden konuştum."
     show sayori 1x at t41
-    "Yan tarafa bakıyorum ve Sayori’nin ağzı kulaklarında, sırıtarak bana baktığını görüyorum. Görünüşe göre, grupla kaynaşmaya çalışmam onu çok mutlu etmiş."
+    "Yan tarafa bakıyorum ve Sayori'nin ağzı kulaklarında, sırıtarak bana baktığını görüyorum. Görünüşe göre, grupla kaynaşmaya çalışmam onu çok mutlu etmiş."
     hide sayori with wipeleft
     show yuri at t22
     show natsuki 2c at f21
@@ -792,7 +792,7 @@ label monikaRoute_reachingOut:
     m 2b "Bilmiyorum..."
     m "Sizin hakkınızda böyle düşündüğünü bilmek beni mutlu etti."
     mc "Şey, şu an mutlular, değil mi?"
-    mc "Burada olmaktan gerçekten keyif alıyorlar gibi görünüyorlar, o yüzden..."
+    m "Burada olmaktan gerçekten keyif alıyorlar gibi görünüyorlar, o yüzden..."
     mc "Kulüp başkanının da kendi kulübünde mutlu olamaması adil olmazdı, değil mi?"
     m "Ha... evet."
     m 3b "Ah!"
@@ -843,16 +843,16 @@ label monikaRoute_poemPanic:
     show yuri 2g at t21 zorder 2
     show natsuki 1g at t22 zorder 2
 
-    "Gözüm odanın diğer tarafına kayıyor; Yuri ve Natsuki’nin birbirlerinin şiirlerini değiştirdiğini görüyorum."
+    "Gözüm odanın diğer tarafına kayıyor; Yuri ve Natsuki'nin birbirlerinin şiirlerini değiştirdiğini görüyorum."
     "Şiirleri okudukça, yüz ifadelerinin değiştiğini fark ediyorum."
 
     show natsuki at f22 zorder 3
-    "Natsuki’nin kaşları sinirle çatılıyor."
+    "Natsuki'nin kaşları sinirle çatılıyor."
 
     show yuri 2i at t21
     "Yuri üzgünce gülümsüyor."
     "Havanın giderek gerildiğini hissedebiliyorum."
-    "Natsuki’nin dudakları hafifçe kıpırdıyor."
+    "Natsuki'nin dudakları hafifçe kıpırdıyor."
 
     show natsuki at t22 zorder 2
     show yuri at f21 zorder 3
@@ -864,7 +864,7 @@ label monikaRoute_poemPanic:
     show natsuki at f22 zorder 3
 
     n 2c "Ah, bir şey değil."
-    "Natsuki, şiiri tek eliyle Yuri’ye geri veriyor."
+    "Natsuki, şiiri tek eliyle Yuri'ye geri veriyor."
     n "Sanırım... süslü denebilir."
 
     show natsuki at t22 zorder 2
@@ -974,7 +974,7 @@ label monikaRoute_poemPanic:
     m "A-ah, şey..."  
     m 2h "Eminim ki öyle demek istememiştim..."  
     show monika 1c at f11  
-    "Monika’nın bir şeyler mırıldandığını duyuyorum, sonra da ikisinin yanına doğru yürüyor."  
+    "Monika'nın bir şeyler mırıldandığını duyuyorum, sonra da ikisinin yanına doğru yürüyor."  
     m 1g "Natsuki, Yuri."  
     show natsuki 4u at t22 zorder 3  
     show yuri 3o at t21 zorder 3  
@@ -1019,7 +1019,7 @@ label monikaRoute_poemPanic:
     s "[player]?"  
     mc "Hm?"  
     show sayori 1a at f11  
-    "Sayori’nin sessizce yanıma geldiğini fark ediyorum."  
+    "Sayori'nin sessizce yanıma geldiğini fark ediyorum."  
     "Yüzünde kocaman bir gülümseme var."  
     s 1x "Aferin sana~"  
     mc "Ne için?"  
@@ -1038,7 +1038,7 @@ label monikaRoute_poemPanic:
     s "Bu kulübü ve herkesi çok seviyorum~"  
     show sayori at thide  
     hide sayori  
-    "Sayori bir kez daha gülümseyip uzaklaşıyor, Monika’nın yanına gidiyor."  
+    "Sayori bir kez daha gülümseyip uzaklaşıyor, Monika'nın yanına gidiyor."  
     "Sanırım bu yüzden o başkan yardımcısı, değil mi?"  
     "Başı sıkıştığında Monika'ya güvenmek istemiştim ama Sayori gerçekten kulübün atmosferini ayarlayan kişi gibi görünüyor."  
     "Eğer bir daha böyle bir şey olursa, kesinlikle ona güvenebilirim."  
@@ -1211,7 +1211,7 @@ label monikaRoute_GraspingStraws:
     mc "Çok basit."  
     mc "Eğer zaten yeterince paran olsaydı, kulüp odasına gelmeden önce kendine bir şeyler almış olurdun."  
     mc "Yani ya aç değilsin ve bahane bulup dışarı çıkmak istedin..."  
-    mc "Ya da, tüm paranı harcadığını ‘şans eseri’ unutup benim sana borç vermemi umdun!"  
+    mc "Ya da, tüm paranı harcadığını 'şans eseri' unutup benim sana borç vermemi umdun!"  
     mc "Ama bir şey daha var..."  
     mc "...Sen HER ZAMAN açsın!"  
     mc "Yani geriye tek bir ihtimal kalıyor!"  
@@ -1732,9 +1732,9 @@ label monikaRoute_sharingPoems2:
     n "Sen... sen çoktan afişleri asmaya başlamadın, değil mi?"  
 
     show natsuki at t42 zorder 2  
-    show monika at f43 zorder 3  
+    show monika 1d at f43 zorder 3  
 
-    m 1d "Eh? Yani... evet, astım."  
+    m "Eh? Yani... evet, astım."  
     m "Bunun kötü bir fikir olduğunu mu düşünüyorsun...?"  
 
     show monika at t43 zorder 2  
@@ -1884,372 +1884,371 @@ label monikaRoute_sharingPoems2:
     y "Bu çok ani oldu...!"  
     show yuri at t44 zorder 2
     show monika at f43 zorder 3
-    	m 2a "Eğer kulübün önünde bile şiirini okuyamıyorsan, yabancıların önünde nasıl okuyacaksın ki?"  
-	show monika at t43 zorder 2  
-	show yuri 4c at f44 zorder 3  
-	show natsuki 1o  
-	y "Ah, hayır..."  
-	show yuri at t44 zorder 2  
-	show monika at f43 zorder 3  
-	m 2a "Endişelenme."  
-	m "İlk ben başlayacağım, böylece herkes biraz daha rahat hissedebilir."  
-	show monika at t43 zorder 2  
-	show sayori 1r at f41 zorder 3  
-	s "Sonra ben okuyabilir miyim??"  
-	show sayori at t41 zorder 2  
-	show monika at f43 zorder 3  
-	m "Ahaha. Tabii ki."  
-	m 2d "O zaman bakalım..."  
-	"Monika defterini karıştırarak kendine uygun bir şiir seçiyor."  
-	"Sonra kürsüye geçiyor."  
-	show monika at t11 zorder 2  
-	show sayori at thide zorder 1  
-	show natsuki at thide zorder 1  
-	show yuri at thide zorder 1  
-	hide sayori  
-	hide natsuki  
-	hide yuri  
-	m 1a "Bu şiirin adı {i}Uçuş Biçimleri{/i}."  
-	m 1r "Öhüm..."  
-	show monika 1a  
-	"Monika şiirini okumaya başlıyor."  
-	"Net ve kendinden emin sesi odayı dolduruyor."  
-	"Sadece bu da değil, vurgu yapışı mükemmel."  
-	"Her bir satıra duygularını tam yerinde yedirerek kelimeleri adeta canlandırıyor."  
-	"Bunu daha önce de mi yaptı, yoksa doğuştan mı yetenekli?"  
-	"Etrafıma bakıyorum."  
-	"Herkes Monika'ya odaklanmış durumda."  
-	"Sayori hayranlıkla bakıyor."  
-	"Yuri'nin yüzünde anlayamadığım yoğun bir ifade var."  
-	show monika 1j  
-	"Sonunda, Monika şiirini bitiriyor."  
-	"Dördümüz de alkışlıyoruz."  
-	"Monika derin bir nefes alıp gülümsüyor."  
-	show monika 1a  
-	show sayori 4m at f33 zorder 3  
-	s "Bu... bu harikaydı Monika!"  
-	show sayori at t33 zorder 2  
-	show monika at f32 zorder 3  
-	m 1j "Ahaha, çok teşekkür ederim."  
-	m 1a "Sadece iyi bir örnek oluşturmak istedim."  
-	m "Sayori, sen hazır mısın?"  
-	show monika at t32 zorder 2  
-	show yuri 2r at l31  
-	y "B-ben okuyacağım!!"  
-	show sayori at h33  
-	s 1n "Uwah! Yuri birdenbire heyecanlandı!"  
-	"Yuri elindeki kağıdı sıkıca kavrayarak ayağa kalkıyor."  
-	"Başını öne eğmiş halde hızlı adımlarla kürsüye doğru ilerliyor."  
-	show monika at thide zorder 1  
-	show sayori at thide zorder 1  
-	show yuri at t11 zorder 2  
-	hide monika  
-	hide sayori  
-	y 2v "Bu şiirin adı--!"  
-	"Yuri endişeyle bize tek tek göz gezdiriyor."  
-	s "Yapabilirsin, Yuri..."  
-	y "A-adı... {i}Kızıl Bir Gözün Artakalan İmgesi{/i}."  
-	"Yuri'nin sesi titreyerek şiirini okumaya başlıyor."  
-	"Az önce neredeyse okumayı reddetmişti."  
-	"Peki şimdi neden bu kadar istekli?"  
-	show yuri 2l  
-	"İlk birkaç satırı geçtikten sonra, sesi değişiyor."  
-	"Tam olarak kitaplara daldığında olduğu gibi bir şey bu."  
-	"Titrek sesi, güçlü ve kendinden emin bir kadının net tonlamalarına dönüşüyor."  
-	"Şiirin yapısı sürekli değişiyor, o da bunu mükemmel bir zamanlamayla vurguluyor."  
-	"Bu... muhtemelen Yuri'nin zihninde gizlediği alevlerin nadir bir yansıması...!"  
+    m 2a "Eğer kulübün önünde bile şiirini okuyamıyorsan, yabancıların önünde nasıl okuyacaksın ki?"  
+    show monika at t43 zorder 2  
+    show yuri 4c at f44 zorder 3  
+    show natsuki 1o  
+    y "Ah, hayır..."  
+    show yuri at t44 zorder 2  
+    show monika at f43 zorder 3  
+    m 2a "Endişelenme."  
+    m "İlk ben başlayacağım, böylece herkes biraz daha rahat hissedebilir."  
+    show monika at t43 zorder 2  
+    show sayori 1r at f41 zorder 3  
+    s "Sonra ben okuyabilir miyim??"  
+    show sayori at t41 zorder 2  
+    show monika at f43 zorder 3  
+    m "Ahaha. Tabii ki."  
+    m 2d "O zaman bakalım..."  
+    "Monika defterini karıştırarak kendine uygun bir şiir seçiyor."  
+    "Sonra kürsüye geçiyor."  
+    show monika at t11 zorder 2  
+    show sayori at thide zorder 1  
+    show natsuki at thide zorder 1  
+    show yuri at thide zorder 1  
+    hide sayori  
+    hide natsuki  
+    hide yuri  
+    m 1a "Bu şiirin adı {i}Uçuş Biçimleri{/i}."  
+    m 1r "Öhüm..."  
+    show monika 1a  
+    "Monika şiirini okumaya başlıyor."  
+    "Net ve kendinden emin sesi odayı dolduruyor."  
+    "Sadece bu da değil, vurgu yapışı mükemmel."  
+    "Her bir satıra duygularını tam yerinde yedirerek kelimeleri adeta canlandırıyor."  
+    "Bunu daha önce de mi yaptı, yoksa doğuştan mı yetenekli?"  
+    "Etrafıma bakıyorum."  
+    "Herkes Monika'ya odaklanmış durumda."  
+    "Sayori hayranlıkla bakıyor."  
+    "Yuri'nin yüzünde anlayamadığım yoğun bir ifade var."  
+    show monika 1j  
+    "Sonunda, Monika şiirini bitiriyor."  
+    "Dördümüz de alkışlıyoruz."  
+    "Monika derin bir nefes alıp gülümsüyor."  
+    show monika 1a  
+    show sayori 4m at f33 zorder 3  
+    s "Bu... bu harikaydı Monika!"  
+    show sayori at t33 zorder 2  
+    show monika at f32 zorder 3  
+    m 1j "Ahaha, çok teşekkür ederim."  
+    m 1a "Sadece iyi bir örnek oluşturmak istedim."  
+    m "Sayori, sen hazır mısın?"  
+    show monika at t32 zorder 2  
+    show yuri 2r at l31  
+    y "B-ben okuyacağım!!"  
+    show sayori at h33  
+    s 1n "Uwah! Yuri birdenbire heyecanlandı!"  
+    "Yuri elindeki kağıdı sıkıca kavrayarak ayağa kalkıyor."  
+    "Başını öne eğmiş halde hızlı adımlarla kürsüye doğru ilerliyor."  
+    show monika at thide zorder 1  
+    show sayori at thide zorder 1  
+    show yuri at t11 zorder 2  
+    hide monika  
+    hide sayori  
+    y 2v "Bu şiirin adı--!"  
+    "Yuri endişeyle bize tek tek göz gezdiriyor."  
+    s "Yapabilirsin, Yuri..."  
+    y "A-adı... {i}Kızıl Bir Gözün Artakalan İmgesi{/i}."  
+    "Yuri'nin sesi titreyerek şiirini okumaya başlıyor."  
+    "Az önce neredeyse okumayı reddetmişti."  
+    "Peki şimdi neden bu kadar istekli?"  
+    show yuri 2l  
+    "İlk birkaç satırı geçtikten sonra, sesi değişiyor."  
+    "Tam olarak kitaplara daldığında olduğu gibi bir şey bu."  
+    "Titrek sesi, güçlü ve kendinden emin bir kadının net tonlamalarına dönüşüyor."  
+    "Şiirin yapısı sürekli değişiyor, o da bunu mükemmel bir zamanlamayla vurguluyor."  
+    "Bu... muhtemelen Yuri'nin zihninde gizlediği alevlerin nadir bir yansıması...!"  
     show yuri 2t
-    	"Ve birdenbire bitirdi."  
-	"Herkes donup kalıyor."  
-	"Yuri gerçekliğe geri dönüyor ve etrafına bakınıyor, sanki kendisi bile şaşırmış gibi."  
-	y 3o "Ben..."  
-	"...Bu durumu toparlamak bana düşüyor."  
-	"İlk alkışlayan ben oluyorum."  
-	"Diğerleri de bana katılıyor ve Yuri'nin hakkını teslim ediyoruz."  
-	"Aslında onun için alkışlamak istemediğimizden değil..."  
-	"Sadece o kadar hazırlıksız yakalandık ki, unutmuş olmalıyız."  
-	"Alkışlar eşliğinde, Yuri şiirini göğsüne bastırıyor ve hızla yerine oturuyor."  
-	show yuri at lhide  
-	hide yuri  
-	show monika 1a at t11 zorder 2  
-	m "Yuri, bu gerçekten harikaydı."  
-	m "Paylaştığın için teşekkür ederim."  
-	y "..."  
-	"Yuri tamamen tükenmiş gibi görünüyor..."  
-	show sayori 1q at t31 zorder 2  
-	s "Tamamdır~"  
-	s "Sanırım sıradaki benim!"  
-	"Sayori sandalyesinden neşeyle fırlayıp kürsüye yürüyor."  
-	show sayori at t11 zorder 2  
-	show monika at thide zorder 1  
-	hide monika  
-	s 1x "Bu şiirin adı... {i}Benim Çayırım{/i}."  
-	s "Ah..."  
-	s 1s "...Ahaha!"  
-	s 4s "Üzgünüm, güldüm..."  
-	s 4q "Ehehe..."  
-	mc "Sayori..."  
-	s 1l "Beklediğimden çok daha zormuş!"  
-	s "Siz bunu nasıl bu kadar kolay yaptınız?"  
-	show monika 3a at t31 zorder 2  
-	show sayori 1b  
-	m "Ah..."  
-	m "Bunu başkalarına okuyormuşsun gibi düşünmemeye çalış."  
-	m "Sanki aynanın karşısında ya da kendi kafanda okuyormuşsun gibi hayal et."  
-	m "Sonuçta bu senin şiirin, en iyi şekilde senin sesinle çıkar."  
-	show sayori 1i  
-	s "Hımm, anladım, anladım..."  
-	s "Peki, o zaman..."  
-	show monika at thide zorder 1  
-	hide monika  
-	show sayori 1c  
-	"Sayori şiirini okumaya başlıyor."  
-	"Bir şekilde, yumuşak sesi şiire mükemmel bir uyum sağlıyor."  
-	"Şiir, Sayori’nin normalde olduğu gibi rastgele ve neşeli değil."  
-	"Tam tersine, huzurlu ama biraz da hüzünlü."  
-	"Eğer bunu kâğıttan okusaydım, muhtemelen bu kadar etkilenmezdim..."  
-	"Ama Sayori'nin sesinden dinlemek, ona bambaşka bir anlam katıyor."  
-	"Belki de Sayori’nin benim şiirlerimi neden sevdiğini şimdi daha iyi anlıyorum."  
-	"Onu çok iyi tanıdığımı düşünürdüm ama belki de daha derine inmem gerekiyormuş."  
-	"Sayori bitirdiğinde, hepimiz alkışlıyoruz."  
-	s 3q "Başardım~!"  
-	mc "Güzel iş çıkardın, Sayori."  
-	s "Ehehe, [player] bile beğendi."  
-	s "Sanırım bu iyiye işaret~"  
-	mc "Bunun ne anlama geldiğini tam olarak çıkaramadım ama..."  
-	show monika 2b at f31 zorder 3  
-	m "Gerçekten güzel bir sunumdu, Sayori."  
-	m "Şiirin atmosferi sana tam oturmuş."  
-	m "Ama bazı şiirlerde bu tarz bir okuma pek işe yaramayabilir..."  
-	show monika at t31 zorder 2  
-	show sayori at f32 zorder 3  
-	s 1g "Eh? Ne demek istiyorsun tam olarak?"  
-	show sayori at t32 zorder 2  
-	show monika at f31 zorder 3  
-	m 1a "Şöyle söyleyeyim, bazı şiirlerin var ki, bu kadar yumuşak bir okuma onlara pek gitmez."  
-	m "Bazen biraz daha güçlü bir vurgu yapman gerekebilir, şiirin türüne bağlı olarak..."  
-	show monika at t31 zorder 2  
-	show sayori at f32 zorder 3  
-	s 1x "Ah, şimdi anladım!"  
-	s "Aslında... bunun üzerinde biraz çalışıyorum..."  
-	s 5 "Ama herkesin önünde yapmak biraz utandırıcı oluyor..."  
-	s "Ehehe..."  
-	show sayori at t32 zorder 2  
-	show monika at f31 zorder 3  
-	m 4a "O zaman bir dahaki sefere, seni biraz daha zorlayacak bir şiir seçmeni sağlayacağım."  
-	m "Festival için fazla vaktimiz kalmadı, biliyorsun değil mi?"  
-	show monika at t31 zorder 2  
-	show sayori at f32 zorder 3  
-	s 1q "Tamam, tamaaam."  
-	show sayori at t32 zorder 2  
-	show monika at f31 zorder 3  
-	m 1a "Peki, sıradaki kim...?"  
-	m "Natsuki?"  
-	show natsuki 5s at f33 zorder 3  
-	show monika at t31 zorder 2  
-	n "Hmph."  
-    	n "Beni [player]'dan önce okutmayın."  
-	n "Zaten sizinle kıyaslanacak bir şeyim yok..."  
-	n "O zaman bari [player] herkesin beklentisini biraz düşürsün, ben yapana kadar."  
-	show natsuki at t33 zorder 2  
-	show sayori at f32 zorder 3  
-	s 1g "Natsuki..."  
-	show sayori at t32 zorder 2  
-	mc "Sorun değil, sorun değil."  
-	mc "Herhalde bir an önce bitirsem iyi olacak."  
-	mc "Ama ne okuyacağım konusunda çok seçeneğim yok..."  
-	mc "Bugün yazdığımı okumak zorunda kalacağım."  
-	"Yavaşça kalkıp kürsünün önüne geçiyorum."  
-	show natsuki 2c at t44 zorder 2  
-	show sayori 1a at t43 zorder 2  
-	show monika 1a at t42 zorder 2  
-	show yuri 1e at t41 zorder 2  
-	"Herkes bana odaklanmış, bu yüzden oldukça garip hissediyorum."  
-	"Şiirimi okumaya başlıyorum."  
-	"Kendi yazıma güvenim pek olmadığı için, buna enerji katmakta zorlanıyorum."  
-	"Yine de, bitirince alkış alıyorum."  
-	mc "Üzgünüm, herkes kadar iyi olamadım..."  
-	show monika at f42 zorder 3  
-	m 1a "Buna o kadar takılma."  
-	m "Bence bu, yeteneklerinden çok, yazına olan güven eksikliğinden kaynaklanıyor."  
-	m "Ama bu, zamanla gelişebilecek bir şey."  
-	show monika at t42 zorder 2  
-	mc "Evet... Belki."  
-	show monika at f42 zorder 3  
-	m 1j "Peki, o zaman!"  
-	m 1a "Geride kalan tek kişi sensin, Natsuki."  
-	show monika at t42 zorder 2  
-	show natsuki at f44 zorder 3  
-	n 2g "Tamam, tamam."  
-	n "Gidiyorum işte."  
-	"Natsuki, isteksiz bir şekilde sandalyesinden kalkıp kürsüye doğru ilerliyor."  
-	show sayori at thide zorder 1  
-	show monika at thide zorder 1  
-	show yuri at thide zorder 1  
-	show natsuki at t11 zorder 2  
-	hide sayori  
-	hide monika  
-	hide yuri  
-	n 2c "Şiirin adı..."  
-	n 2q "Adı..."  
-	n 1x "N-Neden hepiniz bana bakıyorsunuz?!"  
-	m "Çünkü sunum yapıyorsun..."  
-	n 2x "Hmph..."  
-	n 2h "Neyse... şiirimin adı {i}Zıpla{/i}."  
-	"Natsuki derin bir nefes alıyor."  
-	show natsuki 2c  
-	"Şiirini okumaya başladığında, asık suratlı hali biraz kayboluyor."  
-"Tam olarak hevesli olmasa da, şiirinin bir ritmi ve kafiyesi var."  
-"Bu, Natsuki'nin imza tarzı ve yüksek sesle okunduğunda oldukça iyi işliyor."  
-"Kelimenin tam anlamıyla şiir, yukarı aşağı zıplıyormuş gibi hissediliyor, adeta ona hayat veriyor."  
-	show natsuki 2s  
-	"Natsuki bitiriyor ve herkes alkışlıyor."  
-	"Yavaşça yerine dönüp oturuyor."  
-	show monika 2a at f31 zorder 3  
-	m "O kadar kötü değildi, değil mi?"  
-	show monika at t31 zorder 2  
-	show natsuki 5w at f32 zorder 3  
-	n "Sizin için kolay tabii..."  
-	n "Beni bir daha buna zorlamayın."  
-	show natsuki at t32 zorder 2  
-	show monika 1d at f31 zorder 3  
-	m "Ah, pekala..."  
-	m "En azından, şimdi başka biriyle karşılaşıp şiir okumaya hazırlanacak kadar kendini hazır hissediyor musun?"  
-	show monika at t31 zorder 2  
-	show natsuki 2c at f32 zorder 3  
-	n "Yani, başkalarının önünde yapmak çok daha kolay olacak!"  
-	n "Başka insanlara istediğim yüzü takabilirim."  
-	n 2q "Ama sadece arkadaşlarımın önünde..."  
-	n "Gerçekten... utandırıcı."  
-	show natsuki at t32 zorder 2  
-	show sayori 1b at f33 zorder 3  
-	s "Bu sürpriz Natsuki..."  
-	s "Bence tam tersi olmalıydı."  
-	show sayori at t33 zorder 2  
-	show natsuki at f32 zorder 3  
-	n "Neyse işte, durum bu..."  
-	show natsuki at t32 zorder 2  
-	show monika at f31 zorder 3  
-	m 1a "Hımm, o zaman..."  
-	m "Festival için fazla kaygılanmana gerek olmayacak gibi."  
-	m 2b "Bununla birlikte, herkesin katıldığı için teşekkür ederim."  
-	m "Zor olabilir ama umarım şimdi neyle karşı karşıya olduğunuzu biraz daha iyi anlamışsınızdır."  
-	m 4b "Festival öncesinde bir şiir seçip yeterince pratik yaptığınızdan emin olun, tamam mı?"  
-	m "Ben broşürler hazırlayacağım, bu yüzden ne okuyacağınızı bana önceden bildirirseniz sevinirim."
-    show monika at t31 zorder 2
-    	mc "Off..."  
-	mc "Belki de okumak için başka bir şiir bulmalıyım."  
-	show monika at f31 zorder 3  
-	m 1j "Bu da olur!"  
-	m 1a "Kendi şiirin olmak zorunda değil."  
-	m "Zaten kulüp için bu kadar çaba gösteriyor olman beni gerçekten mutlu ediyor."  
-	m 5 "Gerçekten çok sevindirici."  
-	show monika at t31 zorder 2  
-	mc "Ah... Evet, sorun değil..."  
-	play music aNewDay fadeout 1.0  
-	show monika at t11 zorder 2  
-	show sayori at thide zorder 1  
-	show natsuki at thide zorder 1  
-	hide sayori  
-	hide natsuki  
-	m 4b "Tamam, millet!"  
-	m "Sanırım bugünü burada bitirebiliriz."  
-	m "Festival yaklaşıyor ama yarın için de şiir yazmaya çalışalım, olur mu?"  
-	m "Şimdiye kadar gerçekten güzel ilerledik ve bunu devam ettirmek istiyorum."  
-	m "Festival konusunda ise yarın planlamayı tamamlarız, hafta sonu da hazırlık yaparız."  
-	m "Pazartesi büyük gün!"  
-	show sayori 4r at t31 zorder 2  
-	s "Sabırsızlanıyorum~!"  
-	show yuri 4b at t33 zorder 2  
-	y "Bunu yapabilirim... Bunu yapabilirim..."  
-	mc "Pekala--"  
-	hide sayori  
-	hide monika  
-	hide yuri  
-	with wipeleft  
-	"Yerimden kalkıyorum."  
-	"Sayori ve Monika kadar hevesli olamayacağım kesin ama elimden geleni yapacağım."  
-	"Sonuçta bu kulüp için..."  
-	"Ve Monika'yı etkilemek için..."  
-	"En iyisini yapmam gerekiyor."  
-	show sayori 1a at t32 zorder 2  
+    "Ve birdenbire bitirdi."  
+    "Herkes donup kalıyor."  
+    "Yuri gerçekliğe geri dönüyor ve etrafına bakınıyor, sanki kendisi bile şaşırmış gibi."  
+    y 3o "Ben..."  
+    "...Bu durumu toparlamak bana düşüyor."  
+    "İlk alkışlayan ben oluyorum."  
+    "Diğerleri de bana katılıyor ve Yuri'nin hakkını teslim ediyoruz."  
+    "Aslında onun için alkışlamak istemediğimizden değil..."  
+    "Sadece o kadar hazırlıksız yakalandık ki, unutmuş olmalıyız."  
+    "Alkışlar eşliğinde, Yuri şiirini göğsüne bastırıyor ve hızla yerine oturuyor."  
+    show yuri at lhide  
+    hide yuri  
+    show monika 1a at t11 zorder 2  
+    m "Yuri, bu gerçekten harikaydı."  
+    m "Paylaştığın için teşekkür ederim."  
+    y "..."  
+    "Yuri tamamen tükenmiş gibi görünüyor..."  
+    show sayori 1q at t31 zorder 2  
+    s "Tamamdır~"  
+    s "Sanırım sıradaki benim!"  
+    "Sayori sandalyesinden neşeyle fırlayıp kürsüye yürüyor."  
+    show sayori at t11 zorder 2  
+    show monika at thide zorder 1  
+    hide monika  
+    s 1x "Bu şiirin adı... {i}Benim Çayırım{/i}."  
+    s "Ah..."  
+    s 1s "...Ahaha!"  
+    s 4s "Üzgünüm, güldüm..."  
+    s 4q "Ehehe..."  
+    mc "Sayori..."  
+    s 1l "Beklediğimden çok daha zormuş!"  
+    s "Siz bunu nasıl bu kadar kolay yaptınız?"  
+    show monika 3a at t31 zorder 2  
+    show sayori 1b  
+    m "Ah..."  
+    m "Bunu başkalarına okuyormuşsun gibi düşünmemeye çalış."  
+    m "Sanki aynanın karşısında ya da kendi kafanda okuyormuşsun gibi hayal et."  
+    m "Sonuçta bu senin şiirin, en iyi şekilde senin sesinle çıkar."  
+    show sayori 1i  
+    s "Hımm, anladım, anladım..."  
+    s "Peki, o zaman..."  
+    show monika at thide zorder 1  
+    hide monika  
+    show sayori 1c  
+    "Sayori şiirini okumaya başlıyor."  
+    "Bir şekilde, yumuşak sesi şiire mükemmel bir uyum sağlıyor."  
+    "Şiir, Sayori'nin normalde olduğu gibi rastgele ve neşeli değil."  
+    "Tam tersine, huzurlu ama biraz da hüzünlü."  
+    "Eğer bunu kâğıttan okusaydım, muhtemelen bu kadar etkilenmezdim..."  
+    "Ama Sayori'nin sesinden dinlemek, ona bambaşka bir anlam katıyor."  
+    "Belki de Sayori'nin benim şiirlerimi neden sevdiğini şimdi daha iyi anlıyorum."  
+    "Onu çok iyi tanıdığımı düşünürdüm ama belki de daha derine inmem gerekiyormuş."  
+    "Sayori bitirdiğinde, hepimiz alkışlıyoruz."  
+    s 3q "Başardım~!"  
+    mc "Güzel iş çıkardın, Sayori."  
+    s "Ehehe, [player] bile beğendi."  
+    s "Sanırım bu iyiye işaret~"  
+    mc "Bunun ne anlama geldiğini tam olarak çıkaramadım ama..."  
+    show monika 2b at f31 zorder 3  
+    m "Gerçekten güzel bir sunumdu, Sayori."  
+    m "Şiirin atmosferi sana tam oturmuş."  
+    m "Ama bazı şiirlerde bu tarz bir okuma pek işe yaramayabilir..."  
+    show monika at t31 zorder 2  
+    show sayori at f32 zorder 3  
+    s 1g "Eh? Ne demek istiyorsun tam olarak?"  
+    show sayori at t32 zorder 2  
+    show monika at f31 zorder 3  
+    m 1a "Şöyle söyleyeyim, bazı şiirlerin var ki, bu kadar yumuşak bir okuma onlara pek gitmez."  
+    m "Bazen biraz daha güçlü bir vurgu yapman gerekebilir, şiirin türüne bağlı olarak..."  
+    show monika at t31 zorder 2  
+    show sayori at f32 zorder 3  
+    s 1x "Ah, şimdi anladım!"  
+    s "Aslında... bunun üzerinde biraz çalışıyorum..."  
+    s 5 "Ama herkesin önünde yapmak biraz utandırıcı oluyor..."  
+    s "Ehehe..."  
+    show sayori at t32 zorder 2  
+    show monika at f31 zorder 3  
+    m 4a "O zaman bir dahaki sefere, seni biraz daha zorlayacak bir şiir seçmeni sağlayacağım."  
+    m "Festival için fazla vaktimiz kalmadı, biliyorsun değil mi?"  
+    show monika at t31 zorder 2  
+    show sayori at f32 zorder 3  
+    s 1q "Tamam, tamaaam."  
+    show sayori at t32 zorder 2  
+    show monika at f31 zorder 3  
+    m 1a "Peki, sıradaki kim...?"  
+    m "Natsuki?"  
+    show natsuki 5s at f33 zorder 3  
+    show monika at t31 zorder 2  
+    n "Hmph."
+    n "Beni [player]'dan önce okutmayın."  
+    n "Zaten sizinle kıyaslanacak bir şeyim yok..."  
+    n "O zaman bari [player] herkesin beklentisini biraz düşürsün, ben yapana kadar."  
+    show natsuki at t33 zorder 2  
+    show sayori at f32 zorder 3  
+    s 1g "Natsuki..."  
+    show sayori at t32 zorder 2  
+    mc "Sorun değil, sorun değil."  
+    mc "Herhalde bir an önce bitirsem iyi olacak."  
+    mc "Ama ne okuyacağım konusunda çok seçeneğim yok..."  
+    mc "Bugün yazdığımı okumak zorunda kalacağım."  
+    "Yavaşça kalkıp kürsünün önüne geçiyorum."  
+    show natsuki 2c at t44 zorder 2  
+    show sayori 1a at t43 zorder 2  
+    show monika 1a at t42 zorder 2  
+    show yuri 1e at t41 zorder 2  
+    "Herkes bana odaklanmış, bu yüzden oldukça garip hissediyorum."  
+    "Şiirimi okumaya başlıyorum."  
+    "Kendi yazıma güvenim pek olmadığı için, buna enerji katmakta zorlanıyorum."  
+    "Yine de, bitirince alkış alıyorum."  
+    mc "Üzgünüm, herkes kadar iyi olamadım..."  
+    show monika at f42 zorder 3  
+    m 1a "Buna o kadar takılma."  
+    m "Bence bu, yeteneklerinden çok, yazına olan güven eksikliğinden kaynaklanıyor."  
+    m "Ama bu, zamanla gelişebilecek bir şey."  
+    show monika at t42 zorder 2  
+    mc "Evet... Belki."  
+    show monika at f42 zorder 3  
+    m 1j "Peki, o zaman!"  
+    m 1a "Geride kalan tek kişi sensin, Natsuki."  
+    show monika at t42 zorder 2  
+    show natsuki at f44 zorder 3  
+    n 2g "Tamam, tamam."  
+    n "Gidiyorum işte."  
+    "Natsuki, isteksiz bir şekilde sandalyesinden kalkıp kürsüye doğru ilerliyor."  
+    show sayori at thide zorder 1  
+    show monika at thide zorder 1  
+    show yuri at thide zorder 1  
+    show natsuki at t11 zorder 2  
+    hide sayori  
+    hide monika  
+    hide yuri  
+    n 2c "Şiirin adı..."  
+    n 2q "Adı..."  
+    n 1x "N-Neden hepiniz bana bakıyorsunuz?!"  
+    m "Çünkü sunum yapıyorsun..."  
+    n 2x "Hmph..."  
+    n 2h "Neyse... şiirimin adı {i}Zıpla{/i}."  
+    "Natsuki derin bir nefes alıyor."  
+    show natsuki 2c  
+    "Şiirini okumaya başladığında, asık suratlı hali biraz kayboluyor."  
+    "Tam olarak hevesli olmasa da, şiirinin bir ritmi ve kafiyesi var."  
+    "Bu, Natsuki'nin imza tarzı ve yüksek sesle okunduğunda oldukça iyi işliyor."  
+    "Kelimenin tam anlamıyla şiir, yukarı aşağı zıplıyormuş gibi hissediliyor, adeta ona hayat veriyor."  
+    show natsuki 2s  
+    "Natsuki bitiriyor ve herkes alkışlıyor."  
+    "Yavaşça yerine dönüp oturuyor."  
+    show monika 2a at f31 zorder 3  
+    m "O kadar kötü değildi, değil mi?"  
+    show monika at t31 zorder 2  
+    show natsuki 5w at f32 zorder 3  
+    n "Sizin için kolay tabii..."  
+    n "Beni bir daha buna zorlamayın."  
+    show natsuki at t32 zorder 2  
+    show monika 1d at f31 zorder 3  
+    m "Ah, pekala..."  
+    m "En azından, şimdi başka biriyle karşılaşıp şiir okumaya hazırlanacak kadar kendini hazır hissediyor musun?"  
+    show monika at t31 zorder 2  
+    show natsuki 2c at f32 zorder 3  
+    n "Yani, başkalarının önünde yapmak çok daha kolay olacak!"  
+    n "Başka insanlara istediğim yüzü takabilirim."  
+    n 2q "Ama sadece arkadaşlarımın önünde..."  
+    n "Gerçekten... utandırıcı."  
+    show natsuki at t32 zorder 2  
+    show sayori 1b at f33 zorder 3  
+    s "Bu sürpriz Natsuki..."  
+    s "Bence tam tersi olmalıydı."  
+    show sayori at t33 zorder 2  
+    show natsuki at f32 zorder 3  
+    n "Neyse işte, durum bu..."  
+    show natsuki at t32 zorder 2  
+    show monika at f31 zorder 3  
+    m 1a "Hımm, o zaman..."  
+    m "Festival için fazla kaygılanmana gerek olmayacak gibi."  
+    m 2b "Bununla birlikte, herkesin katıldığı için teşekkür ederim."  
+    m "Zor olabilir ama umarım şimdi neyle karşı karşıya olduğunuzu biraz daha iyi anlamışsınızdır."  
+    m 4b "Festival öncesinde bir şiir seçip yeterince pratik yaptığınızdan emin olun, tamam mı?"  
+    m "Ben broşürler hazırlayacağım, bu yüzden ne okuyacağınızı bana önceden bildirirseniz sevinirim."
+    show monika at t31 zorder 2  
+    mc "Off..."  
+    mc "Belki de okumak için başka bir şiir bulmalıyım."  
+    show monika at f31 zorder 3  
+    m 1j "Bu da olur!"  
+    m 1a "Kendi şiirin olmak zorunda değil."  
+    m "Zaten kulüp için bu kadar çaba gösteriyor olman beni gerçekten mutlu ediyor."  
+    m 5 "Gerçekten çok sevindirici."  
+    show monika at t31 zorder 2  
+    mc "Ah... Evet, sorun değil..."  
+    play music aNewDay fadeout 1.0  
+    show monika at t11 zorder 2  
+    show sayori at thide zorder 1  
+    show natsuki at thide zorder 1  
+    hide sayori  
+    hide natsuki  
+    m 4b "Tamam, millet!"  
+    m "Sanırım bugünü burada bitirebiliriz."  
+    m "Festival yaklaşıyor ama yarın için de şiir yazmaya çalışalım, olur mu?"  
+    m "Şimdiye kadar gerçekten güzel ilerledik ve bunu devam ettirmek istiyorum."  
+    m "Festival konusunda ise yarın planlamayı tamamlarız, hafta sonu da hazırlık yaparız."  
+    m "Pazartesi büyük gün!"  
+    show sayori 4r at t31 zorder 2  
+    s "Sabırsızlanıyorum~!"  
+    show yuri 4b at t33 zorder 2  
+    y "Bunu yapabilirim... Bunu yapabilirim..."  
+    mc "Pekala--"  
+    hide sayori  
+    hide monika  
+    hide yuri  
+    with wipeleft  
+    "Yerimden kalkıyorum."  
+    "Sayori ve Monika kadar hevesli olamayacağım kesin ama elimden geleni yapacağım."  
+    "Sonuçta bu kulüp için..."  
+    "Ve Monika'yı etkilemek için..."  
+    "En iyisini yapmam gerekiyor."  
+    show sayori 1a at t32 zorder 2  
 
-	# Sahne değişimi
-	call monikaRoute_theLongWalkHome  
-	return  
+    # Sahne değişimi
+    call monikaRoute_theLongWalkHome  
+    return  
 
 # Eve dönüş sahnesi (Monika'nın etkisinin hissedilmeye başladığı anlar)
 label monikaRoute_theLongWalkHome:  
-	mc "Hazır mısın, Sayori?"  
-	show sayori at h32  
-	s 1x "Evet!"  
-	show natsuki 2d at f33 zorder 3  
-	n "Şuna bak sen, yine beraber eve gidiyorsunuz."  
-	show monika 5 at f31 zorder 3  
-	show natsuki at t33 zorder 2  
-	m "Gerçekten tatlı bir şey, değil mi?"  
-	show monika at t31 zorder 2  
-	show sayori at f32 zorder 3  
-	s 1q "Ehehe~"  
-	show sayori at t32 zorder 2  
-	mc "Off, çocuklar..."  
-	mc "Bunu bu kadar büyütmeyin."  
-	show natsuki at t44 zorder 2  
-	show sayori at t43 zorder 2  
-	show monika at t42 zorder 2  
-	show yuri 1u at f41 zorder 3  
-	y "Ama yine de güzel bir şey olmalı..."  
-	show yuri at t41 zorder 2  
-	mc "Şey..."  
-	mc "Ah..."  
-	"Buna nasıl cevap vereceğim ki?"  
-	show sayori at f43 zorder 3  
-	s "Sorun değil, [player], söylemek zorunda değilsin."  
-	s "Ama biliyor musun, belki bir gün başka birini eve bırakmayı denemelisin—"  
-	mc "H-hadi gidelim, Sayori!"  
-	"Sayori sözünü bitirmeden aceleyle kulüp odasından çıkıyorum."  
-	scene bg residential_day with wipeleft_scene  
-	# Sahne geçişi  
-	"Bir kez daha Sayori ile eve yürüyorum."  
-	"Sadece birkaç gün geçmiş olmasına rağmen, pek çok şey değişti bile."  
-	"Ancak bugün, Sayori her zamankinden biraz daha neşeli görünüyor."  
-	mc "Oldukça mutlu görünüyorsun."  
-	mc "Hem de her zamankinden fazla."  
-	show sayori 1a at t11  
-	s "Hmm~"  
-	mc "Aklında bir şey mi var?"  
-	s "Hmhmhm~"  
-	"Bu mırıldanmayı ve Sayori'nin yüzündeki gülümsemeyi pek sevmedim."  
-	s 1x "Sadece az önce konuştuğumuz bir şey hakkında düşünüyordum."  
-	"Ah, hayır."  
-	s 1a "Beraber eve gitmemizi seviyorum ama..."  
-	s "Diyelim ki bir gün Monika senden onunla eve gitmeni istedi..."  
-	mc "Huh?!"  
-	s 1q "Ne yapardın~?"  
-	mc "B-bu nasıl bir soru?!"  
-	mc "Beni gerçekten köşeye sıkıştırıyorsun..."  
-	s "Ehehe..."  
-	"Şey..."  
+    mc "Hazır mısın, Sayori?"  
+    show sayori at h32  
+    s 1x "Evet!"  
+    show natsuki 2d at f33 zorder 3  
+    n "Şuna bak sen, yine beraber eve gidiyorsunuz."  
+    show monika 5 at f31 zorder 3  
+    show natsuki at t33 zorder 2  
+    m "Gerçekten tatlı bir şey, değil mi?"  
+    show monika at t31 zorder 2  
+    show sayori at f32 zorder 3  
+    s 1q "Ehehe~"  
+    show sayori at t32 zorder 2  
+    mc "Off, çocuklar..."  
+    mc "Bunu bu kadar büyütmeyin."  
+    show natsuki at t44 zorder 2  
+    show sayori at t43 zorder 2  
+    show monika at t42 zorder 2  
+    show yuri 1u at f41 zorder 3  
+    y "Ama yine de güzel bir şey olmalı..."  
+    show yuri at t41 zorder 2  
+    mc "Şey..."  
+    mc "Ah..."  
+    "Buna nasıl cevap vereceğim ki?"  
+    show sayori at f43 zorder 3  
+    s "Sorun değil, [player], söylemek zorunda değilsin."  
+    s "Ama biliyor musun, belki bir gün başka birini eve bırakmayı denemelisin—"  
+    mc "H-hadi gidelim, Sayori!"  
+    "Sayori sözünü bitirmeden aceleyle kulüp odasından çıkıyorum."  
+    scene bg residential_day with wipeleft_scene  
+    # Sahne geçişi  
+    "Bir kez daha Sayori ile eve yürüyorum."  
+    "Sadece birkaç gün geçmiş olmasına rağmen, pek çok şey değişti bile."  
+    "Ancak bugün, Sayori her zamankinden biraz daha neşeli görünüyor."  
+    mc "Oldukça mutlu görünüyorsun."  
+    mc "Hem de her zamankinden fazla."  
+    show sayori 1a at t11  
+    s "Hmm~"  
+    mc "Aklında bir şey mi var?"  
+    s "Hmhmhm~"  
+    "Bu mırıldanmayı ve Sayori'nin yüzündeki gülümsemeyi pek sevmedim."  
+    s 1x "Sadece az önce konuştuğumuz bir şey hakkında düşünüyordum."  
+    "Ah, hayır."  
+    s 1a "Beraber eve gitmemizi seviyorum ama..."  
+    s "Diyelim ki bir gün Monika senden onunla eve gitmeni istedi..."  
+    mc "Huh?!"  
+    s 1q "Ne yapardın~?"  
+    mc "B-bu nasıl bir soru?!"  
+    mc "Beni gerçekten köşeye sıkıştırıyorsun..."  
+    s "Ehehe..."  
+    "Şey..."  
     menu:
-            "Ben yine de Sayori ile eve giderdim.":  
-        #[Sayori ile eve giderdim]  
-        mc "Sayori, sanırım seni Monika için yüzüstü bırakmazdım."  
-        s 1e "Eh?!"  
-        s 5c "Ama ona gerçekten fena halde abayı yakmış gibisin."  
-        mc "B-bu sadece erkeklerin onun yanında normalde nasıl davrandığıyla alakalı."  
-        mc "Hem!"  
-        mc "Sen de her zaman beraber eve gitmekten hoşlanıyormuş gibi görünüyorsun."  
-        mc "Bunu senin için bozmak istemem."  
-        s 2q "Hmm, peki~"  
-        "Sayori gülümsese de, nedense benden biraz hayal kırıklığına uğramış gibi hissediyorum."  
-        mc "Neyse, hadi daha az... şey... tuhaf bir konuya geçelim."  
-        mc "Festival hakkında konuşalım mesela."  
-        mc "Eğlenceli olacak, değil mi?"  
-        s 4x "Evet!"  
-        s "Ama geçen yılki gibi sadece yemek yiyip sonra eve gitmeyeceksin, değil mi?"  
-        mc "Gitmeyeceğim, söz veriyorum."  
-        "Eve dönerken, Sayori ile festival ve orada dört gözle beklediğimiz şeyler hakkında sohbet etmeye devam ediyoruz."  
-
+        "Ben yine de Sayori ile eve giderdim.":  
+            #[Sayori ile eve giderdim]  
+            mc "Sayori, sanırım seni Monika için yüzüstü bırakmadım."  
+            s 1e "Eh?!"  
+            s 5c "Ama ona gerçekten fena halde abayı yakmış gibisin."  
+            mc "B-bu sadece erkeklerin onun yanında normalde nasıl davrandığıyla alakalı."  
+            mc "Hem!"  
+            mc "Sen de her zaman beraber eve gitmekten hoşlanıyormuş gibi görünüyorsun."  
+            mc "Bunu senin için bozmak istemem."  
+            s 2q "Hmm, peki~"  
+            "Sayori gülümsese de, nedense benden biraz hayal kırıklığına uğramış gibi hissediyorum."  
+            mc "Neyse, hadi daha az... şey... tuhaf bir konuya geçelim."  
+            mc "Festival hakkında konuşalım mesela."  
+            mc "Eğlenceli olacak, değil mi?"  
+            s 4x "Evet!"  
+            s "Ama geçen yılki gibi sadece yemek yiyip sonra eve gitmeyeceksin, değil mi?"  
+            mc "Gitmeyeceğim, söz veriyorum."  
+            "Eve dönerken, Sayori ile festival ve orada dört gözle beklediğimiz şeyler hakkında sohbet etmeye devam ediyoruz."
     "Ben Monika ile eve giderdim.":  
         #[Monika ile eve giderdim]  
         mc "Monika ile eve gitmek, ha...?"  
@@ -2333,7 +2332,7 @@ label monikaRoute_theThirdPoem:
     n "Evet, ediyordum."  
     n "Ama {i}bizim{/i} festivalde yapacağımız şey için değil."  
     n 4l "Bütün gün oyunlar oynayıp her çeşit lezzetli yiyeceği yiyebileceğimiz bir gün!"  
-    mc "Bir anda Sayori gibi konuşmaya başladın..."  
+    mc "Bir anda Sayori gibi konuşma başladın..."  
     hide natsuki  
     show sayori 1x at f32 zorder 3  
     s "Hey!"  
@@ -2690,7 +2689,7 @@ label monikaRoute_theWeekend:
     "Acaba ikimiz yalnızken farklı davranır mı?"  
     "Bazen ortaya çıkan o neredeyse gizli yönü var."  
     "Ve çoğunlukla sadece bana gösteriyor."  
-    "Sayori, Monika’nın son zamanlarda böyle davrandığını söyledi."  
+    "Sayori, Monika'nın son zamanlarda böyle davrandığını söyledi."  
     "Ona dair ne düşüneceğimi bile bilmiyorum."  
     "Beklerken Monika bana çok mesaj attı. Konuşmalarımızda her zamanki kulüp başkanı gibi davranıyor."  
     "Mesajlaşırken o diğer tarafını hiç göstermediğini düşünüyorum."  
@@ -2705,7 +2704,7 @@ label monikaRoute_theWeekend:
 
     scene bg bedroom with wipeleft_scene  
     "Zaman hızla geçiyor, ben ise onun gelişini gergin bir şekilde bekliyorum."  
-    "Farkına bile varmadan Monika’dan bir mesaj alıyorum: Ön kapının önünde olduğunu söylüyor."  
+    "Farkına bile varmadan Monika'dan bir mesaj alıyorum: Ön kapının önünde olduğunu söylüyor."  
     "Hiç vakit kaybetmeden kapıyı açıp onu içeri alıyorum."  
 
     scene bg house_entrance with wipeleft_scene  
@@ -2730,7 +2729,7 @@ label monikaRoute_theWeekend:
     mc "Anladım. O hâlde hadi yazıcıya gidelim."  
     hide monika with wipeleft
     scene bg bedroom with wipeleft_scene
-        "Monika’yı odama çıkarıyorum."  
+        "Monika'yı odama çıkarıyorum."  
     show monika 2a at f11  
     "Etrafına meraklı gözlerle bakındığını görebiliyorum, bu da beni biraz tedirgin ediyor."  
     m 5a "Vay canına, gerçekten çok temiz."  
@@ -2744,7 +2743,7 @@ label monikaRoute_theWeekend:
     "Kutuyu masanın üzerine koyduktan sonra kullanılmamış bir beyaz karton destesi çıkarıyorum."  
     mc "Hmm, bu yazıcıya sığmalı. Broşürü burada mı yapacağız, yoksa sen zaten hazırladın mı?"  
     m 1n "Ah, um... Çantayı bana verir misin?"  
-    "Çantayı Monika’ya uzatıyorum. İçini karıştırdıktan sonra küçük bir USB bellek çıkarıyor."  
+    "Çantayı Monika'ya uzatıyorum. İçini karıştırdıktan sonra küçük bir USB bellek çıkarıyor."  
     m "Bilgisayarlarla aram pek iyi değil ama öğretmenlerden biri yardımcı olmayı kabul etti."  
     mc "Güzel bir şey bu."  
     show monika 1j at f11  
@@ -2757,7 +2756,7 @@ label monikaRoute_theWeekend:
     mc "N-ne--"  
     show monika 1k at f11  
     m "Ah, pardon."  
-    "Kendi kendime mırıldanırken sandalyemi döndürdüğümde, Monika’nın hemen arkamda olduğunu fark ediyorum. Kafam neredeyse onun--"  
+    "Kendi kendime mırıldanırken sandalyemi döndürdüğümde, Monika'nın hemen arkamda olduğunu fark ediyorum. Kafam neredeyse onun--"  
     mc "Ş-şey, kağıdı kartonla değiştirmem gerek."  
     m 5a "Onu ben halledeyim."  
     mc "Tamam."  
@@ -2765,7 +2764,7 @@ label monikaRoute_theWeekend:
     "Eğilip yazıcının kağıt tepsisini çekiyorum ve içindeki kağıtları çıkarıyorum."  
     m "Al, buyur."  
     mc "Teşekkürler."  
-    "Monika’dan aldığım kartonları dikkatlice yazıcıya yerleştirip tepsiyi kapatıyorum."  
+    "Monika'dan aldığım kartonları dikkatlice yazıcıya yerleştirip tepsiyi kapatıyorum."  
     "Ardından dosyayı bulup ekranda açıyorum."  
     show monika 2b at f11  
     m "Vay be, bilgisayarlarla gerçekten iyisin."  
@@ -2804,7 +2803,7 @@ label monikaRoute_theWeekend:
     play sound closet_close  
     "Dolapları karıştırıyorum ve sonunda yeterince büyük bir bardak buluyorum."  
     "Bardağı suyla doldurup odama geri dönmek için yola koyuluyorum..."  
-    "...ve Monika’yı odada yalnız bıraktığımı fark ediyorum."  
+    "...ve Monika'yı odada yalnız bıraktığımı fark ediyorum."  
     "Ah."  
     "Adımlarımı hızlandırmamaya çalışarak odama doğru ilerliyorum."  
     scene bg bedroom with Dissolve(2.0)  
@@ -2960,7 +2959,7 @@ label monikaRoute_theWeekend:
     show black with Dissolve(2.0)  
     "Akşam yemeğim hızlı oldu, çünkü dolapta bulduğum artıkları ısıttım."  
     scene bg bedroom_night with Dissolve(1.0)  
-    "O gece yatağıma giderken, Monika’nın söylediklerini düşünmeden edemiyorum."  
+    "O gece yatağıma giderken, Monika'nın söylediklerini düşünmeden edemiyorum."  
     "Büyük ölçüde haklı."  
     "Oldukça gizemli bir durum."  
         "Ah..."  
@@ -2975,16 +2974,16 @@ label monikaRoute_theWeekend:
     "Bu çok saçma!"  
     "Buna nasıl inanabilirim?!"  
     "Bunu bana başkası söylese, kesinlikle onlara güler geçerdim."  
-    "Ama Monika’nın o sözleri söylerken yüzündeki ifade..."  
+    "Ama Monika'nın o sözleri söylerken yüzündeki ifade..."  
     "Sanki söylediklerine tüm kalbiyle inanıyordu."  
     "Sanki bunun nesnel bir gerçek olduğunu biliyordu."  
     "Eğer iddiası bu kadar uçuk olmasaydı, muhtemelen hemen ikna olurdum."  
     "Bir oyun... üstelik bir {i}mod{/i} içinde."  
     "Bu..."  
     "Bunu kafamdan atmak çok kolay olmalı."  
-    "Monika’nın saçmaladığını, aptalca konuştuğunu, hatta böyle bir şey hiç söylemediğini kendime söyleyebilmeliyim."  
+    "Monika'nın saçmaladığını, aptalca konuştuğunu, hatta böyle bir şey hiç söylemediğini kendime söyleyebilmeliyim."  
     "Ama asıl soru şu: Neden yapamıyorum?"  
-    "Her seferinde Monika’nın yanıldığını düşündüğümde, içime şüphe düşüyor."  
+    "Her seferinde Monika'nın yanıldığını düşündüğümde, içime şüphe düşüyor."  
     "Gerçekten yanıldığını mı düşünüyorum? Söylediklerinin tamamını kesin bir dille reddedebilir miyim?"  
     "Onu çürütmek için bile kanıta ihtiyacım yok."  
     "Kim inanır ki böyle bir şeye? Dünyamızın bir oyun olduğuna?"  
@@ -3011,7 +3010,7 @@ label monikaRoute_theWeekend:
     play music Dusk fadein 2.0  
     mc "Hadi ama...!"  
     "Odamı altüst ederek yıllığı arıyorum."  
-    "Bir kez bulduğumda, her şeyi açıklığa kavuşturabilirim ve Monika’nın söylediklerini unutabilirim."  
+    "Bir kez bulduğumda, her şeyi açıklığa kavuşturabilirim ve Monika'nın söylediklerini unutabilirim."  
     mc "Nerede...!"  
     scene bg home_interior_night with Dissolve(2.0)  
     "Evin geri kalanına geçiyorum. Her rafı karıştırıyorum, her kutuyu boşaltıyorum."  
@@ -3041,7 +3040,7 @@ label monikaRoute_theWeekend:
     "Kimse hiçbir şey bilmiyor."  
     "Ama dediğim gibi, bu benim için bir şeyi değiştiriyor mu?"  
     play music Thoughts fadein 2.0  
-    "Monika’yı daha iyi tanımak istemem gerçeğini değiştiriyor mu?"  
+    "Monika'yı daha iyi tanımak istemem gerçeğini değiştiriyor mu?"  
     "Pek sayılmaz."  
     "O haklı olsa bile... bunu nasıl bilebilirim?"  
     "Ne zaman kontrol edildiğimi veya ne zaman birinin benim için karar verdiğini anlayabilir miyim?"  
@@ -3050,10 +3049,10 @@ label monikaRoute_theWeekend:
     "O yüzden bunu görmezden gelmeliyim."  
     "Off..."  
     "Buna bu kadar kafayı takıp, bu kadar geç yatıp... sonunda bunun benim için hiçbir şeyi değiştirmediğini fark ettim."  
-    "Günün sonunda, hâlâ Monika’ya yakın olmak istiyorum."  
+    "Günün sonunda, hâlâ Monika'ya yakın olmak istiyorum."  
     "Oyun olsa da olmasa da."  
     "Sonuçta benim için bir önemi yok. Zaten onun sözlerinin doğru olup olmadığını anlamamın bir yolu yok."  
-    "Tek güvenebileceğim şey, kendi hislerim. Monika’nın hisleri."  
+    "Tek güvenebileceğim şey, kendi hislerim. Monika'nın hisleri."  
     "Bana bunu anlatırken gözlerindeki ateş."  
     "Sesindeki ciddiyet."  
     "Bunu söylerken neredeyse çaresiz görünmesi."  
@@ -3066,8 +3065,8 @@ label monikaRoute_theWeekend:
     call updateconsole("direct_path()", "Doğrudan yolu yönlendirmeye çalışılıyor...")
 
     menu:
-        "Monika’nın haklı olabileceğini düşün."
-            "...Monika’nın sözlerinde biraz haklılık payı olabileceğini hissediyorum."
+        "Monika'nın haklı olabileceğini düşün."
+            "...Monika'nın sözlerinde biraz haklılık payı olabileceğini hissediyorum."
 
     call updateconsole("", "Yol yönlendirildi.")
     $ consolehistory = []
@@ -3078,10 +3077,10 @@ label monikaRoute_theWeekend:
     "Ve belki de izlediğim tüm o animeler yüzünden hayatımda böyle fantastik bir şey olmasını istiyorumdur."
     "Biliyorsun işte, yeni, heyecan verici ve kesinlikle sıradan olmayan bir şey."
     "Ama bu düşünce hayatıma yeni bir şey katmıyor."
-    "Hâlâ buradayım, Monika’ya yakın olmayı umarak."
+    "Hâlâ buradayım, Monika'ya yakın olmayı umarak."
     "Ne özel güçlerim var ne de havalı bir yeteneğim."
     "Ama yine de, sanırım bunu düşünmem gerekecek."
-    "Belki benim için hiçbir şeyi değiştirmeyecek, belki de kafamdaki o şüpheleri yok saymam gerekecek, ama Monika’nın bunu yapmayacağı kesin."
+    "Belki benim için hiçbir şeyi değiştirmeyecek, belki de kafamdaki o şüpheleri yok saymam gerekecek, ama Monika'nın bunu yapmayacağı kesin."
     "Onu daha iyi anlamak istiyorsam, onun düşünce biçimiyle düşünmem gerekecek."
     "Diyelim ki söyledikleri doğru."
     "Bütün bunlar gerçekten de basit bir romantizm oyunundan mı ibaret?"
@@ -3090,7 +3089,7 @@ label monikaRoute_theWeekend:
     "Ve başka bir yerde işlerin daha kötü olduğunu."
     "Ama..."
     "O yer burası değil, değil mi?"
-    "Yorganın altına girip hafifçe ürperiyorum, Monika’nın bahsettiği 'orijinal' dünyada neler olmuş olabileceğini düşünerek."
+    "Yorganın altına girip hafifçe ürperiyorum, Monika'nın bahsettiği 'orijinal' dünyada neler olmuş olabileceğini düşünerek."
     "Fakat bu düşünceleri hızla kafamdan atıyorum."
     "Orası burası değil, o yüzden odaklanmamalıyım."
     "Haah..."
@@ -3110,13 +3109,13 @@ label monikaRoute_theWeekend:
 label monikaRoute_linesOfCode:
     scene bg bedroom with open_eyes
     "Ertesi sabah uyandığımda kendimi biraz sersemlemiş hissediyorum."
-    "Monika’nın sözleri ve dün gece düşündüğüm her şey hâlâ aklımda."
+    "Monika'nın sözleri ve dün gece düşündüğüm her şey hâlâ aklımda."
     m "Ahaha, cevap vermiyorsun çünkü bunun için programlanmış bir repliğin yok, değil mi?"
     "Dün, ona göre hiçbir şey söylememem gerekiyordu."
     "Çünkü benim için 'programlanmış' bir şey yoktu."
     "Eh, sanırım eskiden bolca görsel roman oynadığım için ne demek istediğini anlayabiliyorum."
     "Gözlerimi kapatıp tekrar düşünüyorum."
-    "Eğer Monika’nın dediği doğruysa, o zaman düşüneceğim her şey önceden belirlenmiş, değil mi?"
+    "Eğer Monika'nın dediği doğruysa, o zaman düşüneceğim her şey önceden belirlenmiş, değil mi?"
     "Ama..."
     "Burada bir tür özgürlük var yine de. Monika istediğini yapabiliyor gibi görünüyor."
     "Yani tamamen haklı olamaz."
@@ -3126,12 +3125,12 @@ label monikaRoute_linesOfCode:
     "Dün gece de düşünmüştüm. Bunu söylerken o kadar ciddiydi ki, birisi onun gerçekten doğruyu söylediğini düşünebilirdi."
     "Yani, diyelim ki bu doğru... ve gerçekten de benim kontrol edemediğim bir şey."
     "Yine de elimden gelenin en iyisini yapacağım."
-    "Belki tamamen boşuna olacak, ama eğer sadece 'programlanmış' olarak Monika’nın peşinden gitmem gerekiyorsa bile, ona ulaşmak istemekten vazgeçmeyeceğim."
+    "Belki tamamen boşuna olacak, ama eğer sadece 'programlanmış' olarak Monika'nın peşinden gitmem gerekiyorsa bile, ona ulaşmak istemekten vazgeçmeyeceğim."
     "Ayrıca, yapay zekâların ve androidlerin gerçekten 'yaşadığı' hikâyeler çok var."
     "Ve insanlar onları gerçekten canlı gibi hissedebiliyor."
     "Öyleyse burada bir fark olmamalı."
     "Eğer sadece kod satırlarından ibaretsek bile, mutlu olamayacağımız anlamına mı geliyor?"
-    "Ama öte yandan, Monika’yla benim aramda kesin bir fark var."
+    "Ama öte yandan, Monika'yla benim aramda kesin bir fark var."
     "O, benim bilemediğim bir şeyi biliyor. Belki de bütün bunları tetikleyen şey budur."
     "Neyse, festival için hazırlanmalıyım."
     "Bütün bunları anlamaya çalışacaksam, onunla konuşmam gerek."
@@ -3144,7 +3143,7 @@ label monikaRoute_linesOfCode:
     mc "Festivale gidiyorsun, Sayori?"
     s "Mhm!"
     show sayori 1a at f11
-    "Sayori’nin yanına yürüyüp birlikte okula doğru ilerlemeye başlıyoruz."
+    "Sayori'nin yanına yürüyüp birlikte okula doğru ilerlemeye başlıyoruz."
     mc "Hey, Sayori."
     s 4a "Hm?"
     mc "Sence Monika festivalden mutlu olacak mı?"
@@ -3162,6 +3161,313 @@ label monikaRoute_linesOfCode:
     show sayori 1h at f11
     "Sayori bana, doğruyu söyleyip söylemediğimi tartar gibi bakıyor, sonra başını sallıyor."
     s 1r "Anlıyorum, ehehe~"
+    m "Neyi anlıyorsun?"
+    s 1c "Bir şey değil, bir şey değil. Neyse, hadi çabuk olalım, yoksa geç kalacağız!"
+    mc "Hâlâ bolca vaktimiz var..."
+    #hide sayori with wipeleft   
+    #show black with Dissolve(2.0)
+    #pause(1.5)
+    scene bg corridor with wipeleft_scene 
+    pause(1.5)
+    scene bg club_day with wipeleft_scene  
+    "Ne olursa olsun, Sayori beni bileğimden tutup sürükleyerek okula götürüyor, neşeyle zıplayarak ilerliyor."
+    "Sınıfa ulaştığımızda, Sayori kapıyı hızla açıyor."
+    show sayori 4r at f11
+    stop music fadeout 2.0
+    play music Bunkasai fadein 2.0
+    s "Günaydın, herkes!"
+    "Odadaki herkes aniden irkilerek ona bakıyor, belli ki enerjisine hazırlıksız yakalanmışlar."
+    show sayori 4a at t21
+    show natsuki 1a at f22
+    n "Hehe, birinin heyecanlı olduğu belli."
+    show sayori 1c at f21
+    show natsuki 1a at t22
+    s "Aww, ilk ben gelmemişim~"
+    mc "Ayrıca en son gelen de sendin."
+    s 2a "Hayır, değildim."
+    "Sayori hâlâ kulüp odasının dışında olduğumu göstererek parmağıyla beni işaret ediyor."
+    s "Ehehe~"
+    "Gözlerimi devirdikten sonra odaya giriyorum."
+    mc "Günaydın, millet."
+    hide sayori with wipeleft 
+    hide natsuki with wipeleft 
+    show yuri 1b at f33
+    y "Merhaba, [player]."
+    show yuri 1a at t43
+    show monika 1b at f44
+    m "Ah, merhaba [player]! Seni burada görmek güzel."
+    "Oda çoktan yarı yarıya süslenmiş, Monika ve Yuri kalan yazılı kartları asmakla meşgul."
+    "Kartlar inanılmaz güzeller; sanırım kaligrafi kalemiyle yazılmışlar."
+    "Arka tarafta, Natsuki cupcake standını düzenliyor, renk düzenini değiştiriyor, geri çekilip bir daha düzeltiyor."
+    "Odanın önünde, Monika ile birlikte hazırladığımız broşürler masada düzenli bir şekilde dizili duruyor."
+    "Monika ve Yuri'ye, duvara daha fazla yazı asmaları için yardım etmeye karar veriyorum."
+    hide monika
+    show yuri 1a at f44
+    "Son birkaç kartı da astıktan sonra, Yuri getirdiği kokulu mumları düzenlemeye gidiyor."
+    show yuri 1b at f41
+    y "Natsuki, ışıkları kapatabilir miyim?"
+    show natsuki 4b at t32
+    n "Evet, sanırım artık hazırız. Kapatabilirsin, Yuri."
+    scene bg club_LIT
+    show yuri 1b at f41
+    show natsuki 4b at t32
+    "Yuri ışığı kapatıyor ve oda kararıyor." # Buraya özel efekt eklenebilir
+    show sayori 4n at t43
+    s "Oooooh!"
+    "Mumlar, tavandan sarkan kelimeleri aydınlatacak şekilde yerleştirilmiş, ayrıca cupcakelerin de parlıyormuş gibi görünmesini sağlıyor."
+    "Odayı dolduran lavanta kokusu, burayı oldukça sofistike hissettiriyor."
+    show yuri 1c at t41
+    show natsuki 4a at t42
+    show sayori 4b at t43
+    show monika 2b at f44
+    m "Harika iş çıkardın, Yuri."
+    show monika 2a at t44
+    show yuri 2j at f41
+    y "B-benim için hiçbir şeydi."
+    show monika 2a at f44
+    show yuri 2i at t41
+    m "Hehehe."
+    "Monika ellerini birbirine vurup gülümsüyor."
+    m 4b "Tamam, herkes~"
+    show yuri 3a at t41
+    m "Hazırlıklar için harika bir iş çıkardınız!"
+    m "Sanırım her şey hazır gibi görünüyor."
+    m "Sayori, koridorda durup buraya gelenleri içeri çekmeye çalışabiliriz."
+    show monika 2a at t44
+    show sayori 4c at f43
+    s "Bana güvenebilirsin~"
+    mc "Peki ya biz ne yapacağız?"
+    show monika 2b at f44
+    show sayori 4a at t43
+    m "Hmm... şey, eğer birileri kulübümüz hakkında sorular sorarsa, onlara cevap verebilir misiniz?"
+    show monika 2a at t44
+    show natsuki 4b at f42
+    label festival_poems:
+    n "Sanırım bunu yapabiliriz."
+    show natsuki 4a at t42
+    show yuri 2b at f41
+    y "Evet..."
+    show yuri 2a at f41
+    mc "Pekâlâ, deneyeceğiz."
+    show monika 4b at f44
+    m "Eğer cevaplayamayacağınız bir soru olursa, çekinmeden bana gelin."
+    m "Neyse, herkese iyi şanslar!"
+    hide sayori# with wipeleft 
+    hide monika# with wipeleft
+    with wipeleft
+    "Bununla birlikte, Monika ve Sayori odadan ayrılıyor."
+    hide yuri
+    hide natsuki 
+    with wipeleft
+    "Geriye kalan bizler ise gelen ziyaretçilere hazır olmak için son hazırlıkları yapıyoruz."
+    "Dakikalar yavaşça geçiyor. Birkaç kişi odaya giriyor, oturuyor. Bazıları odanın fotoğraflarını da çekiyor."
+    "Yaklaşık otuz dakika sonra, içeride on sekiz kadar insan var. Natsuki'nin cupcakeleri oldukça popüler görünüyor."
+    "Aralarından birkaçını sınıfımdan tanıyorum, ama isimlerini hatırlayamıyorum."
+    "Umarım onlar da beni tanımazlar..."
+    
+    show monika 4b at f44
+    m "Tamam, herkes!"
+    show monika 4b at f43
+    show sayori 4a at t44
+    "Monika ellerini çırpıp gülümseyince odadaki herkes dikkatini ona çeviriyor. Arkasında, Sayori kapıyı kapatıyor."
+    hide monika with wipeleft
+    hide sayori with wipeleft
+    scene bg class_night with wipeleft_scene
+    "İkili yavaşça odanın önüne doğru ilerlerken Monika konuşmaya devam ediyor."
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Eğer kendimi tanımadıysam, ben Monika. Edebiyat Kulübü'nün başkanıyım."
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    s "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3a at t11 zorder 1
+    show sayori 1a at f21 zorder 2
+    m "Merhaba, merhaba! Ben Sayori, başkan yardımcısıyım~"
+    show monika 3b at f11 zorder 2
+    show sayori 1a at t21 zorder 1
     mc "Neyi anlıyorsun?"
     s 1c "Bir şey değil, bir şey değil. Neyse, hadi çabuk olalım, yoksa geç kalacağız!"
     mc "Hâlâ bolca vaktimiz var..."
@@ -4235,153 +4541,155 @@ show yuri 2b at f41
 y "Üz-günüm, çok fazla gürültü yaptık galiba..."
     show yuri 2a at t41
     show monika 1b at f44
-    	m "Hayır, hayır, sorun değil. Herkesin enerjik olması güzel. Bugün hepiniz şiirlerinizi getirdiniz, değil mi?"
-	"Hepimiz kısa birer onay mırıldanmasıyla cevap veriyoruz."
-	m 1g "Yine de biraz üzgünüm, yeni bir üye kazanamadık..."
-	m 3k "Ama sorun değil."
-	m "Sonuçta, her zaman gelecek yıl var, değil mi?"
-	hide sayori 
-	hide yuri 
-	hide natsuki 
-	hide monika 
-	with wipeleft
-	"Tabii, eğer Monika haklıysa, ‘oyun’ izin vermediği sürece bir ‘gelecek yıl’ diye bir şey yok."
-	"Bunun onu neden üzdüğünü anlayabiliyorum..."
-	"Ölümü kabullenmek zaten yeterince zor bir şey..."
-	"Ama bir de ölümün bile gerçek bir son olmadığını, sadece..."
-	"Her şeyin tamamen sona erdiğini bilmek... hiçbir şeyin ilerleyemeyeceğini..."
-	"Monika’nın o mutlu gülümsemesini koruyabilmesi gerçekten inanılmaz bir şey."
-	"Ben olsam yapamazdım."
-	"Belki de olay tam olarak burada."
-	"‘Edebiyat Kulübü Başkanı’ olarak kendini meşgul ettiği sürece, bunları düşünmek zorunda kalmıyor."
-	"Tıpkı benim şu an yaptığım gibi."
-	"Kafamı iki yana sallıyorum ve Sayori’nin omzuma hafifçe dokunduğunu fark ediyorum."
-	show sayori 1a at f11
-	mc "Ah, pardon."
-	s 1b "Yine derste uyuyakaldın mı yoksa?"
-	mc "Uyanıktım aslında, bari burada biraz dinleneyim."
-	s "Emin misiiiin?"
-	mc "Yüzde yüz eminim."
-	s 1r "Tamam öyleyse~"
-	hide sayori with wipeleft
-	"Kulüpte sıradan bir gün."
-	"Yuri kenarda kitabına gömülmüş, Natsuki arka köşede mangasını okuyor, Sayori ve Monika ise her zamanki gibi sohbet ediyor."
-	"Ben ise burada, masada dinleniyorum."
-	stop music fadeout 2.0
-	show black with close_eyes
-	"Kollarımı yastık gibi kullanarak başımı masaya koyuyorum ve gözlerimi kapatıyorum. Pencereden gelen güneş ışığının gözlerime vurmaması için başımı diğer tarafa çeviriyorum."
-	"Eskiden sınıfta sık sık uyuduğum için, sanki eski bir dostu selamlamak gibi geliyor."
-	"Keşke gerçekten öyle olsaydı."
-	"Ama bunun yerine aklım sürekli Monika’ya ve şu an içinde bulunduğum duruma kayıyor."
-	"Her şeyin eskisi gibi olmasını ne kadar istesem de..."
-	"Bunun beni sürekli rahatsız edeceğini biliyorum."
-	"Düşüncelerim, birinin masasını çektiğini duyduğum anda bölünüyor."
-	scene bg club_day with open_eyes
-	"Gözlerimi açtığımda, Monika’nın masasını benimkine çektiğini görüyorum."
-	mc "Monika?"
-	show monika 1g at f11
-	play music MonTheme fadein 2.0
-	m "Ah, seni rahatsız mı ettim?"
-	mc "Yok, pek de uyuyamamıştım zaten."
-	m 3k "Belli oluyordu. Yüzün sanki derin düşüncelere dalmış gibiydi."
-	m 1b "Endişelendim, o yüzden konuşmak istedim."
-	mc "Ah. Aslında çok da önemli bir şey değil..."
-	m 5a "Kulüp üyelerimden birini rahatsız eden bir şey varsa, benim için önemlidir~"
-	m 1b "Ama anlatmak istemiyorsan, sorun değil."
-	mc "Şey..."
-	mc "Aslında... şey hakkında..."
-	show monika 1o at f11
-	"Monika, ne hakkında konuşmaya çalıştığımı anladığında yüzünde bir anlığına bir tereddüt beliriyor."
-	show monika 5a at f11
-	m "Ne hakkında~?"
-	"Ama hemen ardından yüzüne yine o tanıdık gülümsemesini yerleştiriyor."
-	m 2b "Konuşmak istemiyorsan anlarım, ama eğer anlatmak istersen, düşüncelerini okuyamam."
-	m 3g "Ah, biraz sert oldu sanırım..."
-	m 1m "Üzgünüm..."
-	mc "H-hayır, sorun değil!"
-	mc "Sadece... sanırım henüz konuşmaya hazır değilim."
-	m 1b "Tamam."
-	m "Ama eğer bir gün konuşmak istersen, Sayori’ye de anlatabilirsin."
-	m "Siz ikiniz oldukça yakınsınız, değil mi?"
-	mc "Evet..."
-	mc "Teşekkürler."
-	"Tam Monika’nın tuzağına düştüm."
-	"Ne hakkında konuştuğumu bildiğini biliyorum, ama konuyu açmamayı seçti."
-	"Çünkü bunun hakkında düşünmek bile ona acı veriyor."
+    m "Hayır, hayır, sorun değil. Herkesin enerjik olması güzel. Bugün hepiniz şiirlerinizi getirdiniz, değil mi?"
+    "Hepimiz kısa birer onay mırıldanmasıyla cevap veriyoruz."
+    m 1g "Yine de biraz üzgünüm, yeni bir üye kazanamadık..."
+    m 3k "Ama sorun değil."
+    m "Sonuçta, her zaman gelecek yıl var, değil mi?"
+    hide sayori 
+    hide yuri 
+    hide natsuki 
+    hide monika 
+    with wipeleft
+    "Tabii, eğer Monika haklıysa, ‘oyun’ izin vermediği sürece bir ‘gelecek yıl’ diye bir şey yok."
+    "Bunun onu neden üzdüğünü anlayabiliyorum..."
+    "Ölümü kabullenmek zaten yeterince zor bir şey..."
+    "Ama bir de ölümün bile gerçek bir son olmadığını, sadece..."
+    "Her şeyin tamamen sona erdiğini bilmek... hiçbir şeyin ilerleyemeyeceğini..."
+    "Monika’nın o mutlu gülümsemesini koruyabilmesi gerçekten inanılmaz bir şey."
+    "Ben olsam yapamazdım."
+    "Belki de olay tam olarak burada."
+    "‘Edebiyat Kulübü Başkanı’ olarak kendini meşgul ettiği sürece, bunları düşünmek zorunda kalmıyor."
+    "Tıpkı benim şu an yaptığım gibi."
+    "Kafamı iki yana sallıyorum ve Sayori’nin omzuma hafifçe dokunduğunu fark ediyorum."
+    show sayori 1a at f11
+    mc "Ah, pardon."
+    s 1b "Yine derste uyuyakaldın mı yoksa?"
+    mc "Uyanıktım aslında, bari burada biraz dinleneyim."
+    s "Emin misiiiin?"
+    mc "Yüzde yüz eminim."
+    s 1r "Tamam öyleyse~"
+    hide sayori with wipeleft
+    "Kulüpte sıradan bir gün."
+    "Yuri kenarda kitabına gömülmüş, Natsuki arka köşede mangasını okuyor, Sayori ve Monika ise her zamanki gibi sohbet ediyor."
+    "Ben ise burada, masada dinleniyorum."
+    stop music fadeout 2.0
+    show black with close_eyes
+    "Kollarımı yastık gibi kullanarak başımı masaya koyuyorum ve gözlerimi kapatıyorum. Pencereden gelen güneş ışığının gözlerime vurmaması için başımı diğer tarafa çeviriyorum."
+    "Eskiden sınıfta sık sık uyuduğum için, sanki eski bir dostu selamlamak gibi geliyor."
+    "Keşke gerçekten öyle olsaydı."
+    "Ama bunun yerine aklım sürekli Monika’ya ve şu an içinde bulunduğum duruma kayıyor."
+    "Her şeyin eskisi gibi olmasını ne kadar istesem de..."
+    "Bunun beni sürekli rahatsız edeceğini biliyorum."
+    "Düşüncelerim, birinin masasını çektiğini duyduğum anda bölünüyor."
+    scene bg club_day with open_eyes
+    "Gözlerimi açtığımda, Monika’nın masasını benimkine çektiğini görüyorum."
+    mc "Monika?"
+    show monika 1g at f11
+    play music MonTheme fadein 2.0
+    m "Ah, seni rahatsız mı ettim?"
+    mc "Yok, pek de uyuyamamıştım zaten."
+    m 3k "Belli oluyordu. Yüzün sanki derin düşüncelere dalmış gibiydi."
+    m 1b "Endişelendim, o yüzden konuşmak istedim."
+    mc "Ah. Aslında çok da önemli bir şey değil..."
+    m 5a "Kulüp üyelerimden birini rahatsız eden bir şey varsa, benim için önemlidir~"
+    m 1b "Ama anlatmak istemiyorsan, sorun değil."
+    mc "Şey..."
+    mc "Aslında... şey hakkında..."
+    show monika 1o at f11
+    "Monika, ne hakkında konuşmaya çalıştığımı anladığında yüzünde bir anlığına bir tereddüt beliriyor."
+    show monika 5a at f11
+    m "Ne hakkında~?"
+    "Ama hemen ardından yüzüne yine o tanıdık gülümsemesini yerleştiriyor."
+    m 2b "Konuşmak istemiyorsan anlarım, ama eğer anlatmak istersen, düşüncelerini okuyamam."
+    m 3g "Ah, biraz sert oldu sanırım..."
+    m 1m "Üzgünüm..."
+    mc "H-hayır, sorun değil!"
+    mc "Sadece... sanırım henüz konuşmaya hazır değilim."
+    m 1b "Tamam."
+    m "Ama eğer bir gün konuşmak istersen, Sayori’ye de anlatabilirsin."
+    m "Siz ikiniz oldukça yakınsınız, değil mi?"
+    mc "Evet..."
+    mc "Teşekkürler."
+    "Tam Monika’nın tuzağına düştüm."
+    "Ne hakkında konuştuğumu bildiğini biliyorum, ama konuyu açmamayı seçti."
+    "Çünkü bunun hakkında düşünmek bile ona acı veriyor."
     show monika 5a at f11
     pause(1.5)
     show monika 5a at lhide
     hide monika
-    	"Monika'nın ayağa kalkıp omzuma hafifçe dokunduğunu ve diğer kulüp üyelerine göz kulak olmak için yanımdan ayrıldığını izliyorum."
-	stop music fadeout 2.0
-	"Monika..."
-	"Bugünkü şiirime nasıl tepki verecek acaba?"
-	"Eğer böyle davranacaksa..."
-	"Sanırım bekleyip görmem gerekecek."
-	"Şiirleri paylaşma vakti gelene kadar biraz dinlenmeye çalışıyorum, ama düşüncelerim sürekli dağılıyor."
-	"Bu dünyanın sadece bir 'oyun' olup olmadığıyla ilgili düşünceler, ne kadar bunun benim için bir şeyi değiştirmediğini kendime söylemiş olsam da, sinir bozucu bir şekilde aklımı meşgul ediyor."
-	"Bu, 'Komik olurdu hani' deyip garip şeyler hayal ederek eğlenebileceğin türden bir senaryo bile değil."
-	"Özellikle de Monika'nın buna bu kadar ciddi şekilde inanıyor gibi göründüğünü düşününce."
-	"Normalde birisi böyle düşündüğünü söylese, ona yardım almasını önerirdin, değil mi? Ama içimde bir şey, ona inanmaya itiyor beni."
-	"Ya da belki de sadece... Monika olduğu için kendimi kaptırıyorum."
-	"Eğer Sayori gelip bana böyle bir şey söyleseydi, aynı tepkiyi verir miydim, emin değilim."
-	play music aNewDay fadein 2.0
-	show monika 4k at t11
-	m "Tamam, herkes~!"
-	"Monika'nın klasik çağrısını yapmasıyla herkes ona dikkat kesiliyor."
-	"Her zaman olduğu gibi, önce birbirimize kısa bir bakış atıyoruz, sanki Monika’nın gerçekten şiirleri paylaşmamızı istediğini doğrulamak ister gibi."
-	"Artık birbirimizi biraz daha iyi tanıyoruz, festival ve sürekli şiir paylaşımı sayesinde, bu yüzden artık 'Bilinmeyen biri yazımı okuyacak' gerginliğinden çok, 'Umarım hala güzel olmuştur' düşüncesine kayıyor."
-	m "Şiirleri paylaşma vakti geldi!"
-	$ s_readpoem = False
-	$ n_readpoem = False
-	$ y_readpoem = False
-	$ m_readpoem = False
-	"Bunu zaten bekliyordum, ama işte yine buradayız."
-	hide monika with wipeleft
-	call monikaRoute_fourWallsPoemSharing
-	return
+    "Monika'nın ayağa kalkıp omzuma hafifçe dokunduğunu ve diğer kulüp üyelerine göz kulak olmak için yanımdan ayrıldığını izliyorum."
+    stop music fadeout 2.0
+    "Monika..."
+    "Bugünkü şiirime nasıl tepki verecek acaba?"
+    "Eğer böyle davranacaksa..."
+    "Sanırım bekleyip görmem gerekecek."
+    "Şiirleri paylaşma vakti gelene kadar biraz dinlenmeye çalışıyorum, ama düşüncelerim sürekli dağılıyor."
+    "Bu dünyanın sadece bir 'oyun' olup olmadığıyla ilgili düşünceler, ne kadar bunun benim için bir şeyi değiştirmediğini kendime söylemiş olsam da, sinir bozucu bir şekilde aklımı meşgul ediyor."
+    "Bu, 'Komik olurdu hani' deyip garip şeyler hayal ederek eğlenebileceğin türden bir senaryo bile değil."
+    "Özellikle de Monika'nın buna bu kadar ciddi şekilde inanıyor gibi göründüğünü düşününce."
+    "Normalde birisi böyle düşündüğünü söylese, ona yardım almasını önerirdin, değil mi? Ama içimde bir şey, ona inanmaya itiyor beni."
+    "Ya da belki de sadece... Monika olduğu için kendimi kaptırıyorum."
+    "Eğer Sayori gelip bana böyle bir şey söyleseydi, aynı tepkiyi verir miydim, emin değilim."
+    play music aNewDay fadein 2.0
+    show monika 4k at t11
+    m "Tamam, herkes~!"
+    "Monika'nın klasik çağrısını yapmasıyla herkes ona dikkat kesiliyor."
+    "Her zaman olduğu gibi, önce birbirimize kısa bir bakış atıyoruz, sanki Monika’nın gerçekten şiirleri paylaşmamızı istediğini doğrulamak ister gibi."
+    "Artık birbirimizi biraz daha iyi tanıyoruz, festival ve sürekli şiir paylaşımı sayesinde, bu yüzden artık 'Bilinmeyen biri yazımı okuyacak' gerginliğinden çok, 'Umarım hala güzel olmuştur' düşüncesine kayıyor."
+    m "Şiirleri paylaşma vakti geldi!"
+    $ s_readpoem = False
+    $ n_readpoem = False
+    $ y_readpoem = False
+    $ m_readpoem = False
+    "Bunu zaten bekliyordum, ama işte yine buradayız."
+    hide monika with wipeleft
+    call monikaRoute_fourWallsPoemSharing
+    return
+
 
 label monikaRoute_fourWallsPoemSharing:
-	# TAMAM, LABEL KULLANIMI ZAMANI
-	#if(not s_readpoem or not n_readpoem or not y_readpoem or not m_readpoem):
-	"Kime şiirimi paylaşsam..."
-	#else:
-	#    "Pekala, herkes şiirini paylaştı."
-	menu:
-		"Sayori" if not s_readpoem:
-			call monikaRoute_sayoriPoem
-		"Natsuki" if not n_readpoem:
-			call monikaRoute_natsukiPoem
-		"Yuri" if not y_readpoem:
-			call monikaRoute_yuriPoem
-		"Monika" if not m_readpoem:
-			call monikaRoute_monikaPoem
+    # TAMAM, LABEL KULLANIMI ZAMANI
+    #if(not s_readpoem or not n_readpoem or not y_readpoem or not m_readpoem):
+    "Kime şiirimi paylaşsam..."
+    #else:
+    #    "Pekala, herkes şiirini paylaştı."
+    menu:
+        "Sayori" if not s_readpoem:
+            call monikaRoute_sayoriPoem
+        "Natsuki" if not n_readpoem:
+            call monikaRoute_natsukiPoem
+        "Yuri" if not y_readpoem:
+            call monikaRoute_yuriPoem
+        "Monika" if not m_readpoem:
+            call monikaRoute_monikaPoem
 
-	"Peki, sıradaki kim olsun?"
 
-	menu:
-		"Sayori" if not s_readpoem:
-			call monikaRoute_sayoriPoem
-		"Natsuki" if not n_readpoem:
-			call monikaRoute_natsukiPoem
-		"Yuri" if not y_readpoem:
-			call monikaRoute_yuriPoem
-		"Monika" if not m_readpoem:
-			call monikaRoute_monikaPoem
+    "Peki, sıradaki kim olsun?"
 
-	"Peki, sıradaki kim olsun?"
+    menu:
+        "Sayori" if not s_readpoem:
+            call monikaRoute_sayoriPoem
+        "Natsuki" if not n_readpoem:
+            call monikaRoute_natsukiPoem
+        "Yuri" if not y_readpoem:
+            call monikaRoute_yuriPoem
+        "Monika" if not m_readpoem:
+            call monikaRoute_monikaPoem
 
-	menu:
-		"Sayori" if not s_readpoem:
-			call monikaRoute_sayoriPoem
-		"Natsuki" if not n_readpoem:
-			call monikaRoute_natsukiPoem
-		"Yuri" if not y_readpoem:
-			call monikaRoute_yuriPoem
-		"Monika" if not m_readpoem:
-			call monikaRoute_monikaPoem
+    "Peki, sıradaki kim olsun?"
 
-	"Sadece bir kişi kaldı..."
+    menu:
+        "Sayori" if not s_readpoem:
+            call monikaRoute_sayoriPoem
+        "Natsuki" if not n_readpoem:
+            call monikaRoute_natsukiPoem
+        "Yuri" if not y_readpoem:
+            call monikaRoute_yuriPoem
+        "Monika" if not m_readpoem:
+            call monikaRoute_monikaPoem
+
+    "Sadece bir kişi kaldı..."
 
     menu:
         "Sayori" if not s_readpoem:
@@ -4406,87 +4714,87 @@ label monikaRoute_yuriPoem:
     show yuri 1e at f11
     with wipeleft_scene 
     label monikaRoute_yuriPoem:
-	$ y_readpoem = True
-	play music YuriTheme fadein 2.0
-	scene bg club_day
-	show yuri 1b at f11
-	with wipeleft_scene
-	y "Hmm..."
-	y 1b "Tam olarak benim tarzım değil ama teknik olarak oldukça iyi."
-	y "Kulübe gelmeden önce hiç yazmadığına hala inanmakta zorlanıyorum."
-	y "Ama, hmm..."
-	y "Bunu tanımlayacak iyi bir kelime sanırım 'ham' olurdu."
-	y "Mecazlar ve benzeri sanatsal öğeleri kullansan da, kelimelerin ardındaki duygular çok net bir şekilde hissediliyor."
-	show yuri 2j at f11
-	"Yuri biraz utangaç bir gülümsemeyle bakışlarını kaçırıyor."
-	y "Ama sanırım böyle olması normal, değil mi..."
-	mc "Yuri?"
-	y 2a "Önemli bir şey değil, [player]."
-	y "Ah, doğru ya, işte benim şiirim..."
-	scene bg club_day
-	show yuri 1a at f11
-	with wipeleft_scene
-	mc "Beğendim."
-	"Tam bir 'Yuri' şiiri olmuş."
-	"Artık onun tarzına aşina olduğum için mecazlarını biraz daha iyi kavrayabiliyorum."
-	"Gerçi asıl anlamlarını hala tam çözemiyorum."
-	"Aa, bir şey söylemem gerek, değil mi?"
-	"Yuri muhtemelen cevabımı bekliyor."
-	mc "Güzel olmuş."
-	mc "Belki benim gibi biri için biraz süslü kaçıyor ama festivalde gördüğün şeyleri ve hislerini bu şekilde yansıtabilmişsin."
-	mc "Festivali beğendin sanırım?"
-	y 1c "Mhm."
-	mc "Sanırım havai fişekler de sana ilham vermiş."
-	y "Biraz klişe gelebilir ama... aklıma ilk gelen şey buydu."
-	mc "Klişe olmak kötü bir şey değil ki, değil mi?"
-	y 2b "Doğru. Doğru şekilde kullanıldığında izleyici farkına bile varmaz."
-	y "Ama bunu başarmak oldukça zor olabilir."
-	y "Neyse, şiirimi okuduğun için teşekkür ederim."
-	mc "Ben de benimkini okuduğun için teşekkür ederim."
-	stop music fadeout 3.0
-	hide yuri with wipeleft
-	#jump monikaRoute_fourWallsPoemSharing
-	return
+    $ y_readpoem = True
+    play music YuriTheme fadein 2.0
+    scene bg club_day
+    show yuri 1b at f11
+    with wipeleft_scene
+    y "Hmm..."
+    y 1b "Tam olarak benim tarzım değil ama teknik olarak oldukça iyi."
+    y "Kulübe gelmeden önce hiç yazmadığına hala inanmakta zorlanıyorum."
+    y "Ama, hmm..."
+    y "Bunu tanımlayacak iyi bir kelime sanırım 'ham' olurdu."
+    y "Mecazlar ve benzeri sanatsal öğeleri kullansan da, kelimelerin ardındaki duygular çok net bir şekilde hissediliyor."
+    show yuri 2j at f11
+    "Yuri biraz utangaç bir gülümsemeyle bakışlarını kaçırıyor."
+    y "Ama sanırım böyle olması normal, değil mi..."
+    mc "Yuri?"
+    y 2a "Önemli bir şey değil, [player]."
+    y "Ah, doğru ya, işte benim şiirim..."
+    scene bg club_day
+    show yuri 1a at f11
+    with wipeleft_scene
+    mc "Beğendim."
+    "Tam bir 'Yuri' şiiri olmuş."
+    "Artık onun tarzına aşina olduğum için mecazlarını biraz daha iyi kavrayabiliyorum."
+    "Gerçi asıl anlamlarını hala tam çözemiyorum."
+    "Aa, bir şey söylemem gerek, değil mi?"
+    "Yuri muhtemelen cevabımı bekliyor."
+    mc "Güzel olmuş."
+    mc "Belki benim gibi biri için biraz süslü kaçıyor ama festivalde gördüğün şeyleri ve hislerini bu şekilde yansıtabilmişsin."
+    mc "Festivali beğendin sanırım?"
+    y 1c "Mhm."
+    mc "Sanırım havai fişekler de sana ilham vermiş."
+    y "Biraz klişe gelebilir ama... aklıma ilk gelen şey buydu."
+    mc "Klişe olmak kötü bir şey değil ki, değil mi?"
+    y 2b "Doğru. Doğru şekilde kullanıldığında izleyici farkına bile varmaz."
+    y "Ama bunu başarmak oldukça zor olabilir."
+    y "Neyse, şiirimi okuduğun için teşekkür ederim."
+    mc "Ben de benimkini okuduğun için teşekkür ederim."
+    stop music fadeout 3.0
+    hide yuri with wipeleft
+    #jump monikaRoute_fourWallsPoemSharing
+    return
 
 label monikaRoute_natsukiPoem:
-	$ n_readpoem = True
-	play music NatTheme fadein 2.0
-	scene bg club_day
-	show natsuki 1c at f11
-	with wipeleft_scene
-	n "..."
-	n "Fena değil."
-	mc "Fena değil mi?"
-	n "Yani... diğer şiirlerin gibi diyelim."
-	n 4b "Tondan başka çok da öne çıkan bir yanı yok."
-	n "Ama kötü değil."
-	n 2a "Bana biraz Monika’nın yazı stiline benziyormuş gibi geldi."
-	n "Evet, onun gibi, ama o kadar iyi değil."
-	"Sert bir yorum."
-	n 2b "Ama en azından kendi tarzını koruyorsun. Okuması çok zor değil ama Yuri’ninki kadar soyut da değil."
-	n "O yüzden sanırım fena değil."
-	"Natsuki’nin yorumuna göre şiirim kötü değil, bu da yeterli sanırım."
-	n "Neyse, işte benimki."
-	scene bg club_day
-	show natsuki 4c at f11
-	with wipeleft_scene
-	"Natsuki’nin her zamanki doğrudan tarzında yazılmış."
-	"Artık buna alıştım."
-	n "Ne düşünüyorsun?"
-	mc "Bence güzel. Mesajı net bir şekilde veriyor."
-	mc "Genelde bunun üzerinde duruyorsun, o yüzden dikkatimi çekti."
-	mc "Sanırım sen de havai fişekler hakkında yazmışsın?"
-	n 1b "Etkileyiciydiler, o yüzden tabii ki."
-	n 1e "Bunun nesi garip?"
-	mc "Garip değil."
-	mc "Hem, şiir kötü değil. Zaten herkes havai fişekler hakkında yazıyor gibi görünüyor."
-	n 5b "Hmph. Seninki de farklı değildi ama."
-	mc "Haha, evet..."
-	"Durumu biraz yumuşatmak için gülüyorum."
-	"Sanırım işe yarıyor."
-	n 1a "Ama yine de teşekkür ederim."
-	n "Şiirimi okuduğun için en azından."
-	mc "Ben de seninkini okuduğun için teşekkür ederim."
+    $ n_readpoem = True
+    play music NatTheme fadein 2.0
+    scene bg club_day
+    show natsuki 1c at f11
+    with wipeleft_scene
+    n "..."
+    n "Fena değil."
+    mc "Fena değil mi?"
+    n "Yani... diğer şiirlerin gibi diyelim."
+    n 4b "Tondan başka çok da öne çıkan bir yanı yok."
+    n "Ama kötü değil."
+    n 2a "Bana biraz Monika’nın yazı stiline benziyormuş gibi geldi."
+    n "Evet, onun gibi, ama o kadar iyi değil."
+    "Sert bir yorum."
+    n 2b "Ama en azından kendi tarzını koruyorsun. Okuması çok zor değil ama Yuri’ninki kadar soyut da değil."
+    n "O yüzden sanırım fena değil."
+    "Natsuki’nin yorumuna göre şiirim kötü değil, bu da yeterli sanırım."
+    n "Neyse, işte benimki."
+    scene bg club_day
+    show natsuki 4c at f11
+    with wipeleft_scene
+    "Natsuki’nin her zamanki doğrudan tarzında yazılmış."
+    "Artık buna alıştım."
+    n "Ne düşünüyorsun?"
+    mc "Bence güzel. Mesajı net bir şekilde veriyor."
+    mc "Genelde bunun üzerinde duruyorsun, o yüzden dikkatimi çekti."
+    mc "Sanırım sen de havai fişekler hakkında yazmışsın?"
+    n 1b "Etkileyiciydiler, o yüzden tabii ki."
+    n 1e "Bunun nesi garip?"
+    mc "Garip değil."
+    mc "Hem, şiir kötü değil. Zaten herkes havai fişekler hakkında yazıyor gibi görünüyor."
+    n 5b "Hmph. Seninki de farklı değildi ama."
+    mc "Haha, evet..."
+    "Durumu biraz yumuşatmak için gülüyorum."
+    "Sanırım işe yarıyor."
+    n 1a "Ama yine de teşekkür ederim."
+    n "Şiirimi okuduğun için en azından."
+    mc "Ben de seninkini okuduğun için teşekkür ederim."
     stop music fadeout 3.0
     hide natsuki with wipeleft
     #jump monikaRoute_fourWallsPoemSharing
@@ -4501,38 +4809,38 @@ label monikaRoute_sayoriPoem:
     show sayori 4m at f11
     with wipeleft_scene 
     s "Oooooh!"
-	s 1x "Bunu gerçekten çok beğendim, [player]~"
-	s 1a "Ehehe, ama neredeyse kaybolmuş bir köpek yavrusu gibi yazmışsın..."
-	mc "Ee, Sayori..."
-	s 5b "Ah, şey..."
-	s 1a "Yani, şiiri okurken öyle bir his verdi, aklıma direkt o geldi."
-	mc "Sanırım... teşekkür ederim?"
-	s "Ama yine de güzel olmuş!"
-	s 1b "Gerçi {i}Monika{/i} gibi yazmışsın biraz."
-	"Sayori'nin Monika'nın adını özellikle vurgulamasına tepki vermemek için kendimi zor tutuyorum."
-	s 2q "Ehehe~"
-	s 1b "Ama hala inanamıyorum, önceden hiç yazmadığını söylemiştin."
-	s "Gerçekten güzel yazıyorsun, [player]."
-	s "Sanırım sen de havai fişekleri beğenmişsin."
-	mc "Sanırım hiçbirimiz beğenmemiş olamayız."
-	s "Hmm, doğru."
-	s "Neyse, işte benim şiirim!"
-	scene bg club_day
-	show sayori 5a at f11
-	with wipeleft_scene
-	s "Ee, nasıl?"
-	mc "Güzel."
-	mc "Gerçi burada herkes iyi yazıyor, o yüzden elbette güzel olacak."
-	s 1a "Teşekkürler~"
-	mc "Okuması kolay, rahatlatıcı bir havası var."
-	s "Mhm."
-	mc "Belki birkaç kelimeyi değiştirsen daha iyi uyum sağlayabilir ama bu tamamen benim kişisel fikrim. Tam senin tarzın olmuş, Sayori."
-	s "Anladım~"
-	s 1q "Önerilerin için teşekkürler, [player]~"
-	stop music fadeout 3.0
-	hide sayori with wipeleft
-	#jump monikaRoute_fourWallsPoemSharing
-	return
+    s 1x "Bunu gerçekten çok beğendim, [player]~"
+    s 1a "Ehehe, ama neredeyse kaybolmuş bir köpek yavrusu gibi yazmışsın..."
+    mc "Ee, Sayori..."
+    s 5b "Ah, şey..."
+    s 1a "Yani, şiiri okurken öyle bir his verdi, aklıma direkt o geldi."
+    mc "Sanırım... teşekkür ederim?"
+    s "Ama yine de güzel olmuş!"
+    s 1b "Gerçi {i}Monika{/i} gibi yazmışsın biraz."
+    "Sayori'nin Monika'nın adını özellikle vurgulamasına tepki vermemek için kendimi zor tutuyorum."
+    s 2q "Ehehe~"
+    s 1b "Ama hala inanamıyorum, önceden hiç yazmadığını söylemiştin."
+    s "Gerçekten güzel yazıyorsun, [player]."
+    s "Sanırım sen de havai fişekleri beğenmişsin."
+    mc "Sanırım hiçbirimiz beğenmemiş olamayız."
+    s "Hmm, doğru."
+    s "Neyse, işte benim şiirim!"
+    scene bg club_day
+    show sayori 5a at f11
+    with wipeleft_scene
+    s "Ee, nasıl?"
+    mc "Güzel."
+    mc "Gerçi burada herkes iyi yazıyor, o yüzden elbette güzel olacak."
+    s 1a "Teşekkürler~"
+    mc "Okuması kolay, rahatlatıcı bir havası var."
+    s "Mhm."
+    mc "Belki birkaç kelimeyi değiştirsen daha iyi uyum sağlayabilir ama bu tamamen benim kişisel fikrim. Tam senin tarzın olmuş, Sayori."
+    s "Anladım~"
+    s 1q "Önerilerin için teşekkürler, [player]~"
+    stop music fadeout 3.0
+    hide sayori with wipeleft
+    #jump monikaRoute_fourWallsPoemSharing
+    return
 
 label monikaRoute_monikaPoem:
 	$ m_readpoem = True

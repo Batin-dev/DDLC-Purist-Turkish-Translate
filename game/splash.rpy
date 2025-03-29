@@ -22,7 +22,9 @@ init python:
     "O senin için bekliyor.",
     "Benim için de bir tane var mı?",
     "Bu oyun resmi olmayan bir hayran çalışmasıdır, Team Salvato ile bağlantısı yoktur.",
-    "Tekrar hoş geldin."
+    "Tekrar hoş geldin.",
+    "Çeviren : Batın & Emir",
+    "Sevgiyle yapıldı ve çevrildi <3",
     ]
 
 image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)

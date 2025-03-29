@@ -295,7 +295,7 @@ label ch4_main:
 
     return
 
-
+label ch4_exclusive_natsuki:
     play music t6 fadeout 2.0
     scene bg house with wipeleft_scene
     $natsukiRoute = True
@@ -1279,3 +1279,6 @@ label ch4_end:
 
 
     return
+
+
+

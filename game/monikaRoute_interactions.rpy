@@ -1,7 +1,7 @@
 label monikaRoute_sayoriInteract:
     $ s_interact = True
     show sayori 1a at t11
-        s "Merhaba, [player]!"
+    s "Merhaba, [player]!"
     "Sayori'nin sesini duyunca elimi kaldırıp ona el sallarım."
 
     show sayori 1c at f11
@@ -102,7 +102,7 @@ label monikaRoute_sayoriInteract:
     "Ben şarkım üzerinde çalışmaya devam etmeye çalışıyorum. Sayori masasını yaklaştırıp yanımda oturuyor ve o da kendi şarkısını yazmaya başlıyor."
     show sayori at thide 
     hide sayori
-        "Gün sakin geçiyor. Kalemlerin kağıt üzerinde süzülüşü ve arada bir kelimeleri oturtamamanın getirdiği homurtular dışında pek bir ses yok."
+    "Gün sakin geçiyor. Kalemlerin kağıt üzerinde süzülüşü ve arada bir kelimeleri oturtamamanın getirdiği homurtular dışında pek bir ses yok."
     "Genel olarak huzurlu bir gün denebilir."
     show sayori 1a at t11
     s 1c "Hey, [player]."
@@ -148,7 +148,7 @@ label monikaRoute_natsukiInteract:
     stop music fadeout 3.0
     play music NatTheme fadein 3.0
     show natsuki 2b at t44
-        n "He--"
+    n "He--"
     show natsuki 4q at t43
     show sayori 1c at t44
     s "Ah, merhaba [player]!"
@@ -212,7 +212,7 @@ label monikaRoute_natsukiInteract:
     n "S-sayori!"
     show natsuki 1i at t43 zorder 2
     show sayori 1q at t22 zorder 1
-        "Ağzımı açamadan önce Sayori, Natsuki'yi biraz gereğinden sert bir şekilde bana doğru itiyor."
+    "Ağzımı açamadan önce Sayori, Natsuki'yi biraz gereğinden sert bir şekilde bana doğru itiyor."
     mc "Seni yakaladım!"
     hide sayori with dissolve
     show natsuki 1i at f11
@@ -265,7 +265,7 @@ label monikaRoute_natsukiInteract:
     hide monika 
     hide natsuki 
     hide sayori 
-        "Herkes bu karardan memnun görünüyor ve kendi işine geri dönüyor."
+    "Herkes bu karardan memnun görünüyor ve kendi işine geri dönüyor."
     "Neyse ki sabah yanımda birkaç manga getirmişim."
     "Yanımda getirdiğim ciltlerden birini açıp okumaya başlıyorum."
     
@@ -379,7 +379,7 @@ label monikaRoute_yuriInteract:
     hide sayori 
     hide yuri
     stop music fadeout 2.0
-        "Bununla birlikte, herkes kendi işine geri dönüyor."
+    "Bununla birlikte, herkes kendi işine geri dönüyor."
     "Zaman yavaşlamış gibi hissettiriyor, sabah raftan aldığım kitabı okurken dakikalar geçmek bilmiyor."
     "Mgh... Keşke önce konusuna baksaydım. Bu kitabı nereden aldım ki zaten...? Muhtemelen bir indirimde almışımdır. Okuması da epey zor."
     "Düşüncelerim, önümde camın tınlamasıyla bölünüyor."
@@ -443,7 +443,7 @@ label monikaRoute_yuriInteract:
     y "Açıklayabileceğimi düşünüyorum."
     mc "Tamam, tekrar teşekkürler, Yuri."
     scene bg club_day with wipeleft_scene
-        "Zaman hızla geçiyor, normalden çok daha hızlı."  
+    "Zaman hızla geçiyor, normalden çok daha hızlı."  
     "İkimiz sessizce kitaplarımızı okuyoruz. Bazen ben, anlamadığım bir şeyi doğru anladığımdan emin olmak için Yuri'ye sorular soruyorum ve kısa kısa konuşuyoruz."  
 
     show yuri 1a at t11  

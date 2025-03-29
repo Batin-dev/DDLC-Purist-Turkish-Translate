@@ -9,48 +9,66 @@ label MonikaInterlude_NatsukiGoodEnd:
     $ persistent.natsukiCompletedGood = True
     window show
     if(persistent.natsukiRouteCompletions==1):
-            m "Belki de Edebiyat Kulübü'nde birini mutlu ettiğini kabul etmeni mi bekliyorsun?"
-    m "Hala sadece birini mutlu ettin."
-    m "Ama, bu sürmez."
-    m "Sen ve ben çok iyi biliyoruz ki, bu sadece bir mod."
-    show m_thoughtful with dissolve_cg
-    m "Başka, ne söyleyebilirim ki?"
-    m "Natsuki'yi 'kurtardın', değil mi? O normal bir ev hayatına doğru iyileşiyor ve birbirinize olan sevdanızı defalarca itiraf ettiniz."
-    m "Ama belki de bir şeylerin eksik olduğunu hissettin."
-    show m_smug with dissolve_cg
-    m "Haha, kavga etmeyi mi düşünmüştün?"
-    m "Kendi ellerinle adalet mi sağlamak istedin?"
-    m "E, işte biraz talihsizlik, eğer böyle bir şey arıyorsan."
-    show m_neutral2 with dissolve_cg
-    m "Ama sanmıyorum ki Natsuki bunu takdir ederdi."
-    m "Benim söyleyebileceğim başka bir şey var mı?"
+        m "Hmm?"
+        show m_neutral1 with dissolve_cg
+        m "Ne, yaptıklarına yorum yapmamı mı istiyorsun?"
+        m "Bir tebrik falan mı bekliyorsun?"
+        if persistent.sayoriCompletedGood is False and persistent.yuriCompletedGood is False:
+            m "Belki de birinin Edebiyat Kulübü'nde mutlu olduğunu başardığını kabul etmemi bekliyorsundur?"
+            m "Ama sadece birini mutlu ettin."
+            m "Hadi ama, bu sadece bir mod."
+        show m_thoughtful with dissolve_cg
+        m "Bundan başka ne söyleyebilirim ki?"
+        m "Natsuki'yi 'kurtardığını' söyledin, değil mi? O normal hayatına doğru toparlanıyor ve birbirinize her fırsatta sevginizi itiraf ettiniz."
+        m "Ama belki eksik bir şeyler hissettin."
+        show m_smug with dissolve_cg
+        m "Haha, kavga mı çıkacak sandın?"
+        m "Kendi ellerinle adalet mi getirecektin?"
+        m "Maalesef, bunu arıyorsan şansın yok."
+        show m_neutral2 with dissolve_cg
+        m "Ama bence Natsuki buna pek sıcak bakmazdı."
+        m "Başka ne dememi bekliyorsun?"
     elif(persistent.natsukiRouteCompletions == 2):
         show m_thoughtful with dissolve_cg
         m "Yine Natsuki, ha?"
-        m "Peki, umarım sadece sevdiğin kısımlara atlamamışsındır."
-        m "Bu oldukça acımasız olurdu, değil mi?"
+        m "Umarım sadece sevdiğin kısımlara atlamamışsındır."
+        m "Bunun oldukça acımasızca olacağını düşünmez misin?"
         m "Sadece mutlu kısımlara gitmek."
-        m "Onunla her adımda yanında olmadan."
-        m "Ama herhalde bir kez orada oldun."
+        m "Yanında olmadığın her adımda."
+        m "Ama sanırım bir kez daha buradaydın."
     else:
-        m "Gerçekten Natsuki'yi seviyorsun, değil mi?"
-        m "Sonuçta, bu üçüncü kez onun yolunu yapıyorsun."
+        m "Gerçekten Natsuki'yi çok seviyorsun, değil mi?"
+        m "Sonuçta, bu onun rotasını üçüncü kez yapışın."
         m "Hmmm..."
     if persistent.sayoriCompletedGood is False and persistent.yuriCompletedGood is False:
-        m "Diğerlerini de bitirmelisin, değil mi?"
+        m "Diğerlerine de göz atman gerekmez mi?"
         m "Yoksa sadece Natsuki için mi buradasın?"
         if(persistent.natsukiRouteCompletions == 1):
-            m "Belki de durum budur, çünkü diğerlerine bile yönelmedin."
+            m "Sanırım bu böyle, çünkü diğerlerine bile göz atmadın."
         elif(persistent.natsukiRouteCompletions > 1):
-            m "Belki de durum budur, çünkü şu ana kadar sadece onun yolunu tekrar ettin."
+            m "Sanırım bu böyle, çünkü şu ana kadar sadece onun yolunu tekrarladın."
 
     if persistent.sayoriCompletedGood is True and persistent.yuriCompletedGood is True:
         call MonikaRouteOpening
         return
 
-    m "Ama en sonunda pek de bir anlamı yok."
-    m "Beni seni mutlu olmana engel olmasına izin verme."
+    m "Sonuçta bunun pek bir önemi yok."
+    m "Beni mutlu olmaktan alıkoyma."
     m "Ne istersen onu yap."
+    window hide
+    $ saveLocked = False
+    stop music fadeout 5.0
+    hide monika_bg_highlight #with Dissolve(2.0, alpha=True)
+    hide monika_bg #with Dissolve(1.5, alpha=True)
+    hide mask_3 #with Dissolve(1.0, alpha=True)
+    hide mask_2
+    with Dissolve(1.0, alpha=True)
+    return
+
+
+    m "Not that it really matters in the end."
+    m "Don't let me keep you from being happy."
+    m "Do what you want."
     window hide
     $ saveLocked = False
     stop music fadeout 5.0
@@ -292,7 +310,7 @@ label monikaInterlude_YuriBadEnd1:
     window show
     show m_neutral2 with dissolve_cg
 
-        m "...peki, demek böyle."
+    m "...peki, demek böyle."
     m "Açıkçası, bu kadar çabuk yoldan çıkacağını beklemiyordum."
     m "Ama hepimiz hata yaparız, değil mi?"
     m "Bu arada, Natsuki'ye güvenebilirsin, biliyorsun, değil mi?"
@@ -370,7 +388,7 @@ label monikaInterlude_YuriBadEnd2:
     m "..."
     m "..."
     show m_confused1 with dissolve_cg
-        m "Demek... bu da oldu."
+    m "Demek... bu da oldu."
     m "Açıkçası, gerçekten kavga edeceğinizi düşünmemiştim."
     m "Sana 'iyi misin' diye sormak isterdim ama... şey, {i}sen{/i} değildin."
     m "O kadar da zor bir seçim gibi gelmemişti bana..."
@@ -445,7 +463,7 @@ label monikaInterlude_YuriGoodEnd:
     show m_neutral2 with dissolve_cg
     $ persistent.yuriCompletedGood = True
 
-        m "Hm?"
+    m "Hm?"
     m "Ne yani, yaptıkların hakkında bir şeyler mi söylememi istiyorsun?"
     m "Bir tebrik mi bekliyorsun yoksa?"
     
