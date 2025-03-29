@@ -16,7 +16,7 @@ init -100 python:
 init python:
     menu_trans_time = 1
     # Varsayılan başlangıç mesajı, ilk ve dördüncü bölümde gösterilen
-    splash_message_default = "DDLC purist modu için geliştirici versiyon"
+    splash_message_default = "Bu mod resmi olmayan bir hayran çalışmasıdır ve Team Salvato ile bağlantısı yoktur."
     # Opsiyonel başlangıç mesajları, ikinci ve üçüncü bölümde rastgele seçilen
     splash_messages = [
     "O senin için bekliyor.",
@@ -222,6 +222,8 @@ label splashscreen:
         "[config.name] Doki Doki Edebiyat Kulübü fan modudur ve Team Salvato ile bağlantısı yoktur."
         "Resmi oyunun tamamlandıktan sonra oynanması için tasarlanmıştır ve resmi oyunun spoilerlarını içermektedir."
         "Doki Doki Edebiyat Kulübü oyun dosyaları bu modu oynamak için gereklidir ve ücretsiz olarak indirilebilir: http://ddlc.moe"
+        "Bu modun çevirisi Batın & Emir tarafından yapıldı. Çeviri sürecinde katkıda bulunan herkese ve özellikle sana teşekkür ederiz!"
+        
         menu:
             "[config.name] oynayarak, Doki Doki Edebiyat Kulübü'nü tamamladığınızı ve içindeki tüm spoilerları kabul ettiğinizi onaylıyorsunuz."
             "Kabul ediyorum.":
