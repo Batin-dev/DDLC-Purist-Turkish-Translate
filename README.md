@@ -25,7 +25,7 @@ Bu proje, bizim ilk çeviri deneyimimiz ve DDLC dünyasını Türkçe konuşan h
 
 ### 💬 İletişim
 
-Bize ulaşmak veya sohbet etmek istersen, [Discord sunucumuza](https://discord.gg/sayori) bekleriz! Ayrıca aşağıdaki hesaplardan da yazabilirsin:
+Bize ulaşmak veya sohbet etmek istersen, [Discord sunucumuza](https://discord.gg/ekMKqp3zjF) bekleriz! Ayrıca aşağıdaki hesaplardan da yazabilirsin:
 
 - **Discord:** batin.cpp  & sayorimain
 - **Instagram:** batin.cpp & emiryu3l
@@ -86,7 +86,7 @@ Oyun sırasında herhangi bir hata ile karşılaşırsan, lütfen bize Discord�
 
 | Platform             | Link                                                                         |
 | -------------------- | ---------------------------------------------------------------------------- |
-| 🎮 Discord Sunucumuz | [Katılmak için tıkla!](https://discord.gg/sayori)                            |
+| 🎮 Discord Sunucumuz | [Katılmak için tıkla!](https://discord.gg/ekMKqp3zjF)                            |
 | 📚 Mod Vikipedisi    | [DDLC Purist Mod Wiki](https://ddlc-modding.fandom.com/wiki/DDLC_Purist_Mod) |
 | 📦 Orijinal Dosyalar | [GitHub Repository](https://github.com/GarnetSunset/DDLC-Purist-Mod)         |
 
