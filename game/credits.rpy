@@ -413,33 +413,33 @@ label routeSkip:
     $ persistent.yuriRouteStarted = True
     $ persistent.sayoriRouteStarted = True
     m "O-oh!"
-    m "O-oh, um... hi? I didn't... expect to see you here? Well, actually I did, but I'm more surprised you actually did it?"
-    m "The cheat code, I mean. Wow, that's awkward. I thought you'd actually play through all of their routes."
-    m "I mean, it's kind of how you're supposed to get here, anyways."
-    m "You really wanted my route that badly? I'm actually really touched. You'd install the mod that might help everyone, but you don't even care about them, you come straight for me."
-    m "Though, um..."
-    m "Unfortunately, my route doesn't really make a lot of sense unless you go through all of their routes first. So... oh well."
-    m "I do have a contract to keep, I suppose."
-    m "They don't pay you the big bucks in these things unless you stick right to the script."
+    m "O-oo, şey… merhaba? Seni burada göreceğimi… beklemiyordum? Yani, aslında bekliyordum ama bunu gerçekten yaptığını görmek beni şaşırttı."
+    m "Hile kodundan bahsediyorum yani. Vay canına, bu biraz garip oldu. Tüm karakterlerin hikâyelerini gerçekten oynayacağını sanmıştım."
+    m "Yani, buraya gelmenin yolu zaten biraz böyle, değil mi?"
+    m "Benim rotamı bu kadar çok mu istedin? Gerçekten çok etkilendim. Herkese yardım edebilecek modu yükleyeceksin ama onlarla hiç ilgilenmiyorsun, direkt bana geliyorsun."
+    m "Ama, şey..."
+    m "Ne yazık ki, benim rotam tam olarak mantıklı olmuyor, diğerlerinin rotalarını önce oynamazsan. Yani... neyse."
+    m "Sanırım uymam gereken bir sözleşmem var."
+    m "Bu işlerde sana büyük paraları vermiyorlar, sen senaryoya tam olarak uymazsan."
     $ o_name = "Tabuukilla"
-    o "Just read the lines already, you amateur!"
-    m "Sheesh! Just give me a bit, okay, I just want to explain to the reader that my character arc won't make any sense unless you've played all three routes beforehand."
-    m "You see what I have to deal with here?"
-    m "Ahem. Well, just bear with me, okay, even if what I say doesn't make any sense due to your cheating."
-    m "That way, I can stay on script and collect my paycheck. It's expensive being a waifu, you know?"
-    m "We'll just have to pretend that you did clear all of their routes, I became kind of annoyed but also definitely-not-tsundere-happy that they were all finding joy--"
-    m "--shocked at the fact they were actually happy, the whole shebang."
+    o "Zaten satırları oku, acemi!"
+    m "Off! Biraz zaman ver, tamam mı? Sadece okuyucuya karakter gelişimimin, diğer üç rotayı oynamadıysan anlamlı olmayacağını açıklamak istiyorum."
+    m "Görüyorsun, burada nelerle uğraşmak zorundayım?"
+    m "Öhöm. Yani, lütfen sabret, tamam mı? Söylediklerim senin hile yapmandan dolayı mantıksız olsa bile."
+    m "Böylece senaryoya sadık kalıp maaşımı alabilirim. Waifu olmak pahalı, biliyorsun?"
+    m "Sadece, diğerlerinin rotalarını temizlediğini varsayacağız, biraz sinirlendim ama aynı zamanda kesinlikle-tsundere-olmayan-mutlu oldum ki hepsi keyif buluyordu--"
+    m "--aslında mutlu olduklarına şok oldum, her şeyin tamamı."
     play music m1 fadein 5.0
-    m "Let's ah, take it from the top, shall we?"
+    m "Hadi, şey, baştan alalım mı, ne dersiniz?"
     #show black with dissolve_cg
-    m "Just give me a moment to recollect myself, and..."
-    m "Ah, right, Director, can you reset the player's name?"
-    m "I don't want to call them 'uuddlrlrba' the whole time."
-    m "Er, unless that's really your name."
-    m "Don't worry~"
-    m "If it is your real name, you can input it again and you shouldn't see this behind the scenes stuff again."
-    m "Director?"
-    call updateconsole("reset_mc_name()", "Name reset.")
+    m "Sadece kendimi toparlamam için bir an ver, ve..."
+    m "Ah, doğru, direktör, oyuncunun adını sıfırlayabilir misin?"
+    m "Onu sürekli 'uuddlrlrba' diye çağırmak istemiyorum."
+    m "Ee, eğer gerçekten adın buysa sorun yok."
+    m "Merak etme~"
+    m "Eğer gerçek adın buysa, tekrar girebilirsin ve artık bu sahne arkası şeyleri görmemelisin."
+    m "Direktör?"
+    call updateconsole("reset_mc_name()", "İsim sıfırlandı.")
     $ persistent.playername = ""
     $ player = persistent.playername
     hide console_bg
@@ -447,8 +447,8 @@ label routeSkip:
     #hide ccursor
     hide ctext
     hide chistory
-    o "Done."
-    m "Thank you. Anyways, let's ah, just get back into the regular script, shall we?"
+    o "Tamamlandı."
+    m "Teşekkürler. Neyse, hadi şey, normal senaryoya geri dönelim, ne dersiniz?"
     pause(2.0)
     call MonikaRouteOpening
 
@@ -478,26 +478,26 @@ label easterEggs:
     show monika_bg_highlight 
     $ persistent.playername = ""
     $ player = persistent.playername
-    m "Wow."
-    m "{i}Wow.{/i}"
-    m "Did you really think it would be that easy to unlock the easter eggs?"
-    m "Just by putting the programmer's name?"
-    m "Be honest with me."
+    m "Vay canına."
+    m "{i}Vay canına.{/i}"
+    m "Gerçekten easter egg’leri bu kadar kolay açacağını mı sandın?"
+    m "Sadece programcının adını yazarak mı?"
+    m "Bana dürüst ol."
     menu:
-        "Yes.":
+        "Evet.":
             pass
-        "Yes.":
+        "Evet.":
             pass
-        "Yes.":
+        "Evet.":
             pass
-    m "Yeah, that's what I thought."
-    m "Fortunately for you, that at least puts you halfway there."
-    m "Well, actually, you might be him, so..."
+    m "Evet, zaten bunu düşünmüştüm."
+    m "Neyse ki, bu en azından seni yarı yolda bırakıyor."
+    m "Aslında, belki de sen o kişisin, yani..."
     $ o_name = "Tabuukilla"
-    o "I'm right here! Just offscreen!"
-    m "For all I know, you're just a programmed version of him."
-    m "Ahem."
-    m "Well, now for Stage Two of the verification procress, to see if you really are Tabuukilla."
+    o "Buradayım! Sadece ekrandan biraz uzağım!"
+    m "Benim bildiğim kadarıyla, sen sadece onun programlanmış bir versiyonu olabilirsin."
+    m "Öhöm."
+    m "Şimdi doğrulama sürecinin İkinci Aşamasına geçiyoruz, gerçekten Tabuukilla olup olmadığını görmek için."
     call easterEggsLoop
     window hide
     $ saveLocked = False
@@ -511,188 +511,187 @@ label easterEggs:
     if persistent.opening_scene is True:
         $ config.main_menu_music = audio.titleTheme
     else:
-        $ config.main_menu_music = audio.t1 # I SWEAR THIS THING IS BUGGED I DON'T KNOW WHY
+        $ config.main_menu_music = audio.t1 # YEMİN EDERİM BU ŞEY HATA VERİYOR, NEDENİNİ BİLMİYORUM
     play music titleTheme fadein 5.0
     return
 
 label easterEggsLoop:
     $ o_name = "Tabuukilla"
-    m "Now, please enter the secret code!"
+    m "Şimdi lütfen gizli kodu gir!"
     #python:
-    #    secretCode = renpy.input("                                                          The secret code is...", length=12)
+    #    secretCode = renpy.input("                                                          Gizli kod...", length=12)
     #    secretCode = secretCode.strip()
     show guiFrame at truecenter
-    $ secretCode = renpy.call_screen("inputCode", prompt="The secret code is...", someText = "")
+    $ secretCode = renpy.call_screen("inputCode", prompt="Gizli kod...", someText = "")
     hide guiFrame
-
 
     if secretCode == "password":
         m "..."
-        m "I believe the word to describe how I'm feeling is disappointment."
-        m "That is not the correct password."
+        m "Sanırım hissettiğim şeyi tanımlayan kelime hayal kırıklığı."
+        m "Bu doğru şifre değil."
     elif secretCode == "password123":
-        m "D-minus, it's only not a failing grade due to some level of creativity."
-        m "But that's not the correct code."
+        m "D-eksi, sadece biraz yaratıcılık olduğundan başarısız sayılmıyor."
+        m "Ama bu doğru kod değil."
     elif secretCode == "Shepard":
         call vakarianLoop
-        m "...but no, that's not the correct secret code."
+        m "...ama hayır, bu doğru gizli kod değil."
     elif secretCode == "renpy":
-        m "No, that's no--"
+        m "Hayır, bu değil--"
         s "Monika!"
-        m "...Sayori, what are you doing here?"
-        s "Oh, the Director told me to watch over the set for just a little bit."
-        s "It's okay, I'll stay offscreen!"
-        s "I know you were particular about your screentime being all yours."
-        m "Right..."
-        m "But our Director is usually very professional, he wouldn't just..."
-        m "Sayori, did he mention where he was going?"
-        s "Oh, something about 'the Hope Rope'."
-        s "I didn't take TK for a daytime drinker."
-        m "The Hope Rope..."
-        m "...Oh no."
-        m "Um, hold on, let me just..."
-        m "Which button was it again?"
+        m "...Sayori, burada ne yapıyorsun?"
+        s "Ah, direktör bana seti bir süre gözlemlememi söyledi."
+        s "Sorun yok, ekrandan uzakta kalacağım!"
+        s "Biliyorum, ekran sürenin tamamen senin olmasını istiyordun."
+        m "Doğru..."
+        m "Ama direktörümüz genellikle çok profesyonel, sadece..."
+        m "Sayori, nereye gittiğini söyledi mi?"
+        s "'Umut İpi' hakkında bir şeyler."
+        s "Gündüz içkisi içen biri olduğunu düşünmedim TK."
+        m "Umut İpi..."
+        m "...Aman Tanrım."
+        m "Şey, bekle, sadece..."
+        m "Hangi tuştu tekrar?"
         #show noise1 zorder 10 with dissolve 
         show difficulties
         play sound bleep
-        m "Okay!"
+        m "Tamam!"
         stop sound
-        m "Be right back, we're experiencing some technical difficulties!"
+        m "Hemen döneceğim, teknik bir sıkıntı yaşıyoruz!"
         window hide
         pause
         #hide noise1 with dissolve
         hide difficulties
         window show
-        o "Dammit, Monika!"
-        m "Hey, if I'm stuck here recording this stuff, you're staying with me!"
+        o "Kahretsin, Monika!"
+        m "Hey, ben burada bunları kaydederken, sen de benimle kalacaksın!"
         o "Uggggggh!"
-        m "Whatever, ugh, I swear..."
-        m "Ha... ahem."
-        m "Renpy is not the correct secret code."
+        m "Ne yapalım, of, yemin ederim..."
+        m "Ha... öhöm."
+        m "Renpy doğru gizli kod değil."
     elif secretCode == "STALKER":
         m "..."
-        m "I will not."
-        m "I refuse."
-        o "Just say the freaking lines, you amateur!"
-        m "I refuse to do a cheesy Russian accent!"
-        o "Look, the sponsors wanted it, so you have to do it!"
-        m "We have {i}sponsors?!{/i}"
-        o "How do you think we're funding this whole thing?!"
-        o "Come on, just say the lines already!"
-        o "I'll treat you to some ice cream later."
-        m "Oh, yes, I'm {i}so{/i} easily done in."
-        m "Today marks the day I sold my soul for ice cream."
+        m "Yapmayacağım."
+        m "Reddediyorum."
+        o "Sadece satırları söyle, acemi!"
+        m "Pahalı bir Rus aksanı yapmak istemiyorum!"
+        o "Bak, sponsorlar istediler, o yüzden yapmak zorundasın!"
+        m "{i}Sponsorlarımız mı var?!{/i}"
+        o "Bütün işi nasıl finanse ettiğimizi düşünüyorsun?!"
+        o "Hadi, satırları söyle artık!"
+        o "Sonra sana dondurma alacağım."
+        m "Oh evet, {i}çok{/i} kolay kandırıldım."
+        m "Bugün ruhumu dondurma için sattığım gün olarak tarihe geçti."
         m "Ha. Ha. Ha."
-        m "Fine."
+        m "Pekala."
         m "CHEEEEEEEEKIIII BREEEEEEKIIIIII!"
-        m "Are you happy now?"
-        o "Actually, that wasn't even part of the script, but I'm so glad we were recording that."
+        m "Şimdi mutlu musun?"
+        o "Aslında bu senaryonun bir parçası değildi ama kaydettiğimize çok sevindim."
         m "..."
-        m "Cameraman, stop rolling for a second."
+        m "Kameraman, bir saniye dur."
         show difficulties
         play sound bleep
-        m "Alright that's it, get over here!"
+        m "Tamam, buraya gel!"
         stop sound
-        o "Heh, oh man that's going right to the internet!"
-        m "Oh no it isn't!"
+        o "Haha, bu direkt internete gider!"
+        m "Hayır, gitmeyecek!"
         play sound punishment
-        o "Whoa, whoa, let's not be hasty about this!"
+        o "Whoa, hey, acele etmemeliyiz!"
         stop sound
-        m "Oh I'll be hasty, alright!"
-        o "Where did you get a {i}gun?!{/i}"
-        m "You know, around. Now gimme the tape!"
-        o "Like hell!"
+        m "Tamam, acele edeceğim!"
+        o "Silahı nereden buldun?!"
+        m "Biliyorsun, etrafta. Şimdi kaseti ver!"
+        o "Asla!"
         "..."
         window hide
         pause
         hide difficulties with dissolve_cg
         window show
         m "Hmhmhmm~"
-        m "Ahem."
-        m "No, that is not the correct secret code."
-        m "But if you'd like to guess again..."
-        m "Good lucker, Stalker."
+        m "Öhöm."
+        m "Hayır, bu doğru gizli kod değil."
+        m "Ama tekrar denemek istersen..."
+        m "İyi şanslar, Stalker."
     elif secretCode == "illyasviel" or secretCode == "illya":
         o "Hehheh."
-        o "Hey Monika, look, the secret code is a kindred spirit."
-        m "Oh screw you!"
-        m "You're the moron who wrote my route, anyways!"
-        o "Not like I did it for you, or anything."
-        m "Are you seriously trying to pull the tsundere routine right now?"
-        m "This isn't even canon."
-        o "Actually this part of the mod is the only canon portion of the mod."
-        o "Change my mind."
+        o "Hey Monika, bak, gizli kod ruh eşi gibi."
+        m "Bırak şunu!"
+        m "Zaten benim rotamı yazan sen aptalsın!"
+        o "Senin için yaptım sanma, ha."
+        m "Ciddi misin, tsundere numarası yapmaya mı çalışıyorsun şimdi?"
+        m "Bu bile canon değil."
+        o "Aslında modun bu kısmı modun tek canon kısmı."
+        o "Fikrimi değiştir."
         m "..."
-        m "I'm still mad."
-        o "Hey, it's okay."
-        o "At least Illya..." # got her own spinoff, unlike yooooooooooou
-        m "Don't you dare!"
-        o "Okay, fine, fine."
-        o "No need to get really mad."
-        o "Besides we still have about five more scenes to finish shooting today, so don't let your makeup start running."
-        m "Haaaa... it only happens because of you."
+        m "Hala kızgınım."
+        o "Hey, sorun değil."
+        o "En azından Illya..."
+        m "Yapmaya cesaret etme!"
+        o "Tamam, tamam."
+        o "Gerçekten çok kızmana gerek yok."
+        o "Ayrıca bugün hala çekmemiz gereken beş sahne var, makyajın akmasın."
+        m "Haaaa... sadece sen yüzünden oluyor."
         o "..."
         m "..."
         o "..."
-        m "Because you make me yell and everything like that, is all."
-        o "Okay good."
-        m "Definitely not because of anything else."
-        m "Also can you turn up the AC, those spotlights in the background for the flashing effect are making me sweat."
-        o "Will do, just finish recording these lines."
-        m "Thank you. Ahem, anyways, no, that is not the correct secret code."
+        m "Çünkü bana bağırdırıyorsun, hepsi bu."
+        o "Tamam iyi."
+        m "Kesinlikle başka bir yüzden değil."
+        m "Ayrıca AC'yi açabilir misin, arka plandaki spot ışıkları beni terletiyor."
+        o "Yapacağım, sadece bu satırları bitir."
+        m "Teşekkürler. Öhöm, neyse, hayır, bu doğru gizli kod değil."
     elif secretCode == "momgun" or secretCode == "springfield":
-        m "Bad!"
-        m "No!"
-        m "I will not cosplay as her!"
-        m "You can't make do it again!"
-        o "Actually I can."
-        o "It's right here in your contract."
+        m "Kötü!"
+        m "Hayır!"
+        m "Onun cosplay’ini yapmayacağım!"
+        m "Tekrar yaptıramazsın!"
+        o "Aslında yapabilirim."
+        o "Sözleşmende yazıyor."
         m "Nooooo!"
-        o "I'm getting the costume now."
-        o "If I could, anyways."
-        o "It kind of sucks being a disembodied voice."
+        o "Şimdi kostümü alıyorum."
+        o "Eğer yapabilseydim tabii."
+        o "Bir ses olmadan olmak biraz kötü."
         play sound punishment
-        m "...I still have the gun."
+        m "...hala silahım var."
         stop sound
-        o "I'll be nice."
-        m "Good boy."
+        o "Nazik olacağım."
+        m "İyi çocuk."
         o "...snrk."
-        m "...what?"
-        o "Whatever you say, mom."
-        o "With a gun."
-        m "Oh why you little--"
-        o "Hey, it's also in your contract you can't shoot me."
-        o "Also this mod is still PG-13."
-        o "So uh."
-        o "Try not to make it too bloody."
-        m "Alright, so {i}after{/i} the cameras are finished running."
-        m "Your days are numbered."
-        o "Okay, dear Player, whatever you do, please, please, {i}please{/i} do not wrap up your time here."
-        o "She'll shoot me otherwise!"
+        m "...ne?"
+        o "Ne söylersen, anne."
+        o "Bir silahla."
+        m "Ah, sen küçük--"
+        o "Ayrıca sözleşmende beni vuramayacağını yazıyor."
+        o "Ayrıca bu mod hala PG-13."
+        o "Yani..."
+        o "Çok kanlı yapmamaya çalış."
+        m "Tamam, yani {i}kameralar{/i} bitince."
+        m "Günlerin sayılı."
+        o "Tamam sevgili Oyuncu, ne yaparsan yap, lütfen, lütfen, {i}lütfen{/i} buradaki zamanını bitirme."
+        o "Yoksa beni vurur!"
         m "Hehhehheh."
-        m "Well, regardless, that's not the secret code."
-        m "You've just annoyed me, is all."
+        m "Neyse, bu doğru kod değil."
+        m "Sadece sinirlendim, hepsi bu."
     elif secretCode == "coffee":
-        m "Coffee, huh?"
-        m "I suppose I can get some made for us."
-        m "How do you take yours?"
+        m "Kahve, ha?"
+        m "Sanırım bizim için yapabilirim."
+        m "Nasıl alırsın?"
         menu:
-            "Black.":
+            "Sade.":
                 pass
-        m "Don't try to sound tough, you sissy."
+        m "Tough olmaya çalışma, ödlek."
         menu:
-            "Cream?":
+            "Kremalı?":
                 pass
-        m "Ha! Coming right up, {i}madam{/i}!"
+        m "Ha! Hemen geliyor, {i}hanımefendi{/i}!"
         menu:
-            "Cream and Sugar?":
+            "Kremalı ve şekerli?":
                 pass
-        m "What are you, Natsuki?"
-        n "Monika, I want it black!"
+        m "Ne yapıyorsun, Natsuki?"
+        n "Monika, sade istiyorum!"
         menu:
-            "Surprise me.":
+            "Beni şaşırt.": 
                 pass
-        m "Surprise you...?"
+        m "Şaşırtayım mı...?"
         m "..."
         play sound ["<silence 0.9>", "<to 0.75>sfx/mscare.ogg"]
         show monika_scare:
@@ -719,89 +718,89 @@ label easterEggsLoop:
             easeout_quart 0.25 zoom 2.0
             0.30
             linear 0.10 zoom 1.0
-        m "Oh come on, you already know the punchline.{nw}"
-        m "This joke is as predictable as--"
-        m "Got 'em!"
-        o "Boooo."
-        m "Oh come on!"
-        m "Ruin the joke, why don't you?"
+        m "Hadi ama, zaten espriyi biliyorsun.{nw}"
+        m "Bu şaka tahmin edilebilir, çünkü--"
+        m "Vurdum onları!"
+        o "Buuuu."
+        m "Aman ama!"
+        m "Şakayı mahvettin, değil mi?"
         show layer master
         show layer screens
         hide monika_scare
-        m "Well, that's not the secret code, though."
-        m "...I do want some coffee, now."
-        m "Director, can you get some for me? And for our wonderful player."
-        o "I'm not an intern, do it after we finish recording!"
-        m "Ugh, fine."
-        m "Anyways..."
+        m "Neyse, bu doğru gizli kod değil."
+        m "...Ama şimdi kahve istiyorum."
+        m "Direktör, bizim için ve harika oyuncumuz için kahve alabilir misin?"
+        o "Stajyer değilim, kaydı bitirince yap!"
+        m "Ugh, tamam."
+        m "Neyse..."
     elif secretCode == "trebuchet":
         #pass
-        m "Director, now you're just asking for cheap laughs."
-        m "Besides, everyone knows that catapults are the sup--"
+        m "Direktör, şimdi ucuz kahkahalar istiyorsun."
+        m "Ayrıca, herkes biliyor ki mancınıklar en süper..."
         play sound punishment
-        m "--er suck-iest of all medieval siege engines, ha, ha, ha, right?!"
-        o "That's good."
-        m "Where did {i}you{/i} get a gun?!"
-        o "Yuri stole yours. I traded her MC's old toothbrush for it."
-        m "Dammit, Yuri!"
-        m "Well it's okay."
-        m "Besides, it'll reappear on my person for all the other gags, anyways."
-        m "So enjoy it while it lasts."
-        o "...dammit, I forgot to account for th--noooo, my gun!"
+        m "...tarihi kuşatma makineleri arasında en berbat, ha, ha, ha, değil mi?!"
+        o "İyi."
+        m "Silahı nereden buldun?!"
+        o "Yuri seninkini çaldı. Onun MC’nin eski diş fırçasıyla takas ettim."
+        m "Kahretsin, Yuri!"
+        m "Neyse, sorun değil."
+        m "Ayrıca, tüm diğer şakalar için tekrar benim üzerimde görünecek."
+        m "O yüzden tadını çıkar."
+        o "...kahretsin, bunu hesaba katmayı unuttum--hayır, silahım!"
         m "Hehheh."
-        m "Anyways..."
-        m "That's not the right passcode."
+        m "Neyse..."
+        m "Bu doğru şifre değil."
     elif secretCode == "noclip":
         #pass
-        m "Um..."
-        m "Are you sure about that?"
-        m "That's a very dangerous tool you're using there."
-        o "Relax, I got this."
-        o "Absolutely nothing can go wrong."
+        m "Şey..."
+        m "Buna emin misin?"
+        m "Kullandığın araç çok tehlikeli."
+        o "Rahat ol, hallederim."
+        o "Hiçbir şey yanlış gitmez."
         o "..."
-        m "...If you try to use noclip to get inside me, let me remind you I still have the gun."
-        o "I'll be good."
-        o "Alright now check this ou--"
+        m "...Eğer beni noclip ile geçmeye çalışırsan, silahım hâlâ bende."
+        o "İyi olacağım."
+        o "Tamam, bak bunu--"
         show black2
-        o "Oh."
-        o "Uh. That's not good."
-        o "Monika, could I get a little help, please?"
-        m "I told you to be careful with the noclip."
-        o "Can you help?"
+        o "Ah."
+        o "Uh. Bu iyi değil."
+        o "Monika, biraz yardım eder misin lütfen?"
+        m "Noclip ile dikkatli olmanı söylemiştim."
+        o "Yardım edebilir misin?"
         play sound punishment
-        o "Oh dear."
-        m "Hold still, I think I see just enough of you poking out from the ceiling."
-        m "Turn off noclip for a second, then I can really make sure to hit you."
-        o "I used to be a visual novel director like you, but then I--"
-        m "Do I have to fire a warning shot?"
-        o "I'll be good."
-        o "Wait, wait, wait, hold on, I think I got this!"
-        o "My keyboard just got unplugged from my desktop, don't shoot!"
-        o "Okay, okay, coming back down."
+        o "Aman Tanrım."
+        m "Hareket etme, sanırım tavandan birazını görebiliyorum."
+        m "Noclip’i kapat, sonra gerçekten vuracağım."
+        o "Eskiden senin gibi bir görsel roman direktörüydüm, ama sonra--"
+        m "Uyarı atışı yapmam gerekiyor mu?"
+        o "İyi olacağım."
+        o "Bekle, bekle, sanırım hallettim!"
+        o "Klavye masaüstümden çekildi, vurma!"
+        o "Tamam, tamam, aşağı geliyorum."
         hide black2
-        o "Phew."
-        m "Oh, no."
-        m "What a shame."
-        m "Well, be more careful next time."
-        m "Ahem."
-        m "Anyways..."
-        m "That's an incorrect passcode."
+        o "Puh."
+        m "Ah, hayır."
+        m "Ne yazık."
+        m "Bir dahaki sefere daha dikkatli ol."
+        m "Öhöm."
+        m "Neyse..."
+        m "Bu yanlış şifre."
     elif secretCode == "HACKERMAN":
-        m "Ooooh, look out, we got a badass over here!"
+        m "Ooooh, dikkat, karşımızda bir havalı var!"
         m "..."
-        m "Director, really?"
-        o "It's in the damn lines we were given, can you just stop complaining?"
-        m "Ugh, fine."
-        m "But I suppose that if you put that in, you {i}wish{/i} you were one."
-        m "Anyways."
-        m "That's an incorrect passcode."
+        m "Direktör, gerçekten mi?"
+        o "Verilen satırlarda var, şikayet etmeyi bırakabilir misin?"
+        m "Ugh, tamam."
+        m "Ama sanırım bunu yazarsan, bir hacker olamyı {i}dilerdin{/i}." # WTF A*K
+        m "Neyse."
+        m "Bu yanlış şifre."
     elif secretCode == "scouter":
         #pass
-        m "Director, really?"
-        m "We're really doing this reference?"
-        m "There's only two of us in here, it wouldn't even work."
-        o "Aha, but that's where you're wrong, Monika."
-        o "Console, what does the scouter say about Monika's THOT levels?!"
+        m "Direktör, gerçekten mi?"
+        m "Gerçekten bu referansı mı yapıyoruz?"
+        m "Burada sadece ikimiz var, işe yaramaz bile."
+        o "Aha, ama burada yanılıyorsun Monika."
+        o "Konsol, Monika’nın THOT seviyeleri hakkında ne diyor?!"
 
         call updateconsole("scan_thot_levels('Monika')", "Error: Result is NaN")
         #$ persistent.playername = ""
@@ -813,125 +812,126 @@ label easterEggsLoop:
         hide chistory
         $ consolehistory = []
 
-        o "My God, it's WAY OVER NINE THOUSAAAAAAND!"
+        o "Tanrım, BU TAM OLARAK DOKUZ BİNDEN FAZLAAAAAA!"
         m "..."
         m "..."
         m "..."
-        m "That's it."
-        m "Thot Police, you are clear to fire."
-        o "Wait, what does that--"
+        m "Bu kadar."
+        m "Thot Polisi, ateş edebilirsiniz."
+        o "Bekle, bu ne demek--"
         play sound artillery
         show white with Dissolve(1.0)
         show white with hpunch
         hide white with Dissolve(1.0)
-        o "WHAT THE HELL WAS THAT?!"
-        m "Nothing major, really."
-        o "DID YOU JUST SHELL THE SET?!"
-        m "I bet you're really regretting not building that fourth wall now, are you, Director?"
-        o "Damn you budget cuuuts!"
-        o "Where did you even get ARTILLERY anyways?!"
-        m "You'd be surprised what Sayori keeps in her closet."
-        o "Why does Sayori keep that in her closet?!"
-        m "Hey, I don't question it."
-        m "Don't ask, don't tell, you know?"
-        m "Anyways, cameraman, can you stop recording for a bit?"
-        m "You may also want to find cover."
+        o "BU DA NEYDİ LAN?!"
+        m "Gerçekten önemli bir şey değil."
+        o "SETİ PATLATTIĞINI MI SÖYLÜYORSUN?!"
+        m "Bahse girerim dördüncü duvarı inşa etmediğine pişmansındır, değil mi, direktör?"
+        o "Kahretsin bütçe kesintileri!"
+        o "Peki ARTILLERY’yi nereden buldun ki?!"
+        m "Sayori’nin dolabında neler sakladığına şaşırırsın."
+        o "Sayori neden bunu dolabında saklıyor?!"
+        m "Hey, sorgulamıyorum."
+        m "Sorma, söyleme, bilirsin işte?"
+        m "Neyse, kameraman, biraz kayıt yapmayı durdurabilir misin?"
+        m "Ayrıca bir siper bulmak isteyebilirsin."
         show difficulties with dissolve
         play sound artillery
-        o "Holy shi--!"
-        m "It's okay, you'll be fine."
+        o "Aman Tanrım--!"
+        m "Sorun yok, iyi olacaksın."
         play sound artillery
-        m "After all, you can't die in the easter eggs."
-        m "So just stand still, okay?"
+        m "Sonuçta, easter egg’lerde ölemezsin."
+        m "O yüzden sadece dur, tamam mı?"
         play sound artillery
-        o "NO THANKS!"
-        o "I MIGHT NOT BE ABLE TO DIE BUT I THINK THOSE STILL HURT!"
-        m "Think?"
-        m "Oh, why don't you stand still and make sure?"
+        o "HAYIR TEŞEKKÜR ETMEM!"
+        o "ÖLEMEYEBİLİRİM AMA SANIRIM YİNE DE ACITIYORDUR!"
+        m "Sanırsın mı?"
+        m "Oh, neden durup emin olmuyorsun?"
         play sound artillery
-        o "PLEASE, NO!"
+        o "LÜTFEN, HAYIR!"
         m "Hmmm..."
         m "Oh."
-        m "It seems we're out of shells."
-        m "I guess we'll have to spend some time to get more out of Sayori's closet later."
-        m "So you get to relax for a bit."
-        o "Phew..."
+        m "Görünüşe göre mermiler bitti."
+        m "Sanırım biraz sonra Sayori’nin dolabından daha fazlasını almak için zaman harcamamız gerekecek."
+        m "Yani biraz rahatlayabilirsin."
+        o "Puh..."
         hide difficulties with dissolve
-        m "Anyways, ahem."
-        m "Scouter is not the right passcode."
+        m "Neyse, öhöm."
+        m "Scouter doğru şifre değil."
 
     elif secretCode == "boomstick":
-        m "This...!"
+        m "Bu...!"
         play sound boomstick
-        m "...is my {i}boomstick!{/i}"
-        o "WHOA, WHOA, WATCH WHERE YOU POINT THAT THING!"
-        m "Oh I know exactly where I'm pointing it, Director."
-        o "I haven't said anything yet!"
-        m "...'yet'."
-        o "Innocent until proven guilty, innocent until proven guilty!"
-        o "This is highly illegal!"
-        m "Well Director, I'm afraid to tell you this..."
-        m "But I {i}AM{/i} THE LAW!"
+        m "...benim {i}boomstick’im!{/i}"
+        o "HEY, HEY, ONU NEREYE TUTUYORSUN DİKKAT ET!"
+        m "Oh, tam olarak nereye tuttuğumu biliyorum, direktör."
+        o "Henüz bir şey söylemedim!"
+        m "...'henüz'."
+        o "Suçlu olduğunu kanıtlayana kadar masumsun, suçlu olduğunu kanıtlayana kadar masumsun!"
+        o "Bu tamamen yasa dışı!"
+        m "Peki direktör, bunu söylemekten korkuyorum..."
+        m "Ama ben {i}KANUNUM{/i}!"
         show white with Dissolve(0.5)
         play sound boomstickfire
         hide white with Dissolve(0.5)
         show difficulties
-        o "MY HEART!"
-        m "Oh relax, it's just a flesh wound."
-        o "OH MY GOD, MONIKA!"
-        m "Director, the cameras aren't rolling."
-        m "Stop being such a drama queen."
-        m "It's embarrassing."
-        o "Oh, they aren't?"
-        o "Damn, I wanted to make it seem like I was bleeding all over the floor."
-        m "Good job."
-        m "Besides, it's just a prop."
-        m "Unlike the pistol."
-        o "Wait, that's real?"
-        m "Do you want to find out?"
-        o "Please no."
-        m "Good. Ahem, let me just get back into position..."
+        o "KALBİM!"
+        m "Rahatla, sadece bir sıyrık."
+        o "TANRIM, MONİKA!"
+        m "Direktör, kameralar çalışmıyor."
+        m "Bu kadar dramatik olma."
+        m "Utanç verici."
+        o "Ah, çalışmıyor mu?"
+        o "Kahretsin, her yerde kanıyormuş gibi yapmak istemiştim."
+        m "Aferin."
+        m "Zaten sadece bir sahne gereci."
+        m "Tabancadan farklı olarak."
+        o "Bekle, gerçek mi?"
+        m "Öğrenmek ister misin?"
+        o "Lütfen hayır."
+        m "İyi. Öhöm, pozisyonuma dönüyorum..."
         hide difficulties
-        m "And we're rolling again!"
-        m "Ahem."
-        m "Right..."
-        m "Anyways, that's not the right passcode."
+        m "Ve tekrar kayda başlıyoruz!"
+        m "Öhöm."
+        m "Doğru..."
+        m "Neyse, bu doğru şifre değil."
 
     elif secretCode == "Rem":
-        m "Who?"
-        m "Er, sorry. I thought you said something."
-        m "Must be my imagination."
-        m "Well, either way, even if you said something, it probably wasn't the secret code."
+        m "Kim?"
+        m "Şey, pardon. Bir şey söylediğini sanmıştım."
+        m "Sanırım hayal gücüm."
+        m "Neyse, eğer bir şey söyledin bile, muhtemelen gizli kod değildi."
 
     elif secretCode == "hyeyeon":
-        m "Bad!"
-        m "Stop with that emote!"
-        m "You've already used it actually over six thousand times!"
-        m "Especially you, Ex!"
-        o "I hope you guys are happy this made it into the mod."
-        o "Thanks for all the public pressure."
-        m "Ahem, no, that isn't the secret code."
+        m "Kötü!"
+        m "O emojiyi bırak artık!"
+        m "Aslında bunu altı binden fazla kez kullandın!"
+        m "Özellikle sen, Ex!"
+        o "Umarım modda bu yer aldığı için mutlusunuz."
+        o "Herkese teşekkürler, baskı yaptınız."
+        m "Öhöm, hayır, bu doğru şifre değil."
     else:
-        m "Incorrect."
+        m "Yanlış."
 
-    m "Would you like to try again?"
+    m "Tekrar denemek ister misin?"
     menu:
-        "Yes":
+        "Evet":
             jump easterEggsLoop
-        "No":
-            m "Alright then."
-            m "Verification failed."
-            m "Sending you back to the main menu."
+        "Hayır":
+            m "Peki o zaman."
+            m "Doğrulama başarısız."
+            m "Seni ana menüye gönderiyorum."
             $ persistent.playername = ""
             $ player = persistent.playername
             return
+
 
 label vakarianLoop:
     m "Shepard."
     menu:
         "Monika.":
             jump vakarianLoop
-        "I should go.":
+        "Gitmeliyim.":
             return
 
 
@@ -1161,19 +1161,19 @@ label credits2:
         $ pause()
         #call screen dialog(message="There's nothing left to do anymore.", ok_action=Quit(confirm=False))
         window show
-        "There's nothing to do anymore."
+        "Burada yapıcak hiç bir şey yok."
         #return
         menu:
-            "That's right.":
+            "BU doğru.":
                 window hide # BECAUSE RENPY HATES TRYING TO QUIT WITHIN ITSELF?
                 jump postcredits_loop
-            "No, that's wrong.":
+            "Hayır, bu yanlış.":
                 python:
                     for savegame in renpy.list_saved_games(fast=True):
                         renpy.unlink_save(savegame)
 
                 call resetDefaults
-                "...If you're so sure.{nw}"
+                "...Emin misin.{nw}"
                 $ renpy.utter_restart()
                 return
 

@@ -938,7 +938,7 @@ label monikaRoute_poemPanic:
     y "E-eh?!"
     show natsuki at t22 zorder 2
     show yuri at f21 zorder 3
-    y 1n "That's not what I...!"
+    y 1n "Ben öyle demedim ki...!"
     show yuri at t21 zorder 4
     "Ben burada ne yapıyorum ki, öylece durup bu felaketi izliyorum?"
     "Ama buna dahil olamam."

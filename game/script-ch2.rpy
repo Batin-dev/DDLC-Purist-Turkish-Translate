@@ -850,18 +850,18 @@ label ch2_end:
     "Sayori kelimeleri karıştırıyor."
     s 1a "Diyelim ki bir gün [ch2_winner] seninle eve yürümek istedi..."
     mc "Huh?!"
-    s "What would you do?"
-    mc "What kind of question is that...?"
-    mc "You're kind of putting me on the spot here..."
+    s "Ne yapardın?"
+    mc "Bu nasıl bir soru...?"
+    mc "Beni biraz zor durumda bırakıyorsun.."
     s 1y "Ehehe..."
     menu:
-        "Well..."
-        "I would walk home with [ch2_winner].":
+        "Yani..."
+        "Eve[ch2_winner] ile yürümek isterim.":
             if ch2_winner == "Natsuki":
                 call ch2_end_natsuki
             else:
                 call ch2_end_yuri
-        "I would still walk home with Sayori.":
+        "Eve hala sayori ile yürümek isterim.":
             call ch2_end_sayori
 
     "Öte yandan, festivale sadece birkaç gün kaldı..."
